@@ -1,0 +1,5449 @@
+text	geoid	count
+Europe	6255148	713
+United States	6252001	688
+China	1814991	496
+Africa	6255146	421
+Ebola	8010502	407
+Asia	6255147	329
+India	1269750	245
+Australia	2077456	238
+Canada	6251999	231
+Nigeria	2328926	201
+France	3017382	186
+Brazil	3469034	184
+North America	6255149	177
+Germany	2921044	173
+Hong Kong	1819730	171
+USA	6252001	164
+US	6252001	164
+Indonesia	1643084	158
+Thailand	1605651	155
+Pakistan	1168579	154
+UK	2635167	152
+DRC	203312	151
+Liberia	2275384	151
+U.S.	6252001	149
+Japan	1861060	147
+Mexico	3996063	147
+County	6467053	146
+Netherlands	2750405	145
+Guinea	2420477	141
+Uganda	226074	138
+Egypt	357994	138
+Israel	294640	122
+South Africa	953987	120
+California	5332921	120
+Russia	2017370	119
+Britain	2648147	115
+Texas	4736286	114
+England	6269131	111
+South America	6255150	108
+Italy	3175395	102
+Karachi	12104832	101
+United Kingdom	2635167	98
+Caribbean	7729891	97
+New Zealand	2186224	95
+Turkey	298795	94
+Afghanistan	1149361	93
+Ukraine	8053946	88
+Saudi Arabia	102358	87
+Spain	2510769	85
+Republic	4277976	84
+West Africa	7729885	83
+Middle East	6269133	77
+New York	5128638	74
+Sierra Leone	2403846	74
+West Nile	940310	72
+Kenya	192950	71
+Singapore	1880251	71
+Cambodia	1831722	69
+South East Asia	6942000	69
+Florida	4155751	68
+Democratic Republic	203312	68
+Malaysia	1733045	67
+Central America	7729892	67
+Angola	3351879	66
+Argentina	3865483	65
+Americas	10861432	65
+Romania	798549	65
+Somalia	51537	63
+Iran	130758	63
+Chad	2434508	62
+Belgium	2802361	62
+Taiwan	7280291	62
+East Asia	214138	62
+Philippines	1694008	61
+London	2643743	59
+Cameroon	2233387	59
+Syria	163843	59
+Chile	3895114	57
+Southeast Asia	6942000	57
+Sudan	366755	56
+Viet Nam	1562822	56
+Bangladesh	1210997	55
+Georgia	4197000	53
+Beni	3923172	53
+Myanmar	1327865	52
+Ireland	2646052	51
+Western Asia	7729897	51
+Yemen	69543	51
+Scotland	2638360	51
+Southern Asia	6269134	50
+South Korea	1835841	49
+States	12353	49
+Sweden	2661886	49
+Norway	3144096	49
+Wuhan	1791247	48
+Finland	660013	48
+Goma	216281	48
+Paraguay	3437598	47
+Congo	203312	47
+North	2223603	46
+Vietnam	1562822	46
+West	2222934	45
+Iraq	99237	45
+Denmark	2623032	45
+Ethiopia	337996	44
+Zimbabwe	878675	43
+Wales	2634895	43
+Beijing	2038349	42
+Republic of Niger	2440476	41
+North Kivu	206938	41
+Colombia	3686110	41
+New York City	5128581	40
+Leone	5881347	40
+Ohio	5165418	40
+Hospital	11239253	39
+Colorado	5417618	39
+Greece	390903	39
+Michigan	5001836	39
+Minnesota	5037779	38
+Central Asia	7729893	37
+Venezuela	3625428	37
+Morocco	2542007	37
+04:00	7585309	37
+New	162199	37
+Ontario	6093943	37
+Maryland	4361885	36
+Switzerland	2658434	36
+Washington	5815135	36
+Balochistan	1183606	36
+New Jersey	5101760	34
+Alberta	5883102	34
+Northern Africa	7729887	34
+Hungary	719819	34
+Victoria	2145234	34
+Tunisia	2464461	34
+Zambia	895949	33
+Nam	6301204	33
+South	2395504	32
+Indiana	4921868	32
+Austria	2782113	32
+Bulgaria	732800	32
+Madagascar	12036340	32
+Haiti	3504558	32
+_	3177426	31
+Tanzania	149590	31
+Baghdad	98179	31
+Mozambique	1036973	30
+Peru	3932488	30
+Cuba	3562993	30
+Equateur	216661	29
+Kampala	232422	29
+Tamiflu	174940	29
+Pennsylvania	6254927	28
+Province	3718298	28
+Ecuador	3658394	28
+New Mexico	5481136	28
+Region	4305800	27
+Louisiana	4331987	27
+Ghana	2300660	27
+North Dakota	5690763	27
+Island	2629691	27
+Arizona	5551752	26
+Central	400742	26
+South Sudan	7909807	26
+COVID-19	138901	26
+Ituri	215709	26
+Portugal	2264397	26
+Missouri	4398678	26
+Poland	798544	25
+Pacific	5806002	25
+America	6252001	25
+New South Wales	2155400	25
+Punjab	1167710	24
+Geneva	2660645	24
+South Dakota	5769223	24
+rabies	2210247	24
+Costa Rica	3624060	24
+Kansas	4273857	24
+Eastern	400741	24
+Wisconsin	5279468	24
+Democratic Republic of the	203312	23
+Virginia	6254928	23
+New York State	5128638	23
+North Korea	1873107	23
+Kinshasa	2314302	23
+Moscow	524894	23
+Illinois	4896861	22
+Hanoi	1581129	22
+temperate South America	6338426	22
+Panama	3703430	22
+Wyoming	5843591	22
+Tokyo	1850144	22
+East Africa	7729889	22
+Skopje	785842	22
+Bali	1650535	22
+Nebraska	5073708	22
+Guangdong	1809935	22
+USA Florida	11171459	22
+Alaska	5879092	21
+City	11351628	21
+Malawi	927384	21
+Rwanda	49518	21
+Senegal	2245662	21
+Manitoba	6065171	21
+Algeria	2589581	21
+Queensland	2152274	21
+Kyrgyzstan	1527747	21
+Sindh	1164807	21
+Puerto Rico	4566966	20
+Luanda	2240444	20
+Namibia	3355338	20
+Nicaragua	3617476	20
+Shanghai	1796231	20
+Uige	2236566	20
+Democratic Republic of the Congo	203312	20
+Toronto	6167865	20
+Central Africa	7729886	20
+Botswana	933860	20
+Jakarta	1642907	19
+Gabon	2400553	19
+Oregon	5744337	19
+Northern Ireland	2641364	19
+Saskatchewan	6141242	19
+Mongolia	2029969	19
+Tennessee	4662168	19
+Kingdom	4393653	19
+Boston	4930956	19
+coughing	1814906	18
+Montana	5667009	18
+Freetown	2409306	18
+Kazakhstan	1522867	17
+North Africa	7729887	17
+Niger	2328925	17
+Sri Lanka	1227604	17
+Atlanta	4180439	17
+Valley	6556281	17
+Great Britain	2648147	17
+Uruguay	3439705	16
+Lebanon	272103	16
+Nepal	1282988	16
+Maine	4971068	16
+Armenia	174982	16
+West Nile Virus	7193366	16
+Connecticut	4831725	16
+Oceania	6255151	16
+Latin America	1655842	16
+camels	7903226	16
+Jeddah	105343	16
+Uttar Pradesh	1253626	16
+Guangzhou	1841808	16
+Idaho	5596512	16
+Honduras	3608932	16
+Iowa	4862182	16
+Hawaii	5855797	16
+Guatemala	3595528	16
+semen	7532099	16
+Slovenia	3190538	16
+FMD	2167426	15
+Delhi	1273293	15
+mid-October	9392199	15
+El Salvador	3585968	15
+Bolivia	3923057	15
+Dominican Republic	3508796	15
+Sydney	2147714	15
+Papua New Guinea	2088628	15
+Sichuan	1794299	15
+Eastern Europe	7729884	15
+Croatia	3202326	15
+Jordan	248816	15
+Serbia	6290252	15
+South Australia	2061327	15
+Lithuania	597427	15
+Tajikistan	1220409	14
+WA	5815135	14
+Cote d'Ivoire	2287781	14
+River	6427812	14
+Burundi	433561	14
+NSW	2155400	14
+GBS	2913915	14
+Great Lakes	9256165	14
+Pakistan/Afghanistan	1168579	14
+Zone	6543191	14
+Republic of Congo	203312	14
+Cyprus	146670	14
+Republic of Korea	1835841	14
+Measles	6429225	14
+Banadir	9179621	14
+Dakar	2253350	14
+NYC	5128581	13
+Utah	5549030	13
+Bay	79838	13
+Bihar	1275715	13
+Maharashtra	1264418	13
+Massachusetts	6254926	13
+Gulu	233346	13
+Jamaica	3489941	13
+Korea	1835841	13
+2015	6852983	13
+Brussels	2800866	13
+Siberia	11961345	13
+Shenzhen	1795563	13
+African	9166781	13
+Quebec	6115047	13
+Londonderry	2643735	13
+Arabian Peninsula	6957697	13
+Khyber Pakhtunkhwa	1168873	13
+_Aedes_ mosquitoes	2722444	13
+Berlin	2950157	13
+Mashonaland East	886842	13
+Amhara	444180	13
+Islamabad	1162015	12
+Kabul	1138957	12
+Arkansas	4099753	12
+Park	5834587	12
+Fraser Valley	5957659	12
+coronavirus	11657191	12
+Southern Africa	9406051	12
+Seoul	1835847	12
+Laos	1655842	12
+Kerala	1267254	12
+Republic of the Congo	2260494	12
+Northern Territory	2064513	12
+Oman	286963	12
+Bavaria	2951839	12
+cVDPV2	6300708	12
+Sao Paulo	3448433	12
+Brooklyn	5110302	12
+the	7646155	12
+Middle Africa	4814614	12
+Abidjan	11153151	12
+Alabama	4829764	12
+Disneyland	5343229	12
+Belarus	630336	11
+Oklahoma	4544379	11
+Delaware	4142224	11
+Peshawar	1168194	11
+Samoa	4034894	11
+rodents	2846069	11
+MERS-CoV	1012632	11
+Reunion	6690283	11
+Katwa	1267457	11
+San Diego	5391832	11
+Riyadh	108411	11
+Burkina Faso	2361809	11
+South West	6930714	11
+Maniema	209610	11
+Benin	2395170	11
+Columbia	3686110	11
+Republic of	3839123	11
+Nevada	5509151	11
+Hubei	1806949	11
+Czech	3077311	11
+New Delhi	1273294	11
+Glasgow	2648579	10
+Maryland County	2275099	10
+West Bank	285153	10
+Gaza Strip	281132	10
+Monrovia	2274895	10
+Lao	1655842	10
+Manila	1701668	10
+Salvador	3585968	10
+specimens	2148857	10
+Pradesh	2306849	10
+Polynesia	7729901	10
+Cairo	360631	10
+East	7289708	10
+West Virginia	4826850	10
+Democratic Republic of Congo	203312	10
+Mississippi	4436296	10
+Bangkok	1609348	10
+Conakry	2422464	10
+diagnosis	6542589	10
+St. Louis	4407084	10
+Western Europe	9408659	10
+Belize	3582676	10
+Midwest	11887750	10
+S.	11875157	10
+Western Africa	7729885	10
+Edmonton	11807182	10
+Fiji	2205218	10
+Butembo	217562	9
+New Yorkers	6471711	9
+Mali	2453866	9
+Kentucky	6254925	9
+_E.	2076914	9
+Czech Republic	3077311	9
+Northern	2297169	9
+Azerbaijan	587116	9
+Basra	89341	9
+Vermont	5242283	9
+Queens	5133268	9
+South Island	2182504	9
+Dhaka	1337179	9
+Guangdong Province	1809935	9
+Winnipeg	6183235	9
+Virus	9147165	9
+Maldives	1282028	9
+Nova Scotia	6091530	9
+Southern California	11071615	9
+Federation	12047284	9
+Rio Grande	4567823	9
+SARS-CoV-2	6542231	9
+Lake	4898998	9
+Qinghai	1280239	9
+Hyderabad	1269843	9
+Burma	1327865	9
+Staten Island	5139559	9
+Jerusalem	293198	9
+Tasmania	2147291	9
+Karnataka	1267701	9
+Long Beach	5367929	9
+Kitgum	230893	9
+Seychelles	241170	9
+Buenos Aires	3435907	9
+Lower Mainland	7281922	9
+Niamey	2595294	9
+globulin	10285766	9
+South Carolina	4597040	9
+District	11803714	8
+Beach	5554419	8
+Prague	3067696	8
+Timor	1623843	8
+Lake County	4898998	8
+elk	5188486	8
+Pune	8133375	8
+North West	1085598	8
+Hoima	233312	8
+Long	6454763	8
+Rio de Janeiro	3451189	8
+Human-to-human	11718906	8
+Melbourne	2158177	8
+Mass	6538063	8
+Harare	1105844	8
+Paris	2968815	8
+Chelyabinsk	1508290	8
+Calgary	5913490	8
+Ankara	323784	8
+Auckland	2193734	8
+ticks	5974606	8
+Pergamino	3841488	8
+West Auckland	7293146	8
+feces	2517747	8
+ferrets	6455229	8
+Suffolk	2636561	8
+U.K.	2635167	8
+Cairns	7839567	8
+Estonia	453733	8
+eastern Asia	7729894	8
+Nangarhar	1132366	8
+Latvia	458258	8
+Qatar	289688	8
+Northeast	2394992	7
+Mediterranean	9293483	7
+Brisbane	2174003	7
+CAR	239880	7
+southern Africa	9406051	7
+New Hampshire	5090174	7
+MMR	31580	7
+West Bengal	1252881	7
+Vancouver	6173331	7
+UK.	2635167	7
+West Java	1642672	7
+South Kivu	205413	7
+South East	2392325	7
+Sichuan Province	1794299	7
+State	9535109	7
+Kirkuk	98410	7
+plasma	7456739	7
+Novosibirsk	1496745	7
+Pyongyang	1871856	7
+Togo	2363686	7
+Valencia	2593113	7
+Eastern Africa	7729889	7
+mid-September	9396846	7
+North East	2394992	7
+Chicago	4887539	7
+Istanbul	745042	7
+Soviet Union	8354411	7
+neonates	8409944	7
+Western Australia	2058645	7
+URL	7873648	7
+Jiangsu	1806260	7
+Central Auckland	4931627	7
+Mecca	104514	7
+Sokoto	2322907	7
+Guernsey	5156615	7
+Iceland	2629691	7
+ZIKV	66281	7
+Sudan Ebola	10898498	7
+Far East	11961349	7
+Horn of Africa	11820342	7
+Borno	2346794	7
+Kano	2335196	7
+Katsina	2334797	7
+Kaohsiung	7280289	7
+Addis Ababa	444178	7
+Limpopo	1085597	7
+dromedary camels	1942849	7
+2014	6852983	7
+1-year-olds	4632916	7
+southern Asia	6269134	7
+Lagos	2332453	7
+Mangina sub-coordinations	6452615	7
+Dublin	2964573	7
+Cibitoke	430020	7
+Seattle	5809844	7
+Porto	2735941	7
+Mangina	11905965	7
+sentinel	4551060	6
+droplets	9419704	6
+Mindanao	1699597	6
+Ocean	4503355	6
+Horn	2775515	6
+Grand Kru	2588490	6
+Brunei	1820814	6
+Pacific Northwest	9881905	6
+St.	2434508	6
+Zaire	203312	6
+Mayotte	1024031	6
+"Pacific
+
+"	5806002	6
+North Carolina	4482348	6
+Lahore	1172451	6
+Djibouti	223818	6
+Zhejiang	1784764	6
+PCR	3671519	6
+Spring Valley	5512909	6
+San Diego County	5391832	6
+South Asia	6151560	6
+Nile	408664	6
+Southern Province	923817	6
+Progressive	11833383	6
+Uzbekistan	1512440	6
+Gaza	1046058	6
+Chiapas	3531011	6
+Palm Beach County	4167510	6
+Manukau	2187404	6
+Bhutan	1252634	6
+sneezing	6551602	6
+Luxembourg	2960313	6
+Chechnya	569665	6
+ruminants	11328612	6
+skunks	11214812	6
+serum	8588660	6
+Mauritania	2378080	6
+Antananarivo	1070940	6
+Southwestern Europe	9408659	6
+Liverpool	3333167	6
+ICU	665179	6
+Roma	3169069	6
+United Republic	357994	6
+Wellington	2179538	6
+Kanagawa prefectures	1860291	6
+TESSy	2973058	6
+Northern Cape Province	1085596	6
+Abuja	2352778	6
+Kaduna	2335722	6
+Slovakia	3057568	6
+Sarawak	1733038	6
+rarely-seen	10075194	6
+Horn of	2898825	6
+Amazonas	3665361	6
+New Caledonia	2139685	6
+Tulcea	664517	6
+HCWs	95903	6
+2016	6791211	6
+EVD	7731016	6
+Qom	443794	6
+Hilltop	2163395	6
+Doha	389470	6
+SA	2061327	5
+Luzon	1704846	5
+Southern Region	923817	5
+Los Angeles County	5368381	5
+Maryland Counties	2275099	5
+bees	8820103	5
+serology	11783705	5
+Pacific Islands	2108989	5
+Anhui	1818058	5
+Guadeloupe	6690363	5
+Hygiene	4430847	5
+Tropical	10288576	5
+Gujarat	1270770	5
+Mumbai	1275339	5
+Daegu	1835327	5
+Miyazaki Prefecture	1856710	5
+primates	782370	5
+Quetta	1167526	5
+Rhode Island	5224323	5
+western Asia	7729897	5
+eastern	400741	5
+Albania	783754	5
+countries	6435380	5
+San Francisco	3669885	5
+Manaus	6319328	5
+mammalian	132094	5
+Southern	294952	5
+Travel	6468443	5
+Xinjiang	1529047	5
+hantavirus	11936797	5
+Johor	1733049	5
+Brighton	7839351	5
+Rt	118743	5
+north	2223603	5
+Africa -	6255146	5
+Zika	3061460	5
+Ottawa	5004681	5
+Lake Chad	2346202	5
+Rostov	501165	5
+Libya	2215636	5
+cassava	3350473	5
+Gambia	2413451	5
+epidemiology	7288516	5
+trimester	2785562	5
+Honiara	9259067	5
+Central African Republic	239880	5
+Northern Europe	7729883	5
+Athens	4505546	5
+Jizan	105298	5
+Municipality	11209141	5
+Eastern Cape	1085593	5
+MERS	6433888	5
+Hunters	2069493	5
+Centers	3027936	5
+pathogen	7871592	5
+gastroenteritis	146770	5
+Sussex	5105168	5
+Donegal	2964751	5
+Sligo	2961422	5
+Madrid	3117732	5
+Twin Falls	5610815	5
+CSF	3022610	5
+Hove	2795233	5
+Western Hemisphere	2624905	5
+Southern Sudan	7909807	5
+Peninsula	5166389	5
+vector competence	8068870	5
+west	2222934	5
+Kismayo	55671	5
+Bac Lieu	1905675	5
+penicillin	2854906	5
+MSM	7730558	5
+Newfoundland	6354959	5
+Lake Ontario	6048611	5
+AHRI	11603523	5
+Bosnia	3277605	5
+U.S	6252001	5
+Great Plains	5445514	5
+Marburg	2873759	5
+Scotland -	2638360	5
+decomposition	4752060	5
+western	400743	5
+Fri	262217	5
+Reunion Island	6136383	5
+Anambra	2349961	5
+Southwest Georgia	4223821	5
+reinfection	7192263	5
+Rajasthan	1258899	5
+Ibaraki	2112669	5
+Tibet	1279685	5
+Mogadishu	53654	5
+Kandahar	1138335	5
+Kassala	408663	5
+Banat	6957933	5
+Okinawa	1854345	5
+Southern Africa Region	4131845	5
+Lake Tanganyika	5401073	5
+Grand Island	5069297	5
+Nhlanganzwane	1100364	5
+DoH	290030	5
+Sedgwick County	4279155	5
+Micronesian	2081918	5
+Cambodia Indonesia	3652065	5
+Vietnam  Travel	623941	5
+Oakland	5004223	4
+Borneo	1648148	4
+Katanga	205703	4
+neurovirulence	8718222	4
+Santo Domingo de los Tsachilas	7062136	4
+organisms	3994127	4
+Zealand	6418541	4
+Ogun	2327546	4
+Central Valley	5393180	4
+antibodies	2193911	4
+Mekong	10290672	4
+Guyana	3378535	4
+Teesside	2636138	4
+North Tyneside	2641238	4
+South Tyneside	3333199	4
+Gulf of Mexico	3523271	4
+Upper Nile	381229	4
+Brasilia	3469034	4
+polioviruses	3280148	4
+Hampshire County	2647554	4
+Flores	3442587	4
+Bundibugyo	234178	4
+Arctic	10941926	4
+Lusaka	909129	4
+Darwin	7839402	4
+Islamic Republic of	1168579	4
+Scarlatesti	667716	4
+Trinidad	3573591	4
+southern Ontario	6955983	4
+pathogens	2881062	4
+KwaZulu-Natal	972062	4
+Wuhan City	2812840	4
+KZN	551487	4
+Khyber Pakhtoon	1168873	4
+tonsils	6398909	4
+congenital	3735118	4
+Matara	1235845	4
+convalescent serum	11519535	4
+Ivory Coast	2287781	4
+Ternopil	691650	4
+Bomi	2278324	4
+Khairpur	1174357	4
+Road	2639240	4
+Kimberley	990930	4
+Springs	5139294	4
+Rome	3169069	4
+Jharkhand	1444365	4
+Amsterdam	2759793	4
+person-to-person	7286783	4
+genus _	3184070	4
+Ceuta	2519582	4
+Philadelphia	5205788	4
+virulence	3980053	4
+tetracycline	11942159	4
+Murcia	2513413	4
+Cape	3893660	4
+Chesapeake Bay	4351177	4
+South Florida	7191465	4
+Turkmenistan	1218197	4
+Cumbria	2651712	4
+Minas Gerais	3457153	4
+Kikwit	2314705	4
+Gulf	2096633	4
+eastern China	691652	4
+75.6	6787491	4
+Bunia	217695	4
+1978-1992	10630446	4
+Greater Accra	2300569	4
+Ho Chi Minh City	1580578	4
+CCHF	7730035	4
+Merseyside	2642713	4
+West Cork	9256988	4
+Middle School	5526279	4
+Hamburg	2911297	4
+syndrome	1502683	4
+Dengue	8308392	4
+Mumps	3674600	4
+Lakes	408647	4
+bluetongue	2389459	4
+Miri	1738050	4
+general	11869251	4
+genus	2145284	4
+UAE	290557	4
+Gulf Coast	7287689	4
+Rotterdam	2747890	4
+Maluku	1636627	4
+Bahia	3471168	4
+New South	6343133	4
+southern Sudan	7909807	4
+smallpox	4951095	4
+Republic of Ireland	2963597	4
+monkeypox	4164752	4
+stools	2826549	4
+Fort	4691851	4
+Tehran	110791	4
+fevers	6087345	4
+bisexual	2949046	4
+North Macedonia	718075	4
+Chennai	7646145	4
+Yobe	2597367	4
+Madina	109224	4
+Amoy Gardens	779355	4
+Dhabi	6989987	4
+sub-region	9166033	4
+Swat	1164208	4
+Houston	4699066	4
+latitudes	10252677	4
+Ilocos Norte	1711034	4
+Sungai Nibong	1753500	4
+Hofuf	109571	4
+National Park	2186302	4
+Montenegro	3194884	4
+St Petersburg	536203	4
+Herzegovina	3199389	4
+southern	294952	4
+2019	1543332	4
+EW	2141335	4
+sulphadoxine-pyrimethamine	9663210	4
+traps	5215945	4
+Rockland County	5134189	4
+Kosovo	831053	4
+2021	6853017	4
+Zamfara	2595349	4
+high-incidence	10098217	4
+SIAs	2999588	4
+IPDs	11239382	4
+Wuhan Jinyintan Hospital	715042	4
+New England	11919979	4
+burrows	5080058	4
+Bergen	2790871	4
+Seestan	1131821	4
+south	2395504	4
+Northeastern	400745	4
+Villa Elisa	3436728	4
+Nemby	3437665	4
+Clark County	5501879	4
+Nairobi	184742	4
+January-September	11690010	4
+19-21	11110253	4
+Earth	6295630	4
+Middle East Respiratory	4935450	4
+vivo	11785090	4
+Lat Krabang	1609127	4
+Republic of Kenya	192950	4
+Bahrain	290372	4
+Volgograd	472755	4
+Gansu	1810676	4
+Caucasus	615318	4
+LTCFs	6299764	4
+Edinburgh	2650225	4
+San Lazaro	3437058	4
+Eastern Montana	3026137	4
+Eastern Switzerland	6692542	4
+Metro Manila	7521311	4
+Nevada Department	4868625	4
+Nzerekore	8335091	4
+KNP	7731180	4
+mid-November	9396846	4
+Comox Valley	7281918	4
+North Sea	5129210	4
+Lake Eyasi	160049	4
+Eastern Townships	5025117	4
+Grand Canyon National Park	5296401	4
+Yala	1604869	3
+Village	11351401	3
+Crimea	703883	3
+Norfolk	2641455	3
+Mara	444180	3
+Montevideo	3441572	3
+San Joaquin Valley	5392166	3
+Corrientes	3435214	3
+Khabarovsk	2022888	3
+Cardiff	3333241	3
+Chiang Mai	1153670	3
+Kathmandu	1283241	3
+Pacific Island	2108989	3
+Red	6454221	3
+Congo River	2241717	3
+Kuwait	285570	3
+Hau Giang	7506719	3
+Swaziland	934841	3
+Pacific Coast	11703625	3
+Farms	4845500	3
+vesicles	6433794	3
+Bandung	1650357	3
+Jonglei	408662	3
+Western Bahr El Ghazal	408657	3
+Greater Upper Nile	11550568	3
+assays	2556987	3
+canker	11255677	3
+Rift Valley	400744	3
+Broward	4149007	3
+BA.1	7834204	3
+Centre	6930704	3
+colostrum	2170958	3
+National Institute	5359587	3
+Nipah	6703395	3
+Hillsborough	4158712	3
+Lausanne	6458866	3
+cleanliness	9710451	3
+North Island	2185983	3
+eastern Europe	7729884	3
+Salyan rayon	147269	3
+Hispaniola	3504558	3
+Gwynedd	2647716	3
+Orange County	5379524	3
+Gibraltar	11495013	3
+Territories	3765447	3
+Zurich	2657895	3
+Norwalk	5377995	3
+Durba	9410737	3
+lymphocytes	10234110	3
+Tuscany	3165361	3
+Orissa	1261029	3
+Cape Town	3369157	3
+Eastern Mediterranean Region	5205158	3
+Tamil Nadu	1255053	3
+Baluchistan	1183606	3
+Calcutta	1275004	3
+mitigations	11978900	3
+Meerut	1263215	3
+2000/2001	6956561	3
+Freiburg	2660717	3
+OIE	1854521	3
+"Romania
+
+"	798549	3
+Kansas buffalo	3017382	3
+Flint	4992982	3
+Ceara	3402362	3
+Butaleja District	7056282	3
+Kolkata	1275005	3
+Malta	2562770	3
+rabbits	5310268	3
+Lake Erie	8790057	3
+National	4127899	3
+Laredo	4705349	3
+encephalitis	1197685	3
+biosecurity	8435847	3
+sera	6321992	3
+vector	5973341	3
+parasite	3249274	3
+fungus	7745238	3
+leptospirosis	3166342	3
+Sulawesi	9062340	3
+Hills	7839690	3
+Ha Nam	1905637	3
+"Ebola
+
+"	8010502	3
+Lawrence	5197440	3
+Tororo	226110	3
+Pittsburgh	5383465	3
+Colombo	1248990	3
+Gampaha	1246005	3
+Gianyar	7053392	3
+Scandinavia	2614165	3
+arboviruses	3280148	3
+coops	3023546	3
+western Europe	9408659	3
+infectivity	2198283	3
+formulation	9174830	3
+E.	99072	3
+Tajikistan -	1220409	3
+fetuses	9223853	3
+Amur	2027748	3
+Central Darfur	8394436	3
+Kelle	8409893	3
+Boca Raton	4148411	3
+Tianjin	1792943	3
+organism	11528480	3
+kennels	2891607	3
+US Centers	5416544	3
+Johannesburg	993800	3
+utero	6621310	3
+Grand Rapids	4994358	3
+Dushanbe	7280679	3
+Birmingham	3333125	3
+Indian	5982680	3
+PSTVd	11341510	3
+Almaty	1537162	3
+West Darfur	408658	3
+vitro	7692459	3
+north Queensland	3831263	3
+salmonellosis	840069	3
+Mainland China	1049211	3
+Bulawayo	1105843	3
+Region of	2800867	3
+Andalusia	2593109	3
+southern Germany	8587651	3
+Strip	951808	3
+Southern China	8282573	3
+Sacramento Valley	11832488	3
+gorillas	261983	3
+Andhra Pradesh	1278629	3
+Grand Forks County	5059430	3
+hatchery	4763336	3
+Greenland	3425505	3
+Sardinia	2523228	3
+lymphoma	537137	3
+Kunar	1135702	3
+abattoir	11707035	3
+East Coast	2190767	3
+Great Exuma	3572296	3
+Bahamas	3572887	3
+east Asia	214138	3
+Van	298113	3
+New Brunswick	6087430	3
+Urals	1488441	3
+Bach Mai Hospital	8437487	3
+Bay of Plenty	2182560	3
+Christmas	4150880	3
+Phichit	1607724	3
+_Ehrlichia	692138	3
+_Leishmania	4035665	3
+begomoviruses	3280148	3
+Northland	2185978	3
+2015-16	11977591	3
+Mpumalanga	1085595	3
+Gauteng	1085594	3
+ProMED-mail	1079153	3
+Florida Keys	4155701	3
+Global	3200585	3
+Sanaa	71132	3
+Malda	1264122	3
+Liberia Red	2621941	3
+EVD wreaks	614988	3
+Mbandaka	2312895	3
+southern Taiwan	11984978	3
+Munich Municipal Hospital	4565388	3
+Grand Canyon	5296391	3
+manure	3257702	3
+Grand Junction	5423573	3
+Ningxia	1799355	3
+Democratic Republic of	203312	3
+U.N.	1253785	3
+Dubai	292224	3
+Atlantic	4500561	3
+St. Croix	4796512	3
+Nyimba	900056	3
+Mississippi Basin	5127195	3
+Gulf Coast Region	4676138	3
+registries	6548570	3
+eastern Africa	7729889	3
+Baltic Sea	2633321	3
+Kiribati	4030945	3
+Solomon Islands	2103350	3
+Anhui Province	1818058	3
+nurseries	10377843	3
+Oaxaca	3522509	3
+Taif	107968	3
+Yellowstone	5687489	3
+Kanara sub-county	2113227	3
+hatcheries	5827187	3
+Anchorage	5879348	3
+Taipei	7280290	3
+Bluetongue	2389459	3
+African Horse	6487985	3
+Japora	6323758	3
+N'djamena	7603254	3
+Zamfara outbreak	2141702	3
+Miyazaki	1856710	3
+Henan	1808520	3
+asymptomatic	1700338	3
+CJD	8629274	3
+uptake	5610971	3
+Hebei	1808773	3
+Eastern North Cape	5870333	3
+sCJD	8533002	3
+raccoons	5195499	3
+Stavropol	484638	3
+Northern Hemisphere	1282269	3
+Khyber	1173641	3
+Southeast	2392325	3
+Balkans	685608	3
+Black	5765865	3
+Camden	4501019	3
+grapevine	4694568	3
+grazing	11592329	3
+Vanuatu	2134431	3
+Shandong	1796328	3
+locality	3722082	3
+Albuquerque	5454711	3
+City Park	9951044	3
+Haryana	1270260	3
+mid-July	2837850	3
+TBE	8601562	3
+Lombardy	3174618	3
+Dallas	4684904	3
+Tamanghasset	2478217	3
+COVID	3282084	3
+arid	2562223	3
+Middlesex	5101160	3
+Mosul	92877	3
+San	6613904	3
+Westland	6544261	3
+Islam	2545493	3
+prions	254679	3
+Nasarawa	2595348	3
+Ondo	2326168	3
+Zulia	3625035	3
+Madhya Pradesh	1264542	3
+botulism	6609968	3
+Tamaulipas	3516391	3
+Kharkiv	706482	3
+North Atlantic	4184530	3
+Songhua River	4219085	3
+incubation	12002942	3
+cytoplasm	634185	3
+coronaviruses	2204820	3
+Saskatoon Health Region	8493456	3
+Assam	1278253	3
+Pointe Noire	7280295	3
+temperate	5011989	3
+Mount Kenya	191421	3
+Salmonella	8963006	3
+2002-2003	11962957	3
+RT-PCR	10509224	3
+enteroviruses	3200676	3
+Central Java	1642669	3
+Dangerous Pathogens	6556019	3
+Holland	2750405	3
+Frankfurt	6553153	3
+Islands	1819708	3
+Salinas Valley	12122400	3
+Central Park	5108955	3
+Kazan	551487	3
+Clarence Valley	7839711	3
+Capital	7090954	3
+Western Region	7289709	3
+Tra Vinh	1559975	3
+London Heathrow Airport	2647216	3
+Bangui	2596686	3
+Williamsburg	4601150	3
+Tel Aviv	293396	3
+Western Pacific	9949194	3
+Canyon	5587975	3
+North Kordofan	408667	3
+Lower Peninsula	7839432	3
+Chivi	893171	3
+Masvingo	886761	3
+Central Europe	9955165	3
+ArboNET	3013955	3
+Leon	3618029	3
+Leslie Kirwan	2700805	3
+Township	4976386	3
+bovines	6438132	3
+poliovirus	12042766	3
+South-East	2392325	3
+Eden	12019595	3
+Training Centre	4751828	3
+County Durham	2650629	3
+East Java	1642668	3
+Locks	2694408	3
+Noumea	2139521	3
+WPR	7730164	3
+Port Harcourt	2324774	3
+Zamfara State	2595349	3
+Kaohsiung City	1673820	3
+Travel History	2682933	3
+Komanda	3279018	3
+Masjidpara	12152004	3
+2020	6852983	3
+Rio	6322060	3
+neurogenesis	3357305	3
+Bocas del	3268068	3
+Qianjiang City	1809730	3
+mite	2284299	3
+Coast	150602	3
+New World	4645454	3
+Katan	174875	3
+Uppsala	2666218	3
+Stockholm	2673722	3
+"Honduras
+
+"	3608932	2
+Mainland	6064423	2
+South-East Asia	6942000	2
+Penobscot County	4974977	2
+Durban	1007311	2
+LGA	5123698	2
+Louis	4243551	2
+West Midlands	11591953	2
+Bishkek	1528334	2
+Spread	4224342	2
+Queensland Health	7714689	2
+Battambang	1821310	2
+Nuremberg	6556832	2
+non-human	9988132	2
+Alexandria	361059	2
+canton	1809858	2
+2005-2006	11962965	2
+Plains	5528440	2
+Sinoe County	2273898	2
+Southern Hemisphere	1282269	2
+Kent	3333158	2
+Kaithal	1268593	2
+"Netherlands
+
+"	2750405	2
+West Nile encephalitis	685620	2
+Free State	967573	2
+Country	10115941	2
+Fort Detrick	7267465	2
+Thailand -	1605651	2
+Republic of China	1668284	2
+jaundice	457857	2
+Kohistan	1120483	2
+Riverside	5387890	2
+Amazon	3665361	2
+San Pedro Sula	3601783	2
+Eilat	295277	2
+Garissa	197744	2
+University Hospital	4790790	2
+Central Luzon	7521305	2
+Surveillance Atlas	3515391	2
+Duval	4153840	2
+Cuvette-Ouest	2593118	2
+badgers	5889215	2
+Sub-Saharan Africa	9262659	2
+detections	2168984	2
+Xiamen	1790645	2
+Uttarakhand	1444366	2
+Goulburn Valley	5694408	2
+Southwest China	4979143	2
+Western Long Island Sound	1624114	2
+Long Island Sound	5125132	2
+Mamaroneck Harbor	5125741	2
+Sound	4500631	2
+echinococcosis	3860953	2
+ornamental	2952973	2
+greenhouses	12122858	2
+New Zealanders	1419334	2
+oseltamivir	800770	2
+rust	6555798	2
+Pfizer-BioNTech	6425066	2
+West Texas	8826389	2
+MVE	5038018	2
+Castle	5039587	2
+Suriname	3382998	2
+Hilton	7294985	2
+Haut Katanga	11288213	2
+San Angelo	5530022	2
+Papua	1643012	2
+Santa Fe	3836276	2
+Dhaka City	325485	2
+Sesheke	898905	2
+Torun	7530813	2
+Talomo North	2089470	2
+Easter	891894	2
+Banda Aceh	1215502	2
+Bekaa North	8588215	2
+Mount Lebanon	5202215	2
+Mysuru	1262322	2
+Indian Ocean	1545739	2
+OPV	3403642	2
+HFMD	7111207	2
+convalescence	921926	2
+cohort	4051581	2
+Qinghai Lake Nature	8154221	2
+Gangcha County	1810771	2
+Mareeba	2158767	2
+Yap	2081175	2
+Henan Province	1806691	2
+West African Ebola	5446759	2
+Western Cape	1085599	2
+Pakhtunkhwa	1168873	2
+Mountain	1699175	2
+vertebrates	9418545	2
+Bankura	1277265	2
+Red Cross	4487360	2
+polio-affected	7667974	2
+8706	7606778	2
+2017	11875941	2
+Leon County	4161831	2
+Nadia	1262293	2
+VACV-specific	3312744	2
+National Canine	8820616	2
+South America:	6255150	2
+southern Europe	9408658	2
+sensitivity	2198283	2
+Point	4719860	2
+Lesotho	932692	2
+RMR-1029	8286842	2
+Zaka	1422039	2
+Luwero	229746	2
+Southern Mexico	8258442	2
+Tabasco	3516458	2
+Padanangala	11990975	2
+Cuc Phuong National Park	5341038	2
+Strawberry	11495307	2
+Creek	4534444	2
+North Cotabato	1697559	2
+Anatolia	6495995	2
+St. Lucie County	4171260	2
+streams	9477036	2
+North Caucasus	11961334	2
+Ebola -	8010502	2
+Patiko	8657703	2
+microcephaly	6453945	2
+Guinea-Bissau	2372248	2
+Bamako	2460594	2
+Kagera River Basin	2108761	2
+Lake Kyoga	230268	2
+Eastern Uganda	5085788	2
+Kaheramaido	8658290	2
+County Animal	5389521	2
+Orlando	4167147	2
+"Europe
+
+"	6255148	2
+spores	3247908	2
+dementia	2361490	2
+Christchurch	3373988	2
+Santa Cruz County	5393068	2
+San Diego County Public Health Laboratory	8485821	2
+genotyping	7010168	2
+IG	3239069	2
+Mount Sinai Hospital	4839045	2
+Yerevan	616051	2
+York	6185560	2
+Osaka	1853904	2
+Perth	2063523	2
+Extremadura	2593112	2
+Eritrea	8053917	2
+CNS	2172797	2
+Strait	3065011	2
+Nyanza Province	182763	2
+clade	5924084	2
+Eastern Province	216139	2
+Jan	2516394	2
+New Guinea	2082514	2
+Central Thailand	7839569	2
+Mbomo	11996193	2
+Kerman Province	128231	2
+efficacy	3671209	2
+Town	11351901	2
+Air	863836	2
+North American	6255149	2
+Malawi Troubled	2449034	2
+Sarangani	7671047	2
+Malapatan	1703052	2
+sub-villages	6933392	2
+"United States
+
+"	6252001	2
+Melburnians	2158177	2
+Venice	3164600	2
+tubers	3165124	2
+Dromolaxia	146654	2
+western Japan	4230379	2
+Helmand	1140043	2
+Vale	6417230	2
+Rio Pardo	6323586	2
+Territory	949793	2
+bathing	9101489	2
+Children	4752433	2
+Purworejo	6386484	2
+Java	1642673	2
+North Sulawesi	1626229	2
+Kalimantan	1648148	2
+Gamaleya National Research Centre	8067665	2
+Lhasa	1280737	2
+Tokat	738742	2
+North Darfur	408666	2
+Ghaziabad	1271310	2
+San Luis del Palmar	3428707	2
+climates	3920748	2
+neonatal	10503108	2
+Exhibition Street	10348970	2
+Valley Hospital	5405503	2
+Peninsular Malaysia	1745185	2
+Eastern Regions	7289708	2
+Muslim Mindanao	7115989	2
+Sabah	1733039	2
+mid-2017	6329950	2
+mid-2016	6329950	2
+transcription PCR	3671519	2
+Kinneret	12046855	2
+Inner Mongolia	2035607	2
+Asuncion	3474570	2
+DHF	8531868	2
+Great Barrier Reef	2164628	2
+Kyiv	703446	2
+Lviv Oblast	702549	2
+Lafourche	4330185	2
+Lake Nakuru National Park	189775	2
+buffaloes	1298391	2
+Yellow	7274683	2
+cultured	6449357	2
+Aceh	1215638	2
+Bhopal	1275842	2
+Guanajuato	4005267	2
+Bicol	7521310	2
+Equatorial Guinea	2309096	2
+"Turkey
+
+"	298795	2
+Abbasiya	293207	2
+Fayoum	361323	2
+AFR	172503	2
+EUR	9613139	2
+ALT	6357616	2
+Pirbright	7292627	2
+Kashmir	1269320	2
+hydrothorax	2767068	2
+typing	7662863	2
+North Wales	5203788	2
+5/6	6610151	2
+western Canada	5091733	2
+deformities	3801285	2
+County Health	4607196	2
+governorate	8071786	2
+officially	3413829	2
+"Indonesia
+
+"	1643084	2
+Infection	7192263	2
+Bellevue	5786882	2
+Macau	6454009	2
+New Ireland	2089693	2
+ILI	3895114	2
+Princess Alexandra Hospital	11881219	2
+Java Island	5985940	2
+Upper	11805833	2
+Red Book	6118057	2
+modulators	3169934	2
+Middle East Respiratory Syndrome	7240383	2
+Pacific Flyway	12110408	2
+unhygienic	760453	2
+Himalayas	1252558	2
+Budapest	3054638	2
+Maricopa County	5303754	2
+RVF	3839479	2
+salmon	5606275	2
+Kurram	1172574	2
+omicron	8630951	2
+South Yorkshire	2637273	2
+"Phuket
+
+"	1151253	2
+Washington State	5815135	2
+non-human primates	10274311	2
+Misamis Occidental	1699493	2
+San Bernardino National Wildlife Refuge	11383199	2
+Dagestan	567293	2
+Cagayan Valley	7521297	2
+North Sumatra	1213642	2
+germs	3016205	2
+Muzaffarpur	1262331	2
+Minneapolis	5037649	2
+interventions	4766108	2
+North Yorkshire	2641209	2
+Entebbe	233508	2
+Ebola modes	9841813	2
+Eastern Congo	11176970	2
+Surrey	2636512	2
+Mato Grosso	3457419	2
+_S.	2177233	2
+Newport	3333246	2
+eastern Syria	4926016	2
+marketplaces	7140722	2
+Krasnodar	542415	2
+India -	1269750	2
+Santa Rosa	6323604	2
+dpi	1272464	2
+Zhongshan	6599875	2
+EI	3013583	2
+Kasai	214140	2
+slugs	2786488	2
+aphids	290363	2
+_Salmonella	2074066	2
+Lodge	4585598	2
+Shabelle	11750836	2
+Dalian	1814087	2
+Binh Phuoc	1905480	2
+Kasai Occidental	214139	2
+western Africa	7729885	2
+Penang	1733047	2
+raccoon	5195499	2
+Kasur	1174625	2
+Devon	2651292	2
+Cholera	2380497	2
+locomotion	6366338	2
+Maua	6322373	2
+Santa Cruz	3904907	2
+Baltimore City	4347778	2
+Jigawa	2565345	2
+wetland	8348771	2
+St. Lucia	3576468	2
+Terai	1376022	2
+Tampa Bay	6955101	2
+cohorts	4051581	2
+western Miyazaki Prefecture	1856710	2
+Union County	5105640	2
+Durham County	4464374	2
+Tver Region	6627154	2
+Caspian	4988212	2
+Denver	5419396	2
+free-ranging cervids	4356127	2
+Comoros	921929	2
+York County	5220355	2
+Bordeaux	3031580	2
+Delta	2565341	2
+United	879586	2
+Long COVID	2997638	2
+Almeria	2521883	2
+Southern Arizona	7723284	2
+bleed	98112	2
+bloat	2946692	2
+Central Basin	781053	2
+Falkirk	3333230	2
+Oxford	4974522	2
+persistence	3429577	2
+Lincolnshire	2644486	2
+Hurghada	361291	2
+"India
+
+"	1269750	2
+Puerto	2518207	2
+chimpanzees	5921429	2
+H5 subtype	10069361	2
+Red River Valley	7315997	2
+Forest	2798142	2
+Gloucestershire	2648402	2
+Mexico City	3527646	2
+soybeans	6430249	2
+Alicante	2521976	2
+National Laboratory	6953536	2
+Veneto	3164604	2
+Laboratory	5196661	2
+Puebla States	3521082	2
+Chikmagalur	1274221	2
+resurface	6360243	2
+southern Nova Scotia	6483973	2
+Herat	1140025	2
+Buryatia	10232868	2
+Buburu	11399481	2
+Bomongo	2316636	2
+School	3166080	2
+antimicrobials	732263	2
+http://www.uspoultry.org/animal_husbandry/intro.cfm  In	10108170	2
+Ames	6450238	2
+Thu	3831224	2
+Hubei Province	1806949	2
+Kangra	1268085	2
+Hamirpur	1270456	2
+Pingtung County	4921729	2
+"Louisiana
+
+"	4331987	2
+Ranch	6539613	2
+LaGrange County	4922458	2
+Madison	5261457	2
+K-12	5172082	2
+litter	2791389	2
+Panicum ripens	10709680	2
+Oita Prefecture	1854484	2
+No.	3719543	2
+Phuket	1151253	2
+Eastern Asia	7729894	2
+South East Europe	11459418	2
+VS	2658205	2
+Kruger	8791227	2
+354	6595175	2
+Sabah prompts	7542900	2
+River Valley	8642968	2
+Acapulco	3533462	2
+southern Iraq	8542531	2
+Muslim	10117289	2
+Casper	5820705	2
+MAF	5526337	2
+Yunnan	1785694	2
+H5N1	5970356	2
+AASV	292644	2
+19:00	11056537	2
+West Kordofan	408659	2
+South Kordofan	408661	2
+Khartoum	379253	2
+Ysbyty	11596267	2
+Bodelwyddan	2655283	2
+Northern Italy	12089030	2
+subtropics	10288576	2
+Rennes	2983989	2
+Stoke	2636841	2
+Panhandle	5527980	2
+Faridpur	1337181	2
+Phnom Penh	1830103	2
+Binh	1587924	2
+York Central Hospital	6325959	2
+North York General Hospital	6931143	2
+kudzu	6743490	2
+Texas -	4736286	2
+Ubaro	6323301	2
+East Maui	8133713	2
+Arab Republic	2461445	2
+Canary Islands	2593110	2
+Oicha	8260605	2
+Ganges	6432514	2
+Cincinnati	4508770	2
+Sicily	2523119	2
+ELISA	6477157	2
+Bridgend	3333239	2
+Teso South	6323882	2
+recumbent	2241591	2
+extrapulmonary	3166034	2
+Cape Cod	4929772	2
+MRSA	9256800	2
+Hudaidah	79415	2
+Brandon	7291251	2
+Tabuk	101627	2
+Warangal	1252949	2
+Northern Cape	1085596	2
+Zamboanga City	1679429	2
+Jaji	3042142	2
+Taraba	2597366	2
+Borno States	2346794	2
+Malaria	10471775	2
+Vero	6539397	2
+Parish	5130526	2
+Lutembe	229780	2
+Ahmedabad	1279234	2
+fomites	3846650	2
+metronidazole	1091012	2
+elsewhere	8794063	2
+Dornod	2031799	2
+Yeroshenkova	2119227	2
+Rangareddy Districts	8131498	2
+isolates	994464	2
+Khyber-Pakhtunkhwa	1168873	2
+Bannu	12104822	2
+Gulu District	443331	2
+Mackay	7839593	2
+El Tor	359678	2
+mid-voyage	6548422	2
+eastern Congo	11176970	2
+southern China	8282573	2
+Harbin	2037013	2
+incubating	1039891	2
+Northern China	568763	2
+Ural Mountains	1488441	2
+pre-movement	6541984	2
+Long Island	5125123	2
+Yamuna	10168476	2
+Asia -	6255147	2
+Dunedin	4153759	2
+Bethlehem	7870463	2
+Victoria Hospital	6288866	2
+Wakiso	225964	2
+Southern Africa South Africa	9406051	2
+tularemia	1748677	2
+Bend	5713587	2
+Northern Kentucky	6341130	2
+Lower Michigan	5429616	2
+La Plata	3432043	2
+Marshall Islands	2080185	2
+Miami	4164138	2
+Kyoto	1857907	2
+St. Lawrence River	6156984	2
+Lake Manyara	154848	2
+Lake Momella	153256	2
+egg-producing hens	9379158	2
+_Aedes	7873745	2
+pods	2608742	2
+Region of the	290112	2
+Lower Hudson Valley	9845765	2
+Western Siberia	8810165	2
+Neijiang	1799491	2
+WHO	2190928	2
+fetal	12115897	2
+neurons	2786584	2
+Gueckedou	2420561	2
+Ebola Reston	3856426	2
+London Hatchery	6861062	2
+Marion County	4260977	2
+child-care	5741714	2
+Napier	2186313	2
+procreation	12002942	2
+Hells Canyon	5523010	2
+Goa	1271157	2
+RCSS	1980019	2
+Colombo National Hospital	8870925	2
+free-ranging bison	5746251	2
+Yellowstone National Park	5843642	2
+Grand Teton National Park	5826327	2
+Orange	6451580	2
+La Paz	3911924	2
+Chitral	1181064	2
+Malakand	1171387	2
+placenta	6542025	2
+serovar	1492663	2
+sul2	7873750	2
+PFGE	3393315	2
+Institute	5257516	2
+Beni Ansar	2555883	2
+Melilla	6362988	2
+Lyon	6454573	2
+NM	5481136	2
+Jinnah Hospital	7045772	2
+Santa Clara County	5393021	2
+Valley Fever	2696452	2
+mastodons	5868410	2
+stag-moose	11820095	2
+Caracas	3632191	2
+Los Angeles	5368381	2
+Bosnia-Herzegovina	3277605	2
+El Paso County	5521001	2
+Simikot	1282779	2
+Humla	1283335	2
+Shetland	2638010	2
+Plainfield	5102720	2
+Pueblo County	5435465	2
+Havana	3564073	2
+recurrence	11545466	2
+Republic of Serbia	3230000	2
+Okanagan	7281931	2
+BC	5909050	2
+mist	7326195	2
+New Nana	971457	2
+Peth	10464754	2
+Sadhu Vaswani Mission Hospital	2761559	2
+8:50	11506432	2
+civets	6448987	2
+Wayne	5014227	2
+out-of-state	11811670	2
+Saito	1846275	2
+testes	6428369	2
+Omicron	8630951	2
+Norte	7090974	2
+New River estuary	6205132	2
+east	7289708	2
+outpatients	8089443	2
+Little Rock	4119403	2
+Milwaukee County Zoo	4867458	2
+1511	7585380	2
+Cornwall	2652355	2
+Savannah	4221552	2
+oaks	4401609	2
+Sivas	300617	2
+POIs	2608742	2
+Whistler	6180144	2
+HK	2908330	2
+Svalbard	7521757	2
+Jersey	3042143	2
+Ein Gedi	295220	2
+South Cotabato	1685731	2
+GTA	3059448	2
+KSA	2081155	2
+WNV	2143412	2
+correctional	7203413	2
+ASF	580497	2
+Tatarstan	484048	2
+Union	3584767	2
+Galicia	3336902	2
+Ma Chau	3071289	2
+Kambia	2408083	2
+Teheran	110791	2
+Munich	3220837	2
+Qinghai Province	1280239	2
+Yambuku	203825	2
+peninsula	5166389	2
+up-to-date	879564	2
+Yugoslavia	7500737	2
+Santa Ana	3583332	2
+Calabria	2525468	2
+Asturias	3114710	2
+Crohn	6548137	2
+Recife	6320570	2
+Coahuila	4013674	2
+Duluth	5024719	2
+dilate	6073540	2
+Beijing Ditan Hospital	6614401	2
+NJ	5101760	2
+sub-Saharan Africa	9262659	2
+Bayelsa	2595344	2
+Western Area	2403068	2
+vaccine-derived	8960636	2
+genus Aphrodes	2874805	2
+Yahukimo	3723779	2
+Canterbury	2192628	2
+Southeastern U.S.	5495792	2
+Dili	1273293	2
+West Sumba	6821755	2
+Fair	1900250	2
+Rapid City	5768233	2
+Ponce Inlet	4169033	2
+Shore	3025053	2
+Boa Vista	6319352	2
+Lake Washington	4345521	2
+Kearney	5071364	2
+South Texas	7186269	2
+late-July	2894540	2
+northwest Syria	2641235	2
+Lahore Airport	6939452	2
+Pakistan Institute	7038514	2
+Baldwin County	4831207	2
+coughs	2639064	2
+Zika-associated	2597178	2
+Llancanelo Lagoon	6588973	2
+County Fairgrounds	5113857	2
+"Beijing
+
+"	2038349	2
+Kouilou	2258738	2
+South Auckland	2182561	2
+Zhengzhou	1784658	2
+AAHL	5934548	2
+norovirus	2104862	2
+East Third Street	4620193	2
+Soekarno-Hatta International Airport	6301878	2
+Sun	5594956	2
+East Hartford	4833403	2
+Kaohsiung County	2398828	2
+St. Peter	3237221	2
+Macedonia	718075	2
+African dromedary camels	6536309	2
+Vienna	2761367	2
+Allentown	5178127	2
+U.S. Naval	6301846	2
+Old Fangak	2594878	2
+excretions	11947525	2
+Dane County	5250074	2
+Perth County	6101545	2
+Hardy County	4808124	2
+bison	3511462	2
+Columbia County	5185032	2
+spillover	781202	2
+New Pass	4165863	2
+Brittany	3030293	2
+Southwest	6930714	2
+Saharanpur	1257807	2
+Baghpat	9072781	2
+Jiaxing	1805952	2
+Bichhu	10630694	2
+Dwargarh	10054153	2
+Eastern Creek	5945462	2
+Bedford	2656044	2
+aerosols	3027864	2
+health-facility	5308923	2
+Anaheim	5323810	2
+St. Louis encephalitis	2527390	2
+atypical	3515534	2
+Darfur	5023853	2
+Juba	11550569	2
+Unity State	408650	2
+Sulaimaniyah	98463	2
+Goias	3462372	2
+RNA	130758	2
+renal glomeruli	8024585	2
+South East England	6151934	2
+Vientiane	1652238	2
+levels-more	9357764	2
+Traill County	5062211	2
+prenatal	10724215	2
+southern Angola	8581443	2
+Tropical Diseases Unit	6453429	2
+Peoria	4905697	2
+Sheffield	3333193	2
+bait	1511067	2
+Occidental	3426184	2
+Sivash Lake	709702	2
+Swan Valley	5609454	2
+delirium	2938376	2
+Monmouth Counties	5101305	2
+eastern Uttar Pradesh	10377267	2
+sputum	10766302	2
+biker	11609631	2
+western Mediterranean	6947193	2
+Danang	1905468	2
+Anzoategui	3649198	2
+Eastern Seaboard	2753394	2
+Islamic republic	1168579	2
+1433	7585287	2
+dexamethasone	3220701	2
+eastern Turkey	6558049	2
+St. Joseph's Medical Center	5390545	2
+enrolment	9368272	2
+Majadahonda	6359305	2
+Brasov	683843	2
+sunlight	951423	2
+NATA	3703938	2
+ordinary-type smallpox	777966	2
+behaviors	322394	2
+Prefecture	2363489	2
+Pentagon	4778469	2
+extremis	3400567	2
+PCR assays	3671519	2
+classrooms	4851856	2
+Wuhan Municipal Health	12095876	2
+ORF8	114828	2
+Greater Geelong	7839549	2
+Zaire Ebola	738753	2
+Lafayette Parish	4330160	2
+"Viet Nam
+
+"	1562822	1
+Blagoveschensk	576116	1
+Narathiwat	1608408	1
+Pattani	1607976	1
+Mambasa	186301	1
+Malaysia -	1733045	1
+Lhokseumawe	1214658	1
+transfusion-associated babesiosis	257589	1
+Pediatrics	7145211	1
+Family Medicine	5068086	1
+Mississauga	6075357	1
+Milwaukee	5263058	1
+WI	5279468	1
+Southwest of	6930714	1
+Kurigram Sadar	7921311	1
+Roumari	11285259	1
+Rajibpur	11282470	1
+Rajarhat upazilas	9257693	1
+Rioja Province	3848949	1
+Tarragona	3108287	1
+Lerida	6355231	1
+Girona	6355230	1
+Castellon de la Plana	6356995	1
+Binefar	6358307	1
+Fraga	6358344	1
+Tamarite de	3108360	1
+Huesca	3120513	1
+Phangan	1459613	1
+brutish	10117502	1
+gut	2913366	1
+"Italy
+
+"	3175395	1
+Ostellato	6539716	1
+Emilia Romagna	3177401	1
+Kyaikdo sub-Township	6906982	1
+Westminster	3333218	1
+Bhaktapur	1283618	1
+DTV	1272662	1
+Khartoum North	8050944	1
+overdoses	9474922	1
+habitation	3723992	1
+RVFV	3066543	1
+Koi	2645198	1
+PHE	2063042	1
+AEFI	3183458	1
+Northern Province	1253626	1
+Jaldapara	11071417	1
+90s	870805	1
+St Lawrence County	5135484	1
+mosquito	6319578	1
+Lake Park	5811581	1
+Plano	4719457	1
+Sprague	5811747	1
+linear	2524384	1
+BU	6557397	1
+Sur Hospital	8507990	1
+South Sharqiyah	411738	1
+South East Asia Region	11812363	1
+Kosteroarna	2699553	1
+Havana City	7316851	1
+Havana Province	3553474	1
+Grande	6552268	1
+d'infections	8794714	1
+IMB Arcade	9242803	1
+Investment House	10232623	1
+Eve	6450760	1
+Kostin	6268006	1
+Jilin Province	2036500	1
+NAS New Orleans	6301660	1
+grown-ups	9866566	1
+Mombasa	186298	1
+_Escherichia	894155	1
+coli	6536334	1
+Leipzig	2879137	1
+Cape York	5916388	1
+egrets	686607	1
+grebes	3199609	1
+Chimkent	1518980	1
+cephalosporins	745043	1
+Lachish	293363	1
+Enugu	2565344	1
+U.S. Southern Plains	5854968	1
+Logan	7839591	1
+Interior	5765865	1
+Kigali	6413338	1
+Cullman County	4057837	1
+Jackson County	4392183	1
+Lee County	4161743	1
+Monroe County	5127305	1
+Cattaraugus County	5111846	1
+Seacoast	6625787	1
+"Tyumenskaya
+
+"	1488747	1
+Lemmon Valley	5507103	1
+South Sokoto	7701528	1
+LaSalle County	4898878	1
+El Dorado	5345659	1
+San Juan	3837152	1
+Bolivar	3688650	1
+Palma	2512989	1
+east China	502683	1
+Tropical Asia	1720509	1
+handwashes	10550806	1
+Washtenaw County	5014120	1
+Hawaii -	5855797	1
+Bromley	3333135	1
+South Street Elementary School	7188507	1
+Tighenif	2476698	1
+Solapur	1255847	1
+BTV-1	9425120	1
+Departments	4140835	1
+southern Spain	2127119	1
+Bay of Fundy	5889836	1
+"Guangxi
+
+"	1809867	1
+Westerdam	940372	1
+Bichat Hospital	11189208	1
+Giteranyi	7670598	1
+Greater Sekhukhune District	927827	1
+Line Project	7533561	1
+Barisal	1337229	1
+Wasit	89693	1
+Thi Qar	97020	1
+Cutler	5341210	1
+Corsica	3023518	1
+Detroit	4990729	1
+Sibu	1735902	1
+Vi Thanh commune	6547051	1
+cougars	4894159	1
+North Americans	6255149	1
+Komati River	1045278	1
+<http://travel.state.gov/travel/tips/health/health_1185.html	8379548	1
+East Municipal	1184845	1
+Adjame-Plateau-Attecoube	3334090	1
+Torghar	8061265	1
+genomic masking	6557280	1
+TMV genomes	8643370	1
+BSMV capsids	11694960	1
+Putney	963824	1
+"California
+
+"	5332921	1
+Arta	449265	1
+Giza	360997	1
+"Massachusetts
+
+"	6254926	1
+Thanksgiving	4371097	1
+BTV-8	9425120	1
+Bashkiria	578873	1
+Chard	6447713	1
+questionnaires	9843581	1
+pigeonpea seedlings	12080215	1
+pigeonpea	3573922	1
+triticale	8824008	1
+Ambato	3660689	1
+August-September	6835910	1
+Mbarara	229268	1
+Yangon	1298822	1
+SARI	449682	1
+Ecuadorian	6977387	1
+Jayapura	1269515	1
+Papua Province	1643012	1
+lice	305089	1
+moose	6077877	1
+pronghorn	7315342	1
+Frozen Fish	505270	1
+case-patient	3806251	1
+Glastonbury	7292381	1
+Sandusky	5170698	1
+Dade	4190530	1
+Barangay Bagawines	382950	1
+COA	4013674	1
+Bukit Pelandok	1751408	1
+Butte Sink	5332207	1
+Golden Gate	4156920	1
+University of California	5404897	1
+Davis	5773664	1
+Ma	3395443	1
+Cochise County	5290270	1
+Kernahan	6706135	1
+Eldas	198634	1
+Wajir West	10230866	1
+Western Cape Province	1085599	1
+Mekhatria	2488531	1
+Al-Hasakeh governorate	173813	1
+Engadin	2660904	1
+bOPV	3923042	1
+north-western France	12077139	1
+NSW Health	6555411	1
+_C. difficile	6013617	1
+Buckinghamshire	2654408	1
+Fort Belknap	5652721	1
+Kelantan	1733044	1
+Sutton County	5531955	1
+Station	6956024	1
+Costco	6943793	1
+Rio Blanco	3670766	1
+Puerto Montt	3874960	1
+China Hong Kong	6274194	1
+_Morbillivirus _ genus	3161558	1
+legumes	2160392	1
+Pegwell Bay	2640516	1
+Keys	4155701	1
+Florida Bay	4155656	1
+genital	1258212	1
+March-May	2643069	1
+Dugway	5774159	1
+La Reunion	935316	1
+Malay Archipelago	1636682	1
+Hillsborough County	5087463	1
+Polk	4168988	1
+Hardee	4158068	1
+Belo Horizonte	6321162	1
+Congo Brazzaville	2260494	1
+pathobiology	7288516	1
+Negros	1697809	1
+Cauayan	12011330	1
+Xiamen City	10108895	1
+Constanza	3509366	1
+Kahului	5847411	1
+Honolulu Airports	5856213	1
+Maiquetí	3633341	1
+2007-2015	11975477	1
+Dengue Ward	8078226	1
+Qld	2152274	1
+West Point	5784580	1
+EVD-stricken	9711754	1
+fountain	4920444	1
+"Shanghai
+
+"	1796231	1
+Reference Laboratory	10401936	1
+State Council	8139488	1
+Cardiology Unit	6540195	1
+Gippsland	2165513	1
+Zambezia	1024312	1
+Hassan	1270240	1
+vCJD	7731597	1
+Northwestern China	624702	1
+Campania	3181042	1
+hrs	997751	1
+ewes	5950636	1
+Great Salt Lake	5775376	1
+Bago	1300463	1
+microglia-containing slices	9646239	1
+sitios Dagawe	8424326	1
+Banilag	98039	1
+Powel Crosley	4651214	1
+Regions	2453347	1
+Winkler	5534055	1
+S. jasminoides	10301024	1
+Himachal	1252529	1
+Mediterranean Basin	6537752	1
+Scotia	5137423	1
+ORC	6440861	1
+Lima	3936451	1
+Los Rios	3654592	1
+East Jerusalem	7303419	1
+Thessaloniki	734077	1
+leukocytes	630336	1
+International Animal	893810	1
+Krasny Yar	1501887	1
+Lui	6430469	1
+Saginaw County	5007996	1
+"El Salvador
+
+"	3585968	1
+Mauritius	934293	1
+Guatemala City	3598132	1
+Liege	2792414	1
+Upper Sindh	2921417	1
+Indian kala-azar	2658434	1
+Minsk	625142	1
+Salinas	4568043	1
+North Waziristan	1168875	1
+quacks	4975802	1
+Mostar	3194828	1
+2003/2004	11962960	1
+itraconazole	3893908	1
+supplier	5440838	1
+Voronej	472045	1
+Montecito	5374340	1
+Auckland -	2193734	1
+Zhupei City	1677111	1
+Lubumbashi	922704	1
+Kinkondja	2419506	1
+Mukono	228853	1
+<http://gamapserver.who.int/h1n1/qualitative_indicators/atlas.html?indicator=i0&date=Week%2031%20	6067914	1
+Alps	11495367	1
+La Grange	6440779	1
+hoofs	2163203	1
+_A. americanum_	3852834	1
+5am	2782017	1
+Mimika	1635242	1
+2001-03	6951601	1
+Western Nebraska	5700617	1
+Jhyaku	7800627	1
+creatine kinase	3474575	1
+consume	11219738	1
+abattoirs	6872147	1
+Niger Republic	2440476	1
+North-West Tasmania	5060719	1
+Murchison Highway	8169678	1
+St. Catherine	7298319	1
+St. Andrew	3488716	1
+St. Thomas	3488688	1
+ova	8133256	1
+blood-stained sputum	8916265	1
+General Hospital	5103121	1
+swabs asymptomatic	4310325	1
+investigational	11978900	1
+sanatoria	6667088	1
+Busan	1838519	1
+Oshana	3371207	1
+Omusati	3371206	1
+Windhoek	3352137	1
+microcystin	3575736	1
+holiday-makers	10236689	1
+Okara	1168718	1
+Canary Wharf	6692280	1
+Heathrow	4158296	1
+"West Java
+
+"	1642672	1
+West Constituency	680959	1
+Meulaboh	1214488	1
+Sumatra	1626198	1
+Starr County	4734150	1
+Lam Dong	1577882	1
+Memorial Hospital	6289596	1
+United States-Canadian Border	8496784	1
+vibrio	3164028	1
+Lok Ma Chau	6954475	1
+pesticide	3170622	1
+Mala	2693147	1
+convalescent-phase serum	9216436	1
+wrists	6552259	1
+Elandshoek	1006222	1
+Continent	3727449	1
+faucets	4386317	1
+58/364	10859752	1
+Yorkshire	2633349	1
+Bicholim	1272646	1
+Chernigov oblast	710734	1
+DT	345353	1
+_Vigna	3182629	1
+Tolga	2475612	1
+Hualien County	5058571	1
+Harmon Road	5971090	1
+Alagurke	11249158	1
+Prison	8660748	1
+Purulia	1259164	1
+Anopheles	1730738	1
+type-2 poliovirus	734530	1
+EcoHealth	7188239	1
+CPE	3531732	1
+Lake Huron	6048422	1
+"Americas
+
+ "	10861432	1
+H5N8 HPAIV	6321627	1
+African Region	3126519	1
+Tobago	3573606	1
+Transylvania	4495544	1
+Fagaras	678499	1
+HCP	11861067	1
+Arlington	4744725	1
+Bikita	895080	1
+Mpraeso	2297834	1
+Soroti	226234	1
+anatomopathological	2201055	1
+United States Department	4140835	1
+equids	7901760	1
+Lanka	1227604	1
+Embilipitiya	1247017	1
+Nuevo Laredo	3522551	1
+<http://www.cdc.gov/ncidod/dvbid/dengue.htm	10369033	1
+Bakun	1728690	1
+Wegmans	2813350	1
+Lothians	981900	1
+Chalmers-Watson	5407532	1
+melioidosis	11005033	1
+eastern Canada	9009738	1
+Saguaro Lake	5312525	1
+Bonneville	3031676	1
+CFIA	7907749	1
+Koalas	6840827	1
+Donetsk oblast	709716	1
+"Florida
+
+"	4155751	1
+St. Lucie	6061793	1
+virus-encoded nonstructural	1254385	1
+sequences	6618567	1
+apes	7628384	1
+Warrnambool	7839830	1
+dissemination	3661374	1
+Town Talk	5403101	1
+Fort Worth	4691930	1
+Seoul hantavirus	6800633	1
+Club	7045176	1
+BTV	5234372	1
+New Jersey Department	5101755	1
+Western Sydney	6516314	1
+M. bovis	8047084	1
+melamine	12124220	1
+Dengue Virus	11664627	1
+Yishun	1884369	1
+DCR	4919565	1
+"Volgograd
+
+"	472755	1
+Yakutiya	2013161	1
+Kalimantan Island	933123	1
+orangutans	5307486	1
+Johnson County	4273638	1
+opulent mango	2970797	1
+Al Batinah	107510	1
+enterovirus genotyping	9715067	1
+North Durham	6289843	1
+Pinal County	5308916	1
+Pima County	5308878	1
+Moyamba District	2405008	1
+southern Sierra Leone	6278629	1
+Victoria Infirmary	6289364	1
+Irbit	1505526	1
+Variant	2981129	1
+semi-closed	1494868	1
+Chongqing Province	1280239	1
+Marietta	4207783	1
+Orange County Health	7725079	1
+Prevention	3671750	1
+Eastern China	691652	1
+Bangalore	1277331	1
+Kidapawan City	1708825	1
+Kalutara	1241964	1
+Kandy	1241622	1
+Ratnapura	1228729	1
+Kurunegala	1237980	1
+Nanchang	1800163	1
+Oshikoto Region	3371208	1
+Cape of Good Hope	1621248	1
+Bac	587084	1
+Elblag	7531083	1
+Zuromin	7533485	1
+England South	2182500	1
+Murghob	1220962	1
+Morton County	5446023	1
+western Jamaica	9851008	1
+Lethbridge	6053154	1
+Maiduguri	2331447	1
+Monguno	2329946	1
+Al-Ahsa	108241	1
+MDR-TB	3070416	1
+Colleges	6447146	1
+Ishikawa	1861387	1
+Fever Hospital	7911618	1
+Dalmatia	8378497	1
+Istria	2764581	1
+Illinois House	2963319	1
+Medak	1263231	1
+Khammam	1267077	1
+Ranga Reddy	7626856	1
+Krishna	1265869	1
+ataxia	6321150	1
+Harris County	4696376	1
+Central African	7729886	1
+cafeteria	3821315	1
+Fairbanks	5861897	1
+Southeastern Michigan	12111046	1
+Qingdao	1797929	1
+injecting	8078333	1
+Sitka	5557293	1
+Juneau	5554072	1
+Ten Shilling Bay	9704430	1
+South River	5104853	1
+Choptank catfish	5518455	1
+groundwater	999703	1
+EDFZ	3272937	1
+VP4	3346821	1
+VP6	3346821	1
+VP7	3346821	1
+NS2	2155400	1
+South Sudanese	7909807	1
+Aweil	11550543	1
+Arroyo	4562682	1
+Akuem	2350857	1
+South Jakarta	7432799	1
+Shelburne	4944903	1
+RBD	7891506	1
+rodent feces	6360243	1
+mites	3392431	1
+Nunavut	6091732	1
+Hawaii DOH	6704553	1
+Debre Zeit	339666	1
+northwest	1085598	1
+Paonia	5550409	1
+Texas Veterinary Medical Diagnostic Laboratory	4716890	1
+zoonoses	1853437	1
+Andalucia	2593109	1
+MRLS	9495344	1
+GI	1854657	1
+Torres Strait	2132427	1
+London Institute	5238196	1
+"ferrets
+
+"	9558037	1
+98.7	11108849	1
+La Sota	3010025	1
+cramped	2386012	1
+Cosmopolitan	10115220	1
+Lubutu	210960	1
+Petland	8348771	1
+Prachinburi Province	2549340	1
+Rio de Janeiro State	3451189	1
+African buffalos	4849708	1
+antelopes	5762412	1
+Lower	11805832	1
+Omaha	5074472	1
+Sierra Leone http://awoko.org/2016/12/14/sierra-leone-news-disease-surveillance-in-sierra-leone/	3408453	1
+confines	3685996	1
+lytic necrosis	617676	1
+Suphan Buri	1606032	1
+College Station	4682464	1
+Middle Tennessee	4641491	1
+southern Kerala	11988232	1
+New Ebola	8814777	1
+Port Loko	2404431	1
+TB-free	607357	1
+Central Veterinary Research & Diagnostic Laboratory	7707600	1
+campylobacteriosis	3843935	1
+Sopo	3667808	1
+Mangyongdae	1874534	1
+Eastern Agency	9376382	1
+calicivirus	11104664	1
+Hokkerup	2620151	1
+Toronto Western Hospital	4353823	1
+Hope	2081155	1
+receptors	3862814	1
+Batken oblast	1463580	1
+peritoneum	5528274	1
+hematoma	159640	1
+hemostasis	261011	1
+Compounding Pharmacists	10899488	1
+pneumococcal	11792219	1
+Raghunathpur	1259049	1
+Island elk	8839686	1
+late-December	6977249	1
+Chubu	1864496	1
+Kanto	1860102	1
+Dasht	449499	1
+Sinai	11770792	1
+Acinetobacter isolates	9041305	1
+Eastern Visayas	7521307	1
+Baghapurana	1277902	1
+Zezdi	9642557	1
+Kushum Tehsil	114584	1
+Mulkoh	11044718	1
+air-conditioned	11540935	1
+Oyem	2396646	1
+Family Hospital Rawalpindi	11823755	1
+Sao Tomas de Aquino	6321839	1
+south of	2637335	1
+Chittagong	1337200	1
+progeny	3184399	1
+freshwater	4834061	1
+Ottawa-Carleton County	5920288	1
+West Nile fever	9538912	1
+"Dane County
+
+"	5250074	1
+Bungoma District	200066	1
+Flavivirus	2199434	1
+IgG antibodies	8952822	1
+PrPSc conformation	2715310	1
+Route	236481	1
+Containment Area	6541764	1
+the Keys	4968643	1
+Brevard County	4148826	1
+Bengal	1252881	1
+Mun Hospital	4139692	1
+King Tom Cemetery	4743873	1
+Chapel Hill	4460162	1
+Western Wake	6178774	1
+Uruguay River	9882989	1
+foodborne	878937	1
+Port Douglas	2152681	1
+Hopkins County	4698747	1
+Tiquisate	3591093	1
+Escuintla	3595802	1
+Retalhuleu	3590857	1
+San Marcos	3589801	1
+Central Java Province	1642669	1
+Irian Jaya	1643013	1
+West Kalimantan	1641900	1
+Nias	1214404	1
+districrt	7669301	1
+East Jebel Marra	3036780	1
+potency	3388238	1
+western Kansas	4099751	1
+Gelderland	2755634	1
+Sanitary	1057680	1
+Yawuma	3901175	1
+elevations	6243807	1
+mid-2005	11962958	1
+essence	2798611	1
+"Swansea Valley
+
+"	3370697	1
+United States of	6252001	1
+Kishinev	618426	1
+Pueblo Nuevo	8581878	1
+Condega	3620298	1
+Chuvashia	567395	1
+periphery	3391908	1
+PDV	728193	1
+Carolina Tobar-Garc	8959190	1
+fungicides	6576044	1
+Capiz	1718641	1
+tropical	10288576	1
+piggeries	9839114	1
+_Petunia	6476685	1
+Haute-Normandie	3013756	1
+Meye Tributary System	488784	1
+environs	8787854	1
+Research	2151718	1
+Confirmed	1092856	1
+January-February	3366473	1
+Cabarrus	4458491	1
+Dagupan City	1716190	1
+PNG	1733047	1
+Monte Plata Province	3496132	1
+Elí	2518559	1
+Amurski	1511674	1
+C.	2921044	1
+Teresina	6320025	1
+Branca	8010718	1
+Upper Peninsula	6333184	1
+Adelaide	2078025	1
+southern Australia	11886920	1
+Bush	358600	1
+EPIS	2082069	1
+Manyara	435764	1
+"https://www.rki.de/DE/Content/InfAZ/F/FSME/Karte_FSME.pdf?__blob=publicationFile 
+
+"	12110464	1
+hospitalisation	12165795	1
+Red Sea	408646	1
+basements	977040	1
+Eastern Oregon	10942427	1
+Lower Dir	7419056	1
+Ghana Coalition	8876275	1
+Western	400743	1
+Guinea http://www.ndtv.com/world-news/ebola-spreads-suspicion-and-rumors-in-guinea-769401	6226916	1
+northern	2297169	1
+Great Apes Reported	9443717	1
+eastwards	729689	1
+1996-1997	11974051	1
+east-central Brazil	3186741	1
+Arabia	6957698	1
+heater-cooler	8792691	1
+JEV	1044608	1
+Eastern Australia	2058645	1
+Maputo	1040649	1
+Bitterroot Valley	12023719	1
+Tiger Zoo	6543904	1
+Zoo	2867838	1
+Latin America.73 Of	1655842	1
+miscarriages	6362361	1
+stillbirths	8352377	1
+soil	10742780	1
+Nakhon Phanom	1608530	1
+Lower Rock Creek	5599737	1
+Rock Creek	5749017	1
+PESHAWAR	1168194	1
+Meigle	977270	1
+Perthshire	2640357	1
+Brooklyn Township	5181794	1
+Altay krai	1511732	1
+INRB	11859760	1
+Muzaffarabad	12104828	1
+Chenari	400597	1
+Leepa	9090688	1
+Khalana	445669	1
+Chikothi	1415620	1
+Sarasota County	4172139	1
+hemolytic-uremic	6454846	1
+Central Queensland	11523973	1
+Veterinary Hospital	8001035	1
+Federated States of Micronesia	2081918	1
+Southwest Foundation	4733393	1
+Black Sea	630673	1
+hilly Tripura Agartala	1262269	1
+Tripura	1254169	1
+utilizing	8613575	1
+Nashua	5090046	1
+Northwood	5090478	1
+Mojave Desert	5373972	1
+Blythe	2655315	1
+Genesis	3357305	1
+West Sussex	2634258	1
+"Lancaster County
+
+"	5197085	1
+Montrose County	5431716	1
+Calcasieu	4318583	1
+suboptimal	5515855	1
+Eastern Equatoria	408668	1
+Upper Nile States	381229	1
+Ijui	6324122	1
+Surveillance Region	6418539	1
+DVO	1715348	1
+Ngozi	430567	1
+Aichi Prefecture	1865694	1
+linger	2960329	1
+organochlorines	4013141	1
+Norte de	9421913	1
+El Catatumbo	3687051	1
+Grand Detour	4894325	1
+DPI	1272464	1
+NTR Hospital	7038515	1
+Vaccines	3171468	1
+Abuz	1475045	1
+El Geneina	379303	1
+"Measles
+
+"	6071556	1
+Cache County	5772317	1
+Hawke	5085248	1
+Shah Wali Kot	7053179	1
+La Libertad	3695781	1
+Gongzhuling	2037222	1
+Bavaro Beach	9885732	1
+West Java Province	1642672	1
+South Sulawesi Province	2221788	1
+neuraminidases	6539293	1
+Correze	3023532	1
+National Emergency	4363514	1
+PED	3068582	1
+michiganensis	1862842	1
+Ibanda	7056284	1
+San Miguel de Allende	3985344	1
+Paz	4000900	1
+Bnei Brak	295514	1
+Petah Tikva	293918	1
+Grand Lahou	2288104	1
+International Coconut Collection	4151466	1
+DEFRA	1204625	1
+Ain Defla	2508226	1
+Blida	2503765	1
+DOH	290030	1
+California triggers	2836310	1
+Southwest Europe	9408659	1
+EMR	11789332	1
+Oropouche	3574011	1
+Fyzabad	1271977	1
+Tomsk	1489421	1
+Nam Dinh	1905626	1
+Orahovac	787456	1
+Nakatiti	11103237	1
+Shijiazhuang	1795270	1
+Azad Jammu	1184196	1
+Multan	1169820	1
+Michigan Veterinary Medical Association	7186952	1
+corpuscles	2652349	1
+Yamalo-Nenets Autonomous Okrug	1486462	1
+St. Bernard	6155703	1
+South West Wales	4542367	1
+coccidioidomycosis	11594991	1
+_C.	2783046	1
+brainstem	683859	1
+cerebellum	3482475	1
+mallards farmed	3178441	1
+Namwala	901766	1
+double-crested cormorants	9829924	1
+Highlands County	4158643	1
+Liechtenstein	3042058	1
+Andorra	3041565	1
+Faeroe Islands	2622009	1
+San Marino	3345302	1
+County Antrim	2657254	1
+Beach prompts	7298696	1
+QH	53013	1
+YF	293254	1
+Lambwe	182429	1
+`charmak	41675	1
+Raymond	6428256	1
+Roads	4128551	1
+"Vietnam
+
+"	1562822	1
+Airports	6954456	1
+Grenada	3580239	1
+Area	3407206	1
+Bellevue Hospital	5108701	1
+Mercosur	11812364	1
+serotype	739792	1
+Nevada City	5502732	1
+Calaveras County [	5332628	1
+Yongyuth	8405791	1
+Diagnostic Laboratory	5637945	1
+the Bronx Zoo	11874723	1
+Latin	3196743	1
+Rotanda	1027925	1
+South-Eastern counties	7148415	1
+TGH	7730716	1
+East New Britain	2097853	1
+North Solomon	2089470	1
+Milne Bay	2132895	1
+Madang	2091993	1
+East Sepik	2097846	1
+West Sepik	2087246	1
+Basque Country	3336903	1
+tetracyclines	11942159	1
+Typhimurium	2203346	1
+Typhimurium isolates	3166448	1
+fattening	8829324	1
+Pacific oysters	11125987	1
+Kulob	1221194	1
+SCSMV	9018267	1
+Rospotrebnadzor	8862010	1
+Sarasota	4172139	1
+Hepburn	7839551	1
+Nimne	875860	1
+South Georgia	3426223	1
+Oxford County	4974522	1
+Daru	227812	1
+"Uttarakhand
+
+"	1444366	1
+Raleigh	4487042	1
+new-season	6550604	1
+Cape Mount	11809779	1
+Prevalence	669718	1
+_L.	5883102	1
+Kimilili	191918	1
+Cross	4107139	1
+Omaheke	3371205	1
+Tsushima	1849535	1
+Syndrome	1502683	1
+Refuge	11495609	1
+U.S.,	6252001	1
+U.S.  Minnesota	5495790	1
+Simdega	7627173	1
+APHIS	3036460	1
+Rostov Province	3068905	1
+Kabardino-Balkaria District	8224036	1
+Buryatiya Republic	2050915	1
+Kemerovo	1503900	1
+aforementioned	3833881	1
+Hanalei	5855600	1
+Washington County	5759333	1
+holistic	4262583	1
+Olongapo	1697172	1
+Basel	2661604	1
+Delmas	3726791	1
+Piraeus	8133777	1
+"Bangladesh
+
+"	1210997	1
+spices	3247908	1
+Factory X.	5189041	1
+micro-algae	2691947	1
+Dade County	4164238	1
+kelch13	10355969	1
+livers	3174666	1
+pancreases	4430892	1
+virologic	10793681	1
+epidemiologic	8351454	1
+Astana	1538317	1
+Coccidioidomycosis	11594991	1
+Arizona coccidioidomycosis	3337406	1
+vegetative	6627411	1
+Garu	6776971	1
+Northern Ghana	11864955	1
+Summerland	6159232	1
+Himachal Pradesh	1270101	1
+Orakzai	1168705	1
+Agogo	2305537	1
+Bucharest Public Health	4938972	1
+insecticides	994657	1
+infestation	8821223	1
+Bheri Zonal Hospital	7199371	1
+Mystery Fever	6551590	1
+amoebae	2177938	1
+Rio Coco	3402019	1
+Guiana	3378535	1
+Far North	2231755	1
+Noah Beach	5851281	1
+chickenpox	4929069	1
+Florida of	3357524	1
+Shaanxi	1796480	1
+H7N9	11105296	1
+infrequency	1028408	1
+Salton Sea	5391505	1
+North London	12042175	1
+symptomatic	1700338	1
+Amritsar	1278711	1
+lockdown	5100593	1
+1472	7664278	1
+Highland Valley	2069806	1
+States Parties	2746826	1
+"Nawalparasi
+
+"	1282991	1
+Leicestershire	2644667	1
+western Maryland	4373214	1
+neuraminidase inhibitors	11056784	1
+Osh	1346798	1
+Altai Territory	8952740	1
+microbiology	6340054	1
+Fellowship	11495462	1
+Cayenne Hospital	5647247	1
+N. Sumatra	1626196	1
+Northern Uganda	9382075	1
+Chester County	5184079	1
+Eastern Pacific Ocean	7669370	1
+Western Indian Ocean	1084860	1
+immunosuppressed	9143166	1
+Saudi-Arabia	102358	1
+infesting	11669002	1
+Scone	2150096	1
+50-80	6903707	1
+Estero Bay	5346916	1
+Mall	167375	1
+Portland	3488997	1
+Manicaland	887358	1
+Matabeleland South	886747	1
+Matabeleland	886747	1
+Kassanda	8657557	1
+Sterling	5531748	1
+Alta Verapaz	3599773	1
+La Chapina	3608211	1
+air-filled	4183355	1
+Victoria -	2145234	1
+Northallerton	2641435	1
+Korean Peninsula	11494804	1
+Dore Lake	4322844	1
+DCCO	6296405	1
+STAT2	3319500	1
+HFRS	3323319	1
+"Republic of Bashkortostan
+
+"	578853	1
+subtype	10870878	1
+IC	3398375	1
+South Wales	7302127	1
+Poliomyelitis	6940261	1
+Long Beach Peninsula	5804912	1
+Vilnius	864485	1
+Astrakhan	580491	1
+Makelekele	10376902	1
+_C. amaranticolor_	3407755	1
+of equine herpesviruses	2754338	1
+termini	2522960	1
+Van Ninh	1563005	1
+drug-resistance	3432282	1
+anti-malarials	11662107	1
+Atbara	378231	1
+mosquito-borne	8628273	1
+East Haven	4833425	1
+Moldova	617790	1
+sneaky	3065677	1
+genera	2097034	1
+adenovirus serotypes	519016	1
+Agder	12110596	1
+"Victoria
+
+"	2145234	1
+toxigenic strains	3189763	1
+lambing	6724527	1
+Saudi Wave	3447940	1
+Badung	6841100	1
+East Java Province	622370	1
+Chongqing	1814905	1
+tree-holes	6165878	1
+Dodge	5250710	1
+Overland Park	4276873	1
+antibody	11411885	1
+AFHSC	587361	1
+DEET-based repellent	6296683	1
+nightmares	6269453	1
+paranoia	9675855	1
+Rialto	5387288	1
+San Bernardino	5391726	1
+Meliandou	2417620	1
+mink	8531231	1
+Boeni	8059734	1
+Analamanga	7670856	1
+"Assiut
+
+"	359781	1
+Gharbiya	361294	1
+Dakahliya governates	361849	1
+Dong	3827126	1
+Kween	8030574	1
+IHHNV	3269317	1
+San Mart	6544105	1
+Palmapampa	6564136	1
+Ayacucho	3947018	1
+NFSN	7625312	1
+endemicity	8143554	1
+Panyu	1809858	1
+Nansha	6571339	1
+the Canary Islands	2644186	1
+Abu Dhabi	292969	1
+commercialization	98410	1
+Naples	3172391	1
+Adygeya	584222	1
+virology	7288516	1
+Laconia	5088438	1
+Hampshire County CWD Containment Area	5838255	1
+Lake Fork	5599060	1
+H7N7	5970356	1
+physoderma	2676209	1
+State Fair	198061	1
+BA.5	7834208	1
+Navegantes	6323201	1
+shrimp	11765972	1
+histopathologic	2201055	1
+hepatocellular enzymes	585530	1
+unvaccinated travelers	9846774	1
+Sunland Park	5493403	1
+Mongola	2307800	1
+Geumsan-myeon	6876918	1
+Corozal	3582302	1
+Belize City	3582677	1
+Delight	4107997	1
+Central Visayas	7521306	1
+Kween District	8030574	1
+Moyen Chari	2427315	1
+Bronx	5110253	1
+Florida Power	7201387	1
+Fort Myers	4155995	1
+North Sumatera	1213642	1
+Kanzulinzuli	11407317	1
+EVD-affected	2025003	1
+southern Mandima	11987595	1
+Ituri Province	3165523	1
+semi-forested	11189171	1
+Forecasts	3129232	1
+Philippine	3573934	1
+Damaturu	2345521	1
+Gujba	2340170	1
+meristem	2791324	1
+Sama	4034894	1
+eastern DR Congo	11176970	1
+southern Madagascar	7435090	1
+Isidoro	3913999	1
+AUD	7730834	1
+CWD Zones	11860412	1
+Far North Coast	8349584	1
+birdbaths	3374083	1
+Florence County	4578745	1
+Kensington Metropark	7728900	1
+Fort Pierce	4156018	1
+"Bajura
+
+"	1283697	1
+"Merseyside
+
+"	2642713	1
+Che	7646145	1
+Tchomia	11952147	1
+Medecins Sans	11497674	1
+chloramphenicol	963259	1
+Cuiaba	6323820	1
+Curitiba	6322752	1
+Porto Alegre	6323571	1
+Barcelona	3128759	1
+Alandur	1279064	1
+the Netherlands	2750405	1
+Middle	2641934	1
+Near East	4427090	1
+Great Diving Range	2164625	1
+Chinchilla	2171596	1
+Al-Jawf	109470	1
+Riviera Farms	8096734	1
+Navarre	3115609	1
+Galveston	4692856	1
+Sirajganj	1337168	1
+Grande Sao Paulo	6504195	1
+Mahachai	1606588	1
+cholerae	1896204	1
+southeast Brazil	11500080	1
+NHPs	1799397	1
+neutralization assays	6230563	1
+2000-02-14	6956561	1
+Montserrat	6362037	1
+microscopic	7293943	1
+_B. anthracis	5886177	1
+soil-samples	11350860	1
+temperatures	7473013	1
+ungulates	9946381	1
+Salmonella_	2074066	1
+Typhimurium DT104	7647947	1
+White House	2553604	1
+U.S. Centers	7235159	1
+PPE	3991347	1
+Khao Khiew Zoo	9199862	1
+zoos	3754816	1
+Western Kazakhstan	607847	1
+Southern Kazakhstan	1524787	1
+Lower Egypt	352260	1
+peach	4215089	1
+vectors	5226617	1
+Isiro	215771	1
+peanut	5569313	1
+http://www.aphis.usda.gov/publications/animal_health/2011/bro_keep_horses_healthy.pdf	12110464	1
+hamsters	7291435	1
+Tully	6444776	1
+Wadi Ara	294644	1
+East Lampung	9165778	1
+Kibaale	443343	1
+Provincial Center	400742	1
+Kisangani	212730	1
+Kansas City	4393217	1
+Doddaballapur taluk	1727886	1
+Florida Hospital Orlando	4155690	1
+North America [	6255149	1
+north China	8416643	1
+"Udmurtiya
+
+"	479613	1
+carbuncle	8394101	1
+La Gloria	3678913	1
+distemper	3834529	1
+woredas	7418415	1
+Santo Tomas Hospital	11183375	1
+North Stafford	4839745	1
+marshland	5119389	1
+Sofia	7670847	1
+Loudoun	4770746	1
+Delaware Park	5114813	1
+Nyamarunda Parish	10172313	1
+Nyamarunda subcounty	2250920	1
+DENV-naive	9090093	1
+FENAVI	6615797	1
+Jammu	1269322	1
+BAL	321836	1
+D.C.,	4138106	1
+Bethesda	4348599	1
+ebolavirus	2232290	1
+New Britain	2089703	1
+Charlotte	3577934	1
+Western encephalitis	4414280	1
+free-ranging	4748550	1
+St. John	3237497	1
+histology	2030286	1
+Cape Cod Bay	4932240	1
+Cape Porpoise	4968747	1
+Bumba	6538870	1
+Ysgol Eifionydd	6640322	1
+North Gyeongsang	1841597	1
+Paju	1839430	1
+Andong	1846980	1
+Masaka	229380	1
+March‐April	2996006	1
+Western Surabaya	132892	1
+Fondi	6541136	1
+Sperlonga	6540532	1
+Greeley	5577592	1
+St Lucie County	4171260	1
+Sutherland Shire	7839774	1
+Chalky Island	2171827	1
+Tahiti	4034365	1
+chikungunya	893511	1
+Sous-le-vent Islands	6151483	1
+Austral Islands	4033250	1
+Saint Martin	6417224	1
+sporodochia	11997662	1
+segregate	11184143	1
+Bay County	4985190	1
+permafrost	623681	1
+Albatross Island	2077961	1
+TSEs	3352609	1
+Sr25 virulence	5254570	1
+colonias	4000075	1
+Swat District	1164211	1
+explanted livers	5150529	1
+allergy	6616058	1
+Labrador	1708269	1
+mid-February	8584076	1
+0.5	6545258	1
+Anjouan	922001	1
+Gardiner	4965079	1
+paediatric	3492238	1
+pneumoniae	5671877	1
+Derekegyhaza	721424	1
+Bangkalan	1650298	1
+Kordofan	371853	1
+LA County	3043047	1
+Monroe	5127305	1
+Karvetinagaram	10784269	1
+Central Molokai	8964585	1
+Tuscany Region	3165361	1
+Talensi-Nabdam District of	9725908	1
+Upper East	2294291	1
+Quelimane	1028434	1
+Northwest	1085598	1
+Village Drum	5942845	1
+Hooksett	5087616	1
+Baton Rouge	4315588	1
+New African	7293536	1
+Senegal River	6941948	1
+Gadap Town	8348418	1
+biosafety	1456608	1
+Siliguri	1256525	1
+Treasure Valley	5587975	1
+Pfizer	3067469	1
+Thrissur	8133543	1
+Alappuzha	1278986	1
+Kubu Sembilang	6703910	1
+Tamil	1559098	1
+Hamilton County	4513583	1
+Los Alamos National Laboratory	5476844	1
+Misiones	3430657	1
+Antonio Dino	8951067	1
+Central Africa of	239880	1
+Lika-Senj	3337520	1
+Bucharest	683506	1
+Codlea	681179	1
+Diana	7670842	1
+Sanghar	1166164	1
+Kiev	703446	1
+reliably	607145	1
+south Brazil	5678999	1
+Parana	3455077	1
+Sul	1835848	1
+San Luis Potosi	3985605	1
+Mexicali	6942831	1
+Caritas Medical Centre	7199357	1
+Health	4114208	1
+Counties	6431896	1
+eastern Russia	5209356	1
+Sharjah	292673	1
+Ekaterinburg	1486209	1
+western Cambodia	3032157	1
+Western India	940336	1
+Cuc	3685533	1
+joints	1200453	1
+West Nile Virus-infected	1443777	1
+Amazonia	4374751	1
+al-Mahwit	73200	1
+al-Hudeidah Governorate	79416	1
+Brazzaville	2572183	1
+Tenggara	6792558	1
+Ad-36	5871098	1
+Brainerd	5019116	1
+Purdue	5604595	1
+Reap Province	4645359	1
+socialize	8139874	1
+Mt Hagen	2090409	1
+Eatonville	5793321	1
+Animal Health	7194347	1
+disinfectants	597247	1
+Calamus	4850005	1
+County Health Division	8486268	1
+Windsor	5243062	1
+MacKenzie County	2188068	1
+Peace	4279983	1
+Sumbang	6389952	1
+Karanglewes	6373713	1
+Kedungbanteng Serat	6722522	1
+Cilongok	6388637	1
+Netherlands of	2750405	1
+Rawalpindi	1166990	1
+Surry County	4494132	1
+Elche	6355441	1
+Raja County	647584	1
+peels	7872383	1
+vaccinees	11408933	1
+Headingley	5972961	1
+Cook Islands	1899402	1
+2003-2004	11962960	1
+Duisburg	3231901	1
+Nordrhein-Westfalen	2861876	1
+Ukraine [	8053946	1
+"West Nile
+
+"	666287	1
+Kitgum District	443346	1
+"Tajikistan
+
+"	1220409	1
+Wythenshawe Hospital	6289394	1
+Chudovo	567774	1
+Santa Catarina State	8962250	1
+Odisha	1261029	1
+tribal-dominated Malkangiri	11615791	1
+Coorg	1266426	1
+undervaccination	11465752	1
+BBTV	3078640	1
+South Bali	1187475	1
+IgM	5301067	1
+epicenters	10120952	1
+"Daegu
+
+"	1835327	1
+Gyeongsang	11170620	1
+Suseong District	1843082	1
+North Jeolla	1845789	1
+extremes	3400567	1
+Limburg	2751596	1
+recto-anal mucosa-associated	933860	1
+Moscow Region	524925	1
+forage	10984718	1
+Greater S	2917745	1
+epizootics	6436173	1
+Sã	11875157	1
+kitchens	5474569	1
+prohibition	4404726	1
+Santinagar	1257328	1
+Sri	1629001	1
+Lake Victoria	2077916	1
+Burgas	732771	1
+Bara Tehsil	1451524	1
+Balkh	1147288	1
+highly-contagious	4514204	1
+Kent Vale	5991147	1
+Woodlands Circle	11377495	1
+honeybee	5856104	1
+seroresponses	5439853	1
+mosquitos	3440076	1
+Modelo	6323195	1
+"Bogota
+
+"	3688685	1
+Tulare County	5403789	1
+packinghouses	5240401	1
+"Liberia
+
+"	2275384	1
+Persian Gulf	6915989	1
+phylloxera	16773	1
+Olney	4364537	1
+Indochina	11612758	1
+Basque	5894636	1
+Namibia Areas	4018264	1
+AU	6320114	1
+Lowell Community Health Center	5070466	1
+Erbil	95445	1
+Table	6442793	1
+Lebanon Pool	5088603	1
+<http://rivm.nl/cib/binaries/Bijlage%20I%20Beleid%20bij%20een%20Q-koortspositief%20bedrijf_0710_tcm92-60651.pdf	5618946	1
+York City	2633351	1
+"US"""	6252001	1
+codon	11843840	1
+Ile	3895114	1
+VDPVs	2658144	1
+neutralising	6558276	1
+Navajo Nation	5306265	1
+Window Rock	5321390	1
+dioxin-like PCBs	5332365	1
+Kamchatka	2125072	1
+Nagano	1856210	1
+minks	625140	1
+ACE2	3130989	1
+mustelids	10093732	1
+BSR	1276610	1
+Nambwa	151969	1
+Una	7701379	1
+d'Ivoire	3723789	1
+west Africa	7729885	1
+East Siberia	2127381	1
+Kunduz	1135690	1
+brucellosis	3951702	1
+Kampung Paya Mengkuang	7698735	1
+Whitfield	4230822	1
+Mukdahan	1608595	1
+Westmoreland County	5219013	1
+Epidemiology	7288516	1
+southern Somalia	2061327	1
+Bondi	3031815	1
+Grobogan	6745099	1
+1999-2000	651876	1
+Northeast Indiana	6498449	1
+Kosciusko County	4922408	1
+Eastern Equine	8711407	1
+Ohangwena Region	3371203	1
+Fiocruz	7538127	1
+pathogenicity	2881062	1
+Mediterranean Europe	10236950	1
+downy mildew	1001883	1
+Maharastra	1264418	1
+Narayanpatna	1193260	1
+Lamtaput	9872621	1
+Nandapur	1193480	1
+Semiliguda	10775171	1
+Laxmipur	7798794	1
+Taiwan Island	5557844	1
+hydatids	8217426	1
+bee	1275540	1
+West Trenton	5106316	1
+Burlington	4500994	1
+spring-sown	5608563	1
+Red River	4721949	1
+Upper Midwest	2294286	1
+YF-Vax	11362158	1
+"Marlborough
+
+"	2187304	1
+Awatere Valley	941439	1
+Ingushetia	556349	1
+Veterinary Institute	10825364	1
+Nadu	1733953	1
+Accra	7648922	1
+Flamingo Hotel	10112390	1
+disease-carrying	9204158	1
+Aleppo	170062	1
+Alawite	6450231	1
+San Juanico Bridge	957608	1
+Visayas	1679788	1
+Manhattan	5128581	1
+Roosevelt County	5488372	1
+Madalena	6324296	1
+Piedad-Michoacan-mexico	4373554	1
+Presque Isle	5006470	1
+Rural Municipality	6111530	1
+Sherlik	2061620	1
+Blue	4530906	1
+PME	2246834	1
+sputum smears	9545689	1
+Kathmandu Valley	1283239	1
+Palung/	121601	1
+Federal Meat Inspection	9671705	1
+C4	9893313	1
+pre-vaccine	3192262	1
+Nakhon	1608525	1
+filly	2798347	1
+Bowie	4675805	1
+Kent County	4998005	1
+Somerset East	954161	1
+Olympics	734891	1
+transcription polymerase	11832528	1
+Ebino	1864313	1
+Tsuno	1849614	1
+Fort Dodge	5445298	1
+West Riverside	5389213	1
+bighorn	5818658	1
+Woody	937972	1
+Khovd	1515696	1
+King Abdulaziz Hospital	8715665	1
+HCDCP	6617742	1
+non-native	6612557	1
+Santa Lucia	3576468	1
+of-care	2104763	1
+Chiba	2113014	1
+Saitama	1853226	1
+Central Region	7289707	1
+"Chelyabinsk
+
+"	1508290	1
+Eastern European	7729884	1
+sardines	3668251	1
+Redondo Beach	5386785	1
+Sherpur	1337170	1
+Mississippi Gulf Coasts	7704759	1
+"U.S. """	6252001	1
+Southern Cold	7292620	1
+Baton	606661	1
+LA	4331987	1
+Kabale	233070	1
+Piquillí	3841035	1
+dispensers	7627043	1
+nasopharyngeal aspirate	11341932	1
+Mechelen	2791535	1
+South Region	2221789	1
+WPV1	7731602	1
+Tegucigalpa	3609672	1
+Johns Hopkins Hospital	4359538	1
+Johns Hopkins	4359538	1
+eastern Austria	9836691	1
+Kagoshima Prefecture	1860825	1
+Maridi	11550570	1
+Influenza	3235792	1
+Coyah	2595299	1
+CBS	3647651	1
+Trenton	5105496	1
+Northern Zone	6538173	1
+San Carlos	3621940	1
+Los Chiles	3623007	1
+NewLink	4645282	1
+Devens	8480032	1
+Wu Mart	5218268	1
+San Antonio Bay	6620488	1
+orf1ab	3354069	1
+Twente	2746058	1
+Heidelberg	3220720	1
+EPPO	3088243	1
+Sinuiju	2040893	1
+Albany Street	11239803	1
+South End	2637433	1
+Asia Minor	323835	1
+fleas infesting	11746657	1
+Iksan	1843663	1
+ETEC	3299290	1
+Kafr al-Zayat	354365	1
+Serenje	898912	1
+Chen	1879029	1
+previously-healthy	5102937	1
+Iloilo	1711004	1
+Neiva	3673899	1
+Durango	4011741	1
+El Ninos	515673	1
+Liaoning	2036115	1
+Jilin	2036500	1
+Margibi	2588491	1
+Southern Germany	8587651	1
+Narena	2453076	1
+Nandpur	10804487	1
+Kakarana	6776738	1
+Narainpur	10545214	1
+Gaon	3200683	1
+Solana	1685883	1
+Nidhawali	10574950	1
+Parpa	1632290	1
+autonomic	6254930	1
+markers	6440823	1
+Crimea peninsula	703862	1
+Grand Traverse Bay	4994372	1
+h1.3.2	11777752	1
+pre	1607552	1
+measles-mumps-rubella	9242770	1
+_Salmonella_	2074066	1
+Dumfries	11494935	1
+Municipal Hospital	4775272	1
+City Hospital	5280567	1
+primers	4002061	1
+Braila county	5690614	1
+Highlands	2646944	1
+Miami-Dade Airport	4164244	1
+hemagglutinin	6401726	1
+tropics	6626999	1
+northwest France	12077139	1
+clade 2.2.1.2	3433128	1
+greening	5966158	1
+Rhea County	4652809	1
+enteric	211098	1
+Homabay	7667665	1
+Kisii	191298	1
+Kisumu	191242	1
+Nyamira	7806857	1
+Migori	7667678	1
+"Pakistan
+
+"	1168579	1
+serotypes	3171159	1
+Pishin	1167821	1
+Loralai	1171867	1
+Bugti	1357423	1
+Ravine	5207698	1
+Cape Ann	4937843	1
+Stellwagen Bank	4951997	1
+Massachusetts Bay toxicity	7173931	1
+western Maine	5514876	1
+Pacific NW	5806002	1
+Food Products	8566313	1
+Route 66 Food Products	6113768	1
+Rockland	5134189	1
+2013/14	11973820	1
+Central Hospital	4187135	1
+London vacation	5112222	1
+Stavropol Territory	9354180	1
+playgroup	1559581	1
+Transmission	5469848	1
+El Pozon	3528387	1
+Baja California Peninsula	4017701	1
+ariks	3865474	1
+Guinea Conakry-interest of	6468150	1
+Thainstone	2636068	1
+Walkerton	4927788	1
+East London	1006984	1
+effluents	2886946	1
+Southern African	9406051	1
+tail-end	1605651	1
+titres	2060502	1
+Impfondo	2259655	1
+Hana	5855471	1
+Kisoro	230993	1
+Kasese	232066	1
+Elkhart County	4919988	1
+Daviess County	4256468	1
+Fort Lauderdale	4155966	1
+UC	2077456	1
+Grand Duchy	2960313	1
+Gulf of Maine	4971067	1
+Cook County	4888671	1
+rivulets	961064	1
+Richmond	5139559	1
+Oweikurogha	2325341	1
+Asia Region	108179	1
+Tangerang	1625084	1
+Cornell	5249461	1
+University of	7141907	1
+Heddon-on-the-Wall	2647195	1
+National Microbiology Laboratory	6953536	1
+Arenillas	4000247	1
+mithuns	9462282	1
+Wainivesi	2194956	1
+tick-borne	7295791	1
+Adjumani	235489	1
+late-2014	9645431	1
+Piedmont	3170831	1
+Abruzzo	3183560	1
+fox-mediated	5250205	1
+dog-mediated	8045701	1
+Vitoria	2145234	1
+San Pedro Street	5392542	1
+Yell County	4137268	1
+Livno	534701	1
+COVID-19 caseload	3213283	1
+Pakpattan	1168555	1
+Khao Lak	1157190	1
+Mandalay Beach	8215917	1
+Ventura County	5405889	1
+Pader	448227	1
+acai	3471377	1
+O'Hare	3069133	1
+Amapa	3407762	1
+SSI	2658434	1
+<http://www.cdc.gov/flu	11102265	1
+_Vibrio	3280954	1
+Bird	5445059	1
+Katsina State	2334797	1
+Eastern Chad	2840888	1
+Cholera Outbreak	6487974	1
+Mandalay	1311871	1
+Regina Qu'Appelle Health	4870932	1
+Heartland	9825418	1
+lineage	10267707	1
+British Columbia	5909050	1
+Yoseftal Hospital	8469573	1
+Soroka	577922	1
+Eastern Germany	2779351	1
+Tando Allahyar	1163965	1
+Shaheed Benazirabad	1169115	1
+"The Spring"""	3577364	1
+Rockland Counties	5134189	1
+Oklahoma County	4544356	1
+Bairnsdale	2177233	1
+Bandundu	2317396	1
+Millennium City	6324755	1
+Nivas	3429482	1
+rifampicin	8966989	1
+Brimfield	5148230	1
+nephritis	8836936	1
+Tocumen	3700563	1
+EHD	2167426	1
+syringes	2974915	1
+Yam	6141439	1
+M. bovis_	8047084	1
+South Jersey	4500995	1
+"France
+
+"	3017382	1
+Repulse Bay	2151725	1
+Kisangani Airport	6297149	1
+Tel	6455181	1
+Lower Galilee	12093629	1
+southern Mexico	8258442	1
+third-world	5105401	1
+Cheboygan County	4988619	1
+DNRE	11861527	1
+Rovenka	705841	1
+Jinan	1805753	1
+Kursk	538555	1
+elephantiasis	11984531	1
+Gulf of St. Lawrence	5967761	1
+Prince Edward Island	6113358	1
+Eastern Equine Encephalitis	3746760	1
+Somerset	3573050	1
+Kovsgol Province	8072078	1
+hens	7872050	1
+mAbs	287448	1
+Watford	2634677	1
+Frederick	4760052	1
+steamy	779356	1
+Essex	2649889	1
+Westland/	6544261	1
+Hallmark	8814522	1
+"Hidoussa
+
+"	2493858	1
+Ebola Virus	11660019	1
+Western Province	400743	1
+Kazungula	8260555	1
+Livingstone	910111	1
+Hainan	1809054	1
+North Okkalapa	11154230	1
+raspberry	6117249	1
+"Myanmar
+
+"	1327865	1
+Outbreak	1821507	1
+West Asia	6319174	1
+Kastamonu	743881	1
+DENV-1	2169039	1
+DENV-3	2169039	1
+Yanbu	100425	1
+Camacari	6320784	1
+condensation	4236102	1
+1974-1976	11974043	1
+appetite	3183198	1
+Negro Occidental	1697808	1
+doxycycline prophylaxis	3291938	1
+JWTC	7668812	1
+keratitis	260281	1
+SMoV	621700	1
+Guinea Ebola	6578360	1
+Western Bay	8193772	1
+H5N1-infected mallards	10673172	1
+Bordertown	2174615	1
+PoC Pk5	11832678	1
+Virden	6174457	1
+Steinbach	6549816	1
+St. Andrews	2638864	1
+Selkirk	6144054	1
+Russell	4047434	1
+Killarney	2963370	1
+Boissevain	5905191	1
+Deloraine	5937577	1
+Stony Mountain	4787879	1
+la Prairie	6049863	1
+Beausejour	3026291	1
+Lofa County	2275344	1
+solanaceous weeds	2754690	1
+Samara	499068	1
+Yavapai County	5321860	1
+WAHIS	290515	1
+barangays	11787163	1
+Ubud	7376065	1
+Petang	7038804	1
+Christians	2623170	1
+"Novosibirsk
+
+"	1496745	1
+Princess Margaret Hospital	9063953	1
+Cambridge Memorial Hospital	5694026	1
+Moon Marine USA Corporation	3632871	1
+Bodensee	6552335	1
+nares	2659510	1
+115th Avenue	7038498	1
+Lake Oahe	5766350	1
+TAS-ELISA	3423146	1
+Lake Konstanz	2659347	1
+Baden-Wuerttemberg	2953481	1
+Surabaya	1625822	1
+West Malaysia	1745185	1
+of Africa	239880	1
+gram	2621279	1
+Kanagawa Prefectures	1860291	1
+Blackpool	3333127	1
+Merida	3632306	1
+La Guajira	3678847	1
+Norte de Santander	3673798	1
+Baja California	4017700	1
+Sonora	3982846	1
+Downtown Inn	6532094	1
+inpatients	6875161	1
+Washington DC	4138106	1
+Rockville	4367175	1
+Jaffna	7324126	1
+Waitakere	6231459	1
+San Luis Potosi State	3985605	1
+Gonarezhou National Park	2658671	1
+Niyazabad	1160114	1
+Lindcove	5366581	1
+Baljuvon District	8220957	1
+Goseong-gun	1842514	1
+Southern Chungcheong Province	1871952	1
+coverage	5927343	1
+Reno Hilton	9828853	1
+Anantapur	1278673	1
+Yersinia	19504	1
+macrophages	2820989	1
+Chuka	199284	1
+Trafalgar Square	5093768	1
+Lone Star Park	4707512	1
+Churchill	5501785	1
+Grand Prairie	4694482	1
+IFA	4862069	1
+Gonzales	4693951	1
+Superior	5440838	1
+Beadle County	5226183	1
+Tue	10260103	1
+Toledo	3580913	1
+Ussurisk	2014006	1
+Siberian	3375995	1
+Other Fine Foods	4457431	1
+Jasper	4392354	1
+Roslin Institute	11844208	1
+Vizag Agency	11217529	1
+La Nina	6977605	1
+JEV vector	3190680	1
+Aeroe	2625003	1
+Ben	2395170	1
+alpacas	3924201	1
+El Tor lineage	2309096	1
+Eastern Thailand	2664328	1
+mefloquine	3116881	1
+Druzhba	801983	1
+Naryn	1527590	1
+smallholdings	2763151	1
+West Slope	5760068	1
+Kibbiutz Ein	7873201	1
+Holit	8068370	1
+Tana River	179585	1
+Meru Central	186824	1
+negligible	3546103	1
+"Sur
+
+"	12023330	1
+S. Korea	781578	1
+Huilai County	5332555	1
+Rockfish Gap	4782560	1
+’s	11875157	1
+Qilla	350552	1
+Long An	1575788	1
+Ben Tre	1587974	1
+Jiamusi	2036581	1
+Songhua	11697885	1
+Huachuan	1855693	1
+Fujin	1863711	1
+Tongjiang	1792647	1
+FHB	4155009	1
+diagnosis of	6542589	1
+Tartous	163342	1
+IRIN	238564	1
+<http://www.healthunit.biz	660229	1
+Dover	7296052	1
+South West Europe	7236871	1
+Encarnacion	3437923	1
+Itapua	3437923	1
+Formosa	1668284	1
+Podgorica	3189077	1
+Turner County	5232458	1
+Northwest Territories	6091069	1
+Providence	5224162	1
+Americas -	10861432	1
+Bagram	7054036	1
+polymerase	734539	1
+saiga	1298408	1
+2016-2017	11963036	1
+Shimoga	1256516	1
+Uttara	8064554	1
+State of	4328650	1
+disorientation	12002942	1
+1940s	11110253	1
+lentil paddocks	6173056	1
+Saddleworth	2062060	1
+Lassa	1280737	1
+Tungurahua	3650445	1
+predominatly amon	11937344	1
+Kapawi	11674352	1
+Pastaza	3653392	1
+Milwaukee harbor	5255526	1
+fractional	4041723	1
+Hung Yen	1905699	1
+Bac Giang	1905419	1
+unexplained	5131628	1
+tilapia	8328683	1
+Haut Zaire	6456956	1
+protease	9294180	1
+Posadas	6357248	1
+sows	11778173	1
+Luzon Island	1704926	1
+crook	5822351	1
+Norfolk Distrist	7290597	1
+litchi-growing	2122206	1
+meningoencephalitis	1031100	1
+Lake Constance	8210963	1
+Eastern Hemisphere	2624905	1
+"Asia
+
+"	6255147	1
+Central Asian Flyway	10212618	1
+eastern bluebird	2809952	1
+Flagstaff	5294810	1
+South Punjab	9645314	1
+Portland International Airport	5746563	1
+Europe -	6255148	1
+MMWR	13055	1
+Guam	4043542	1
+Ghent	2797657	1
+Atherton Tableland	2749084	1
+Sabine Parish	4339354	1
+New Rochelle	5128549	1
+co-circulation	4247869	1
+bakanae	8149806	1
+Calder	11776286	1
+Ocala	4166673	1
+Nairobi Hospital	8477784	1
+Columbia University	5113375	1
+Greene Infectious Diseases Laboratory	4353277	1
+Moselle	2991627	1
+apricots	3731257	1
+364	11454024	1
+soils	8054829	1
+2014-16	8285851	1
+Ashland	5146062	1
+Jacksonville	4160021	1
+Southern Oregon	11810474	1
+Ichalkaranji	1269834	1
+Stuartburn	6158376	1
+BTV-14	7285017	1
+Salem	1257630	1
+relevance	3174802	1
+Bohai Sea	2962179	1
+Africa Regional Certification	7313548	1
+Central Province	400742	1
+ostracize	3068797	1
+Larimer County	5578884	1
+symposia	10117485	1
+Bloom Hospital	8103023	1
+eradicating	1039891	1
+Lake Kivu	212508	1
+Academy	4706919	1
+Crimean-Congo Hemorrhagic	2510301	1
+3-day spurts	1185866	1
+nonbiting	8742928	1
+Cuyler Clinic	5078648	1
+Hajjah	6201195	1
+southern California	11071615	1
+shrews	2765602	1
+haplotypes	6456752	1
+east Japan	11986404	1
+Busse	6615237	1
+Ca Mau	1905678	1
+Kyushu	1857892	1
+prefectures	236178	1
+Osakan	616320	1
+Florida thoroughbred	2655173	1
+"Kelantan
+
+"	1733044	1
+overflow	6095525	1
+moderator	11183658	1
+Dhanusha	10989669	1
+Amman	250439	1
+Aldi	9424532	1
+Central Highlands	11497253	1
+Naru Moro	1846081	1
+Kpandruma	212142	1
+Nueva	11806141	1
+Rocks State Park	4352971	1
+VDACS	6455093	1
+Great Lakes basin	5364427	1
+Jaimakashala	7802290	1
+Rolpa	1282847	1
+Antigua	3576395	1
+Mbuji-Mayi	209228	1
+20:47	8061317	1
+00:15	7439356	1
+23:39	10842109	1
+10:10	11341705	1
+10:35	7613408	1
+Tongji Hospital	11593540	1
+15:41	6924234	1
+00:30	7613409	1
+9:50	7754916	1
+19:54	7434436	1
+17:50	11056537	1
+Toowoomba	7839396	1
+Victoria River	2059461	1
+Barkly	7839682	1
+Alice Springs	7839681	1
+Murshidabad	7627237	1
+Someru	793457	1
+chloroquine	2515638	1
+chemoprophylaxis	97417	1
+Carter Hall	4186482	1
+U.S. Embassy	6457215	1
+Acambis	8788496	1
+Shores	955903	1
+1995-2001	11972977	1
+East End	10375971	1
+Perth Royal	6289570	1
+Clostridium	3345300	1
+Serengeti National Park	150094	1
+PMV5	3629965	1
+Saudi Arabia Rises	637479	1
+Mangalkot	11285902	1
+Burdwan	1277030	1
+Tehatta	7487427	1
+Sheetz	4756840	1
+Srem	3085056	1
+Angamaly	1278602	1
+7471	8238150	1
+Sinsicap	3691795	1
+Guayaquil	3657509	1
+Bacoor	1729525	1
+Cavite	1717639	1
+January-December	11690010	1
+Freeport Health Centre	7192294	1
+Kitchener	5992996	1
+kindergartens	5705456	1
+Sorsogon	1685754	1
+Port-au-Prince	3718425	1
+Cochabamba	3919966	1
+SCI	1886760	1
+BEIJING	2038349	1
+Tshuapa	204697	1
+Singapore residents	10109611	1
+Sao Tome	2410764	1
+Purbalingga	6390578	1
+better-equipped Miri Hospital	3629386	1
+Shelter Island	5137894	1
+Block Island	5223587	1
+Exeter	2649808	1
+Corpus Christi	4683416	1
+Krishnagiri	8223993	1
+Van Province	298113	1
+Seneca Lake State Park spray-ground	5137642	1
+epicentre	10120952	1
+western Ohio	5176459	1
+"pumpkins
+
+"	5308655	1
+wellbeing	2744852	1
+CBLVd	7864318	1
+HSVd	1515696	1
+GenBank	2079036	1
+water-pipes	6698442	1
+Dar Es	6370160	1
+Hesse	2905330	1
+glycoprotein	6626006	1
+_E. papayae	7106319	1
+District Surveillance Unit	7152712	1
+neural	7872730	1
+Zika virus-induced	11422399	1
+Fall	3321897	1
+arenavirus	11657191	1
+vancomycin	7908106	1
+transgenic	2667538	1
+Chengdu	1815286	1
+Grande Sao	5489351	1
+South West France	4173717	1
+Similkameen	5810510	1
+County Public Health	8123664	1
+helva	3983141	1
+Inclá	3556760	1
+Southern Europe	9408658	1
+Gadap	1111347	1
+Baltic Seas	2633321	1
+Odek	8629916	1
+Lakwana	8657600	1
+Awach	8645279	1
+Bobi	3181970	1
+pleuropneumonia	5671877	1
+Calumpit	1720038	1
+blackleg	6691222	1
+selenium	3184197	1
+San Fernando General Hospital	738057	1
+San Fernando	3573739	1
+Velingara	2244177	1
+Muriwai	2186363	1
+Sant Cugat	3110718	1
+concordance	5926526	1
+Grand Ronde River	5795945	1
+southern Sweden	11990910	1
+Ampara	1251459	1
+Balle	3035220	1
+puddles	8802586	1
+Nogales	4004886	1
+uterus	6376261	1
+Seville	2510910	1
+Molokai	5851218	1
+Colley	11776424	1
+Charedi	11283695	1
+aqueous	2381506	1
+Ottawa coincides	10118062	1
+Daqahliya	361849	1
+San Antonio	3670198	1
+North County	4276454	1
+Northern Ossetia	519969	1
+Kanglung gewog	8819855	1
+oropharyngeal	2832232	1
+Suffolk County	5140076	1
+Halifax Island	5969432	1
+West Nile Fever	9538912	1
+Rift Valley Fever	5604748	1
+Umpqua	5758082	1
+slopes	265270	1
+Pacific Nations	9958556	1
+Cambridge	2653940	1
+Manabi	3654451	1
+astroviruses	3945232	1
+Protection Zones	2463709	1
+ICUs	3680602	1
+Akmolinskaya	1521193	1
+Aqmola	1518003	1
+of Kazakhstan	1534968	1
+Thurgau canton	2658372	1
+"Tokyo
+
+"	1850144	1
+Zanzibar	148726	1
+Al Hasa	108241	1
+South Western Saudi Arabia	6351645	1
+Mazowsze Province	858787	1
+Central District	294904	1
+7373	546859	1
+legionnaire	11216467	1
+Ebola wards	847107	1
+University Medical Center	7131977	1
+droves	3020754	1
+94	12111083	1
+outcomes	3563719	1
+pufferfish	2863441	1
+State Department	4140835	1
+lobsters	12003517	1
+Campo	6616362	1
+neuroglobin	6268601	1
+fungus-infected	2598619	1
+Jebel Marra	370432	1
+Shah Alam	1732903	1
+Selangor	1733037	1
+endocarditis	3180541	1
+Cumuto	3574689	1
+Cheung Chau	1819967	1
+Epsom	2649957	1
+St	2434508	1
+norovirus gastroenteritis	3187694	1
+heartland	9825418	1
+Sanglah	7529182	1
+Algarve	2271989	1
+Invergordon	2646115	1
+"New Jersey
+
+"	5101760	1
+Qinghai Lake	1797903	1
+Bari	3182350	1
+Cabo Delgado	1051823	1
+matrix	3117735	1
+cosmetics	5129694	1
+Los	6454415	1
+Adams	5411363	1
+Hadang	12094367	1
+lymphoid	10234110	1
+blister-like	3184582	1
+Kiruhura District	7056288	1
+Blue Creek	8695025	1
+IP2	6322297	1
+Needville	4713946	1
+Beasley	4050916	1
+_Toxoplasma	11951179	1
+diagnoses	256333	1
+Cayo	3582429	1
+100-liter	2874832	1
+Moskva River	5928621	1
+re-evaluate	4032418	1
+bTB	7730500	1
+Yunnan Province	1785694	1
+Augusta	4745015	1
+Changhua County	1815726	1
+Pondicherry	1259424	1
+excretion	11947525	1
+Gorontalo	1923046	1
+Morowali	1634984	1
+Lake Bruin	4318066	1
+Lake Concordia	4422550	1
+False	8960424	1
+Keldur	2629380	1
+Quito	3652462	1
+Pichincha	3653224	1
+nasopharyngeal	3648546	1
+Kamarkhond	1196693	1
+Ullahpara upazilas	9258755	1
+Victoria River District	4841517	1
+Groote Schuur Hospital	7302616	1
+Ho Chi	11599130	1
+Lak	2597324	1
+Deptsang	1252593	1
+Infection Control Centre	7038398	1
+Lieu Province	2792411	1
+Nador	2541472	1
+Cumberland County	4462716	1
+Southwestern Saudi Arabia	102358	1
+SW-SA	3166018	1
+Maitland	2159045	1
+ankles	6534008	1
+fecal	11219434	1
+Southwest Asia	6269134	1
+septic	7937234	1
+Wheeler County	5533544	1
+High Risk	7895517	1
+Singkawang	1626916	1
+17-18	11364529	1
+Jews	2175979	1
+Traces	3165922	1
+Park Ridge	4905367	1
+Johor Baru	1732752	1
+Kansas Department	8121824	1
+Wichita	4741751	1
+Wyandotte County	4282035	1
+molecular pathotyping	8645842	1
+NP	10697157	1
+chickpea	7293549	1
+Ogun States	2327546	1
+yoghurt	2684797	1
+China Town	5502732	1
+toothpastes	671283	1
+Pearl River Delta	7160348	1
+_Neisseria	2572892	1
+urethritis	6321196	1
+Madeira	2593105	1
+buttons	5705761	1
+skinning	9413072	1
+Durham	5944369	1
+St. Lawrence Island	6050838	1
+Ayeyarwady Region	1321850	1
+cutaneous leishmaniasis	1252634	1
+Hainan Island	1809055	1
+SR	163843	1
+New Salem	11770807	1
+South Hadley	4951397	1
+"Burma
+
+"	1327865	1
+Babil	98227	1
+Coccidioimycosis	3337403	1
+dirt-dwelling fungus	3415694	1
+South Valley	5492450	1
+Fever	2798367	1
+Grand Bay	5964237	1
+"Hawaii
+
+"	5855797	1
+Subdega	8741080	1
+Balishankara	8741064	1
+Humboldt County	5565500	1
+Anini	686322	1
+United Arab Emirates	290557	1
+Wilkinson	4451213	1
+Hancock	5156770	1
+Harrison	4429197	1
+S. infantis	6448134	1
+_S. anatum	11930915	1
+de Janeiro	3451190	1
+imidacloprid	505431	1
+Mt Druitt	2156671	1
+Rooty Hill	2151157	1
+outbreak-associated	12077026	1
+exceptionally	4154707	1
+HPS-endemic	233	1
+Orhon	2055113	1
+Baku	587084	1
+incarcerated	8108814	1
+self-isolation	3426150	1
+eastern Australia	2058645	1
+encroachment	1279233	1
+Donetsk	709716	1
+Allahabad	1278995	1
+2007-2008	11962979	1
+London Heathrow	6466507	1
+Grand Canyon National Parks	5296401	1
+Paihia	2185081	1
+Sareyn	9514745	1
+Ardebil	143083	1
+Margaret Hospital	6289236	1
+Lashio	11154179	1
+Butaw	2278113	1
+"Arua
+
+"	6448824	1
+Kitkit	7909577	1
+Central Veterinary Laboratory	12022984	1
+Biombo	2374820	1
+NT	2064513	1
+North Long Beach	5377681	1
+Tolend Road	9723949	1
+Tiverton	4934536	1
+Little Compton	4934536	1
+Central West	3462116	1
+genus _Dickeya	2937692	1
+chamois	6542489	1
+Karo	360630	1
+Wellington Hospital	6289137	1
+IRRI	11641986	1
+CHP	3531011	1
+Rostov Oblast	501165	1
+triple-reassortant	11939839	1
+serogroup	1170518	1
+Narrow Neck	6622080	1
+methylprednisolone	6997081	1
+FH Moore Regional Hospital	8487568	1
+Penfold Park	8159961	1
+Tyrone	2635259	1
+Courtland	4888810	1
+Alpine	7839525	1
+Afar Regional State	444179	1
+Mobile	4076607	1
+Estell Manor	4501708	1
+DBA	106909	1
+south China	4979143	1
+Sudan strains	7932881	1
+Santiago de Cuba	3536725	1
+bunches	5182345	1
+Imperial College	5359100	1
+Gilgit-Baltistan	1168878	1
+community	10055818	1
+traditionalist	7250455	1
+Nouakchott Ouest	11496391	1
+veins	9464289	1
+White Nose	3209862	1
+China -	1814991	1
+muzzle	6222357	1
+Timis	665091	1
+conidia	2373941	1
+Crete	6697802	1
+Watsonville	5407529	1
+Tenom	1733885	1
+eastern Netherlands	2744706	1
+East Netherlands	8781368	1
+surmise	2794853	1
+Tampere	830704	1
+Boulder	5574999	1
+Plymouth	4947607	1
+Norwood	11494926	1
+Gunnison	5424092	1
+Gimje	1842211	1
+"Limpopo
+
+"	1085597	1
+antisera	1069335	1
+NSABB	8464664	1
+Cork University Hospital	5144474	1
+Mallow General Hospital	7119511	1
+Fluvir	6951090	1
+Albany County	5816904	1
+field-collected	2074099	1
+Rio Bravo	3520271	1
+Eastern Mediterranean	6947194	1
+Kitoba sub-counties	2860540	1
+Forth	2166291	1
+Bhubaneshwar	1275817	1
+Canyon County	5587975	1
+coxiellosis	9043827	1
+ERV	2795912	1
+NY	5128638	1
+fixture	3666565	1
+hospitalisations	7717457	1
+Da Nang	1905468	1
+high-yield	8781526	1
+ciguatoxins	4017743	1
+Central Anatolia	10922504	1
+Carreno	6359921	1
+Costa	6616391	1
+Vargas	3830309	1
+rat	118743	1
+felines	6615760	1
+Pratapolis	6321697	1
+Afyon	325302	1
+Konya	306569	1
+Banan	1909729	1
+PrP-Sc	11548223	1
+nictitating membrane	6840767	1
+Sindhanur taluks	8224513	1
+epidemiological	11495951	1
+Syracuse	2523082	1
+gonorrhea	1000964	1
+"Kitgum
+
+"	230893	1
+<http://www.irinnews.org/Report.aspx?ReportId=78844	11810413	1
+Laramie	5830051	1
+Albany	783754	1
+US Marines	2511472	1
+Gutu	890589	1
+psyllid	6103944	1
+Actopan	8582023	1
+ISC	2638384	1
+Barnstable Village	4929771	1
+Centerville	5350734	1
+Hyannis	4940190	1
+biofilm	3558873	1
+Jos Plateau	2335949	1
+Keizer	5734711	1
+Staats Lake	4035292	1
+sepsis	7288882	1
+Yala Province	96965	1
+"Democratic Republic of Congo
+
+"	203312	1
+Edinburgh University	6697584	1
+Bierzo	3123641	1
+Maputo Province	1040649	1
+Riverbend Park	5268982	1
+Great Falls	5102466	1
+Israel Nature	294640	1
+Marion	4260977	1
+Floyd Counties	4195536	1
+: Moldova	617790	1
+mortalities	8762441	1
+1000-gram	6956561	1
+Vadu Oii	663999	1
+cloven-hoofed	5924191	1
+Napa Valley	5376101	1
+Delaware Poultry	2568938	1
+Yangtze	1815696	1
+Debbie Sokoloff	332206	1
+flux	5774875	1
+wane	6437407	1
+Mai	927246	1
+Lake Sebu	11778350	1
+T'boli	1682561	1
+Jackson	4431410	1
+Franklin	4509177	1
+Liberty	4706143	1
+Gadsden	4156394	1
+Wakulla	4177321	1
+Taylor	4735729	1
+Kuwait City	285787	1
+communicable	2968468	1
+Shiraz	449583	1
+North India	6355196	1
+rectum	2748294	1
+adrenal gland	3472245	1
+thymus	2785498	1
+regions	2453347	1
+Wat Botum	7379080	1
+Djarengol-Kodek	6732196	1
+trichinellosis	2597783	1
+amplify	6450240	1
+Correctional	7203413	1
+Detention	2168984	1
+presymptomatic	1700338	1
+Chengguan Middle	7296726	1
+Dallas County	4684904	1
+facemask	2558545	1
+Ditan Hospital	11829707	1
+"Warrap
+
+"	408670	1
+Jinja	233114	1
+Kotido	230617	1
+scratch	8664938	1
+Expanded Programme	5482783	1
+Northeast China	8416643	1
+Laurel	4297480	1
+Pimlico	965172	1
+Nigeria confirms	3782722	1
+HEV genotypes	8071950	1
+GLRaV-5	7053040	1
+-9	7601828	1
+U.S. Department	10377020	1
+Lake Malawi	924329	1
+Lugo	3117813	1
+La	4331987	1
+Mormon Island State Recreation Area	4258551	1
+Grand Island Interstate 80	4590900	1
+I-80 interchange	11749857	1
+EV71	3348704	1
+vanquish	6674948	1
+miscarriage	6362361	1
+Sindhuli	1282776	1
+Lower North	6061401	1
+Mid North	7839680	1
+frosts	5205897	1
+Harare City	6322905	1
+Sentinnel Surveillance	2646187	1
+Hillside	11495124	1
+Hastings-on-Hudson	5120197	1
+Novi Sad	3194360	1
+Vojvodina Province	784272	1
+Gandhinagar	1271716	1
+K. pneumoniae_	5671877	1
+_E. cloacae	3519931	1
+Shropshire	11609013	1
+Swansea epidemic	11138109	1
+Crossroads	11494903	1
+Ile de France	3012874	1
+"Ufa
+
+"	479561	1
+Espírito Santo	3463930	1
+São	2658563	1
+Otley	2640857	1
+Shabab	395075	1
+1st Death	4145510	1
+Russian Federation	2017370	1
+mitigation behaviors	7147498	1
+Birsinghpara	10463963	1
+East Timor	1966436	1
+China Southern	8282573	1
+Guangzhou Cargo Station	6322184	1
+"Aklan
+
+"	1731758	1
+2460	7596894	1
+Butera	6537787	1
+Martinique	6690603	1
+Wa Keng	7397987	1
+Fredericton	5957776	1
+Pecos River	5483699	1
+EWARN	5950623	1
+Sandia REDESS	6551609	1
+Rose Valley	4560819	1
+France 2005-2010	11973037	1
+self-impose	161340	1
+replicate	2277024	1
+ill-effects	6142002	1
+untimely	3716529	1
+San Juan de Dios Hospital	9166077	1
+imaging	9885304	1
+Colon	3613358	1
+Olanchito	3604253	1
+Province of	2203798	1
+Province of Quebec	6104830	1
+the Ayub Teaching Hospital	11999979	1
+ARDS	2657122	1
+Apulia Region	3169778	1
+Asian	98561	1
+rostochiensis	2844588	1
+St. John River	5987433	1
+Arapuey	3798818	1
+nonsterile	2624905	1
+Zhangqiu	1785093	1
+crocodiles	8352160	1
+conjunctiva	4334436	1
+pharynx	6103694	1
+exudate	8801620	1
+East Azarbaejan Province	142549	1
+West Nile virus	7193366	1
+cultivate _	3703298	1
+North Eastern Province	400745	1
+Nimba	2274688	1
+polymers	3024223	1
+HPAI	6980162	1
+Incidence	3851980	1
+Yucatan State	3514211	1
+Montreal	6077246	1
+West Coast	2058645	1
+Ramenskoye	502965	1
+Nuevo Leon	3522542	1
+Chihuahua	4014336	1
+Jalisco	4004156	1
+Michoacan	3995955	1
+evenings	1559490	1
+Ala.,	1526384	1
+E.coli	6453820	1
+PCN	6243776	1
+toxin	3981159	1
+Parliament	6930645	1
+Tianeti	611668	1
+Countries	6435380	1
+Bayad	10928895	1
+Idar talukas	5864499	1
+Anuradhapura	1251081	1
+ProMED-mail 20010501.0847	6487004	1
+Douglas County	5067114	1
+vets	663014	1
+DC	4138106	1
+North West Frontier Province	1168873	1
+BA.2	7834205	1
+Surinam	3382998	1
+distrust	2937197	1
+telcos	3064316	1
+"Annaba
+
+"	2506994	1
+disinsectisation	7192263	1
+MEDLINE	2771335	1
+Vangakete	204398	1
+Katako Kombe	213881	1
+case-control	6194544	1
+TCC	5495360	1
+RF	281715	1
+High Biosecurity	6620988	1
+Pasteur	6598410	1
+coinfection	7192263	1
+LBSE	3320108	1
+Bandra	3253513	1
+Khar	6556314	1
+Poultry	2985780	1
+steroids	2622206	1
+Hokkaido	2130037	1
+Kayna	2891991	1
+Bwanasura	217500	1
+TiHo	1784526	1
+FLI	3417363	1
+8,	128231	1
+2004/2005	11962958	1
+Kruger National Park	986833	1
+Turkana County	10858547	1
+Northern Belize	11989194	1
+Guetersloh	6557613	1
+Taipei City	1668338	1
+disease-associated	9215393	1
+PrPSc	3217289	1
+Sussex County	5105168	1
+raki	6989275	1
+Aswan Governorate	359787	1
+Moscow Center	5351945	1
+Northwest beachcombers	2641235	1
+Hells Gate National Park	8051313	1
+l995	7439354	1
+Veterinarian	3802738	1
+Hospital Surveillance	4805371	1
+2004-2005	11962958	1
+Grand Cape Mount County	2276627	1
+Andes	3911185	1
+closeup	8504587	1
+scrubs	1228215	1
+Rio Grande Valley	9252063	1
+healer	95445	1
+Easter Island	4030726	1
+immunocompromised	11887500	1
+Thimphu	1337293	1
+Tsimasham	1252610	1
+Talabkatta	10880175	1
+Vitali	1679776	1
+Kwara	2332785	1
+noroviruses	3280148	1
+admissions	2100346	1
+Santa Barbara County	5392967	1
+necropsy	18808	1
+Tien Giang	1564676	1
+TBV	2080879	1
+United States [	6252001	1
+Las Pinas	1707174	1
+Muntinlupa	1699077	1
+Caloocan	1720148	1
+southern Georgia	4196976	1
+TBEV	9881395	1
+Bagua	11899520	1
+Sound Shore	4369921	1
+Larkana	1172128	1
+Battar	2446605	1
+Saxony	2842566	1
+fish-eating	4155459	1
+alien	1679309	1
+benthic	2635391	1
+paramyxovirus	11421236	1
+Roedermark	3272938	1
+Macy	5072528	1
+Krasnoyarsk	1502026	1
+Lake Winnebago	4394405	1
+sub-clinically	11799950	1
+EHR	2656708	1
+coldwater pathogen	1233470	1
+Cooks River	5859822	1
+Saudi	102358	1
+vasculitis	5909050	1
+Rio Negro	3838830	1
+Chibuwe	920167	1
+Dakate	2393738	1
+PAHO	1696416	1
+Jeroen Bosch Hospital	6937351	1
+House	5552261	1
+Mar	352603	1
+Naval Hospital	9802258	1
+southwestern Germany	2810265	1
+Ngamiland	933230	1
+Wasio	290501	1
+Ebola hemorrhagic	3864016	1
+North Karelia	830686	1
+gamecocks	4579475	1
+outputs	936709	1
+cognitive	2778455	1
+earth	6295630	1
+Cedar River	5918906	1
+Lake Washington Ship Canal	5800358	1
+Lake Washington sockeye	8047007	1
+Nawada	1261632	1
+Central City	5393180	1
+Hastings	6433835	1
+Kailash	1280882	1
+Pacific Region	11125987	1
+Awajun	8349777	1
+Wampis	11784891	1
+North Coast	2155005	1
+P.	2356454	1
+Sudbury	7294848	1
+equestrians	7302540	1
+sealife	10164228	1
+Barguzinsky	2027109	1
+Thies	2244800	1
+Kolda	2249781	1
+East Anglia	2650511	1
+CyCV-VN	8128764	1
+fecal specimens	7906511	1
+Vantaa	830153	1
+New Orleans	4335045	1
+Baguio	1728929	1
+dachas	7579346	1
+Lokolia	11205743	1
+alfalfa sprouts	2498752	1
+Grand Isle	5236542	1
+Jefferson	4296212	1
+diclofenac	2876462	1
+Silence	3079359	1
+Bombay	1275339	1
+SEOUL	1835847	1
+Gorge	6444490	1
+Treviso	3165200	1
+Temple University Hospital	5215349	1
+Phoenix	5308655	1
+South District	1255681	1
+Shih	6300632	1
+Nizhnii Novgorod	520555	1
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance	3038353	1
+United States -	6252001	1
+Ibaraki Prefecture	2112669	1
+3655	7590981	1
+Arequipa	3947319	1
+Nigdi	303827	1
+Raccoon	5195499	1
+Silverhill	4086363	1
+Balearic	6424360	1
+flowering	2175279	1
+Sonoma County	5397100	1
+dairies	2846942	1
+DHL	80384	1
+Sanglah Hospital	6289279	1
+rotavirus	8601160	1
+sneezes	6155938	1
+mainland China	1049211	1
+whiteflies	4373405	1
+Davao	7521309	1
+Atlantic Canada	1070830	1
+Southwest Florida	7190516	1
+Sanlu	11699771	1
+Hebei Province	1808773	1
+Heilongjiang	2036965	1
+epididymis	2241891	1
+Navarra	3115609	1
+Salamanca	3111107	1
+Zamora	3104341	1
+Malaga	2514254	1
+Cordoba	3860255	1
+Libreville	2399697	1
+Nakohn Panom	1608530	1
+Limon	3623064	1
+Hangzhou	1808926	1
+Southern America	6255150	1
+Q-fever	5215235	1
+oysters	9441271	1
+Western North Carolina	4498367	1
+Lake Qinghai	6800674	1
+false-negative	6404001	1
+2002/2003	11962957	1
+Stoney	6157360	1
+Asiatic H5N1	5617983	1
+Rhineland-Palatinate	2847618	1
+Sandfly Bay	8192894	1
+Gazipur	1337175	1
+swabs	7301742	1
+Monkey	3578099	1
+E. coli	6453820	1
+umbilicated pustules	7856037	1
+co-infection	7192263	1
+Dennington	7293949	1
+Peterborough	3333180	1
+C.burnetii	4677526	1
+zero-injection	3203917	1
+eastern Chad	2840888	1
+eastern DRC	7255235	1
+SEAR	11674392	1
+Southern Federal District	8030544	1
+Mayskiy rayon	1521012	1
+Kabardino-Balkaria	554667	1
+Novo-Ivanovskoe	518805	1
+"Sudan
+
+"	366755	1
+Jonglei State	408662	1
+Banteay Meanchey	1899273	1
+Yinchuan	1786657	1
+Luanda Hospital	11592377	1
+Neves	3451353	1
+eastern Taiwan	1220409	1
+anaemia	3947910	1
+Omusati Region	3371206	1
+Karachayevo-Cherkesovo	552927	1
+Pretoria notifies	12040675	1
+diagnose	3685220	1
+Orenburg Oblast	515001	1
+TBIA	1025845	1
+Cuvette Ouest	2593118	1
+Paramus	5102387	1
+hybridization	98410	1
+Klangenan subdistrict	2239859	1
+Qdoba	8284625	1
+Caribbean Islands	9863210	1
+Kunduz Province	1135690	1
+Butte	5332191	1
+Red Lodge	5673390	1
+Roundup	5674878	1
+Kaesong	1876373	1
+subtype H5N8	10069361	1
+Tigray	444187	1
+ovine serum	2198411	1
+Benguela	3351660	1
+U.S. Midwest	6252001	1
+http://datcp.wi.gov/animals/animal_diseases	11983754	1
+filoviruses	3280148	1
+Nijegorodskiy	1497583	1
+Ryazanskiy	508751	1
+paramyxovirus particles	181664	1
+Tich	3064226	1
+western India	940336	1
+M1	625128	1
+NS1	2155400	1
+ribavirin	2200560	1
+"Nigeria
+
+"	2328926	1
+enset	11600668	1
+Rattus	89167	1
+Inver Grove Heights	5031412	1
+Milton Park Farm	6433280	1
+lettuce	3174814	1
+U. S. Geological Survey	4766946	1
+City of	4723112	1
+North Rhine-Westphalia	2861876	1
+Macenta	2417987	1
+Guinee Forestiere	2420475	1
+marshlands	978648	1
+Caribbean/Gulf of	1271507	1
+wildfowl	939925	1
+Plant	2979616	1
+"Colon
+
+"	3613358	1
+Republic of Panama	3703430	1
+Fiyawena	8815922	1
+12:35	8692892	1
+Bogor	1648473	1
+Lake Kinneret	10851547	1
+Kahanu Gardens	6913686	1
+Blue Pool	8212120	1
+Crosse	2799957	1
+Jamestown Canyon encephalitis	5302236	1
+Fort Wayne	4920423	1
+Gelders Valley	2755622	1
+Bogota	3688685	1
+Medellin	3674954	1
+Alsace	3038033	1
+Port Elizabeth	964420	1
+custom	5464161	1
+_B.	2178174	1
+onwards	4924499	1
+of	741240	1
+Manuka	2158831	1
+Kampung Paya	7564967	1
+820	8048696	1
+Boomathanahalli	10849278	1
+mosquitoes	3843604	1
+Little Creek	4143408	1
+East Dover	5945351	1
+canopy	11843202	1
+Kenneth Tyler	2929614	1
+Biloxi	4418478	1
+Zaire ebolavirus	8814879	1
+Sudan ebolavirus	11984699	1
+Khabarovsk Area	8807093	1
+Nanayskiy Regions	7670857	1
+New York Downstate Medical Center	5139550	1
+New York State Institute for	6326021	1
+Developmental	4889792	1
+American	5711212	1
+squirrel	5608691	1
+Palm Meadows	5380816	1
+NewYork-Presbyterian Hospital	5128618	1
+Communist Cuba	8010438	1
+Hudson Valley	3715492	1
+nodes	2789996	1
+Greater Cairo	12070073	1
+Mansheyat Nasser	2813722	1
+Batn Al-Baqara	358956	1
+Al-Qatameya	2441217	1
+Beach County	4215089	1
+Ruegen	2843325	1
+Municipal	8633821	1
+Talagante	3870306	1
+Pleasant Valley	11495347	1
+Nong-Kane subdistrict	1665220	1
+Unit	408650	1
+2004-05	11973004	1
+District Hospital	4901628	1
+substandard	2197635	1
+Rahway	5103055	1
+New Jersey of	9947791	1
+western Carroll County	4350470	1
+Ayoka	2177454	1
+Democratic People	337996	1
+overenthusiastic	6535933	1
+Central Texas	4680226	1
+culture	6449357	1
+Randfontein	8347593	1
+Una-Sana Canton	3343704	1
+Tuzla Canton	3343716	1
+ante-mortem	3116062	1
+fur	6432228	1
+larynx	3175105	1
+squirrels	9951489	1
+Baxter	4100581	1
+Errington	5949329	1
+"Annapolis Valley
+
+"	5885423	1
+Bujumbura	7303939	1
+Hospitals	11239253	1
+Canada:	6251999	1
+Pramadom	8189047	1
+gelding	2778377	1
+Norris	5203506	1
+Hackne	3333148	1
+Pabbo	8629919	1
+Bula	1723089	1
+Marzipura	11466000	1
+Amin Colony	1449530	1
+Chiragh Park	7043519	1
+sewerages	7321314	1
+Arabian peninsula	6957697	1
+St. Catharines	6155721	1
+Southern Indiana	7199371	1
+Great Ruaha River	159772	1
+Tazewell County	4788970	1
+Nadi Airport	9021206	1
+Tarawa	7521611	1
+Nauru	2110425	1
+"http://www.wormsandgermsblog.com 
+
+"	12032628	1
+Ragunan Zoo	3513997	1
+molecular biology	4867669	1
+1983-1984	11974047	1
+La Tallada	3118799	1
+FEI Database	9388399	1
+EHV-1	144448	1
+Vejer de la Frontera	6356954	1
+Japan -	1861060	1
+Yamanashi Prefecture	1848649	1
+Cape residents	10247157	1
+Mandera	187895	1
+Deer	6615258	1
+Palma Sola Bay	4167615	1
+Cannakale	749780	1
+western Turkey	6558049	1
+serotypes O	3171159	1
+Pyin Oo Lwin	1309937	1
+South East Asian	11812363	1
+Aomori	2130656	1
+Saint Michel	6425215	1
+Greve	2621218	1
+"Wakiso
+
+"	225964	1
+"Russia
+
+"	2017370	1
+BT	6955699	1
+Capitol	12019337	1
+Muzzafarnagar	1262332	1
+Amarah	93540	1
+remedial	3446198	1
+2008-09	11962979	1
+EPEC	2798573	1
+Wantang Village	11701157	1
+West Sumatra	1626197	1
+Republic of North Macedonia	718075	1
+27-nation	12002942	1
+Southern Appalachian Mountain	11184824	1
+Streams	9477036	1
+Lome	2365267	1
+gorilla	9649085	1
+Congo between	947196	1
+Waikato	2180293	1
+Nelson Marlborough	7160197	1
+La Jolla	5363943	1
+Waiohiki	6246555	1
+Much	2128672	1
+Population	2356389	1
+Novoselitsky	518210	1
+"Wuhan
+
+"	1791247	1
+Beheira	361370	1
+Mubaira	285533	1
+particles	2684394	1
+Faisalabad	1179400	1
+Muzaffargarh	1169605	1
+conserved	3178180	1
+Milan	3173434	1
+Vo	6542674	1
+Negri Sembilan	1733043	1
+San Lazaro Hospital	11608813	1
+Alameda County	5322745	1
+Southeastern Asia	7729896	1
+Kizilirmak	742987	1
+Yesil rmak	737565	1
+Coruh	751816	1
+pedicure	8970429	1
+Montserrado	2274890	1
+Maradi	2441289	1
+"southern Sudan
+
+"	7909807	1
+California of	6322708	1
+Rangoon	1298822	1
+Irrawaddy	1321850	1
+Nykoebing	2687700	1
+RSD	3571592	1
+Nyando	151086	1
+Palo Alto	4870630	1
+South Australia [	2061327	1
+Allegheny County	5178040	1
+Institut Pasteur	11546630	1
+Florence	3176958	1
+Fayette County	5189414	1
+Central Equatoria	408655	1
+UK Causes	8170526	1
+Bantam Ultralight Aircraft	239880	1
+mobility	10113422	1
+Shabwa	70935	1
+South Bass Island	5172431	1
+Baramati	1277091	1
+Jose Rios Middle School	4043479	1
+"Cambodia
+
+"	1831722	1
+Sucre	3667725	1
+Bath	2656173	1
+"New Site
+
+"	4830099	1
+BMC	5771960	1
+Railway Estate	8348196	1
+Republic of Abkhazia	6643410	1
+SLE	5750162	1
+molluscs	3911283	1
+"Spain
+
+"	2510769	1
+Sokoto State	2322907	1
+Gonzales County	4693951	1
+puppies	7873117	1
+San Miguelito	3701329	1
+Herpen	2754339	1
+Panaji	1260607	1
+lumen hlyAET	174982	1
+Chiang Rai	1153668	1
+Mae Sot Hospital	8521408	1
+Southern Maryland	11281028	1
+Swan Point	6626350	1
+Central Sulawesi	1626231	1
+built-up	193647	1
+boiler	6554684	1
+North Queensland	3831263	1
+Rawalpindi General Hospital	9670360	1
+Dindigul	8223994	1
+Hong Kong SAR	1819730	1
+Antioquia -	3689815	1
+LONDON	2643743	1
+Mingxuan Hospital	6288702	1
+Crow	4557428	1
+Kuntika	8002143	1
+Kokoda	2093691	1
+"southern Ethiopia
+
+"	1282293	1
+"Papua
+
+"	1643012	1
+Central African Republic -	239880	1
+Tajikstan	1220409	1
+Shahwalikot	7053179	1
+date-palm	3675056	1
+exposures	3957107	1
+sediments	2369785	1
+Cape Cod Canal	4932242	1
+Boston Harbor	5787823	1
+unfamiliar	11090240	1
+reagents	10287170	1
+"Netherlands"""	2750405	1
+Warsaw	6695624	1
+moderation	12047284	1
+combustion	8888540	1
+Egyptian-Sudanese	366755	1
+proactive	7587678	1
+"Sindh
+
+"	1164807	1
+tiers	6535936	1
+SCMV	3890203	1
+Agronomy Faculty	6941414	1
+2003-6	11962957	1
+Port Sudan	377039	1
+ROI	1607001	1
+trichinelloscopy	2597783	1
+Caldas Novas	6323932	1
+Crawford	5185801	1
+Farlington Fish	8806092	1
+Royal Free Hospital	6289138	1
+African Republic	953987	1
+aflatoxins	9250943	1
+hepatic	2162819	1
+tamarins	11586932	1
+Bada	2472774	1
+Bhitarkanika National Park	8161306	1
+Hunan Province	1806691	1
+Jovita	3836170	1
+Levalle	6417230	1
+Upper Newport Bay	5405074	1
+Sanctuary	4726617	1
+San Diego Creek	5391840	1
+Santa Ana River	1688390	1
+Prado Dam	5384768	1
+Zavdiel	293112	1
+southeast Asia	6942000	1
+Shiawassee County	5009706	1
+white-tailed	5686104	1
+Ebola River	7387150	1
+east Uttar Pradesh	2759794	1
+Atoll	3923560	1
+blight	2174041	1
+Ospedaletto Lodigiano	6543352	1
+SARS-CoV	670686	1
+El	2518559	1
+Congo DR	203312	1
+Anchorage Alaska	6484260	1
+alleyway	4956666	1
+dive	9618288	1
+snorkel	2830152	1
+Georgia outbreak	10116538	1
+Algiers	2507475	1
+signalling	5512251	1
+maternal	11518331	1
+Valley Milk	5217016	1
+Midway	5526337	1
+Wasatch County	5784339	1
+mushrooms	5804377	1
+Chosun	3861258	1
+WPV	3403642	1
+weeds	4135606	1
+Cloppenburg	3221064	1
+duplicate	2277024	1
+EEE	3186567	1
+Sulianti Saroso Hospital	6431230	1
+hoja de perejil	632851	1
+nonculturable mollicutes	4844713	1
+Windsor Regional Hospital	5523162	1
+New York City immune-evasive	6330358	1
+minizoo	3520986	1
+Faizabad	1271977	1
+weaponized smallpox	714680	1
+Lizard Island	6354938	1
+Cooktown	2170658	1
+Kiwoi	9077395	1
+Doli	679157	1
+hantavirus pulmonary	1070940	1
+Wolsztynski	7530958	1
+SBV	8298833	1
+National Mall	7287690	1
+highbush	2069812	1
+cultivars	3918740	1
+propagation	4872083	1
+St. Paul	5045360	1
+Kampong Chhnang	1831166	1
+Svay Rieng	1821992	1
+Takeo	1821939	1
+Kandal	1831095	1
+Hadera	294946	1
+Street	7292391	1
+molluscum	6534629	1
+Yersinia pestis	11296089	1
+amberjack	6613434	1
+Pennington	5767840	1
+Fall River County	5764690	1
+Custer County	5590383	1
+Pennington County	5767840	1
+DeVos Children	7254721	1
+Katherine	7839404	1
+mottle	933267	1
+African rodent	2924592	1
+Boundary	5586641	1
+South Vancouver Island	2182500	1
+Fengtai District	1811259	1
+Northeast Brazil	11500080	1
+Kitui	191037	1
+Makueni	7667645	1
+International Airport	10228769	1
+multivitamins	8314027	1
+Bureau of Land	6456919	1
+Belem	6319377	1
+mid-outbreak	9833306	1
+Amazon Basin	3407731	1
+"South Africa
+
+"	953987	1
+Nonthaburi	1608132	1
+Greater Toronto Area	9972749	1
+Tsimlyansky	480873	1
+North Rhine	4302727	1
+Archipelago	10288864	1
+foothills	1004009	1
+Lakhimpur	1265243	1
+Nanjing	1799962	1
+Pinhao	6324247	1
+Overbrook Farm	5189345	1
+Northern California	5377888	1
+Patna	1260091	1
+_Chenopodium	2985142	1
+Raipur	1258984	1
+Lake Meredith	5430781	1
+Hutchinson County	5523630	1
+Kabwe	916095	1
+Hendra	8827125	1
+healers	5219720	1
+Southern Nevada	5512801	1
+Bologna	3181927	1
+Complex	4461570	1
+Blacktown	7839694	1
+CWD	2650066	1
+Keelung	6724654	1
+Seedy Salim District	2077456	1
+Shanghai Wildlife Park	7277803	1
+leishmaniasis	4035665	1
+immunise	7286590	1
+Sanliurfa	298332	1
+Adana	325361	1
+Kasai Attributed	10719744	1
+Jutland	9425460	1
+Savoia	2975517	1
+Foshan	1811102	1
+VR Puram mandal	1270648	1
+Toay	3834309	1
+Cicero Swamp	5112715	1
+spreading	7377476	1
+Central Florida	7192505	1
+Cancer	11868264	1
+Greater Manchester	2648108	1
+Worcester	2633560	1
+Mesa County	5430806	1
+Otero County	5482932	1
+Ha Noi	1581129	1
+Little Falls	5034970	1
+hippos	12011062	1
+Rumphi	924100	1
+1139	7613985	1
+RAAS	3830308	1
+en masse	3037538	1
+Eastern Quebec	6325494	1
+PCBs	8073299	1
+DDTs	6557883	1
+Massachusetts Bay	4832278	1
+Alcala de Henares	6359231	1
+"Omaheke
+
+"	3371205	1
+Omaheke Region	3371205	1
+USSR	8354411	1
+Residence	11592972	1
+GOV.UK	323367	1
+Ashgabat	162182	1
+Erthal	6554898	1
+sanitizers	2525014	1
+EBOV	3066354	1
+Humana	2147932	1
+characterised	4025647	1
+inhibition	8827015	1
+B.C.	5909050	1
+ZIKV pathogenesis	721087	1
+Cork	2965139	1
+"Hackney
+
+"	3333148	1
+"Israel
+
+"	294640	1
+San Salvador	3583360	1
+Takach	7371220	1
+Petersburg	498817	1
+Negev	294886	1
+Shephelah	294850	1
+Austria unintentionally	6299495	1
+accessibility	3370905	1
+filters	2658117	1
+Mwenezi	884756	1
+_Clostridium	3345300	1
+Pb	3393098	1
+Immigrants	994902	1
+ônica Hospital	3733399	1
+Oklahoma City	4544349	1
+Hadang Farm	6698924	1
+biologic specimens	11994162	1
+Macarthur Agricultural Institute	9257459	1
+spore photochemistry	617754	1
+Rostov Region	7670906	1
+Geography	8348357	1
+skids	2622446	1
+AFCD	6984063	1
+Guanico Arriba	3708927	1
+Tonosi	3700538	1
+French.	11548646	1
+Guadalcanal	2108831	1
+Briery Creek Lake	4626313	1
+rRT-PCR	3671519	1
+Highest Level	4067160	1
+Longtown	2643617	1
+ZIKV envelope	6427674	1
+C57BL/	4328483	1
+Pingtung	1670479	1
+Tainan	1668352	1
+Petting	6556407	1
+Shell	3687084	1
+Korea Center	7126750	1
+fleas	3458397	1
+Konta	16020	1
+Glasgow Royal Infirmary	10108533	1
+Dorset	2651079	1
+Republic of Macedonia	718075	1
+Skaneateles Lake	5138291	1
+<http://www.dec.ny.gov	3106036	1
+screwworm	892829	1
+Southern K-P	933043	1
+Qena	350546	1
+Kalmykia	553972	1
+phlofenicol	6361922	1
+ampicillin	8352377	1
+gentamycin	6400510	1
+ciprofloxacin	7614758	1
+trimetroprim	3730100	1
+SARS-CoV-211	7178732	1
+Enschede	2756070	1
+Beni health	11904946	1
+out-reach	11204328	1
+Measles Deaths	5371982	1
+SMC	8298934	1
+Prince Albert National Park	6113338	1
+SARS-CoV-2 RNA	6542231	1
+Monaca	5201658	1
+1977-78	11974044	1
+"Dragalovci
+
+"	3201321	1
+Dickensian squalor	4777750	1
+dysentery	211098	1
+Pasay City	1694608	1
+Areas	3129695	1
+WV	4826850	1
+Allegany County	5106997	1
+Estrie	5949621	1
+Monteregie	6076966	1
+National Hospital	8072896	1
+Zacapa	3587587	1
+Eid al-Adha	3416507	1
+self-injecting	6555950	1
+Doctors	8642552	1
+infancy	3556718	1
+Erie County	5116642	1
+Baikal teal	6239096	1
+"Sierra Leone
+
+"	2403846	1
+Atlantic salmon	6360513	1
+Fort Collins	5577147	1
+Cheyenne	5821086	1
+USUV	7668476	1
+Klapmuts	3365929	1
+abort	2959816	1
+foetuses	6110730	1
+Volgograd Region	3074967	1
+Quezon City	1692193	1
+Bauchi	2347468	1
+mobilisation	12002942	1
+Baltimore	4347790	1
+Plunket	4569067	1
+Flaxmere	6217063	1
+Guangxi	1809867	1
+Ballencrieff	9257712	1
+Bathgate	2656169	1
+APP	8299073	1
+Ohio River	6092828	1
+subnational	98410	1
+Neurological Centre	6289025	1
+Lieu Sanctuary	11218514	1
+Nha Mat	9292329	1
+Ministries of Health	11072203	1
+Memphis	4641239	1
+seaboard	4490677	1
+temperate North America	6337912	1
+"Ghana
+
+"	2300660	1
+Northern Region	290112	1
+Weld County	5583239	1
+Yar Khan	11146534	1
+adjoining tehsils	1806097	1
+Lake Garda	3176317	1
+Taiwan CDC	5536630	1
+South Maui	179874	1
+Comoros archipelago	921930	1
+Wisbech	7299834	1
+Medical	8619238	1
+rabies-infected	11690512	1
+molecular	2136122	1
+infrequent intervals	3106450	1
+extremity	1004728	1
+Greater Bethel Church	4762030	1
+God	3052241	1
+Santa	1688422	1
+de Comayaguela	3613312	1
+Casa Grande	5288636	1
+Chhattisgarh	1444364	1
+March-April	2996006	1
+Angkor Hospital	8529330	1
+southern Burundi	11985208	1
+Laona	5259510	1
+Isabela	4565581	1
+Argentina -	3865483	1
+Marseille	2995468	1
+Greater Hyderabad	6861753	1
+bronchoalveolar lavage	11294963	1
+Reunion Islands	4031073	1
+Mutzchen	1898359	1
+Wermsdorf	6548792	1
+Rogers	4549638	1
+Muddy	5667700	1
+Muddy Creek	5130780	1
+Cape Coast Castle	2302357	1
+misfolded	718975	1
+Garut	6605609	1
+Tanah Karo	1625177	1
+Medan	1214520	1
+Sebastian County	4130449	1
+Tunis	2464461	1
+parasitemia	911153	1
+Gulpen	6544225	1
+African vector	3832923	1
+l998	11111038	1
+farmed cervids	4324179	1
+DeKalb County	4191014	1
+Shanghai Municipal Center	5070837	1
+Madison counties	5599930	1
+Al-Ghab Valley	222941	1
+Toyama Prefecture	1849872	1
+south-east Asia	6942000	1
+Sevilla	2510910	1
+northeastern	400745	1
+babesia	579843	1
+Cozumel	3530103	1
+Gulf Coastal Plain	3513962	1
+Mississippi Alluvial Plain	1251918	1
+Liskeard	2644409	1
+hypersalivation	12002942	1
+Island Clinic	5069303	1
+Tubmanburg	2273435	1
+Shore Acres	5370082	1
+Van Cortlandt Park	5142150	1
+Coconut Tree	11111125	1
+Vermilion Parish	4344530	1
+broilers	5909646	1
+East China	502683	1
+Cape Verde	3374766	1
+Cape Verdians	2092487	1
+Animal Feed	8055800	1
+Pamplona	3673046	1
+Sea	5809844	1
+microwaves	6332997	1
+443-450 loop	643705	1
+Kuala Lumpur	1733046	1
+dragon	5942451	1
+Republic of The Congo	2260494	1
+"China
+
+"	1814991	1
+Baltic sea	2633321	1
+South Finland	2182500	1
+Aland Islands	661882	1
+Vladivostok	2013348	1
+F.	6543153	1
+Para	3393129	1
+Mon	1308528	1
+PCRs	3662155	1
+Overland	4402178	1
+Dialysis	10233290	1
+the Congo	8866401	1
+Sofala	1026804	1
+eastern Asia Authors	7729896	1
+Carmen	6942859	1
+Lembang	1638063	1
+Viet	2610285	1
+eastern Seoul	9957384	1
+hush	1159000	1
+ARI	3899361	1
+Dong Thap	1582562	1
+Thot Not	1591956	1
+subgroup	1634309	1
+Institute of	5257516	1
+South Sinai	355182	1
+Goose-Khrustalniy	1000816	1
+Choroni	3645646	1
+Huh-7	730387	1
+MERS-CoV antibody	4971793	1
+inoculum	667107	1
+Ulsan	1833742	1
+"Kingston
+
+"	3489853	1
+pulperias	3671277	1
+Tenerife	2511173	1
+2009/2010	11101508	1
+abscess	2959791	1
+West Allis	5278420	1
+camelids	6196449	1
+Saratov Region	7670854	1
+NUDE	10673463	1
+Ouagadougou	2357048	1
+Kankakee	4898188	1
+Kankakee County	4898188	1
+Henderson County	4470576	1
+Orinoco	967481	1
+Tanganyika	205253	1
+Charleston	4574328	1
+contradiction	3178164	1
+HPV	5855598	1
+Darby	4557485	1
+East Fork	5293689	1
+Rarotonga	11695425	1
+11:30	6820049	1
+District for	11803705	1
+cardiology	5065197	1
+Isolation Unit	5174721	1
+oxytocin	3244651	1
+Ca	5332921	1
+Ile-de-France	3012874	1
+Beacons	2076986	1
+Brecon	2654817	1
+Banke	1283676	1
+Mubende	443358	1
+diarrheal	6722281	1
+Wadh	1162787	1
+Tackling	7522666	1
+Africa Programme	2924839	1
+MT	3457419	1
+above-said	7572485	1
+Red River Delta	11497250	1
+Dubrovnik	7577034	1
+Mississippi Valley	3715410	1
+Alstonville	2177999	1
+Taiwan abalone	1721930	1
+Jefferson County	4296212	1
+Soviet republics	630336	1
+Valdivia	3868707	1
+storks	9448295	1
+Ayutthaya	1607530	1
+Pathum Thani	1607982	1
+Terminal B	5105323	1
+Sukhbaatar	2029155	1
+South ast Asia	6942000	1
+East Atlantic	453733	1
+Area Kashuga	493582	1
+hydrophobia	5979072	1
+Blue Nile	408654	1
+February.Runoff	1004392	1
+"Utah
+
+"	5549030	1
+platelets	7597421	1
+3397	6284060	1
+Hundreds	4809489	1
+37°N	4491347	1
+Kebbi	2597363	1
+modes	3116608	1
+XDR isolates	3020810	1
+Puno	3931275	1
+Moquegua	3934607	1
+Equine Center	3675041	1
+<http://www.aasp.org/aasv/documents/PCVADBrochure.pdf	2866990	1
+western Montana	6509082	1
