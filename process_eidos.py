@@ -31,8 +31,9 @@ if __name__ == '__main__':
             all_timexes += timexes
 
     loc_cnt = Counter([(loc['text'], loc['geoID']) for loc in all_locs])
-    timex_cnt = Counter([(tx['text'], *[(i['start'], i['end'])
+    timex_cnt = Counter([(tx['text'], str([(i['start'], i['end'])
                                         for i in tx.get('intervals', [])])
+                          if tx.get('intervals') else '')
                          for tx in all_timexes])
 
     # Dump stats into a spreadsheet
@@ -47,7 +48,7 @@ if __name__ == '__main__':
     with open('output/promed_timex_stats.tsv', 'w') as fh:
         # Add a header
         rows = [['text', 'intervals', 'count']]
-        for key, value in sorted(loc_cnt.items(), key=lambda x: x[1], reverse=True):
+        for key, value in sorted(timex_cnt.items(), key=lambda x: x[1], reverse=True):
             rows.append([key[0], key[1], value])
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows(rows)
