@@ -1,0 +1,2022 @@
+curie:ID	name:string	:LABEL
+MESH:D008922	Mississippi	geoloc
+MESH:D059038	Black Sea	geoloc
+MESH:D058070	Asymptomatic Diseases	disease
+MESH:D002836	Hemophilia B	disease
+MESH:D057221	Influenza A Virus, H1N2 Subtype	pathogen
+MESH:D053532	Xanthomonas axonopodis	pathogen
+MESH:D003221	Confusion	disease
+MESH:D011657	Pulmonary Eosinophilia	disease
+MESH:D018018	Arterivirus	pathogen
+MESH:D003550	Cystic Fibrosis	disease
+MESH:D006402	Hematologic Diseases	disease
+MESH:D000073640	Betacoronavirus	pathogen
+MESH:D006469	Hemoptysis	disease
+MESH:D014069	Tonsillitis	disease
+MESH:D005767	Gastrointestinal Diseases	disease
+MESH:D012087	Reoviridae	pathogen
+MESH:D001447	Balantidiasis	disease
+MESH:D000086965	Viral Zoonoses	disease
+MESH:D000096745	Ross River Virus Infection	disease
+MESH:D010576	Pestivirus	pathogen
+MESH:D011654	Pulmonary Edema	disease
+MESH:D053127	Influenza A Virus, H9N2 Subtype	pathogen
+MESH:D051346	Mobility Limitation	disease
+MESH:D016142	Holoprosencephaly	disease
+MESH:D006930	Hyperalgesia	disease
+MESH:D005705	Gallbladder Diseases	disease
+MESH:D012410	Rubella Syndrome, Congenital	disease
+MESH:D015873	Northwest Territories	geoloc
+MESH:D003223	Congo	geoloc
+MESH:D005667	Furunculosis	disease
+MESH:D017495	Hyperpigmentation	disease
+MESH:D003604	Czechoslovakia	geoloc
+MESH:D007196	Indiana	geoloc
+MESH:D000081032	Pancreatitis, Acute Hemorrhagic	disease
+MESH:D017524	Slovenia	geoloc
+MESH:D000416	Alberta	geoloc
+MESH:D019432	Falkland Islands	geoloc
+MESH:D014645	Herpesvirus 3, Human	pathogen
+MESH:D002050	Burkina Faso	geoloc
+MESH:D015431	Weight Loss	disease
+MESH:D006396	Hematemesis	disease
+MESH:D008302	Mali	geoloc
+MESH:D008459	Measles virus	pathogen
+MESH:D060585	Fusariosis	disease
+MESH:D003234	Conjunctivitis, Bacterial	disease
+MESH:D014744	Vietnam	geoloc
+MESH:D013344	Subacute Sclerosing Panencephalitis	disease
+MESH:D014652	Vascular Diseases	disease
+MESH:D006800	Deltaretrovirus Infections	disease
+MESH:D016360	Clostridioides difficile	pathogen
+MESH:D012209	Rhabdoviridae	pathogen
+MESH:D007511	Ischemia	disease
+MESH:D017788	Carlavirus	pathogen
+MESH:D000351	Africa, Eastern	geoloc
+MESH:D012751	Sezary Syndrome	disease
+MESH:D051437	Renal Insufficiency	disease
+MESH:D012800	Siberia	geoloc
+MESH:D009349	Nematode Infections	disease
+MESH:D007557	Israel	geoloc
+MESH:D002677	Chile	geoloc
+MESH:D013375	Substance Withdrawal Syndrome	disease
+MESH:D002006	Brucellosis	disease
+MESH:D014245	Trichomonas Infections	disease
+MESH:D001110	Arctic Regions	geoloc
+MESH:D011793	Queensland	geoloc
+MESH:D012760	Shigella	pathogen
+MESH:D010523	Peripheral Nervous System Diseases	disease
+MESH:D009956	Psittacosis	disease
+MESH:D002644	Chickenpox	disease
+MESH:D004461	Eclampsia	disease
+MESH:D013971	Thyrotoxicosis	disease
+MESH:D008527	Medulloblastoma	disease
+MESH:D033601	Gordonia Bacterium	pathogen
+MESH:D012897	Slow Virus Diseases	disease
+MESH:D016055	Urinary Retention	disease
+MESH:D044224	Pseudomonas syringae	pathogen
+MESH:D007484	Iowa	geoloc
+MESH:D000142	Acidosis, Respiratory	disease
+MESH:D012913	Snoring	disease
+MESH:D004458	Echovirus 6, Human	pathogen
+MESH:D009176	Mycoplasma mycoides	pathogen
+MESH:D017590	Myelinolysis, Central Pontine	disease
+MESH:D011648	Pulmonary Adenomatosis, Ovine	disease
+MESH:D000361	Agammaglobulinemia	disease
+MESH:D034721	Mastocytosis, Systemic	disease
+MESH:D018352	Coronavirus Infections	disease
+MESH:D001352	Herpesvirus 1, Gallid	pathogen
+MESH:D012807	Sierra Leone	geoloc
+MESH:C536348	Vibrio vulnificus infection	disease
+MESH:D004646	Emphysema	disease
+MESH:D000789	Angina, Unstable	disease
+MESH:D007414	Intestinal Neoplasms	disease
+MESH:D001906	Botulism	disease
+MESH:D008582	Meningitis, Aseptic	disease
+MESH:D046931	Microcystis	pathogen
+MESH:D016919	Meningitis, Cryptococcal	disease
+MESH:D016769	Embolism and Thrombosis	disease
+MESH:D006115	Greece	geoloc
+MESH:D012383	Romania	geoloc
+MESH:D004886	Erysipelas	disease
+MESH:D002042	Bunyamwera virus	pathogen
+MESH:D019437	Saint Kitts and Nevis	geoloc
+MESH:D013548	Sweden	geoloc
+MESH:D010998	Pleurisy	disease
+MESH:D012008	Recurrence	disease
+MESH:D050197	Atherosclerosis	disease
+MESH:D017990	Densovirus	pathogen
+MESH:D007304	Insect Viruses	pathogen
+MESH:D017347	Brucella melitensis	pathogen
+MESH:D044167	Xylella	pathogen
+MESH:D005208	Fasciitis	disease
+MESH:D055820	New Orleans	geoloc
+MESH:D004751	Enteritis	disease
+MESH:D006232	Hand, Foot and Mouth Disease	disease
+MESH:D004860	Infectious Anemia Virus, Equine	pathogen
+MESH:D005586	Fowlpox	disease
+MESH:D018164	Hemorrhagic Disease Virus, Epizootic	pathogen
+MESH:D000258	Adenovirus Infections, Human	disease
+MESH:D058285	Tungiasis	disease
+MESH:D000073096	Curacao	geoloc
+MESH:D000087082	Pegivirus	pathogen
+MESH:D054323	Shiga-Toxigenic Escherichia coli	pathogen
+MESH:D008180	Lupus Erythematosus, Systemic	disease
+MESH:D018457	Placenta, Retained	disease
+MESH:D012793	Sialadenitis	disease
+MESH:D009163	Mycobacterium bovis	pathogen
+MESH:D015878	Mydriasis	disease
+MESH:D018109	Avulavirus	pathogen
+MESH:D015827	Onchocerciasis, Ocular	disease
+MESH:D009459	Neuroleptic Malignant Syndrome	disease
+MESH:D002385	Cataplexy	disease
+MESH:D011778	Q Fever	disease
+MESH:D009018	Morocco	geoloc
+MESH:D003453	Cryptococcosis	disease
+MESH:D014848	Vulvovaginitis	disease
+MESH:D018139	Simplexvirus	pathogen
+MESH:D006169	Guinea-Bissau	geoloc
+MESH:D020896	Hypovolemia	disease
+MESH:D017282	Tick-Borne Diseases	disease
+MESH:D005158	Facial Paralysis	disease
+MESH:D002601	Chancre	disease
+MESH:D004926	Escherichia coli	pathogen
+MESH:D002312	Cardiomyopathy, Hypertrophic	disease
+MESH:D000820	Animal Diseases	disease
+MESH:D013585	Synovitis	disease
+MESH:D010239	Paraguay	geoloc
+MESH:D009634	Noonan Syndrome	disease
+MESH:D010264	Paraplegia	disease
+MESH:D005183	Failure to Thrive	disease
+MESH:D003248	Constipation	disease
+MESH:D015866	Uveitis, Posterior	disease
+MESH:D011000	Pleurodynia, Epidemic	disease
+MESH:D014586	USSR	geoloc
+MESH:D064128	Nodding Syndrome	disease
+MESH:D004443	Echinococcosis	disease
+MESH:D060467	Disease Resistance	disease
+MESH:D009290	Narcolepsy	disease
+MESH:D065507	Vancomycin-Resistant Enterococci	pathogen
+MESH:D058447	Eye Pain	disease
+MESH:D014852	Wales	geoloc
+MESH:D003882	Dermatomyositis	disease
+MESH:D004381	Duodenal Ulcer	disease
+MESH:D010297	Paris	geoloc
+MESH:D001986	Bronchial Spasm	disease
+MESH:D016855	Nairovirus	pathogen
+MESH:D006721	Honduras	geoloc
+MESH:D007970	Leukopenia	disease
+MESH:D008223	Lymphoma	disease
+MESH:D019586	Intracranial Hypertension	disease
+MESH:D014416	Tunisia	geoloc
+MESH:D009748	Nutrition Disorders	disease
+MESH:D009369	Neoplasms	disease
+MESH:D000208	Acute Disease	disease
+MESH:D004669	Encephalitis Viruses, Tick-Borne	pathogen
+MESH:D003371	Cough	disease
+MESH:D004859	Equine Infectious Anemia	disease
+MESH:D021821	Communicable Diseases, Emerging	disease
+MESH:D007855	Lead Poisoning	disease
+MESH:D009402	Nephrosis, Lipoid	disease
+MESH:D007869	Leg Injuries	disease
+MESH:D008413	Mastitis	disease
+MESH:D014141	Trachoma	disease
+MESH:D023341	Chills	disease
+MESH:D016752	Hepatitis E virus	pathogen
+MESH:D005858	Germany	geoloc
+MESH:D004653	Empyema	disease
+MESH:D005417	Flavobacterium	pathogen
+MESH:D013211	Staphylococcus aureus	pathogen
+MESH:D001342	Autonomic Nervous System Diseases	disease
+MESH:D007019	Hypoproteinemia	disease
+MESH:D012552	Schistosomiasis	disease
+MESH:D001201	Ascites	disease
+MESH:D004770	Enterovirus	pathogen
+MESH:D000068476	Beijing	geoloc
+MESH:D013290	Streptococcal Infections	disease
+MESH:D019195	Badnavirus	pathogen
+MESH:D018112	Respiratory Syncytial Virus, Bovine	pathogen
+MESH:D063807	Dandruff	disease
+MESH:D006166	Guatemala	geoloc
+MESH:D003490	Cyanosis	disease
+MESH:D058186	Acute Kidney Injury	disease
+MESH:D017799	Cucumovirus	pathogen
+MESH:D005221	Fatigue	disease
+MESH:D019193	Waikavirus	pathogen
+MESH:D014717	Vertigo	disease
+MESH:D009390	Nepal	geoloc
+MESH:D002002	Brucella	pathogen
+MESH:D005873	Giardiasis	disease
+MESH:D007560	Cote d'Ivoire	geoloc
+MESH:D007964	Leukocytosis	disease
+MESH:D015367	Human T-lymphotropic virus 2	pathogen
+MESH:D001473	Bartonella	pathogen
+MESH:D000079263	Vaccine-Preventable Diseases	disease
+MESH:D007683	Kidney Tubular Necrosis, Acute	disease
+MESH:D001249	Asthma	disease
+MESH:D058734	Exsanguination	disease
+MESH:D013035	Spasm	disease
+MESH:D053125	Influenza A Virus, H5N2 Subtype	pathogen
+MESH:D007938	Leukemia	disease
+MESH:D005483	Flushing	disease
+MESH:D014790	Visna-maedi virus	pathogen
+MESH:D014900	West Indies	geoloc
+MESH:D008172	Lung Diseases, Fungal	disease
+MESH:D013023	South Dakota	geoloc
+MESH:D017943	Cardiovirus	pathogen
+MESH:D063806	Myalgia	disease
+MESH:D055370	Lung Injury	disease
+MESH:D003665	Decompression Sickness	disease
+MESH:D016706	Still's Disease, Adult-Onset	disease
+MESH:D005681	Gabon	geoloc
+MESH:D001002	Anuria	disease
+MESH:D013587	Syphilis	disease
+MESH:D014120	Toxocariasis	disease
+MESH:D011180	Postmortem Changes	disease
+MESH:D008189	Luxembourg	geoloc
+MESH:D007875	Legionella	pathogen
+MESH:D000352	Africa, Northern	geoloc
+MESH:D001102	Arbovirus Infections	disease
+MESH:D009102	Multiple Organ Failure	disease
+MESH:D008396	Maryland	geoloc
+MESH:D056661	Human bocavirus	pathogen
+MESH:D012237	Rhode Island	geoloc
+MESH:D000086222	Mediterranea	pathogen
+MESH:D014959	Wyoming	geoloc
+MESH:D002780	Cholestasis, Intrahepatic	disease
+MESH:D006095	Gram-Positive Cocci	pathogen
+MESH:D006090	Gram-Negative Bacteria	pathogen
+MESH:D013801	Theileriasis	disease
+MESH:D009166	Mycobacterium leprae	pathogen
+MESH:D003693	Delirium	disease
+MESH:D015430	Weight Gain	disease
+MESH:D001884	Bordetella	pathogen
+MESH:D012819	Sikkim	geoloc
+MESH:D015817	Eye Infections	disease
+MESH:D029341	Sapovirus	pathogen
+MESH:D008295	Malawi	geoloc
+MESH:D010839	Phytoplankton	geoloc
+MESH:D016957	Burkholderia pseudomallei	pathogen
+MESH:D029322	Norovirus	pathogen
+MESH:D007629	Kentucky	geoloc
+MESH:D012281	Rickettsia	pathogen
+MESH:D023141	Herpesvirus 4, Equid	pathogen
+MESH:D006560	Herpes Labialis	disease
+MESH:D001900	Boston	geoloc
+MESH:D007244	Infectious Mononucleosis	disease
+MESH:D017925	Circovirus	pathogen
+MESH:D016703	Equatorial Guinea	geoloc
+MESH:D014735	Vibrio Infections	disease
+MESH:D003318	Corneal Opacity	disease
+MESH:D020261	Arsenic Poisoning	disease
+MESH:D009177	Mycoplasma pneumoniae	pathogen
+MESH:D002494	Central Nervous System Infections	disease
+MESH:D019636	Neurodegenerative Diseases	disease
+MESH:D063368	Balkan Peninsula	geoloc
+MESH:D001444	Bahamas	geoloc
+MESH:D041242	Vibrio cholerae O139	pathogen
+MESH:D003128	Coma	disease
+MESH:D001996	Bronchopneumonia	disease
+MESH:D000094302	Human Papillomavirus Viruses	pathogen
+MESH:D050177	Overweight	disease
+MESH:D001409	Bacillus cereus	pathogen
+MESH:D000354	Africa, Western	geoloc
+MESH:D014685	Venereal Tumors, Veterinary	disease
+MESH:D005884	Gingival Hemorrhage	disease
+MESH:D008209	Lymphedema	disease
+MESH:D014947	Wounds and Injuries	disease
+MESH:D001763	Blepharoptosis	disease
+MESH:D005862	Gerstmann Syndrome	disease
+MESH:D008107	Liver Diseases	disease
+MESH:D030102	Orthoreovirus, Mammalian	pathogen
+MESH:D004408	Dysgeusia	disease
+MESH:D008984	Monaco	geoloc
+MESH:D014115	Toxemia	disease
+MESH:D001228	Aspergillosis	disease
+MESH:D002596	Chad	geoloc
+MESH:D004482	Ectromelia, Infectious	disease
+MESH:D019584	Hot Flashes	disease
+MESH:D010854	Piedra	disease
+MESH:D016480	Helicobacter pylori	pathogen
+MESH:D010493	Pericarditis	disease
+MESH:D010930	Plague	disease
+MESH:D017791	Geminiviridae	pathogen
+MESH:D015368	Human T-lymphotropic virus 1	pathogen
+MESH:D017957	Hepatitis A Virus, Human	pathogen
+MESH:D039002	Prophages	pathogen
+MESH:D020819	Perimeningeal Infections	disease
+MESH:D018948	American Samoa	geoloc
+MESH:D002100	Cachexia	disease
+MESH:D058687	Out-of-Hospital Cardiac Arrest	disease
+MESH:C531621	Cutaneous anthrax	disease
+MESH:D002167	Campylobacter	pathogen
+MESH:D015354	Vision, Low	disease
+MESH:D013203	Staphylococcal Infections	disease
+MESH:D014861	Washington	geoloc
+MESH:D029481	Bronchitis, Chronic	disease
+MESH:D009503	Neutropenia	disease
+MESH:D010211	Papilledema	disease
+MESH:D018246	Adrenocortical Adenoma	disease
+MESH:D004169	Diphyllobothriasis	disease
+MESH:D012148	Restless Legs Syndrome	disease
+MESH:D004184	Dirofilariasis	disease
+MESH:D012652	Self Mutilation	disease
+MESH:D000086382	COVID-19	disease
+MESH:D004404	Dysentery, Amebic	disease
+MESH:D053609	Lethargy	disease
+MESH:D014421	Turkey	geoloc
+MESH:D016470	Bacteremia	disease
+MESH:D006985	Hyperventilation	disease
+MESH:D044149	Vibrio alginolyticus	pathogen
+MESH:D001929	Brain Edema	disease
+MESH:D000075902	Clinical Deterioration	disease
+MESH:D004667	Encephalitis Virus, Western Equine	pathogen
+MESH:D004487	Edema	disease
+MESH:D006113	United Kingdom	geoloc
+MESH:D014605	Uveitis	disease
+MESH:D018805	Sepsis	disease
+MESH:D019181	Fabavirus	pathogen
+MESH:D006526	Hepatitis C	disease
+MESH:D018450	Disease Progression	disease
+MESH:D009549	Nigeria	geoloc
+MESH:C538481	Acquired CJD	disease
+MESH:D013714	Tennessee	geoloc
+MESH:D010414	Pennsylvania	geoloc
+MESH:D000356	African Horse Sickness Virus	pathogen
+MESH:D007037	Hypothyroidism	disease
+MESH:D017497	Hidradenitis Suppurativa	disease
+MESH:D015841	Enophthalmos	disease
+MESH:D012010	Red-Cell Aplasia, Pure	disease
+MESH:D020252	Gastric Antral Vascular Ectasia	disease
+MESH:D004313	Dourine	disease
+MESH:D011041	Poisoning	disease
+MESH:D060051	Occupational Injuries	disease
+MESH:D015608	Cowpox virus	pathogen
+MESH:D041261	Vibrio vulnificus	pathogen
+MESH:D009512	New Guinea	geoloc
+MESH:D020246	Venous Thrombosis	disease
+MESH:D018883	Heat Stroke	disease
+MESH:D053126	Influenza A Virus, H7N7 Subtype	pathogen
+MESH:D004614	Emaciation	disease
+MESH:D006094	Gram-Positive Bacteria	pathogen
+MESH:D008924	Mite Infestations	disease
+MESH:D013651	Taste Disorders	disease
+MESH:D015010	Yersinia pestis	pathogen
+MESH:D014406	Tularemia	disease
+MESH:D007492	Iran	geoloc
+MESH:D014583	Uruguay	geoloc
+MESH:D012883	Skin Ulcer	disease
+MESH:D047708	Myofibroma	disease
+MESH:D018354	Alphavirus Infections	disease
+MESH:D029407	GB virus C	pathogen
+MESH:D016778	Malaria, Falciparum	disease
+MESH:D011021	Pneumonia, Progressive Interstitial, of Sheep	disease
+MESH:D007988	Liberia	geoloc
+MESH:D015205	Northwestern United States	geoloc
+MESH:D017522	Bosnia and Herzegovina	geoloc
+MESH:D006378	Helper Viruses	pathogen
+MESH:D008580	Meningism	disease
+MESH:D006359	Heat Exhaustion	disease
+MESH:D005393	Fish Diseases	disease
+MESH:D010243	Paralysis	disease
+MESH:D001394	Azores	geoloc
+MESH:D018461	Soft Tissue Infections	disease
+MESH:D000076082	Travel-Related Illness	disease
+MESH:D014733	Vibrio	pathogen
+MESH:D012771	Shock, Hemorrhagic	disease
+MESH:D017192	Skin Diseases, Bacterial	disease
+MESH:D014903	West Virginia	geoloc
+MESH:D002105	Cadmium Poisoning	disease
+MESH:D004536	Ehrlichia	pathogen
+MESH:D001898	Borrelia	pathogen
+MESH:D057135	Wet Macular Degeneration	disease
+MESH:D018416	Bartonella henselae	pathogen
+MESH:D008193	Lyme Disease	disease
+MESH:D045405	Nipah Virus	pathogen
+MESH:D001196	Ascariasis	disease
+MESH:D007565	Jaundice	disease
+MESH:D008966	Moldova	geoloc
+MESH:D013927	Thrombosis	disease
+MESH:D063173	Retrognathia	disease
+MESH:D003680	Deglutition Disorders	disease
+MESH:D015144	Southeastern United States	geoloc
+MESH:D007729	Kuru	disease
+MESH:D008219	Lymphogranuloma Venereum	disease
+MESH:D008015	Liechtenstein	geoloc
+MESH:C000657744	postintensive care syndrome	disease
+MESH:D045722	Porcine Respiratory Coronavirus	pathogen
+MESH:D001259	Ataxia	disease
+MESH:D003105	Colombia	geoloc
+MESH:D012912	Sneezing	disease
+MESH:D047928	Premature Birth	disease
+MESH:D007493	Iraq	geoloc
+MESH:D000309	Adrenal Insufficiency	disease
+MESH:D053839	Begomovirus	pathogen
+MESH:D009187	Myelitis	disease
+MESH:D053485	Porcine epidemic diarrhea virus	pathogen
+MESH:D020077	Endogenous Retroviruses	pathogen
+MESH:D004172	Diplopia	disease
+MESH:D007898	Leishmaniasis, Visceral	disease
+MESH:D005911	Gliosis	disease
+MESH:D011248	Pregnancy Complications	disease
+MESH:D006949	Hyperlipidemias	disease
+MESH:D013575	Syncope	disease
+MESH:D003922	Diabetes Mellitus, Type 1	disease
+MESH:D006518	Hepatitis Viruses	pathogen
+MESH:D014103	Torticollis	disease
+MESH:D000086202	Liberibacter	pathogen
+MESH:D009091	Mucormycosis	disease
+MESH:D012173	Retinitis	disease
+MESH:D012135	Respiratory Sounds	disease
+MESH:D054517	Orbital Cellulitis	disease
+MESH:D000505	Alopecia	disease
+MESH:D013118	Spinal Cord Diseases	disease
+MESH:D006141	Guam	geoloc
+MESH:D007634	Keratitis	disease
+MESH:D001103	Arboviruses	pathogen
+MESH:D064873	Asia, Northern	geoloc
+MESH:D002180	Candidiasis, Oral	disease
+MESH:D006517	Murine hepatitis virus	pathogen
+MESH:D016732	Parvovirus B19, Human	pathogen
+MESH:D013342	Stuttering	disease
+MESH:D017994	Iridovirus	pathogen
+MESH:D015146	Midwestern United States	geoloc
+MESH:D005402	Fistula	disease
+MESH:D000544	Alzheimer Disease	disease
+MESH:D004198	Disease Susceptibility	disease
+MESH:D012852	Sinusitis	disease
+MESH:D002819	Chorea	disease
+MESH:D045908	Mpox (monkeypox)	disease
+MESH:D004405	Dysentery, Bacillary	disease
+MESH:D005683	Gagging	disease
+MESH:D001266	Atlantic Islands	geoloc
+MESH:D006816	Huntington Disease	disease
+MESH:D002547	Cerebral Palsy	disease
+MESH:D006551	Hernia, Hiatal	disease
+MESH:D006205	Haiti	geoloc
+MESH:D003015	Clostridium Infections	disease
+MESH:D001404	Babesiosis	disease
+MESH:D001382	Azerbaijan	geoloc
+MESH:D009107	Mumps	disease
+MESH:D000086402	SARS-CoV-2	pathogen
+MESH:D004544	El Salvador	geoloc
+MESH:D013625	Takayasu Arteritis	disease
+MESH:D007766	Lacrimal Apparatus Diseases	disease
+MESH:D014948	Wounds, Gunshot	disease
+MESH:D011537	Pruritus	disease
+MESH:D010177	Panama Canal Zone	geoloc
+MESH:D010202	Panophthalmitis	disease
+MESH:D013984	Tick Infestations	disease
+MESH:D002524	Cerebellar Ataxia	disease
+MESH:D007707	Kyrgyzstan	geoloc
+MESH:D007003	Hypoglycemia	disease
+MESH:D015206	Southwestern United States	geoloc
+MESH:D001247	Asthenia	disease
+MESH:D029383	Crinivirus	pathogen
+MESH:D015269	Mycobacterium avium Complex	pathogen
+MESH:C000721848	hypoglycemic encephalopathy	disease
+MESH:D019431	Saint Lucia	geoloc
+MESH:D029024	Marburgvirus	pathogen
+MESH:D009659	North Sea	geoloc
+MESH:D007723	Korea	geoloc
+MESH:D002063	Burundi	geoloc
+MESH:D019318	Porcine Reproductive and Respiratory Syndrome	disease
+MESH:D006996	Hypocalcemia	disease
+MESH:D000096702	Aflatoxin Poisoning	disease
+MESH:D000740	Anemia	disease
+MESH:D008521	Mediterranean Islands	geoloc
+MESH:D008708	Methemoglobinemia	disease
+MESH:D008228	Lymphoma, Non-Hodgkin	disease
+MESH:D024821	Metabolic Syndrome	disease
+MESH:D010373	Lice Infestations	disease
+MESH:D016927	Mycobacterium avium subsp. paratuberculosis	pathogen
+MESH:D016097	Simian Acquired Immunodeficiency Syndrome	disease
+MESH:D005151	Facial Injuries	disease
+MESH:D006734	Horse Diseases	disease
+MESH:D008002	Libya	geoloc
+MESH:D003398	Craniosynostoses	disease
+MESH:D020820	Dyskinesias	disease
+MESH:D002637	Chest Pain	disease
+MESH:D058922	Inflammatory Breast Neoplasms	disease
+MESH:D001778	Blood Coagulation Disorders	disease
+MESH:D014454	Uganda	geoloc
+MESH:D012700	Serositis	disease
+MESH:D007246	Infertility	disease
+MESH:D004283	Dog Diseases	disease
+MESH:D001044	Aphonia	disease
+MESH:D009976	Orthomyxoviridae Infections	disease
+MESH:D001136	Armenia	geoloc
+MESH:D008218	Lymphocytosis	disease
+MESH:D009517	New South Wales	geoloc
+MESH:D002693	Chlamydiaceae	pathogen
+MESH:D020069	Shoulder Pain	disease
+MESH:D002602	Chancroid	disease
+MESH:D052679	Luteoviridae	pathogen
+MESH:D004403	Dysentery	disease
+MESH:D005060	Europe	geoloc
+MESH:D045582	Phytoplasma	pathogen
+MESH:D001315	Australia	geoloc
+MESH:D003289	Convalescence	disease
+MESH:D009923	Orf virus	pathogen
+MESH:D016602	Needlestick Injuries	disease
+MESH:D009207	Myoclonus	disease
+MESH:D017798	Comovirus	pathogen
+MESH:D005764	Gastroesophageal Reflux	disease
+MESH:D001891	Borna disease virus	pathogen
+MESH:D010942	Plant Viruses	pathogen
+MESH:D000085343	Latent Infection	disease
+MESH:D013021	South Australia	geoloc
+MESH:D029021	Peste-des-Petits-Ruminants	disease
+MESH:D026762	Maize streak virus	pathogen
+MESH:D015009	Yersinia Infections	disease
+MESH:D007494	Ireland	geoloc
+MESH:D006331	Heart Diseases	disease
+MESH:D009422	Nervous System Diseases	disease
+MESH:D057096	Shellfish Poisoning	disease
+MESH:D014946	Wound Infection	disease
+MESH:D000357	African Swine Fever	disease
+MESH:D000256	Adenoviridae	pathogen
+MESH:D004752	Coronavirus, Turkey	pathogen
+MESH:D015470	Leukemia, Myeloid, Acute	disease
+MESH:D017114	Liver Failure, Acute	disease
+MESH:D018068	Encephalitis Virus, Murray Valley	pathogen
+MESH:D000071244	Zika Virus	pathogen
+MESH:D028941	Coronavirus 229E, Human	pathogen
+MESH:D005262	Feminization	disease
+MESH:D009660	Northern Ireland	geoloc
+MESH:D016987	Gram-Positive Rods	pathogen
+MESH:D008404	Massachusetts	geoloc
+MESH:D010437	Peptic Ulcer	disease
+MESH:D012606	Scotland	geoloc
+MESH:D047748	Pituitary ACTH Hypersecretion	disease
+MESH:D012675	Senegal	geoloc
+MESH:D055726	Cabo Verde	geoloc
+MESH:D003920	Diabetes Mellitus	disease
+MESH:D019052	Depression, Postpartum	disease
+MESH:C537562	Jamaican vomiting sickness	disease
+MESH:D004823	Epididymitis	disease
+MESH:D017727	Chicken anemia virus	pathogen
+MESH:D015746	Abdominal Pain	disease
+MESH:D008435	Mauritania	geoloc
+MESH:D000069578	Waterborne Diseases	disease
+MESH:D002372	Cat-Scratch Disease	disease
+MESH:D003872	Dermatitis	disease
+MESH:D014898	Werner Syndrome	disease
+MESH:D005431	Florida	geoloc
+MESH:D064806	Dysbiosis	disease
+MESH:C000656924	scedosporiosis	disease
+MESH:D013272	Stomach Diseases	disease
+MESH:D001938	Brazil	geoloc
+MESH:D006562	Herpes Zoster	disease
+MESH:D012128	Respiratory Distress Syndrome	disease
+MESH:D004767	Enterotoxemia	disease
+MESH:D020521	Stroke	disease
+MESH:D006042	Goiter	disease
+MESH:D003085	Colic	disease
+MESH:D017508	Reunion	geoloc
+MESH:D057826	Vitelliform Macular Dystrophy	disease
+MESH:D000080424	Cytokine Release Syndrome	disease
+MESH:D010335	Pathologic Processes	disease
+MESH:D009767	Obesity, Morbid	disease
+MESH:D012846	Singapore	geoloc
+MESH:D018277	Carcinoma, Mucoepidermoid	disease
+MESH:D000071069	Multiple Chronic Conditions	disease
+MESH:D008319	Malta	geoloc
+MESH:D003681	Dehydration	disease
+MESH:D011213	Poxviridae Infections	disease
+MESH:D004675	Encephalitis, Tick-Borne	disease
+MESH:D014012	Tinnitus	disease
+MESH:D007711	Klebsiella pneumoniae	pathogen
+MESH:D008881	Migraine Disorders	disease
+MESH:D008205	Lymphangitis	disease
+MESH:D014707	Vermont	geoloc
+MESH:D013742	Tetanus	disease
+MESH:D020958	Australian Capital Territory	geoloc
+MESH:D064927	Tick Bites	disease
+MESH:D013019	South Africa	geoloc
+MESH:D000454	Aleutian Mink Disease Virus	pathogen
+MESH:D001838	Bolivia	geoloc
+MESH:D008993	Monkeypox virus	pathogen
+MESH:D009329	Nebraska	geoloc
+MESH:D056486	Chemical and Drug Induced Liver Injury	disease
+MESH:D001909	Leukemia Virus, Bovine	pathogen
+MESH:D010927	Placental Insufficiency	disease
+MESH:D056910	Republic of Korea	geoloc
+MESH:D047009	Clostridium histolyticum	pathogen
+MESH:D012130	Respiratory Hypersensitivity	disease
+MESH:D012136	Respiratory Syncytial Viruses	pathogen
+MESH:D018908	Muscle Weakness	disease
+MESH:D003236	Conjunctivitis, Viral	disease
+MESH:D000096822	Chronic Cough	disease
+MESH:D014423	Turkmenistan	geoloc
+MESH:D007623	Kazakhstan	geoloc
+MESH:D002544	Cerebral Infarction	disease
+MESH:D000086966	Bacterial Zoonoses	disease
+MESH:D015440	Leprosy, Lepromatous	disease
+MESH:D008395	Martinique	geoloc
+MESH:D006689	Hodgkin Disease	disease
+MESH:D016856	Phlebovirus	pathogen
+MESH:D005313	Fetal Death	disease
+MESH:D057891	Tetraploidy	disease
+MESH:D001604	Berlin	geoloc
+MESH:D018413	Bartonella quintana	pathogen
+MESH:D020191	Myoclonic Epilepsies, Progressive	disease
+MESH:D000068536	Firmicutes	pathogen
+MESH:D016765	Coronavirus, Feline	pathogen
+MESH:D012475	Salmonella	pathogen
+MESH:D054908	Extensively Drug-Resistant Tuberculosis	disease
+MESH:D002603	Channel Islands	geoloc
+MESH:D013610	Tachycardia	disease
+MESH:C000715927	avian vacuolar myelinopathy	disease
+MESH:D015877	Miosis	disease
+MESH:D018804	Hantavirus Pulmonary Syndrome	disease
+MESH:D013296	Streptococcus pneumoniae	pathogen
+MESH:D057920	Influenza A Virus, H7N3 Subtype	pathogen
+MESH:D014860	Warts	disease
+MESH:D007836	Lassa virus	pathogen
+MESH:D009505	Nevada	geoloc
+MESH:D013398	Sudden Infant Death	disease
+MESH:D002921	Cicatrix	disease
+MESH:D009894	Opportunistic Infections	disease
+MESH:D011201	Poultry Diseases	disease
+MESH:D003699	Hepatitis D	disease
+MESH:D005242	Fecal Incontinence	disease
+MESH:D016638	Critical Illness	disease
+MESH:D017523	Croatia	geoloc
+MESH:D010188	Exocrine Pancreatic Insufficiency	disease
+MESH:D001926	Brain Death	disease
+MESH:D009161	Mycobacterium	pathogen
+MESH:D005157	Facial Pain	disease
+MESH:D014123	Toxoplasmosis	disease
+MESH:D014474	Unconsciousness	disease
+MESH:D012553	Schistosomiasis haematobia	disease
+MESH:D009461	Neurologic Manifestations	disease
+MESH:D058086	Microalgae	geoloc
+MESH:D016920	Meningitis, Bacterial	disease
+MESH:D018349	Encephalitis Viruses, Japanese	pathogen
+MESH:D004485	Eczema	disease
+MESH:D000783	Aneurysm	disease
+MESH:D008304	Malignant Catarrh	disease
+MESH:D017093	Liver Failure	disease
+MESH:D018512	Parasitemia	disease
+MESH:D005534	Foot Diseases	disease
+MESH:D002908	Chronic Disease	disease
+MESH:D006116	Greenland	geoloc
+MESH:D004663	Encephalitis Virus, Eastern Equine	pathogen
+MESH:D008350	Manitoba	geoloc
+MESH:D008173	Lung Diseases, Obstructive	disease
+MESH:D051359	Lymphohistiocytosis, Hemophagocytic	disease
+MESH:D002947	Cities	geoloc
+MESH:D016174	Hepacivirus	pathogen
+MESH:D012140	Respiratory Tract Diseases	disease
+MESH:D011507	Proteinuria	disease
+MESH:D011558	Herpesvirus 1, Suid	pathogen
+MESH:D012477	Salmonella enteritidis	pathogen
+MESH:D004484	Ecuador	geoloc
+MESH:D057916	Influenza A Virus, H7N1 Subtype	pathogen
+MESH:D019115	Fasciitis, Necrotizing	disease
+MESH:D012088	Reoviridae Infections	disease
+MESH:D004754	Enterobacter	pathogen
+MESH:D007843	Latin America	geoloc
+MESH:D016511	Severe Combined Immunodeficiency	disease
+MESH:D007061	Idaho	geoloc
+MESH:D017003	Torovirus	pathogen
+MESH:D057917	Influenza A Virus, H7N2 Subtype	pathogen
+MESH:C537968	Camptocormia	disease
+MESH:D001435	Bacteriophages	pathogen
+MESH:D006521	Hepatitis, Chronic	disease
+MESH:D020022	Genetic Predisposition to Disease	disease
+MESH:D019183	Tombusviridae	pathogen
+MESH:D017011	Streptococcus suis	pathogen
+MESH:D005738	Gas Gangrene	disease
+MESH:D015526	AIDS Dementia Complex	disease
+MESH:D006069	Gonorrhea	disease
+MESH:D001416	Back Pain	disease
+MESH:D042602	Burkholderia cepacia complex	pathogen
+MESH:D000196	Actinomycosis	disease
+MESH:D006479	Hemorrhagic Fever, Crimean	disease
+MESH:D008146	Louping Ill	disease
+MESH:D001407	Bacillus	pathogen
+MESH:D008217	Lymphocytic choriomeningitis virus	pathogen
+MESH:D006528	Carcinoma, Hepatocellular	disease
+MESH:D012772	Shock, Septic	disease
+MESH:D019117	Burkholderia	pathogen
+MESH:D008216	Lymphocytic Choriomeningitis	disease
+MESH:D010490	Pericardial Effusion	disease
+MESH:C537834	Macular dystrophy, corneal type 1	disease
+MESH:D013785	Thailand	geoloc
+MESH:D005094	Exophthalmos	disease
+MESH:D011051	Poliomyelitis	disease
+MESH:D014352	Trypanosomiasis	disease
+MESH:D055624	Methicillin-Resistant Staphylococcus aureus	pathogen
+MESH:D008131	London	geoloc
+MESH:D013149	Spiroplasma	pathogen
+MESH:D054556	Venous Thromboembolism	disease
+MESH:D006568	Herpesvirus 1, Cercopithecine	pathogen
+MESH:D006547	Hernia	disease
+MESH:D020196	Trauma, Nervous System	disease
+MESH:D012192	Retroviridae Infections	disease
+MESH:D000358	African Swine Fever Virus	pathogen
+MESH:D055665	Purpura Fulminans	disease
+MESH:D009104	Multiple Trauma	disease
+MESH:D044163	Vibrio cholerae non-O1	pathogen
+MESH:D000095143	Asia, Southern	geoloc
+MESH:D004421	Dystonia	disease
+MESH:D000071243	Zika Virus Infection	disease
+MESH:D008379	Marburg Virus Disease	disease
+MESH:D053040	Nephrolithiasis	disease
+MESH:D009494	Neurosyphilis	disease
+MESH:D008551	Melena	disease
+MESH:D006465	Hemoperitoneum	disease
+MESH:D020595	Hafnia	pathogen
+MESH:D060085	Coinfection	disease
+MESH:D003691	Delaware	geoloc
+MESH:D006130	Growth Disorders	disease
+MESH:D012141	Respiratory Tract Infections	disease
+MESH:D012412	Rubella virus	pathogen
+MESH:D015867	Uveitis, Intermediate	disease
+MESH:D000353	Africa, Southern	geoloc
+MESH:D019435	Guernsey	geoloc
+MESH:D000958	Antigua and Barbuda	geoloc
+MESH:D012770	Shock, Cardiogenic	disease
+MESH:D001943	Breast Neoplasms	disease
+MESH:D009031	Moscow	geoloc
+MESH:D014772	Viroids	pathogen
+MESH:D017714	Community-Acquired Infections	disease
+MESH:D056735	Autoimmune Lymphoproliferative Syndrome	disease
+MESH:D017995	Ranavirus	pathogen
+MESH:D006505	Hepatitis	disease
+MESH:D006086	Graft vs Host Disease	disease
+MESH:D003092	Colitis	disease
+MESH:D006105	Granulomatous Disease, Chronic	disease
+MESH:D030061	Parechovirus	pathogen
+MESH:D012400	Rotavirus Infections	disease
+MESH:D001130	Arizona	geoloc
+MESH:D012482	Salmonella paratyphi A	pathogen
+MESH:D001131	Arkansas	geoloc
+MESH:D003324	Coronary Artery Disease	disease
+MESH:D036841	Ciguatera Poisoning	disease
+MESH:D000083682	Opiate Overdose	disease
+MESH:D054308	Enteropathogenic Escherichia coli	pathogen
+MESH:C000718127	COVID-19 breakthrough infections	disease
+MESH:D003551	Cysticercosis	disease
+MESH:D018162	Coltivirus	pathogen
+MESH:D008270	Madagascar	geoloc
+MESH:D004433	Earache	disease
+MESH:D018296	Pilomatrixoma	disease
+MESH:D001209	Asia, Central	geoloc
+MESH:D000349	Africa	geoloc
+MESH:D004672	Encephalitis, Japanese	disease
+MESH:D010381	Pelger-Huet Anomaly	disease
+MESH:D054059	Coronary Occlusion	disease
+MESH:D000073182	Carbapenem-Resistant Enterobacteriaceae	pathogen
+MESH:D017563	Lung Diseases, Interstitial	disease
+MESH:D014987	Xerostomia	disease
+MESH:D008275	Magnesium Deficiency	disease
+MESH:D019430	Guadeloupe	geoloc
+MESH:D001208	Asia	geoloc
+MESH:D001991	Bronchitis	disease
+MESH:D009516	New Mexico	geoloc
+MESH:D009820	Ohio	geoloc
+MESH:D000259	Aviadenovirus	pathogen
+MESH:D012480	Salmonella Infections	disease
+MESH:D016983	Enterococcus	pathogen
+MESH:D011647	Puerto Rico	geoloc
+MESH:D044342	Malnutrition	disease
+MESH:D006832	Hydranencephaly	disease
+MESH:D006606	Hiccup	disease
+MESH:D034381	Hearing Loss	disease
+MESH:D018153	Czech Republic	geoloc
+MESH:D003462	Cuba	geoloc
+MESH:D008457	Measles	disease
+MESH:D007416	Intestinal Perforation	disease
+MESH:D012525	Saskatchewan	geoloc
+MESH:D014353	Trypanosomiasis, African	disease
+MESH:D004668	Encephalitis Viruses	pathogen
+MESH:D011697	Purpura, Thrombotic Thrombocytopenic	disease
+MESH:D010842	Pica	disease
+MESH:D019425	Grenada	geoloc
+MESH:D013397	Sudan	geoloc
+MESH:D022783	Torque teno virus	pathogen
+MESH:D003121	Colorado Tick Fever	disease
+MESH:D007637	Keratoconjunctivitis	disease
+MESH:D003381	Coxiella	pathogen
+MESH:D008061	Whipple Disease	disease
+MESH:D006515	Hepatitis B virus	pathogen
+MESH:D015875	Anisocoria	disease
+MESH:D005517	Foodborne Diseases	disease
+MESH:D005535	Foot Rot	disease
+MESH:D055501	Macrophage Activation Syndrome	disease
+MESH:D010272	Parasitic Diseases	disease
+MESH:D010031	Otitis	disease
+MESH:D000085686	Deltacoronavirus	pathogen
+MESH:D013617	Tachycardia, Supraventricular	disease
+MESH:D009515	New Jersey	geoloc
+MESH:D015302	Simian Immunodeficiency Virus	pathogen
+MESH:D007195	Indian Ocean Islands	geoloc
+MESH:D001172	Arthritis, Rheumatoid	disease
+MESH:D010139	Pacific Islands	geoloc
+MESH:D011030	Pneumothorax	disease
+MESH:D011044	Poland	geoloc
+MESH:D004893	Erythema Nodosum	disease
+MESH:D064874	Tatarstan	geoloc
+MESH:D001267	Atlantic Ocean	geoloc
+MESH:D006463	Hemolytic-Uremic Syndrome	disease
+MESH:D000071067	Pneumonia, Necrotizing	disease
+MESH:D008944	Mitral Valve Insufficiency	disease
+MESH:D007968	Leukoencephalopathy, Progressive Multifocal	disease
+MESH:D018609	Tibet	geoloc
+MESH:D009265	Nairobi Sheep Disease	disease
+MESH:D017927	Calicivirus, Feline	pathogen
+MESH:D009205	Myocarditis	disease
+MESH:D009009	Montana	geoloc
+MESH:D009101	Multiple Myeloma	disease
+MESH:D008986	Mongolia	geoloc
+MESH:D015163	Superinfection	disease
+MESH:D004673	Encephalomyelitis, Acute Disseminated	disease
+MESH:D053118	Influenza A Virus, H1N1 Subtype	pathogen
+MESH:D009436	Neural Tube Defects	disease
+MESH:D016750	Stiff-Person Syndrome	disease
+MESH:D058069	Neglected Diseases	disease
+MESH:D014300	Trinidad and Tobago	geoloc
+MESH:D001327	Autoimmune Diseases	disease
+MESH:D005759	Gastroenteritis	disease
+MESH:D018154	Slovakia	geoloc
+MESH:D009220	Myositis	disease
+MESH:D015673	Fatigue Syndrome, Chronic	disease
+MESH:D014713	Viruses, Unclassified	pathogen
+MESH:D006190	Haemophilus	pathogen
+MESH:D020233	Gait Disorders, Neurologic	disease
+MESH:D013202	Staphylococcal Food Poisoning	disease
+MESH:D013064	Speech Disorders	disease
+MESH:D003364	Costa Rica	geoloc
+MESH:D006330	Heart Defects, Congenital	disease
+MESH:D006723	Hong Kong	geoloc
+MESH:D000073296	Noncommunicable Diseases	disease
+MESH:D017691	Caribbean Region	geoloc
+MESH:D001284	Atrophy	disease
+MESH:D007835	Lassa Fever	disease
+MESH:D016183	Murine Acquired Immunodeficiency Syndrome	disease
+MESH:D019575	Blindness, Cortical	disease
+MESH:D010252	Paramyxoviridae	pathogen
+MESH:D003384	Coxsackievirus Infections	disease
+MESH:D054548	Montenegro	geoloc
+MESH:D016997	Coxiella burnetii	pathogen
+MESH:D001459	Bangladesh	geoloc
+MESH:D065632	Chikungunya Fever	disease
+MESH:D006986	Hypervitaminosis A	disease
+MESH:D004660	Encephalitis	disease
+MESH:D009174	Mycoplasma	pathogen
+MESH:D003025	Clubfoot	disease
+MESH:D006965	Hyperplasia	disease
+MESH:D009825	Oklahoma	geoloc
+MESH:D019698	Hepatitis C, Chronic	disease
+MESH:D007918	Leprosy	disease
+MESH:D006849	Hydrocephalus	disease
+MESH:D005061	Europe, Eastern	geoloc
+MESH:D009846	Oliguria	disease
+MESH:D062787	Drug Overdose	disease
+MESH:D007730	Kuwait	geoloc
+MESH:D010896	Pitcairn Island	geoloc
+MESH:D059001	Aquatic Organisms	geoloc
+MESH:D018879	Ventricular Premature Complexes	disease
+MESH:D008118	Loiasis	disease
+MESH:D017863	Potexvirus	pathogen
+MESH:D020275	Guillain-Barre Syndrome	disease
+MESH:D006519	Hepatitis, Alcoholic	disease
+MESH:D016586	Granular Cell Tumor	disease
+MESH:D019911	Mycobacterium ulcerans	pathogen
+MESH:D004057	Hyperostosis, Diffuse Idiopathic Skeletal	disease
+MESH:D015022	Yugoslavia	geoloc
+MESH:D016736	Antiphospholipid Syndrome	disease
+MESH:D000386	AIDS-Related Complex	disease
+MESH:D008088	Listeriosis	disease
+MESH:D011015	Pneumonia, Aspiration	disease
+MESH:D007592	Joint Diseases	disease
+MESH:D007674	Kidney Diseases	disease
+MESH:D054312	Buruli Ulcer	disease
+MESH:D000081207	Primary Immunodeficiency Diseases	disease
+MESH:D058957	Coronavirus NL63, Human	pathogen
+MESH:D004401	Dysarthria	disease
+MESH:D000075884	Indochina	geoloc
+MESH:D015006	Yemen	geoloc
+MESH:D008171	Lung Diseases	disease
+MESH:D006099	Granuloma	disease
+MESH:D013530	Surgical Wound Infection	disease
+MESH:D001486	Bashkiria	geoloc
+MESH:D012901	Variola virus	pathogen
+MESH:D006323	Heart Arrest	disease
+MESH:D055985	Latent Tuberculosis	disease
+MESH:D001168	Arthritis	disease
+MESH:D012798	Sialorrhea	disease
+MESH:D031261	Poult Enteritis Mortality Syndrome	disease
+MESH:D019142	Hemorrhagic Fever, Ebola	disease
+MESH:D008910	Minnesota	geoloc
+MESH:D017116	Low Back Pain	disease
+MESH:D003288	Contusions	disease
+MESH:D001064	Appendicitis	disease
+MESH:D005846	Georgia (Republic)	geoloc
+MESH:D018115	Ephemeral Fever Virus, Bovine	pathogen
+MESH:D000346	Afghanistan	geoloc
+MESH:D015605	Cowpox	disease
+MESH:D012909	Snake Bites	disease
+MESH:D001759	Blastomycosis	disease
+MESH:D000407	Alabama	geoloc
+MESH:D044362	Australasia	geoloc
+MESH:D014842	von Willebrand Diseases	disease
+MESH:D009157	Myasthenia Gravis	disease
+MESH:D001083	Arabia	geoloc
+MESH:D008545	Melanoma	disease
+MESH:D009052	Leukemia Virus, Murine	pathogen
+MESH:D017860	Nepovirus	pathogen
+MESH:D019337	Hematologic Neoplasms	disease
+MESH:D012876	Skin Diseases, Parasitic	disease
+MESH:D016972	Enterobacter cloacae	pathogen
+MESH:D012301	Rinderpest	disease
+MESH:D000073097	Sint Maarten	geoloc
+MESH:D053123	Influenza A Virus, H3N8 Subtype	pathogen
+MESH:D000013	Congenital Abnormalities	disease
+MESH:D014904	Western Australia	geoloc
+MESH:D019156	Indian Ocean	geoloc
+MESH:D008100	Liver Abscess	disease
+MESH:D016873	Ehrlichiosis	disease
+MESH:D009877	Endophthalmitis	disease
+MESH:D017790	Closterovirus	pathogen
+MESH:D013557	Switzerland	geoloc
+MESH:D004680	Maus Elberfeld virus	pathogen
+MESH:D008849	Micronesia	geoloc
+MESH:D006417	Hematuria	disease
+MESH:D002869	Chromosome Aberrations	disease
+MESH:C000722979	COVID-19 reinfection	disease
+MESH:D005604	Francisella tularensis	pathogen
+MESH:D004459	Echovirus 9	pathogen
+MESH:D010933	Plankton	geoloc
+MESH:D011129	Polyradiculoneuropathy	disease
+MESH:D013163	Splenomegaly	disease
+MESH:D015160	Hydrops Fetalis	disease
+MESH:D010182	Pancreatic Diseases	disease
+MESH:D016779	Malaria, Cerebral	disease
+MESH:D003610	Dagestan	geoloc
+MESH:D004216	Distemper	disease
+MESH:D009164	Mycobacterium Infections	disease
+MESH:D013130	Spinal Stenosis	disease
+MESH:D007897	Leishmaniasis, Mucocutaneous	disease
+MESH:D007563	Jamaica	geoloc
+MESH:D006467	Hemophilia A	disease
+MESH:D018177	Flavivirus Infections	disease
+MESH:D000647	Amnesia	disease
+MESH:D004604	Elephantiasis	disease
+MESH:D006471	Gastrointestinal Hemorrhage	disease
+MESH:D003645	Death, Sudden	disease
+MESH:D004417	Dyspnea	disease
+MESH:D020512	Myopathy, Central Core	disease
+MESH:D020179	Jet Lag Syndrome	disease
+MESH:D013923	Thromboembolism	disease
+MESH:D020234	Gait Ataxia	disease
+MESH:D010229	Paracoccidioidomycosis	disease
+MESH:D000163	Acquired Immunodeficiency Syndrome	disease
+MESH:D012131	Respiratory Insufficiency	disease
+MESH:D004217	Distemper Virus, Canine	pathogen
+MESH:D007319	Sleep Initiation and Maintenance Disorders	disease
+MESH:D009864	Ontario	geoloc
+MESH:D014205	Trench Fever	disease
+MESH:D002489	Central America	geoloc
+MESH:D016108	Epidermolysis Bullosa Dystrophica	disease
+MESH:D019316	Porcine respiratory and reproductive syndrome virus	pathogen
+MESH:D001116	Arenaviridae	pathogen
+MESH:D015876	Northern Territory	geoloc
+MESH:D010020	Osteonecrosis	disease
+MESH:D066106	Seoul	geoloc
+MESH:D002481	Cellulitis	disease
+MESH:D002689	Chlamydia	pathogen
+MESH:D006973	Hypertension	disease
+MESH:D013985	Tick Paralysis	disease
+MESH:D003141	Communicable Diseases	disease
+MESH:D006850	Hydrocephalus, Normal Pressure	disease
+MESH:D003698	Hepatitis Delta Virus	pathogen
+MESH:D019595	Severe Dengue	disease
+MESH:D003424	Crohn Disease	disease
+MESH:D009133	Muscular Atrophy	disease
+MESH:D005387	Finland	geoloc
+MESH:D012302	Rinderpest virus	pathogen
+MESH:D046848	White spot syndrome virus 1	pathogen
+MESH:D018165	Orthoreovirus	pathogen
+MESH:D002137	Calculi	disease
+MESH:D005536	Foot-and-Mouth Disease	disease
+MESH:D013124	Spinal Injuries	disease
+MESH:D000072139	Giant Viruses	pathogen
+MESH:D012802	Sicily	geoloc
+MESH:D011024	Pneumonia, Viral	disease
+MESH:D002277	Carcinoma	disease
+MESH:D005235	Fatty Liver, Alcoholic	disease
+MESH:D009029	Mosaic Viruses	pathogen
+MESH:D000071072	Acute Febrile Encephalopathy	disease
+MESH:D012401	Rotavirus	pathogen
+MESH:D000086103	Negative-Sense RNA Viruses	pathogen
+MESH:D006345	Heart Septal Defects, Ventricular	disease
+MESH:D012515	Mast-Cell Sarcoma	disease
+MESH:D000077260	Sleepiness	disease
+MESH:D005355	Fibrosis	disease
+MESH:D016092	Spumavirus	pathogen
+MESH:D000080842	Undiagnosed Diseases	disease
+MESH:D044184	Xanthomonas vesicatoria	pathogen
+MESH:D004679	Encephalomyelitis	disease
+MESH:D001922	Brain Abscess	disease
+MESH:D010140	Pacific Ocean	geoloc
+MESH:D042101	Acalculous Cholecystitis	disease
+MESH:D016472	Motor Neuron Disease	disease
+MESH:D016543	Central Nervous System Neoplasms	disease
+MESH:D004671	Encephalitis, Arbovirus	disease
+MESH:D012750	Seychelles	geoloc
+MESH:D051677	Histiocytoma, Malignant Fibrous	disease
+MESH:D001927	Brain Diseases	disease
+MESH:D001117	Arenaviridae Infections	disease
+MESH:D004861	Herpesvirus 1, Equid	pathogen
+MESH:D008289	Malaria, Avian	disease
+MESH:D013921	Thrombocytopenia	disease
+MESH:D000710	Anaplasmataceae	pathogen
+MESH:D002418	Cattle Diseases	disease
+MESH:D015007	Yersinia	pathogen
+MESH:D008206	Lymphatic Diseases	disease
+MESH:D002681	China	geoloc
+MESH:C580065	Episodic Ataxia	disease
+MESH:D000097025	Influenza A Virus, H5N6 Subtype	pathogen
+MESH:D001768	Blister	disease
+MESH:D017507	Comoros	geoloc
+MESH:D056587	Cryopyrin-Associated Periodic Syndromes	disease
+MESH:D014391	Tuberculosis, Miliary	disease
+MESH:D058566	Sacroiliitis	disease
+MESH:D000094024	Post-Acute COVID-19 Syndrome	disease
+MESH:D000077342	Post-Lyme Disease Syndrome	disease
+MESH:D015047	Zoonoses	disease
+MESH:D004769	Enterovirus Infections	disease
+MESH:D014041	Tokyo	geoloc
+MESH:D000071698	Latent Autoimmune Diabetes in Adults	disease
+MESH:D002007	Brucellosis, Bovine	disease
+MESH:D029262	Puumala virus	pathogen
+MESH:D005760	Transmissible gastroenteritis virus	pathogen
+MESH:D045169	Severe Acute Respiratory Syndrome	disease
+MESH:D001882	Border Disease	disease
+MESH:D016643	Encephalopathy, Bovine Spongiform	disease
+MESH:D000257	Adenoviridae Infections	disease
+MESH:D015654	Herpesvirus 6, Human	pathogen
+MESH:D017824	Bone Cysts, Aneurysmal	disease
+MESH:D010195	Pancreatitis	disease
+MESH:D017993	Parvovirus, Canine	pathogen
+MESH:D002010	Brunei	geoloc
+MESH:C536591	Alveolar echinococcosis	disease
+MESH:D012769	Shock	disease
+MESH:D043367	Ralstonia	pathogen
+MESH:D000068037	South Sudan	geoloc
+MESH:D020802	Epidural Abscess	disease
+MESH:D023521	Chlamydophila Infections	disease
+MESH:D064766	Influenza A Virus, H7N9 Subtype	pathogen
+MESH:D014481	United States	geoloc
+MESH:D009521	Newcastle Disease	disease
+MESH:D007919	Leptospira	pathogen
+MESH:D007812	Laos	geoloc
+MESH:D004165	Diphtheria	disease
+MESH:D000086122	Double Stranded RNA Viruses	pathogen
+MESH:D018357	Respiratory Syncytial Virus Infections	disease
+MESH:D002546	Ischemic Attack, Transient	disease
+MESH:D013901	Thoracic Outlet Syndrome	disease
+MESH:D005334	Fever	disease
+MESH:D059352	Musculoskeletal Pain	disease
+MESH:D001605	Bermuda	geoloc
+MESH:D019176	Potyviridae	pathogen
+MESH:D010326	Pasteurella Infections	disease
+MESH:D006114	Great Lakes Region	geoloc
+MESH:D055499	Catheter-Related Infections	disease
+MESH:D006212	Hallucinations	disease
+MESH:D054990	Idiopathic Pulmonary Fibrosis	disease
+MESH:D014027	Tobacco Mosaic Virus	pathogen
+MESH:D013022	South Carolina	geoloc
+MESH:D006987	Hypesthesia	disease
+MESH:D057885	Triploidy	disease
+MESH:D058008	Xenotropic murine leukemia virus-related virus	pathogen
+MESH:D013288	Streptobacillus	pathogen
+MESH:D009167	Mycobacterium lepraemurium	pathogen
+MESH:D010219	Papua New Guinea	geoloc
+MESH:D008992	Monkey Diseases	disease
+MESH:D011704	Pyelonephritis	disease
+MESH:D013624	Taiwan	geoloc
+MESH:D054218	Precursor T-Cell Lymphoblastic Leukemia-Lymphoma	disease
+MESH:D011550	Pseudomonas aeruginosa	pathogen
+MESH:D016583	Enzootic Bovine Leukosis	disease
+MESH:D003120	Colorado	geoloc
+MESH:D003352	Corynebacterium	pathogen
+MESH:D002561	Cerebrovascular Disorders	disease
+MESH:D029121	Metapneumovirus	pathogen
+MESH:D000881	Anthrax	disease
+MESH:D065207	Middle East Respiratory Syndrome Coronavirus	pathogen
+MESH:D029043	Ebolavirus	pathogen
+MESH:D008145	Louisiana	geoloc
+MESH:D007927	Lesotho	geoloc
+MESH:D005876	Gibraltar	geoloc
+MESH:D031300	Retinal Vasculitis	disease
+MESH:D011325	Prince Edward Island	geoloc
+MESH:D009922	Oregon	geoloc
+MESH:D001955	British Columbia	geoloc
+MESH:D003928	Diabetic Nephropathies	disease
+MESH:D005729	Ganglioneuroma	disease
+MESH:D007010	Hyponatremia	disease
+MESH:D009658	North Dakota	geoloc
+MESH:D002526	Cerebellar Diseases	disease
+MESH:D002311	Cardiomyopathy, Dilated	disease
+MESH:D009468	Neuromuscular Diseases	disease
+MESH:D007757	Laboratory Infection	disease
+MESH:D001167	Arteritis	disease
+MESH:D010292	Paresthesia	disease
+MESH:D012202	Reye Syndrome	disease
+MESH:D015473	Leukemia, Promyelocytic, Acute	disease
+MESH:D000075662	Injection Site Reaction	disease
+MESH:D034701	Mastocytosis, Cutaneous	disease
+MESH:D014615	Vaccinia	disease
+MESH:D007214	Indonesia	geoloc
+MESH:D009518	New York	geoloc
+MESH:D017180	Tachycardia, Ventricular	disease
+MESH:D011002	Pleuropneumonia, Contagious	disease
+MESH:D012282	Rickettsia Infections	disease
+MESH:D005896	Glanders	disease
+MESH:D000071297	Acute Retroviral Syndrome	disease
+MESH:D012495	San Francisco	geoloc
+MESH:D014435	Typhoid Fever	disease
+MESH:D001171	Arthritis, Juvenile	disease
+MESH:D013188	Sri Lanka	geoloc
+MESH:D004739	England	geoloc
+MESH:D003332	Coronaviridae	pathogen
+MESH:D004211	Disseminated Intravascular Coagulation	disease
+MESH:D018778	Hantavirus Infections	disease
+MESH:D017955	Poliovirus	pathogen
+MESH:D001820	Bluetongue virus	pathogen
+MESH:D006470	Hemorrhage	disease
+MESH:D020577	Wolbachia	pathogen
+MESH:D001902	Botswana	geoloc
+MESH:D002543	Cerebral Hemorrhage	disease
+MESH:D006100	Granuloma Inguinale	disease
+MESH:D012713	Serum Sickness	disease
+MESH:D061006	Bays	geoloc
+MESH:D027601	Polyomavirus Infections	disease
+MESH:D017800	Potyvirus	pathogen
+MESH:D042441	Achromobacter denitrificans	pathogen
+MESH:D006660	Histoplasmosis	disease
+MESH:D065646	Thyroid Carcinoma, Anaplastic	disease
+MESH:D018155	Orthopoxvirus	pathogen
+MESH:D009109	Mumps virus	pathogen
+MESH:D011557	Pseudorabies	disease
+MESH:D000069544	Infectious Encephalitis	disease
+MESH:D019192	Sequivirus	pathogen
+MESH:D000188	Actinobacillus	pathogen
+MESH:D003139	Common Cold	disease
+MESH:D014125	Toxoplasmosis, Congenital	disease
+MESH:D012296	Rift Valley fever virus	pathogen
+MESH:D003457	Cryptosporidiosis	disease
+MESH:D015874	Yukon Territory	geoloc
+MESH:D002349	Carpal Tunnel Syndrome	disease
+MESH:D019083	Mediterranean Region	geoloc
+MESH:D017191	Ascaridida Infections	disease
+MESH:D009869	Oophoritis	disease
+MESH:D052162	Human papillomavirus 16	pathogen
+MESH:D018947	Samoa	geoloc
+MESH:D019282	Wasting Syndrome	disease
+MESH:C000656964	Aspergillus meningitis	disease
+MESH:D020277	Polyradiculoneuropathy, Chronic Inflammatory Demyelinating	disease
+MESH:D018259	Herpesvirus 1, Human	pathogen
+MESH:D000569	Americas	geoloc
+MESH:D020611	Hafnia alvei	pathogen
+MESH:D000260	Adenoviruses, Human	pathogen
+MESH:D015301	Retroviruses, Simian	pathogen
+MESH:D007827	Laryngitis	disease
+MESH:D018152	Leporipoxvirus	pathogen
+MESH:D000092162	Crystalluria	disease
+MESH:D049648	Timor-Leste	geoloc
+MESH:D011565	Psoriasis	disease
+MESH:D020242	Encephalomyelitis, Eastern Equine	disease
+MESH:D007597	Jordan	geoloc
+MESH:D002170	Canada	geoloc
+MESH:D006473	Postpartum Hemorrhage	disease
+MESH:D020967	Myotonic Disorders	disease
+MESH:D005254	Feline Panleukopenia	disease
+MESH:D000083042	Dickeya	pathogen
+MESH:D055371	Acute Lung Injury	disease
+MESH:D012878	Skin Neoplasms	disease
+MESH:D008097	Lithuania	geoloc
+MESH:D013281	Stomatitis, Aphthous	disease
+MESH:D000073076	Aruba	geoloc
+MESH:D013276	Stomach Ulcer	disease
+MESH:D030242	Diarrhea Virus 2, Bovine Viral	pathogen
+MESH:D009514	Vanuatu	geoloc
+MESH:D009657	North Carolina	geoloc
+MESH:D001145	Arrhythmias, Cardiac	disease
+MESH:D001317	Austria	geoloc
+MESH:D018248	Adenoma, Liver Cell	disease
+MESH:D008873	Mid-Atlantic Region	geoloc
+MESH:D000071225	Influenza A Virus, H5N8 Subtype	pathogen
+MESH:D007194	India	geoloc
+MESH:D009837	Oligodendroglioma	disease
+MESH:D012749	Sexually Transmitted Diseases	disease
+MESH:D014671	Vatican City	geoloc
+MESH:D000070058	Streptococcus iniae	pathogen
+MESH:D014253	Trichostrongylosis	disease
+MESH:D017865	Tospovirus	pathogen
+MESH:D009656	North America	geoloc
+MESH:D019280	Branchio-Oto-Renal Syndrome	disease
+MESH:D028323	Parvovirus, Porcine	pathogen
+MESH:D004420	Dystocia	disease
+MESH:D006482	Hemorrhagic Fevers, Viral	disease
+MESH:D009980	Influenza A virus	pathogen
+MESH:D013210	Staphylococcus	pathogen
+MESH:D018111	Pneumovirus	pathogen
+MESH:D018062	La Crosse virus	pathogen
+MESH:D008569	Memory Disorders	disease
+MESH:D007733	Kyasanur Forest Disease	disease
+MESH:D007943	Leukemia, Hairy Cell	disease
+MESH:D018258	Herpesvirus 2, Human	pathogen
+MESH:D006481	Hemorrhagic Fever, Omsk	disease
+MESH:D015730	Djibouti	geoloc
+MESH:D053122	Influenza A Virus, H3N2 Subtype	pathogen
+MESH:D007243	Infectious bursal disease virus	pathogen
+MESH:D018088	Tuberculosis, Multidrug-Resistant	disease
+MESH:D000038	Abscess	disease
+MESH:D008288	Malaria	disease
+MESH:D018771	Arthralgia	disease
+MESH:D013158	Splenic Diseases	disease
+MESH:D001766	Blindness	disease
+MESH:D019017	Eritrea	geoloc
+MESH:D020241	Encephalomyelitis, Western Equine	disease
+MESH:D011792	Quebec	geoloc
+MESH:D012229	Rhinovirus	pathogen
+MESH:D015011	Yersinia pseudotuberculosis	pathogen
+MESH:D012612	Scrub Typhus	disease
+MESH:D014058	Tonga	geoloc
+MESH:D001351	Infectious bronchitis virus	pathogen
+MESH:D014376	Tuberculosis	disease
+MESH:D009325	Nausea	disease
+MESH:D008585	Meningitis, Meningococcal	disease
+MESH:D009784	Occupational Diseases	disease
+MESH:D006556	Heroin Dependence	disease
+MESH:D019351	Rubulavirus Infections	disease
+MESH:D018107	Peste-des-petits-ruminants virus	pathogen
+MESH:D054220	Malformations of Cortical Development	disease
+MESH:D012757	Sheep Diseases	disease
+MESH:D015030	Zimbabwe	geoloc
+MESH:D003557	Phyllodes Tumor	disease
+MESH:D005901	Glaucoma	disease
+MESH:D009233	Myxoma virus	pathogen
+MESH:D009845	Oligospermia	disease
+MESH:D005368	Filariasis	disease
+MESH:D012432	Rwanda	geoloc
+MESH:D056187	Human T-lymphotropic virus 3	pathogen
+MESH:C000705967	pediatric multisystem inflammatory disease, COVID-19 related	disease
+MESH:D031941	Hemorrhagic Septicemia, Viral	disease
+MESH:D018051	Junin virus	pathogen
+MESH:D020828	Pseudobulbar Palsy	disease
+MESH:D005211	Fascioliasis	disease
+MESH:D006943	Hyperglycemia	disease
+MESH:D017992	Parvovirus	pathogen
+MESH:D017000	Campylobacter coli	pathogen
+MESH:D018114	Lyssavirus	pathogen
+MESH:D001210	Asia, Southeastern	geoloc
+MESH:D001098	Spider Bites	disease
+MESH:D003924	Diabetes Mellitus, Type 2	disease
+MESH:D006506	Hepatitis A	disease
+MESH:D017938	Coronavirus, Bovine	pathogen
+MESH:D055953	Microscopic Polyangiitis	disease
+MESH:D015613	Hepadnaviridae	pathogen
+MESH:D005002	Ethiopia	geoloc
+MESH:D008089	Listeria monocytogenes	pathogen
+MESH:D018702	Filoviridae Infections	disease
+MESH:D001072	Apraxias	disease
+MESH:D014380	Tuberculosis, Bovine	disease
+MESH:D000096724	Mosquito-Borne Diseases	disease
+MESH:D016766	Feline Infectious Peritonitis	disease
+MESH:D011014	Pneumonia	disease
+MESH:D003715	Dengue	disease
+MESH:D004438	Ecchymosis	disease
+MESH:D018419	Primate Diseases	disease
+MESH:D005603	Francisella	pathogen
+MESH:D009103	Multiple Sclerosis	disease
+MESH:D006678	HIV	pathogen
+MESH:D022125	Lacerations	disease
+MESH:D006814	Hungary	geoloc
+MESH:D006193	Haemophilus influenzae	pathogen
+MESH:D020560	Proteobacteria	pathogen
+MESH:D050497	Stillbirth	disease
+MESH:D012384	Rome	geoloc
+MESH:D015658	HIV Infections	disease
+MESH:D017954	Africa South of the Sahara	geoloc
+MESH:D004062	DiGeorge Syndrome	disease
+MESH:D001886	Bordetella pertussis	pathogen
+MESH:D004681	Encephalomyelitis, Autoimmune, Experimental	disease
+MESH:D014455	Ukraine	geoloc
+MESH:D025065	Borrelia burgdorferi	pathogen
+MESH:D064420	Drug-Related Side Effects and Adverse Reactions	disease
+MESH:D004474	Ecthyma, Contagious	disease
+MESH:D003251	Constriction, Pathologic	disease
+MESH:D009850	Oman	geoloc
+MESH:D012485	Salmonella typhi	pathogen
+MESH:D020330	Bell Palsy	disease
+MESH:D004605	Elephantiasis, Filarial	disease
+MESH:D008800	Mexico	geoloc
+MESH:D030361	Papillomavirus Infections	disease
+MESH:D043183	Irritable Bowel Syndrome	disease
+MESH:D004844	Epistaxis	disease
+MESH:D005602	France	geoloc
+MESH:D000725	Andorra	geoloc
+MESH:D058345	Asymptomatic Infections	disease
+MESH:D000755	Anemia, Sickle Cell	disease
+MESH:D006338	Heart Neoplasms	disease
+MESH:D000437	Alcoholism	disease
+MESH:D008542	Melanesia	geoloc
+MESH:D008586	Meningitis, Pneumococcal	disease
+MESH:D010013	Osteogenesis Imperfecta	disease
+MESH:D017929	Hemorrhagic Disease Virus, Rabbit	pathogen
+MESH:D020774	Pick Disease of the Brain	disease
+MESH:D009755	Night Blindness	disease
+MESH:D012516	Osteosarcoma	disease
+MESH:D007055	Iceland	geoloc
+MESH:D020325	Migraine with Aura	disease
+MESH:D012640	Seizures	disease
+MESH:D034363	Viridans Streptococci	pathogen
+MESH:D000083242	Ischemic Stroke	disease
+MESH:D006474	Hemorrhagic Disorders	disease
+MESH:D012514	Sarcoma, Kaposi	disease
+MESH:D015508	Nasal Obstruction	disease
+MESH:D053121	Influenza A Virus, H2N2 Subtype	pathogen
+MESH:D008286	Malabsorption Syndromes	disease
+MESH:D005714	Gambia	geoloc
+MESH:D007410	Intestinal Diseases	disease
+MESH:D013144	Spirochaetales	pathogen
+MESH:D015458	Leukemia, T-Cell	disease
+MESH:D003232	Conjunctivitis, Acute Hemorrhagic	disease
+MESH:D013291	Streptococcus	pathogen
+MESH:D014734	Vibrio cholerae	pathogen
+MESH:D010300	Parkinson Disease	disease
+MESH:D001211	Asia, Western	geoloc
+MESH:D007562	Creutzfeldt-Jakob Syndrome	disease
+MESH:D019436	Saint Vincent and the Grenadines	geoloc
+MESH:D021866	Cyclosporiasis	disease
+MESH:D004957	Estonia	geoloc
+MESH:D009345	Neisseria meningitidis	pathogen
+MESH:D025682	Nanovirus	pathogen
+MESH:D003677	Deficiency Diseases	disease
+MESH:D002051	Burkitt Lymphoma	disease
+MESH:D049920	Ralstonia pickettii	pathogen
+MESH:D000084462	Hyperthermia	disease
+MESH:D014616	Vaccinia virus	pathogen
+MESH:D012398	Ross River virus	pathogen
+MESH:D000292	Pelvic Inflammatory Disease	disease
+MESH:D011533	Proviruses	pathogen
+MESH:D000093742	Breakthrough Infections	disease
+MESH:D016701	Guinea	geoloc
+MESH:D000462	Algeria	geoloc
+MESH:D011114	Polynesia	geoloc
+MESH:D045473	Severe acute respiratory syndrome-related coronavirus	pathogen
+MESH:D007805	Language Development Disorders	disease
+MESH:D007008	Hypokalemia	disease
+MESH:D002488	Central African Republic	geoloc
+MESH:D028962	Coronavirus OC43, Human	pathogen
+MESH:D003668	Pressure Ulcer	disease
+MESH:D003535	Cyprus	geoloc
+MESH:D009069	Movement Disorders	disease
+MESH:D012764	Shigella sonnei	pathogen
+MESH:D014035	Togaviridae	pathogen
+MESH:D045404	Hendra Virus	pathogen
+MESH:D013322	Strongyloidiasis	disease
+MESH:D007896	Leishmaniasis	disease
+MESH:D014720	Vesicular Exanthema of Swine	disease
+MESH:D020795	Photophobia	disease
+MESH:D010176	Panama	geoloc
+MESH:D017794	Alfalfa mosaic virus	pathogen
+MESH:D012213	Rheumatic Fever	disease
+MESH:D008296	Malaysia	geoloc
+MESH:D018104	Distemper Virus, Phocine	pathogen
+MESH:D004771	Enteroviruses, Porcine	pathogen
+MESH:D016123	Campylobacter jejuni	pathogen
+MESH:D018358	Neuroendocrine Tumors	disease
+MESH:D007242	Herpesvirus 1, Bovine	pathogen
+MESH:D000080364	Multifocal Choroiditis	disease
+MESH:D007172	Erectile Dysfunction	disease
+MESH:D019693	Hepatitis, Autoimmune	disease
+MESH:D006259	Craniocerebral Trauma	disease
+MESH:D012983	Soft Tissue Neoplasms	disease
+MESH:D010285	Pseudocowpox Virus	pathogen
+MESH:D053608	Stupor	disease
+MESH:D002691	Chlamydophila psittaci	pathogen
+MESH:D000380	Agranulocytosis	disease
+MESH:D029544	Foot-and-Mouth Disease Virus	pathogen
+MESH:D010237	Paragonimiasis	disease
+MESH:D059350	Chronic Pain	disease
+MESH:D012840	Simbu virus	pathogen
+MESH:D015012	Yersinia pseudotuberculosis Infections	disease
+MESH:D014397	Tuberculosis, Pulmonary	disease
+MESH:D011470	Prostatic Hyperplasia	disease
+MESH:D010167	Pallor	disease
+MESH:D001749	Urinary Bladder Neoplasms	disease
+MESH:D007088	Illusions	disease
+MESH:D018410	Pneumonia, Bacterial	disease
+MESH:D009522	Newcastle disease virus	pathogen
+MESH:D006456	Hemoglobinuria	disease
+MESH:D019547	Neck Pain	disease
+MESH:D002779	Cholestasis	disease
+MESH:D005955	Glucosephosphate Dehydrogenase Deficiency	disease
+MESH:D058625	End Stage Liver Disease	disease
+MESH:D003320	Corneal Ulcer	disease
+MESH:D010244	Bulbar Palsy, Progressive	disease
+MESH:D016883	Diabetic Ketoacidosis	disease
+MESH:D001893	Borneo	geoloc
+MESH:D011008	Pneumococcal Infections	disease
+MESH:D054243	Vesicular Stomatitis	disease
+MESH:D000068376	Compassion Fatigue	disease
+MESH:D013280	Stomatitis	disease
+MESH:D011174	Portugal	geoloc
+MESH:D014390	Tuberculosis, Meningeal	disease
+MESH:D016851	Orthobunyavirus	pathogen
+MESH:D004695	Endocardial Fibroelastosis	disease
+MESH:D014456	Ulcer	disease
+MESH:D001454	Baltic States	geoloc
+MESH:D004332	Drowning	disease
+MESH:D005317	Fetal Growth Retardation	disease
+MESH:D055771	Serbia	geoloc
+MESH:D000333	Aeromonas	pathogen
+MESH:D009798	Ocular Hypertension	disease
+MESH:D016657	Cerebral Amyloid Angiopathy	disease
+MESH:D018746	Systemic Inflammatory Response Syndrome	disease
+MESH:D015008	Yersinia enterocolitica	pathogen
+MESH:D001715	Bird Diseases	disease
+MESH:D007443	Intussusception	disease
+MESH:D009145	Mushroom Poisoning	disease
+MESH:D004666	Encephalitis Virus, Venezuelan Equine	pathogen
+MESH:D006516	Adenoviruses, Canine	pathogen
+MESH:D058729	Peripheral Arterial Disease	disease
+MESH:D004541	Eisenmenger Complex	disease
+MESH:D014681	Velopharyngeal Insufficiency	disease
+MESH:D009975	Orthomyxoviridae	pathogen
+MESH:D025962	Septo-Optic Dysplasia	disease
+MESH:D000090142	European Alpine Region	geoloc
+MESH:D000073638	Alphacoronavirus	pathogen
+MESH:D001037	Aphasia	disease
+MESH:D020957	Nunavut	geoloc
+MESH:D020181	Sleep Apnea, Obstructive	disease
+MESH:D002139	Caliciviridae	pathogen
+MESH:D017129	Anisakiasis	disease
+MESH:D066087	Perinatal Death	disease
+MESH:D007615	Kansas	geoloc
+MESH:D009519	New York City	geoloc
+MESH:D010849	Picornaviridae	pathogen
+MESH:D014678	Veillonella	pathogen
+MESH:D055744	Invasive Pulmonary Aspergillosis	disease
+MESH:D009920	Orchitis	disease
+MESH:D016780	Malaria, Vivax	disease
+MESH:D015048	Zooplankton	geoloc
+MESH:D009232	Myxoma	disease
+MESH:D000052	Acanthosis Nigricans	disease
+MESH:D015001	Yaws	disease
+MESH:D018589	Gastroparesis	disease
+MESH:D053578	Opsoclonus-Myoclonus Syndrome	disease
+MESH:D055652	Gray Platelet Syndrome	disease
+MESH:D019741	Haemophilus influenzae type b	pathogen
+MESH:D008824	Michigan	geoloc
+MESH:D009511	New England	geoloc
+MESH:D003560	Cysts	disease
+MESH:D004760	Enterocolitis	disease
+MESH:D007241	Infectious Bovine Rhinotracheitis	disease
+MESH:D016905	Gram-Negative Bacterial Infections	disease
+MESH:D002282	Adenocarcinoma, Bronchiolo-Alveolar	disease
+MESH:D000562	Amebiasis	disease
+MESH:D005869	Ghana	geoloc
+MESH:D010217	Phlebotomus Fever	disease
+MESH:D019424	Dominica	geoloc
+MESH:D004820	Epidermolysis Bullosa	disease
+MESH:D007087	Illinois	geoloc
+MESH:D010283	Paratuberculosis	disease
+MESH:D006333	Heart Failure	disease
+MESH:D008113	Liver Neoplasms	disease
+MESH:D008232	Lymphoproliferative Disorders	disease
+MESH:D009120	Muscle Cramp	disease
+MESH:D019288	Herpesvirus 8, Human	pathogen
+MESH:D001049	Apnea	disease
+MESH:D007558	Italy	geoloc
+MESH:D014257	Trichuriasis	disease
+MESH:D007564	Japan	geoloc
+MESH:D035583	Rare Diseases	disease
+MESH:D014739	Victoria	geoloc
+MESH:D008831	Microcephaly	disease
+MESH:D012845	Sindbis Virus	pathogen
+MESH:D011001	Pleuropneumonia	disease
+MESH:D066088	Infant Death	disease
+MESH:D011711	Pyoderma	disease
+MESH:D004674	Encephalitis, St. Louis	disease
+MESH:D006453	Hemoglobinopathies	disease
+MESH:D001919	Bradycardia	disease
+MESH:D012672	Semliki forest virus	pathogen
+MESH:D013020	South America	geoloc
+MESH:D006311	Hearing Disorders	disease
+MESH:D001541	Benin	geoloc
+MESH:D011549	Pseudomonas	pathogen
+MESH:D004219	District of Columbia	geoloc
+MESH:D017121	Porphyria, Hepatoerythropoietic	disease
+MESH:D007630	Kenya	geoloc
+MESH:D000415	Albania	geoloc
+MESH:D014037	Togo	geoloc
+MESH:D006566	Herpesviridae Infections	disease
+MESH:D012877	Skin Manifestations	disease
+MESH:D000086582	Anosmia	disease
+MESH:D005207	Fasciculation	disease
+MESH:D001424	Bacterial Infections	disease
+MESH:D007251	Influenza, Human	disease
+MESH:D015143	Philadelphia	geoloc
+MESH:D007709	Klebsiella	pathogen
+MESH:D005256	Leukemia Virus, Feline	pathogen
+MESH:D009344	Neisseria gonorrhoeae	pathogen
+MESH:D012624	Seaweed	geoloc
+MESH:D015024	Zambia	geoloc
+MESH:D004810	Ephemeral Fever	disease
+MESH:D004678	Encephalomalacia	disease
+MESH:D012061	Relapsing Fever	disease
+MESH:D008166	Lumpy Skin Disease	disease
+MESH:D012216	Rheumatic Diseases	disease
+MESH:D056304	Genu Valgum	disease
+MESH:D009523	Newfoundland and Labrador	geoloc
+MESH:D006509	Hepatitis B	disease
+MESH:D014736	Vibrio parahaemolyticus	pathogen
+MESH:D010034	Otitis Media with Effusion	disease
+MESH:D065706	Polymicrogyria	disease
+MESH:D004664	Encephalitis Virus, Japanese	pathogen
+MESH:D003353	Corynebacterium diphtheriae	pathogen
+MESH:D000230	Adenocarcinoma	disease
+MESH:D002641	Chicago	geoloc
+MESH:D001445	Bahrain	geoloc
+MESH:D006691	Classical Swine Fever	disease
+MESH:D006172	Guyana	geoloc
+MESH:D011780	Qatar	geoloc
+MESH:D000085142	Severe Fever with Thrombocytopenia Syndrome	disease
+MESH:D008587	Meningitis, Viral	disease
+MESH:D008522	Mediterranean Sea	geoloc
+MESH:D012409	Rubella	disease
+MESH:D006504	Hepatic Veno-Occlusive Disease	disease
+MESH:D017096	Prion Diseases	disease
+MESH:D009855	Onchocerciasis	disease
+MESH:D018754	Ventricular Dysfunction	disease
+MESH:D004630	Emergencies	disease
+MESH:D017934	Coronavirus	pathogen
+MESH:D000088562	Persistent Infection	disease
+MESH:D001631	Bhutan	geoloc
+MESH:D019779	Salmonella enterica	pathogen
+MESH:D012421	Rupture	disease
+MESH:D011542	Pseudarthrosis	disease
+MESH:D012871	Skin Diseases	disease
+MESH:D000150	Acinetobacter	pathogen
+MESH:D004665	Encephalitis Virus, St. Louis	pathogen
+MESH:D014008	Tinea Pedis	disease
+MESH:D007861	Lebanon	geoloc
+MESH:D008923	Missouri	geoloc
+MESH:D004320	Dracunculiasis	disease
+MESH:D003587	Cytomegalovirus	pathogen
+MESH:D050723	Fractures, Bone	disease
+MESH:D007232	Infant, Newborn, Diseases	disease
+MESH:D014687	Venezuela	geoloc
+MESH:D002493	Central Nervous System Diseases	disease
+MESH:D003016	Clostridium perfringens	pathogen
+MESH:D060851	Gulf of Mexico	geoloc
+MESH:D009477	Hereditary Sensory and Autonomic Neuropathies	disease
+MESH:D054324	Enterohemorrhagic Escherichia coli	pathogen
+MESH:D003013	Clostridium	pathogen
+MESH:D003014	Clostridium botulinum	pathogen
+MESH:D018067	Flaviviridae	pathogen
+MESH:D008796	Metrorrhagia	disease
+MESH:D010679	Philippines	geoloc
+MESH:D041241	Vibrio cholerae O1	pathogen
+MESH:D016918	Arthritis, Reactive	disease
+MESH:D009510	New Caledonia	geoloc
+MESH:D002140	California	geoloc
+MESH:D000542	Alveolitis, Extrinsic Allergic	disease
+MESH:D018083	Border disease virus	pathogen
+MESH:D001460	Barbados	geoloc
+MESH:D017202	Myocardial Ischemia	disease
+MESH:D007676	Kidney Failure, Chronic	disease
+MESH:D004066	Digestive System Diseases	disease
+MESH:D010996	Pleural Effusion	disease
+MESH:D013538	Svalbard	geoloc
+MESH:D009509	New Brunswick	geoloc
+MESH:D013919	Thromboangiitis Obliterans	disease
+MESH:D006726	Hordeolum	disease
+MESH:D054972	Postural Orthostatic Tachycardia Syndrome	disease
+MESH:D017801	Plum Pox Virus	pathogen
+MESH:D015497	HIV-1	pathogen
+MESH:D018113	Respiratory Syncytial Virus, Human	pathogen
+MESH:D001930	Brain Injuries	disease
+MESH:D010309	Parotitis	disease
+MESH:D013781	Texas	geoloc
+MESH:D002169	Campylobacter Infections	disease
+MESH:D006477	Arenaviruses, New World	pathogen
+MESH:D016089	Immunodeficiency Virus, Feline	pathogen
+MESH:D012532	Scabies	disease
+MESH:D012486	Salmonella typhimurium	pathogen
+MESH:D016731	Erythema Infectiosum	disease
+MESH:D014589	Utah	geoloc
+MESH:D002690	Chlamydia Infections	disease
+MESH:D015535	Arthritis, Psoriatic	disease
+MESH:D018096	Mononegavirales	pathogen
+MESH:D007153	Immunologic Deficiency Syndromes	disease
+MESH:D003231	Conjunctivitis	disease
+MESH:D014950	Wounds, Penetrating	disease
+MESH:D001170	Arthritis, Infectious	disease
+MESH:D004827	Epilepsy	disease
+MESH:D018843	Republic of North Macedonia	geoloc
+MESH:D006335	Heart Injuries	disease
+MESH:D062312	Islands	geoloc
+MESH:D020019	Neurocysticercosis	disease
+MESH:D000864	Antarctic Regions	geoloc
+MESH:D009513	New Hampshire	geoloc
+MESH:D011655	Pulmonary Embolism	disease
+MESH:D009361	Neoplasm Invasiveness	disease
+MESH:D016086	Lentivirus	pathogen
+MESH:D009393	Nephritis	disease
+MESH:D063130	Maternal Death	disease
+MESH:D005616	French Guiana	geoloc
+MESH:D008630	Mercury Poisoning	disease
+MESH:D020803	Encephalitis, Herpes Simplex	disease
+MESH:D002609	Chediak-Higashi Syndrome	disease
+MESH:D019029	Palau	geoloc
+MESH:D015451	Leukemia, Lymphocytic, Chronic, B-Cell	disease
+MESH:D018049	Arenaviruses, Old World	pathogen
+MESH:D002052	Myanmar	geoloc
+MESH:D002003	Brucella abortus	pathogen
+MESH:D019851	Thrombophilia	disease
+MESH:D017793	Luteovirus	pathogen
+MESH:D018487	Ventricular Dysfunction, Left	disease
+MESH:C535382	Arthrogryposis renal dysfunction cholestasis syndrome	disease
+MESH:D014917	Whooping Cough	disease
+MESH:D018151	Capripoxvirus	pathogen
+MESH:D006480	Hemorrhagic Fever with Renal Syndrome	disease
+MESH:D001899	Borrelia Infections	disease
+MESH:D011019	Pneumonia, Mycoplasma	disease
+MESH:D006483	Hemorrhagic Septicemia	disease
+MESH:D009202	Cardiomyopathies	disease
+MESH:D034141	Hypoalbuminemia	disease
+MESH:D000086982	Blood-Borne Infections	disease
+MESH:D006429	Hemiplegia	disease
+MESH:D049292	Leukoaraiosis	disease
+MESH:D017250	Caliciviridae Infections	disease
+MESH:D006934	Hypercalcemia	disease
+MESH:D012478	Salmonella Food Poisoning	disease
+MESH:D012899	Smallpox	disease
+MESH:D009506	Nevus	disease
+MESH:D008052	Lipid Metabolism, Inborn Errors	disease
+MESH:D020625	Taylorella equigenitalis	pathogen
+MESH:D000458	Cyanobacteria	pathogen
+MESH:D004696	Endocarditis	disease
+MESH:D002371	Cat Diseases	disease
+MESH:D015715	Corneal Edema	disease
+MESH:D012133	Respiratory Paralysis	disease
+MESH:D016563	Filoviridae	pathogen
+MESH:D007877	Legionnaires' Disease	disease
+MESH:D009981	Influenza B virus	pathogen
+MESH:D011782	Quadriplegia	disease
+MESH:D020852	Lyme Neuroborreliosis	disease
+MESH:D000370	Ageusia	disease
+MESH:D005132	Eye Manifestations	disease
+MESH:D004927	Escherichia coli Infections	disease
+MESH:D003704	Dementia	disease
+MESH:D006561	Herpes Simplex	disease
+MESH:D056887	Pelvic Organ Prolapse	disease
+MESH:D007577	JC Virus	pathogen
+MESH:C000723468	Chapare hemorrhagic fever	disease
+MESH:D034081	Wasting Disease, Chronic	disease
+MESH:D023501	Chlamydophila	pathogen
+MESH:D004892	Erythema Multiforme	disease
+MESH:D000190	Actinomyces	pathogen
+MESH:D014657	Vasculitis	disease
+MESH:D002292	Carcinoma, Renal Cell	disease
+MESH:D000712	Anaplasmosis	disease
+MESH:C538420	Black hairy tongue	disease
+MESH:D013577	Syndrome	disease
+MESH:D013924	Thrombophlebitis	disease
+MESH:D003440	Croup	disease
+MESH:D012816	Signs and Symptoms	disease
+MESH:D006501	Hepatic Encephalopathy	disease
+MESH:D018050	Arenavirus	pathogen
+MESH:D000072742	Invasive Fungal Infections	disease
+MESH:D029261	Sin Nombre virus	pathogen
+MESH:D001421	Bacteria, Anaerobic	pathogen
+MESH:D014766	Viremia	disease
+MESH:D009170	Nontuberculous Mycobacteria	pathogen
+MESH:D013636	Tanzania	geoloc
+MESH:D017928	Vesicular exanthema of swine virus	pathogen
+MESH:D063366	Estuaries	geoloc
+MESH:D017898	Tobamovirus	pathogen
+MESH:D015434	Panniculitis	disease
+MESH:D016088	Arthritis-Encephalitis Virus, Caprine	pathogen
+MESH:D012214	Rheumatic Heart Disease	disease
+MESH:D003093	Colitis, Ulcerative	disease
+MESH:D015142	Baltimore	geoloc
+MESH:D008199	Lymphadenitis	disease
+MESH:D005198	Fanconi Syndrome	disease
+MESH:D014526	Urethritis	disease
+MESH:D005587	Fowlpox virus	pathogen
+MESH:D009127	Muscle Rigidity	disease
+MESH:D008556	Melkersson-Rosenthal Syndrome	disease
+MESH:D025701	Asfarviridae	pathogen
+MESH:D014902	West Nile virus	pathogen
+MESH:D000405	Akinetic Mutism	disease
+MESH:D004415	Dyspepsia	disease
+MESH:D016135	Spinal Dysraphism	disease
+MESH:D058968	Pythiosis	disease
+MESH:D010568	Peru	geoloc
+MESH:D030041	Hepatitis A virus	pathogen
+MESH:D001176	Arthrogryposis	disease
+MESH:D058226	Plaque, Atherosclerotic	disease
+MESH:D009426	Netherlands	geoloc
+MESH:D009165	Mycobacterium Infections, Nontuberculous	disease
+MESH:D002163	Cameroon	geoloc
+MESH:D005910	Glioma	disease
+MESH:D019048	Prostatic Intraepithelial Neoplasia	disease
+MESH:D006557	Herpangina	disease
+MESH:D016582	Leukemia, Feline	disease
+MESH:D006461	Hemolysis	disease
+MESH:D005585	Influenza in Birds	disease
+MESH:D045403	Henipavirus	pathogen
+MESH:D007969	Leukomalacia, Periventricular	disease
+MESH:D002318	Cardiovascular Diseases	disease
+MESH:D007022	Hypotension	disease
+MESH:D014839	Vomiting	disease
+MESH:D010612	Pharyngitis	disease
+MESH:D009896	Optic Atrophy	disease
+MESH:D001408	Bacillus anthracis	pathogen
+MESH:D008103	Liver Cirrhosis	disease
+MESH:D000067148	Fungal Viruses	pathogen
+MESH:D004374	Ductus Arteriosus, Patent	disease
+MESH:D005367	Fiji	geoloc
+MESH:D003323	Coronary Aneurysm	disease
+MESH:D029301	Sandfly fever Naples virus	pathogen
+MESH:D011141	Polyuria	disease
+MESH:D016865	Reassortant Viruses	pathogen
+MESH:D019179	Ilarvirus	pathogen
+MESH:D015511	Goat Diseases	disease
+MESH:D014552	Urinary Tract Infections	disease
+MESH:D009182	Mycosis Fungoides	disease
+MESH:D006073	Gout	disease
+MESH:D012523	Sarcocystosis	disease
+MESH:D013274	Stomach Neoplasms	disease
+MESH:D020096	Zygomycosis	disease
+MESH:D015023	Democratic Republic of the Congo	geoloc
+MESH:D013648	Tasmania	geoloc
+MESH:D000071074	Neonatal Sepsis	disease
+MESH:D007752	Obstetric Labor, Premature	disease
+MESH:D006356	Heartburn	disease
+MESH:C535630	Hantavirosis	disease
+MESH:D011595	Psychomotor Agitation	disease
+MESH:D006255	Rhinitis, Allergic, Seasonal	disease
+MESH:D054307	Enterotoxigenic Escherichia coli	pathogen
+MESH:D003586	Cytomegalovirus Infections	disease
+MESH:D057831	Lemierre Syndrome	disease
+MESH:D053150	Simian foamy virus	pathogen
+MESH:D018188	Cardiovirus Infections	disease
+MESH:D010325	Pasteurella	pathogen
+MESH:D002771	Cholera	disease
+MESH:D000741	Anemia, Aplastic	disease
+MESH:D013620	Tajikistan	geoloc
+MESH:D005076	Exanthema	disease
+MESH:D004293	Dominican Republic	geoloc
+MESH:D001530	Belgium	geoloc
+MESH:D002102	Cadaver	disease
+MESH:D010291	Paresis	disease
+MESH:D008256	Macau	geoloc
+MESH:D011349	Proctitis	disease
+MESH:D014235	Trichinellosis	disease
+MESH:D014202	Tremor	disease
+MESH:D003716	Dengue Virus	pathogen
+MESH:D008087	Listeria	pathogen
+MESH:D003294	Seizures, Febrile	disease
+MESH:D008167	Lumpy skin disease virus	pathogen
+MESH:D011818	Rabies	disease
+MESH:D003731	Dental Caries	disease
+MESH:D012220	Rhinitis	disease
+MESH:D000413	Alaska	geoloc
+MESH:D002545	Brain Ischemia	disease
+MESH:D004481	Ectromelia virus	pathogen
+MESH:D009664	Norway	geoloc
+MESH:D006476	Orthohantavirus	pathogen
+MESH:D002141	Encephalitis Virus, California	pathogen
+MESH:D014802	Vitamin A Deficiency	disease
+MESH:D006254	Hawaii	geoloc
+MESH:D041021	Brucella suis	pathogen
+MESH:D014479	United Arab Emirates	geoloc
+MESH:D009663	Norwalk virus	pathogen
+MESH:D029263	Seoul virus	pathogen
+MESH:D019694	Hepatitis B, Chronic	disease
+MESH:D000524	Alphavirus	pathogen
+MESH:D008554	Melioidosis	disease
+MESH:D005202	Asia, Eastern	geoloc
+MESH:D011225	Pre-Eclampsia	disease
+MESH:D000096266	Himalayas	geoloc
+MESH:D004534	Egypt	geoloc
+MESH:D007815	Larva Migrans	disease
+MESH:D001471	Barrett Esophagus	disease
+MESH:D018063	Hantaan virus	pathogen
+MESH:D000402	Airway Obstruction	disease
+MESH:D008877	Middle East	geoloc
+MESH:D019283	Pancreatitis, Acute Necrotizing	disease
+MESH:D003397	Craniopharyngioma	disease
+MESH:D002764	Cholecystitis	disease
+MESH:D010284	Paratyphoid Fever	disease
+MESH:D004925	Escherichia	pathogen
+MESH:D002646	Chikungunya virus	pathogen
+MESH:D000855	Anorexia	disease
+MESH:D012526	Satellite Viruses	pathogen
+MESH:D007844	Latvia	geoloc
+MESH:D012998	Somalia	geoloc
+MESH:D005128	Eye Diseases	disease
+MESH:D000860	Hypoxia	disease
+MESH:D009548	Niger	geoloc
+MESH:D009674	Nova Scotia	geoloc
+MESH:D000073136	Sao Tome and Principe	geoloc
+MESH:D009073	Mozambique	geoloc
+MESH:D007415	Intestinal Obstruction	disease
+MESH:D010154	Pakistan	geoloc
+MESH:D012541	Scarlet Fever	disease
+MESH:D006941	Hyperesthesia	disease
+MESH:D014777	Virus Diseases	disease
+MESH:D012298	Rigor Mortis	disease
+MESH:D063826	Kosovo	geoloc
+MESH:D002031	Bulgaria	geoloc
+MESH:D013789	Thalassemia	disease
+MESH:D013593	Syria	geoloc
+MESH:D006261	Headache	disease
+MESH:D018163	Orbivirus	pathogen
+MESH:D001988	Bronchiolitis	disease
+MESH:D000810	Angola	geoloc
+MESH:D000073496	Frailty	disease
+MESH:D009198	Myiasis	disease
+MESH:D007154	Immune System Diseases	disease
+MESH:D020422	Mononeuropathies	disease
+MESH:D000086722	Rhinorrhea	disease
+MESH:D014768	Virginia	geoloc
+MESH:D001261	Pulmonary Atelectasis	disease
+MESH:D016993	Chlamydophila pneumoniae	pathogen
+MESH:D011212	Poxviridae	pathogen
+MESH:D003047	Coccidioidomycosis	disease
+MESH:D017939	Coronavirus, Canine	pathogen
+MESH:D009169	Mycobacterium tuberculosis	pathogen
+MESH:D009059	Mouth Diseases	disease
+MESH:D009447	Neuroblastoma	disease
+MESH:D000095164	Maldives	geoloc
+MESH:D011820	Rabies virus	pathogen
+MESH:D015212	Inflammatory Bowel Diseases	disease
+MESH:D014901	West Nile Fever	disease
+MESH:D004685	Encephalomyelitis, Venezuelan Equine	disease
+MESH:D004802	Eosinophilia	disease
+MESH:D018185	Morbillivirus Infections	disease
+MESH:D004854	Herpesvirus 4, Human	pathogen
+MESH:D015427	Reperfusion Injury	disease
+MESH:D005416	Flavivirus	pathogen
+MESH:D055959	Intervertebral Disc Degeneration	disease
+MESH:D000075322	Heavy Metal Poisoning	disease
+MESH:D005845	Georgia	geoloc
+MESH:D052660	Bocavirus	pathogen
+MESH:D002043	Bunyaviridae	pathogen
+MESH:D013555	Swine Vesicular Disease	disease
+MESH:D016773	Leishmaniasis, Cutaneous	disease
+MESH:D000067011	Severe Acute Malnutrition	disease
+MESH:D007859	Learning Disabilities	disease
+MESH:D010033	Otitis Media	disease
+MESH:D011906	Rat-Bite Fever	disease
+MESH:D009886	Ophthalmoplegia	disease
+MESH:D018157	Parapoxvirus	pathogen
+MESH:D063927	Lujo virus	pathogen
+MESH:D015005	Yellow fever virus	pathogen
+MESH:D008436	Mauritius	geoloc
+MESH:D008231	Lymphopenia	disease
+MESH:D012496	San Marino	geoloc
+MESH:D008590	Meningoencephalitis	disease
+MESH:D012030	Refractive Errors	disease
+MESH:D003225	Hemorrhagic Fever Virus, Crimean-Congo	pathogen
+MESH:D012190	Retroviridae	pathogen
+MESH:D012484	Salmonella paratyphi B	pathogen
+MESH:D058429	Gnathostomiasis	disease
+MESH:D015651	Mycotoxicosis	disease
+MESH:D030241	Diarrhea Virus 1, Bovine Viral	pathogen
+MESH:D029424	Pulmonary Disease, Chronic Obstructive	disease
+MESH:D016973	Pectobacterium carotovorum	pathogen
+MESH:D012373	Rocky Mountain Spotted Fever	disease
+MESH:D059246	Tachypnea	disease
+MESH:D058387	Candidemia	disease
+MESH:D013553	Swine Diseases	disease
+MESH:D013532	Suriname	geoloc
+MESH:D001819	Bluetongue	disease
+MESH:D012328	RNA Viruses	pathogen
+MESH:D011696	Purpura, Thrombocytopenic	disease
+MESH:D000079426	Vector Borne Diseases	disease
+MESH:D019453	Escherichia coli O157	pathogen
+MESH:D009421	Nervous System Malformations	disease
+MESH:D040981	Acinetobacter baumannii	pathogen
+MESH:D008589	Meningococcal Infections	disease
+MESH:D014355	Chagas Disease	disease
+MESH:D050031	Hashimoto Disease	disease
+MESH:D011350	Proctocolitis	disease
+MESH:D015004	Yellow Fever	disease
+MESH:D000072281	Lymphadenopathy	disease
+MESH:D005739	Gas Poisoning	disease
+MESH:D009212	Myoglobinuria	disease
+MESH:D008659	Metabolic Diseases	disease
+MESH:D001118	Argentina	geoloc
+MESH:D001281	Atrial Fibrillation	disease
+MESH:D009080	Mucocutaneous Lymph Node Syndrome	disease
+MESH:D011087	Polycythemia Vera	disease
+MESH:D007035	Hypothermia	disease
+MESH:D000709	Anaplasma	pathogen
+MESH:D000355	African Horse Sickness	disease
+MESH:D042726	Burkholderia mallei	pathogen
+MESH:D001890	Borna Disease	disease
+MESH:D000350	Africa, Central	geoloc
+MESH:D004267	DNA Viruses	pathogen
+MESH:D064966	British Virgin Islands	geoloc
+MESH:D015141	Los Angeles	geoloc
+MESH:D000686	Amyloidosis	disease
+MESH:D001528	Behcet Syndrome	disease
+MESH:D013030	Spain	geoloc
+MESH:D044349	Oceania	geoloc
+MESH:D004670	Encephalitis, California	disease
+MESH:D003389	Cranial Nerve Diseases	disease
+MESH:D041081	Anaplasma phagocytophilum	pathogen
+MESH:D053124	Influenza A Virus, H5N1 Subtype	pathogen
+MESH:D062706	Prodromal Symptoms	disease
+MESH:D009203	Myocardial Infarction	disease
+MESH:D009276	Namibia	geoloc
+MESH:D007876	Legionellosis	disease
+MESH:D014922	Wisconsin	geoloc
+MESH:D003967	Diarrhea	disease
+MESH:D013541	Eswatini	geoloc
+MESH:D004890	Erythema	disease
+MESH:D010198	Pancytopenia	disease
+MESH:D013539	Simian virus 40	pathogen
+MESH:D017726	Cytomegalovirus Retinitis	disease
+MESH:D007922	Leptospirosis	disease
+MESH:D012295	Rift Valley Fever	disease
+MESH:D017543	Iliac Aneurysm	disease
+MESH:D009175	Mycoplasma Infections	disease
+MESH:D056911	Democratic People's Republic of Korea	geoloc
+MESH:D005547	Foreign Bodies	disease
+MESH:D008380	Marek Disease	disease
+MESH:D006692	Classical Swine Fever Virus	pathogen
+MESH:D029342	Vesivirus	pathogen
+MESH:D004755	Enterobacteriaceae	pathogen
+MESH:D002828	Choristoma	disease
+MESH:C531736	Acute malaria	disease
+MESH:D006527	Hepatolenticular Degeneration	disease
+MESH:D003874	Dermatitis Herpetiformis	disease
+MESH:D015493	Paraparesis, Tropical Spastic	disease
+MESH:D058225	Plaque, Amyloid	disease
+MESH:D000083123	Vancomycin-Resistant Staphylococcus aureus	pathogen
+MESH:D006564	Herpesviridae	pathogen
+MESH:D015864	Panuveitis	disease
+MESH:D013226	Status Epilepticus	disease
+MESH:D012600	Scoliosis	disease
+MESH:D006529	Hepatomegaly	disease
+MESH:D000690	Amyotrophic Lateral Sclerosis	disease
+MESH:D012891	Sleep Apnea Syndromes	disease
+MESH:D003718	Denmark	geoloc
+MESH:D000084063	Reinfection	disease
+MESH:D018103	Morbillivirus	pathogen
+MESH:D013471	Sunburn	disease
+MESH:D012595	Scleroderma, Systemic	disease
+MESH:D002160	Cambodia	geoloc
+MESH:D011120	Polyomavirus	pathogen
+MESH:D016956	Burkholderia cepacia	pathogen
+MESH:D016523	Foot Ulcer	disease
+MESH:D009527	Nicaragua	geoloc
+MESH:D006685	Hoarseness	disease
+MESH:D009404	Nephrotic Syndrome	disease
+MESH:D019226	Oral Ulcer	disease
+MESH:D016751	Hepatitis E	disease
+MESH:D048550	Hepatic Insufficiency	disease
+MESH:D014581	Urticaria	disease
+MESH:D018281	Cholangiocarcinoma	disease
+MESH:D012426	Russia	geoloc
+MESH:D013945	Thymoma	disease
+MESH:D012608	Scrapie	disease
+MESH:C548077	Pseudohypoparathyroidism Type 2	disease
+MESH:D003237	Connecticut	geoloc
+MESH:D001237	Asphyxia	disease
+MESH:D012529	Saudi Arabia	geoloc
+MESH:D014610	Uzbekistan	geoloc
+MESH:D013293	Enterococcus faecalis	pathogen
+MESH:D000707	Anaphylaxis	disease
+MESH:D001531	Belize	geoloc
+MESH:D003316	Corneal Diseases	disease
+MESH:D006337	Heart Murmurs	disease
+MESH:D013622	Taeniasis	disease
+MESH:D017074	Common Variable Immunodeficiency	disease
+MESH:D000087122	Mania	disease
+MESH:D009181	Mycoses	disease
+MESH:D000076263	Communicable Diseases, Imported	disease
+MESH:D004683	Encephalomyelitis, Equine	disease
+MESH:D001474	Bartonella Infections	disease
+MESH:C000629404	acute flaccid myelitis	disease
+MESH:D013590	Syphilis, Congenital	disease
+MESH:D007738	Kyphosis	disease
+MESH:D003428	Cross Infection	disease
+MESH:D008281	Maine	geoloc
+MESH:D016469	Fungemia	disease
+MESH:D009520	New Zealand	geoloc
