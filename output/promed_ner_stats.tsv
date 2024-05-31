@@ -26,7 +26,7 @@ Laboratory	MESH	D007753	Laboratories	7454
 time	EFO	0000721	time	7134
 poultry	MESH	D011200	Poultry	6980
 hospital	MESH	D006761	Hospitals	6935
-population	MESH	D011153	Population	6644
+population	MESH	D011153	Population	6645
 animal	MESH	D000818	Animals	6583
 farm	MESH	D000072480	Farms	6220
 cattle	MESH	D002417	Cattle	5938
@@ -61,8 +61,8 @@ fever	MESH	D005334	Fever	3763
 Epidemiology	MESH	D004813	Epidemiology	3754
 movement	MESH	D009068	Movement	3678
 Nature	MESH	D019368	Nature	3668
+exposure	EFO	0000487	exposure	3659
 COVID-19	MESH	D000086382	COVID-19	3659
-exposure	EFO	0000487	exposure	3658
 person	MESH	D009272	Persons	3615
 name	MESH	D009275	Names	3610
 food	MESH	D005502	Food	3592
@@ -305,7 +305,7 @@ mouth	MESH	D009055	Mouth	906
 Massachusetts	MESH	D008404	Massachusetts	904
 Malaysia	MESH	D008296	Malaysia	900
 recurrence	MESH	D012008	Recurrence	896
-syndrome	MESH	D013577	Syndrome	893
+syndrome	MESH	D013577	Syndrome	894
 El	EFO	0007749	EL	890
 mortality rate	MESH	D009026	Mortality	888
 rest	MESH	D012146	Rest	885
@@ -364,7 +364,7 @@ comment	MESH	D016420	Comment	751
 veterinarians	MESH	D018634	Veterinarians	741
 infectious disease	MESH	D003141	Communicable Diseases	740
 incident	EFO	0010247	incident	737
-damage	MESH	D004249	DNA Damage	735
+damage	MESH	D004249	DNA Damage	736
 vomiting	MESH	D014839	Vomiting	733
 Queensland	MESH	D011793	Queensland	732
 Rabies	MESH	D011818	Rabies	730
@@ -542,8 +542,8 @@ measles vaccine	MESH	D008458	Measles Vaccine	495
 Panama	MESH	D010176	Panama	492
 controlled	EFO	0001461	control	491
 saliva	MESH	D012463	Saliva	490
+foods	MESH	D005502	Food	489
 programs	MESH	D019542	Program	488
-foods	MESH	D005502	Food	488
 IgM	MESH	D007075	Immunoglobulin M	487
 Al	EFO	0005318	axial length measurement	486
 interview	MESH	D017203	Interview	485
@@ -731,8 +731,8 @@ Madagascar	MESH	D008270	Madagascar	326
 egg	MESH	D010063	Ovum	325
 dengue virus	MESH	D003716	Dengue Virus	325
 Saskatchewan	MESH	D012525	Saskatchewan	325
+feces	MESH	D005243	Feces	324
 pool	EFO	0000663	pool	323
-feces	MESH	D005243	Feces	323
 bison	MESH	D016164	Bison	322
 Bolivia	MESH	D001838	Bolivia	322
 rains	MESH	D011891	Rain	321

@@ -118,7 +118,7 @@ if __name__ == '__main__':
 
     # Run NER on alerts
     annotations = []
-    for alert in tqdm.tqdm(alerts):
+    for alert in tqdm.tqdm(alerts, desc='Annotating alerts'):
         for content in alert['body']:
             annotations.append(
                     {'header': annotate(content['title']),
@@ -126,16 +126,24 @@ if __name__ == '__main__':
                 )
 
     # Gather NER statistics
+    terms_by_alert = []
     text_stats = []
     for annotation in annotations:
+        terms = set()
         for key in ['header', 'content']:
             for match in annotation[key]:
+                terms.add((match[1].term.db, match[1].term.id,
+                           match[1].term.entry_name))
                 text_stats.append((match[0], match[1].term.db,
                                    match[1].term.id, match[1].term.entry_name))
+        terms_by_alert.append(sorted(terms))
 
-    text_stats_cnt = Counter(text_stats)
+    # Dump terms by alert into a JSON file
+    with open('output/promed_ner_terms_by_alert.json', 'w') as fh:
+        json.dump(terms_by_alert, fh, indent=2)
 
     # Dump stats into a spreadsheet
+    text_stats_cnt = Counter(text_stats)
     with open('output/promed_ner_stats.tsv', 'w') as fh:
         # Add a header
         fh.write('text\tterm_db\tterm_id\tterm_name\tcount\n')
