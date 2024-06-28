@@ -53,7 +53,7 @@ def parse_header(header):
     # We need to parse out the date, subject and archive number
     date = re.search(r'Published Date: (.+)\n', header)
     subject = re.search(r'Subject:(.+?)\n', header)
-    archive = re.search(r'Archive Number:(\d{8}\.\d+)?', header)
+    archive = re.search(r'Archive Number: (\d{8}\.\d+)?', header)
     # Now parse the date into a datetime object
     date = date.group(1)
     subject = parse_subject(subject.group(1)) if subject else None
@@ -83,7 +83,9 @@ def parse_subject(subject):
 
 def dump_alert_for_eidos(alert, fname):
     subj = alert['header']['subject']['subject'] if alert['header']['subject'] else ''
-    content_str = subj + '\n\n'
+    arch = alert['header']['archive_number'] if alert['header']['archive_number'] else ''
+    content_str = str(arch) + '\n\n'
+    content_str += subj + '\n\n'
     for content in alert['body']:
         content_str += content['title'] + '\n\n' + content['content'] + '\n\n'
 
