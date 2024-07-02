@@ -4,7 +4,7 @@ import json
 import os
 import re
 import datetime
-from collections import Counter
+from collections import Counter, defaultdict
 
 import tqdm
 
@@ -14,6 +14,7 @@ from indra.sources.eidos.cli import extract_from_directory
 
 GILDA_NS = ['MESH', 'EFO', 'HP', 'DOID', 'GO']
 EXCLUDE = {'J', 'one', 'news', 'large', 'go', 'cut', 'white', 'Kelly'}
+CHAIN_DATA_PATH = os.path.join(os.pardir, 'CHAIN', 'Data', 'ProMED')
 
 
 def parse_contents_from_body(body):
@@ -22,7 +23,8 @@ def parse_contents_from_body(body):
     contents = []
     try:
         for idx, line in enumerate(lines):
-            if line.strip().startswith('---'):
+            if line.strip().startswith('---') or \
+                    line.strip().startswith('******'):
                 start_alert = True
                 title = lines[idx-1]
                 content = []
@@ -53,7 +55,7 @@ def parse_header(header):
     # We need to parse out the date, subject and archive number
     date = re.search(r'Published Date: (.+)\n', header)
     subject = re.search(r'Subject:(.+?)\n', header)
-    archive = re.search(r'Archive Number:(\d{8}\.\d+)?', header)
+    archive = re.search(r'Archive Number: (\d{8}\.\d+)?', header)
     # Now parse the date into a datetime object
     date = date.group(1)
     subject = parse_subject(subject.group(1)) if subject else None
@@ -92,29 +94,37 @@ def dump_alert_for_eidos(alert, fname):
 
 
 if __name__ == '__main__':
-    input_path = '../CHAIN/Data/ProMED/'
-
     # Process original JSON files into alert text files
-    fnames = glob.glob(input_path + '*.json')
+    fnames = glob.glob(os.path.join(CHAIN_DATA_PATH, '*.json'))
 
     alerts = []
+    # An index of alerts by the JSON file dump in the CHAIN data.
+    # Note that archive numbers are not unique. There are hundreds of alerts
+    # that are very similar, though not entirely identical in content that
+    # appear in multiple JSON files. Therefore, here we use a defaultdict
+    # and make each heading number to a list of JSON files.
+    chain_alert_json_index = defaultdict(list)
     for fname in tqdm.tqdm(fnames):
+        chain_alert_json = os.path.basename(fname)
         with open(fname, 'r') as fh:
             content = json.load(fh)
         for entry in content:
             if entry['header'] == ['']:
                 continue
             header = parse_header(entry['header'])
-            if len(entry['body']) > 1:
-                assert False
+            archive_number  = header['archive_number']
+            if archive_number is None:
+                continue
             assert len(entry['body']) == 1
             contents = parse_contents_from_body(entry['body'][0])
-            alerts.append({'header': header,
-                           'body': contents})
+            alert = {'header': header, 'body': contents}
+            alerts.append(alert)
+            chain_alert_json_index[archive_number].append(chain_alert_json)
 
     # Dump alerts for Eidos
     for idx, alert in enumerate(alerts):
-        dump_alert_for_eidos(alert, f'eidos_input/alert_{idx}.txt')
+        archive_number = alert['header']['archive_number']
+        dump_alert_for_eidos(alert, f'eidos_input/{archive_number}.txt')
 
     # Run NER on alerts
     annotations = []
