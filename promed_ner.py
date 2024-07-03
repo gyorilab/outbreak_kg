@@ -1,20 +1,27 @@
 """Process ProMed alerts and run named entity recognition."""
-import glob
-import json
 import os
 import re
+import glob
+import json
+import pickle
 import datetime
 from collections import Counter, defaultdict
 
 import tqdm
-
 import gilda
+import pystow
 from indra.sources.eidos.cli import extract_from_directory
 
-
-GILDA_NS = ['MESH', 'EFO', 'HP', 'DOID', 'GO']
+# This broader list contains useful ontologies, alternatively, we can just
+# use MeSH
+#GILDA_NS = ['MESH', 'EFO', 'HP', 'DOID', 'GO']
+GILDA_NS = ['MESH']
 EXCLUDE = {'J', 'one', 'news', 'large', 'go', 'cut', 'white', 'Kelly'}
 CHAIN_DATA_PATH = os.path.join(os.pardir, 'CHAIN', 'Data', 'ProMED')
+
+# This is a folder for large data artifacts, depending on pystow
+# configuration, this is by default inside ~/.data
+DATA_PATH = pystow.module('outbreak_kg')
 
 
 def parse_contents_from_body(body):
@@ -93,6 +100,11 @@ def dump_alert_for_eidos(alert, fname):
         fh.write(content_str)
 
 
+def dump_alert_json(alert, fname):
+    with open(fname, 'w') as fh:
+        json.dump(alert, fh, indent=1, default=str)
+
+
 if __name__ == '__main__':
     # Process original JSON files into alert text files
     fnames = glob.glob(os.path.join(CHAIN_DATA_PATH, '*.json'))
@@ -104,7 +116,7 @@ if __name__ == '__main__':
     # appear in multiple JSON files. Therefore, here we use a defaultdict
     # and make each heading number to a list of JSON files.
     chain_alert_json_index = defaultdict(list)
-    for fname in tqdm.tqdm(fnames):
+    for fname in tqdm.tqdm(fnames, desc='Processing alerts'):
         chain_alert_json = os.path.basename(fname)
         with open(fname, 'r') as fh:
             content = json.load(fh)
@@ -119,34 +131,50 @@ if __name__ == '__main__':
             contents = parse_contents_from_body(entry['body'][0])
             alert = {'header': header, 'body': contents}
             alerts.append(alert)
+            dump_alert_json(alert,
+                            DATA_PATH.join('alerts',
+                                           name=f'{archive_number}.json'))
+            dump_alert_for_eidos(alert,
+                                 DATA_PATH.join('eidos_input',
+                                                name=f'{archive_number}.txt'))
             chain_alert_json_index[archive_number].append(chain_alert_json)
 
-    # Dump alerts for Eidos
-    for idx, alert in enumerate(alerts):
-        archive_number = alert['header']['archive_number']
-        dump_alert_for_eidos(alert, f'eidos_input/{archive_number}.txt')
-
     # Run NER on alerts
-    annotations = []
+    annotations = defaultdict(list)
     for alert in tqdm.tqdm(alerts, desc='Annotating alerts'):
         for content in alert['body']:
-            annotations.append(
-                    {'header': annotate(content['title']),
+            annotations[alert['header']['archive_number']].append(
+                    # TODO: consider adding header['subject'] annotations here
+                    {'title': annotate(content['title']),
                      'content': annotate(content['content'])}
                 )
+    annotations = dict(annotations)
+    with open(DATA_PATH.join(name='annotations.pkl'), 'wb') as fh:
+        pickle.dump(annotations, fh)
 
     # Gather NER statistics
-    terms_by_alert = []
+    terms_by_alert = {}
     text_stats = []
-    for annotation in annotations:
+    for alert_id, annotation_list in annotations.items():
         terms = set()
-        for key in ['header', 'content']:
-            for match in annotation[key]:
-                terms.add((match[1].term.db, match[1].term.id,
-                           match[1].term.entry_name))
-                text_stats.append((match[0], match[1].term.db,
-                                   match[1].term.id, match[1].term.entry_name))
-        terms_by_alert.append(sorted(terms))
+        for annotation in annotation_list:
+            for key in ['title', 'content']:
+                for text, match, start_idx, end_idx in annotation[key]:
+                    # This is necessary because there can be subsumed terms
+                    # with a more desirable / prioritized namespace
+                    groundings = dict(match.get_groundings())
+                    # This loop goes in priority order
+                    for ns in GILDA_NS:
+                        if ns in groundings:
+                            # TODO: if we switch to groundings here, what
+                            # do we do about entry_name which would be
+                            # inconsistent?
+                            terms.add((match.term.db, match.term.id,
+                                       match.term.entry_name))
+                            text_stats.append((text, match.term.db,
+                                               match.term.id, match.term.entry_name))
+                            break
+        terms_by_alert[alert_id] = sorted(terms)
 
     # Dump terms by alert into a JSON file
     with open('output/promed_ner_terms_by_alert.json', 'w') as fh:
