@@ -3,6 +3,7 @@ import json
 import tqdm
 from itertools import combinations
 from collections import Counter
+import pandas as pd
 from indra.databases import mesh_client
 from indra.ontology.bio import bio_ontology
 
@@ -134,11 +135,46 @@ def assemble_alert_relations():
 
 
 def assemble_pathogen_disease_relations():
+    import pyobo
+    df = pd.read_csv('pathogen_disease_rels.tsv', sep='\t')
+    df = df[~df[':START_ID'].str.startswith('umls')]
+    df = df[~df[':END_ID'].str.startswith('umls')]
+    edges = set()
+    for _, row in df.iterrows():
+        source_ns, source_id = row[':START_ID'].split(':')
+        if source_ns == 'ncbitaxon':
+            mapped_id = mesh_client.ncbitaxon_to_mesh.get(source_id)
+        else:
+            mapped_id = pyobo.get_xref(source_ns, source_id, 'mesh')
+        if not mapped_id:
+            continue
+        target_ns, target_id = row[':END_ID'].split(':')
+        if target_ns == 'ncbitaxon':
+            mapped_id = mesh_client.ncbitaxon_to_mesh.get(target_id)
+        else:
+            mapped_id = pyobo.get_xref(target_ns, target_id, 'mesh')
+        if not mapped_id:
+            continue
+        edges.add((f'MESH:{source_id}', 'has_pathogen', f'MESH:{target_id}'))
+    with open('../kg/pathogen_disease_edges.tsv', 'w') as fh:
+        writer = csv.writer(fh, delimiter='\t')
+        writer.writerows([[':START_ID', ':TYPE', ':END_ID']] + list(edges))
     pass
 
 
 def assemble_disease_symptom_relations():
-    pass
+    df = pd.read_csv('disease_phenotype_rels.tsv', sep='\t')
+    df = df[df[':START_ID'].str.startswith('mesh')]
+    df = df[df[':END_ID'].str.startswith('mesh')]
+    edges = set()
+    edge_header = [':START_ID', ':TYPE', ':END_ID']
+    for _, row in df.iterrows():
+        mesh_disease = row[':START_ID'].upper()
+        mesh_pheno = row[':END_ID'].upper()
+        edges.add((mesh_disease, 'has_phenotype', mesh_pheno))
+    with open('../kg/disease_phenotype_edges.tsv', 'w') as fh:
+        writer = csv.writer(fh, delimiter='\t')
+        writer.writerows([edge_header] + list(edges))
 
 
 if __name__ == '__main__':

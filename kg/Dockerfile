@@ -63,6 +63,8 @@ COPY mesh_hierarchy_nodes.tsv /sw/mesh_hierarchy_nodes.tsv
 COPY mesh_hierarchy_edges.tsv /sw/mesh_hierarchy_edges.tsv
 COPY promed_alert_nodes.tsv /sw/promed_alert_nodes.tsv
 COPY promed_alert_edges.tsv /sw/promed_alert_edges.tsv
+COPY disease_phenotype_edges.tsv /sw/disease_phenotype_edges.tsv
+COPY pathogen_disease_edges.tsv /sw/pathogen_disease_edges.tsv
 
 
 # Ingest graph content into neo4j
@@ -72,7 +74,9 @@ RUN neo4j-admin import --delimiter='TAB' --skip-duplicate-nodes=true --skip-bad-
     --relationships /sw/mesh_hierarchy_edges.tsv \
     --nodes /sw/mesh_hierarchy_nodes.tsv \
     --relationships /sw/promed_alert_edges.tsv \
-    --nodes /sw/promed_alert_nodes.tsv
+    --nodes /sw/promed_alert_nodes.tsv \
+    --relationships /sw/disease_phenotype_edges.tsv \
+    --relationships /sw/pathogen_disease_edges.tsv
 
 
 ENV DOCKERIZED="TRUE"
