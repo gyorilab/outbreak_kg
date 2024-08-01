@@ -55,18 +55,24 @@ RUN python3.11 -m pip install fastapi \
     pandas \
     networkx
 
-# Alternative: COPY all files, using .dockerignore for white/blacklisting
+# This is for coocurrence
+#COPY nodes.tsv /sw/nodes.tsv
+#COPY edges.tsv /sw/edges.tsv
 
-COPY nodes.tsv /sw/nodes.tsv
-COPY edges.tsv /sw/edges.tsv
+COPY mesh_hierarchy_nodes.tsv /sw/mesh_hierarchy_nodes.tsv
+COPY mesh_hierarchy_edges.tsv /sw/mesh_hierarchy_edges.tsv
+COPY promed_alert_nodes.tsv /sw/promed_alert_nodes.tsv
+COPY promed_alert_edges.tsv /sw/promed_alert_edges.tsv
 
 
 # Ingest graph content into neo4j
 RUN sed -i 's/#dbms.default_listen_address/dbms.default_listen_address/' /etc/neo4j/neo4j.conf
 RUN sed -i 's/#dbms.security.auth_enabled/dbms.security.auth_enabled/' /etc/neo4j/neo4j.conf
 RUN neo4j-admin import --delimiter='TAB' --skip-duplicate-nodes=true --skip-bad-relationships=true \
-    --relationships /sw/edges.tsv \
-    --nodes=uniprot=/sw/nodes.tsv
+    --relationships /sw/mesh_hierarchy_edges.tsv \
+    --nodes /sw/mesh_hierarchy_nodes.tsv \
+    --relationships /sw/promed_alert_edges.tsv \
+    --nodes /sw/promed_alert_nodes.tsv
 
 
 ENV DOCKERIZED="TRUE"

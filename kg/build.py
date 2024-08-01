@@ -4,6 +4,7 @@ import tqdm
 from itertools import combinations
 from collections import Counter
 from indra.databases import mesh_client
+from indra.ontology.bio import bio_ontology
 
 
 def is_geoloc(x_db, x_id):
@@ -14,7 +15,8 @@ def is_geoloc(x_db, x_id):
 
 def is_pathogen(x_db, x_id):
     if x_db == 'MESH':
-        return mesh_client.mesh_isa(x_id, 'D001419') or mesh_client.mesh_isa(x_id, 'D014780')
+        return mesh_client.mesh_isa(x_id, 'D001419') or \
+            mesh_client.mesh_isa(x_id, 'D014780')
     return False
 
 
@@ -31,7 +33,8 @@ exclude_list = {'Disease', 'Health', 'Affected', 'control', 'Animals',
                 'Epidemiology', 'Names', 'submitted', 'Laboratories',
                 'Disease Outbreaks', 'Central', 'strain'}
 
-if __name__ == '__main__':
+
+def assemble_coocurrence():
     with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
         jj = json.load(f)
 
@@ -74,3 +77,72 @@ if __name__ == '__main__':
     with open('../kg/nodes.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([node_header] + list(nodes))
+
+
+def assemble_mesh_hierarchy():
+    edges = set()
+    nodes = set()
+    # Assemble the subtree of diseases, pathogens and geolocations
+    for mesh_id, mesh_name in mesh_client.mesh_id_to_name.items():
+        is_dis = is_disease('MESH', mesh_id)
+        is_pat = is_pathogen('MESH', mesh_id)
+        is_geo = is_geoloc('MESH', mesh_id)
+        if not any([is_dis, is_pat, is_geo]):
+            continue
+        if is_dis:
+            node_type = 'disease'
+        elif is_pat:
+            node_type = 'pathogen'
+        else:
+            node_type = 'geoloc'
+        nodes.add((f'MESH:{mesh_id}', mesh_name, node_type))
+        parents_ids = list(bio_ontology.child_rel('MESH', mesh_id, {'isa'}))
+        parent_mesh_terms = [':'.join(parent) for parent in parents_ids]
+        edges |= set((f'MESH:{mesh_id}', 'isa', parent) for parent in parent_mesh_terms)
+    # TODO: add relations to root nodes
+    node_header = ['curie:ID', 'name:string', ':LABEL']
+    edge_header = [':START_ID', ':TYPE', ':END_ID']
+    with open('../kg/mesh_hierarchy_edges.tsv', 'w') as fh:
+        writer = csv.writer(fh, delimiter='\t')
+        writer.writerows([edge_header] + list(edges))
+    with open('../kg/mesh_hierarchy_nodes.tsv', 'w') as fh:
+        writer = csv.writer(fh, delimiter='\t')
+        writer.writerows([node_header] + list(nodes))
+
+
+def assemble_alert_relations():
+    with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
+        terms_by_alert = json.load(f)
+    nodes = set()
+    edges = set()
+    for archive_number, extractions in terms_by_alert.items():
+        nodes.add((f'promed:{archive_number}', archive_number, 'alert'))
+        for ns, id, entry_name in extractions:
+            if entry_name in exclude_list:
+                continue
+            if ns == 'MESH':
+                if is_disease(ns, id) or is_pathogen(ns, id) or is_geoloc(ns, id):
+                    edges.add((f'promed:{archive_number}', 'mentions', f'MESH:{id}'))
+    node_header = ['curie:ID', 'name:string', ':LABEL']
+    edge_header = [':START_ID', ':TYPE', ':END_ID']
+    with open('../kg/promed_alert_nodes.tsv', 'w') as fh:
+        writer = csv.writer(fh, delimiter='\t')
+        writer.writerows([node_header] + list(nodes))
+    with open('../kg/promed_alert_edges.tsv', 'w') as fh:
+        writer = csv.writer(fh, delimiter='\t')
+        writer.writerows([edge_header] + list(edges))
+
+
+def assemble_pathogen_disease_relations():
+    pass
+
+
+def assemble_disease_symptom_relations():
+    pass
+
+
+if __name__ == '__main__':
+    assemble_alert_relations()
+    assemble_mesh_hierarchy()
+    assemble_pathogen_disease_relations()
+    assemble_disease_symptom_relations()
