@@ -1,0 +1,113 @@
+:START_ID	subject_name	:TYPE	curie	:END_ID	object_name	source
+doid:0050175	tick-borne encephalitis	has_material_basis_in	ido:0000664	ncbitaxon:11084	Tick-borne Encephalitis Virus (TBEV)	violinet
+doid:0050352	Botulism	has_material_basis_in	ido:0000664	ncbitaxon:1491	Clostridium botulinum 	violinet
+doid:0080600	COVID-19	has_material_basis_in	ido:0000664	ncbitaxon:2697049	SARS-CoV-2	violinet
+doid:10304	Mumps	has_material_basis_in	ido:0000664	ncbitaxon:11161	Mumps virus	violinet
+doid:10773	Yersiniosis	has_material_basis_in	ido:0000664	ncbitaxon:393305	Yersinia enterocolitica	violinet
+doid:10773	Plague	has_material_basis_in	ido:0000664	ncbitaxon:632	Yersinia pestis	violinet
+doid:10773	Yersiniosis	has_material_basis_in	ido:0000664	ncbitaxon:633	Yersinia pseudotuberculosis	violinet
+doid:10844	Japanese encephalitis	has_material_basis_in	ido:0000664	ncbitaxon:11072	Japanese encephalitis virus	violinet
+doid:11077	Brucellosis	has_material_basis_in	ido:0000664	ncbitaxon:234	Brucella spp.	violinet
+doid:11092	Salmonellosis	has_material_basis_in	ido:0000664	ncbitaxon:590	Salmonella spp.	violinet
+doid:11100	Q fever	has_material_basis_in	ido:0000664	ncbitaxon:777	Coxiella burnetii	violinet
+doid:1116	Whooping Cough	has_material_basis_in	ido:0000664	ncbitaxon:520	Bordetella pertussis	violinet
+doid:1116	Bordetella Infections	has_material_basis_in	ido:0000664	ncbitaxon:521	Bordetella avium	violinet
+doid:11165	Warts	has_material_basis_in	ido:0000664	ncbitaxon:10571	Bovine papillomavirus	violinet
+doid:11166	human papilloma virus infection	has_material_basis_in	ido:0000664	ncbitaxon:10566	Human Papillomavirus	violinet
+doid:11260	Rabies	has_material_basis_in	ido:0000664	ncbitaxon:11292	Rabies virus	violinet
+doid:11261	Foot-and-Mouth Disease	has_material_basis_in	ido:0000664	ncbitaxon:12110	Foot-and-mouth disease virus	violinet
+doid:11330	Erysipelas	has_material_basis_in	ido:0000664	ncbitaxon:1648	Erysipelothrix rhusiopathiae	violinet
+doid:11338	Tetanus	has_material_basis_in	ido:0000664	ncbitaxon:1485	Clostridium tetani	violinet
+doid:11405	Diphtheria	has_material_basis_in	ido:0000664	ncbitaxon:1717	Corynebacterium diphtheriae	violinet
+doid:11573	Listeriosis	has_material_basis_in	ido:0000664	ncbitaxon:1639	Listeria monocytogenes	violinet
+doid:11729	Lyme Disease	has_material_basis_in	ido:0000664	ncbitaxon:139	Borrelia burgdorferi	violinet
+doid:12140	Chagas disease	has_material_basis_in	ido:0000664	ncbitaxon:5693	Trypanosoma cruzi	violinet
+doid:12155	Lymphocytic Choriomeningitis	has_material_basis_in	ido:0000664	ncbitaxon:11623	Lymphocytic choriomeningitis virus	violinet
+doid:12205	Dengue Fever	has_material_basis_in	ido:0000664	ncbitaxon:12637	Dengue Virus	violinet
+doid:12365	Malaria	has_material_basis_in	ido:0000664	ncbitaxon:5820	Plasmodium spp.	violinet
+doid:12385	Shigellosis	has_material_basis_in	ido:0000664	ncbitaxon:620	Shigella	violinet
+doid:12549	Hepatitis A	has_material_basis_in	ido:0000664	ncbitaxon:12092	Hepatitis A virus	violinet
+doid:1328	Rift Valley Fever	has_material_basis_in	ido:0000664	ncbitaxon:11588	Rift Valley Fever virus	violinet
+doid:1395	Schistosomiasis	has_material_basis_in	ido:0000664	ncbitaxon:6182	Schistosoma japonicum	violinet
+doid:1395	Schistosomiasis	has_material_basis_in	ido:0000664	ncbitaxon:6183	Schistosoma mansoni	violinet
+doid:14239	Tularemia	has_material_basis_in	ido:0000664	ncbitaxon:263	Francisella tularensis	violinet
+doid:14472	Hantavirus Pulmonary Syndrome	has_material_basis_in	ido:0000664	ncbitaxon:11598	Hantavirus	violinet
+doid:1579	respiratory system disease	has_material_basis_in	ido:0000664	ncbitaxon:11246	Bovine Respiratory Syncytial Virus	violinet
+doid:1579	Respiratory Tract Diseases	has_material_basis_in	ido:0000664	ncbitaxon:11250	Human Respiratory Syncytial Virus	violinet
+doid:1733	Cryptosporidiosis	has_material_basis_in	ido:0000664	ncbitaxon:5807	Cryptosporidium parvum	violinet
+doid:1883	Hepatitis C	has_material_basis_in	ido:0000664	ncbitaxon:11103	Hepatitis C virus	violinet
+doid:2043	Hepatitis B	has_material_basis_in	ido:0000664	ncbitaxon:10407	Hepatitis B virus	violinet
+doid:2113	Coccidiosis	has_material_basis_in	ido:0000664	ncbitaxon:5800	Eimeria spp.	violinet
+doid:2113	Coccidiosis	has_material_basis_in	ido:0000664	ncbitaxon:5804	Eimeria maxima	violinet
+doid:2297	Leptospirosis	has_material_basis_in	ido:0000664	ncbitaxon:171	Leptospira spp.	violinet
+doid:2326	Gastroenteritis	has_material_basis_in	ido:0000664	ncbitaxon:10912	Rotavirus	violinet
+doid:2366	West Nile fever	has_material_basis_in	ido:0000664	ncbitaxon:11082	West Nile virus	violinet
+doid:2929	Newcastle disease	has_material_basis_in	ido:0000664	ncbitaxon:11176	Newcastle disease virus	violinet
+doid:2945	Severe Acute Respiratory Syndrome	has_material_basis_in	ido:0000664	ncbitaxon:694009	SARS-CoV	violinet
+doid:2946	Middle East Respiratory Syndrome	has_material_basis_in	ido:0000664	ncbitaxon:1335626	MERS-CoV	violinet
+doid:3733	Theileriasis	has_material_basis_in	ido:0000664	ncbitaxon:5874	Theileria annulata	violinet
+doid:3733	East Coast Fever	has_material_basis_in	ido:0000664	ncbitaxon:5875	Theileria parva	violinet
+doid:3902	obsolete pseudorabies	has_material_basis_in	ido:0000664	ncbitaxon:10345	Pseudorabies virus	violinet
+doid:399	Tuberculosis	has_material_basis_in	ido:0000664	ncbitaxon:1765	Mycobacterium bovis	violinet
+doid:399	Tuberculosis	has_material_basis_in	ido:0000664	ncbitaxon:1773	Mycobacterium tuberculosis	violinet
+doid:4166	Syphilis	has_material_basis_in	ido:0000664	ncbitaxon:160	Treponema pallidum	violinet
+doid:4325	Ebola hemorrhagic fever	has_material_basis_in	ido:0000664	ncbitaxon:205488	Ebola virus	violinet
+doid:4411	Hepatitis E	has_material_basis_in	ido:0000664	ncbitaxon:12461	Hepatitis E virus	violinet
+doid:4953	Poliomyelitis	has_material_basis_in	ido:0000664	ncbitaxon:138953	Poliovirus	violinet
+doid:5052	Melioidosis	has_material_basis_in	ido:0000664	ncbitaxon:28450	Burkholderia pseudomallei	violinet
+doid:5295	intestinal disease	has_material_basis_in	ido:0000664	ncbitaxon:11153	Canine coronavirus	violinet
+doid:552	Pneumonia	has_material_basis_in	ido:0000664	ncbitaxon:1313	Streptococcus pneumoniae	violinet
+doid:552	Pneumonia	has_material_basis_in	ido:0000664	ncbitaxon:83558	Chlamydophila pneumoniae	violinet
+doid:635	Acquired Immunodeficiency Syndrome	has_material_basis_in	ido:0000664	ncbitaxon:12721	Human Immunodeficiency Virus	violinet
+doid:8622	Measles	has_material_basis_in	ido:0000664	ncbitaxon:11234	Measles virus	violinet
+doid:8781	Rubella	has_material_basis_in	ido:0000664	ncbitaxon:11041	Rubella virus	violinet
+doid:9063	Staphylococcal Infections	has_material_basis_in	ido:0000664	ncbitaxon:1280	Staphylococcus aureus	violinet
+doid:9065	Leishmaniasis	has_material_basis_in	ido:0000664	ncbitaxon:5659	Leishmania amazonensis	violinet
+doid:9111	Cutaneous Leishmaniasis	has_material_basis_in	ido:0000664	ncbitaxon:5664	Leishmania major	violinet
+doid:9146	visceral leishmaniasis	has_material_basis_in	ido:0000664	ncbitaxon:5661	Leishmania donovani	violinet
+doid:9153	Smallpox	has_material_basis_in	ido:0000664	ncbitaxon:10255	Variola virus	violinet
+doid:9181	Amoebiasis	has_material_basis_in	ido:0000664	ncbitaxon:5759	Entamoeba histolytica	violinet
+doid:9471	Meningitis	has_material_basis_in	ido:0000664	ncbitaxon:487	Neisseria meningitidis	violinet
+doid:9471	Meningitis	has_material_basis_in	ido:0000664	ncbitaxon:727	Haemophilus influenzae	violinet
+doid:9537	Lassa fever	has_material_basis_in	ido:0000664	ncbitaxon:11620	Lassa Fever Virus	violinet
+doid:9584	Venezuelan equine encephalitis	has_material_basis_in	ido:0000664	ncbitaxon:11036	VEE Virus	violinet
+doid:9588	Encephalitis	has_material_basis_in	ido:0000664	ncbitaxon:11021	Eastern Equine Encephalitis Virus	violinet
+doid:9588	Encephalitis	has_material_basis_in	ido:0000664	ncbitaxon:11034	Sindbis virus	violinet
+doid:9643	Babesiosis	has_material_basis_in	ido:0000664	ncbitaxon:5867	Babesia canis	violinet
+doid:9682	Yellow Fever	has_material_basis_in	ido:0000664	ncbitaxon:11089	Yellow fever virus	violinet
+doid:9965	Toxoplasmosis	has_material_basis_in	ido:0000664	ncbitaxon:5811	Toxoplasma gondii	violinet
+efo:0001076	Pseudomonas aeruginosa infection	has_material_basis_in	ido:0000664	ncbitaxon:287	Pseudomonas aeruginosa	violinet
+hp:0002014	Diarrhea	has_material_basis_in	ido:0000664	ncbitaxon:10913	Porcine rotavirus	violinet
+hp:0011947	Respiratory tract infection	has_material_basis_in	ido:0000664	ncbitaxon:10508	Adenovirus	violinet
+hp:0011947	Respiratory tract infection	has_material_basis_in	ido:0000664	ncbitaxon:162145	Human metapneumovirus	violinet
+mesh:D000357	African Swine Fever	has_material_basis_in	ido:0000664	ncbitaxon:10497	African Swine Fever Virus	violinet
+mesh:D004216	Canine Distemper	has_material_basis_in	ido:0000664	ncbitaxon:11232	Canine distemper virus	violinet
+mesh:D005254	Feline Panleukopenia	has_material_basis_in	ido:0000664	ncbitaxon:10786	Feline panleukopenia virus	violinet
+mesh:D005586	Fowlpox	has_material_basis_in	ido:0000664	ncbitaxon:10261	Fowlpox virus	violinet
+mesh:D005761	Gastroenteritis, Transmissible, of Swine	has_material_basis_in	ido:0000664	ncbitaxon:11149	Transmissible gastroenteritis virus	violinet
+mesh:D006482	Hemorrhagic Fever	has_material_basis_in	ido:0000664	ncbitaxon:186537	Marburg Virus	violinet
+mesh:D007241	Infectious Bovine Rhinotracheitis	has_material_basis_in	ido:0000664	ncbitaxon:10320	Bovine herpesvirus 1	violinet
+mesh:D008380	Marek Disease	has_material_basis_in	ido:0000664	ncbitaxon:10390	Marek's disease virus	violinet
+mesh:D014456	Ulcer	has_material_basis_in	ido:0000664	ncbitaxon:210	Helicobacter pylori	violinet
+mesh:D016097	Simian Acquired Immunodeficiency Syndrome	has_material_basis_in	ido:0000664	ncbitaxon:11723	Simian Immunodeficiency Virus	violinet
+mesh:D016181	Feline Acquired Immunodeficiency Syndrome	has_material_basis_in	ido:0000664	ncbitaxon:11673	Feline immunodeficiency virus	violinet
+mesh:D016582	Leukemia, Feline	has_material_basis_in	ido:0000664	ncbitaxon:11768	Feline leukemia virus	violinet
+ncbitaxon:117078	Anthrax	has_material_basis_in	ido:0000664	ncbitaxon:1392	Bacillus anthracis	violinet
+ncbitaxon:810	Chlamydia	has_material_basis_in	ido:0000664	ncbitaxon:813	Chlamydia trachomatis	violinet
+ncit:C50583	Herpes	has_material_basis_in	ido:0000664	ncbitaxon:10298	Herpes simplex virus type 1 and 2	violinet
+umls:C0151565	Hemorrhagic colitis	has_material_basis_in	ido:0000664	ncbitaxon:83334	Escherichia coli	violinet
+umls:C0264220	Chronic disease of respiratory system	has_material_basis_in	ido:0000664	ncbitaxon:2096	Mycoplasma gallisepticum	violinet
+umls:C0275759	Enteric redmouth disease	has_material_basis_in	ido:0000664	ncbitaxon:29486	Yersinia ruckeri	violinet
+umls:C0276035	Glasser's disease	has_material_basis_in	ido:0000664	ncbitaxon:738	Haemophilus parasuis	violinet
+umls:C0276231	Duck viral enteritis	has_material_basis_in	ido:0000664	ncbitaxon:104388	Duck enteritis virus	violinet
+umls:C0276243	Feline viral rhinotracheitis	has_material_basis_in	ido:0000664	ncbitaxon:10334	Feline herpesvirus 1	violinet
+umls:C0276276	Canine parvovirus infection	has_material_basis_in	ido:0000664	ncbitaxon:10788	Canine parvovirus	violinet
+umls:C0276279	Mink parvovirus infection	has_material_basis_in	ido:0000664	ncbitaxon:10792	Mink enteritis virus	violinet
+umls:C0276311	Bovine viral diarrhea	has_material_basis_in	ido:0000664	ncbitaxon:54315	Bovine viral diarrhea virus 2	violinet
+umls:C0276443	Avian encephalomyelitis	has_material_basis_in	ido:0000664	ncbitaxon:70796	Avian Encephalomyelitis Virus	violinet
+umls:C0276483	Infectious bursal disease	has_material_basis_in	ido:0000664	ncbitaxon:10995	Infectious Bursal Disease Virus (IBDV)	violinet
+umls:C0391922	Hemorrhagic enteritis of intestine	has_material_basis_in	ido:0000664	ncbitaxon:41678	Turkey hemorrhagic enteritis virus	violinet
+umls:C1290816	Post-weaning multisystemic wasting syndrome	has_material_basis_in	ido:0000664	ncbitaxon:85708	Porcine circovirus 2	violinet
+umls:C1320202	Infection due to Nipah virus	has_material_basis_in	ido:0000664	ncbitaxon:121791	Nipah virus	violinet
+umls:C1443942	Ricin poisoning	has_material_basis_in	ido:0000664	ncbitaxon:3988	Ricin toxin of Ricinus communis	violinet
+vo:0000763	Cholera	has_material_basis_in	ido:0000664	ncbitaxon:666	Vibrio cholerae	violinet

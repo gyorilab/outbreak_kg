@@ -15,4 +15,4 @@ done
 
 neo4j status
 
-python3.11 -c "from time import sleep; sleep(1000)"
+python3.11 -c "from time import sleep; sleep(10000)"
