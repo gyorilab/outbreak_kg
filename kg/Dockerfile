@@ -59,8 +59,8 @@ RUN python3.11 -m pip install fastapi \
 #COPY nodes.tsv /sw/nodes.tsv
 #COPY edges.tsv /sw/edges.tsv
 
-COPY mesh_hierarchy_nodes.tsv /sw/mesh_hierarchy_nodes.tsv
 COPY mesh_hierarchy_edges.tsv /sw/mesh_hierarchy_edges.tsv
+COPY mesh_hierarchy_nodes.tsv /sw/mesh_hierarchy_nodes.tsv
 COPY promed_alert_nodes.tsv /sw/promed_alert_nodes.tsv
 COPY promed_alert_edges.tsv /sw/promed_alert_edges.tsv
 COPY disease_phenotype_edges.tsv /sw/disease_phenotype_edges.tsv

@@ -99,7 +99,16 @@ def assemble_mesh_hierarchy():
         nodes.add((f'MESH:{mesh_id}', mesh_name, node_type))
         parents_ids = list(bio_ontology.child_rel('MESH', mesh_id, {'isa'}))
         parent_mesh_terms = [':'.join(parent) for parent in parents_ids]
-        edges |= set((f'MESH:{mesh_id}', 'isa', parent) for parent in parent_mesh_terms)
+        new_edges = set()
+        for parent in parent_mesh_terms:
+            if is_dis and not is_disease('MESH', parent):
+                continue
+            if is_pat and not is_pathogen('MESH', parent):
+                continue
+            if is_geo and not is_geoloc('MESH', parent):
+                continue
+            new_edges.add((f'MESH:{mesh_id}', 'isa', parent))
+        edges |= new_edges
     # TODO: add relations to root nodes
     node_header = ['curie:ID', 'name:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
