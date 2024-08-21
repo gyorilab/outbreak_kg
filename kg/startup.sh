@@ -15,4 +15,5 @@ done
 
 neo4j status
 
-python3.11 -c "from time import sleep; sleep(10000)"
+echo "Keeping the container running by monitoring docker neo4j logs"
+tail -f /var/log/neo4j/neo4j.log
