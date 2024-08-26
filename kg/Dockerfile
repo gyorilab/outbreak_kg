@@ -44,7 +44,7 @@ RUN apt-get install -y neo4j
 # Retrieves jar file needed to install apoc
 RUN wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.4.0.30/apoc-4.4.0.30-all.jar -O /var/lib/neo4j/plugins/apoc-4.4.0.30-all.jar
 
-# Set custom configuration for to enable apoc
+# Set custom configuration to enable apoc
 RUN echo "dbms.security.procedures.unrestricted=apoc.*" >> /etc/neo4j/neo4j.conf
 
 # Fixes ERROR: Cannot uninstall 'blinker'. It is a distutils installed project
