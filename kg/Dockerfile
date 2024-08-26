@@ -41,6 +41,12 @@ RUN curl -fsSL https://debian.neo4j.com/neotechnology.gpg.key | apt-key add -
 RUN add-apt-repository "deb https://debian.neo4j.com stable 4.4"
 RUN apt-get install -y neo4j
 
+# Retrieves jar file needed to install apoc
+RUN wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.4.0.30/apoc-4.4.0.30-all.jar -O /var/lib/neo4j/plugins/apoc-4.4.0.30-all.jar
+
+# Set custom configuration to enable apoc
+RUN echo "dbms.security.procedures.unrestricted=apoc.*" >> /etc/neo4j/neo4j.conf
+
 # Fixes ERROR: Cannot uninstall 'blinker'. It is a distutils installed project
 # and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
 RUN python3.11 -m pip install --ignore-installed blinker
@@ -65,7 +71,6 @@ COPY promed_alert_nodes.tsv /sw/promed_alert_nodes.tsv
 COPY promed_alert_edges.tsv /sw/promed_alert_edges.tsv
 COPY disease_phenotype_edges.tsv /sw/disease_phenotype_edges.tsv
 COPY pathogen_disease_edges.tsv /sw/pathogen_disease_edges.tsv
-
 
 # Ingest graph content into neo4j
 RUN sed -i 's/#dbms.default_listen_address/dbms.default_listen_address/' /etc/neo4j/neo4j.conf
