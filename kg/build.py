@@ -119,6 +119,29 @@ def assemble_mesh_hierarchy():
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([node_header] + list(nodes))
 
+def assemble_outbreak_nodes():
+    nodes = set()
+    edges = set()
+    added_outbreak_nodes_index = set()
+    df = pd.read_csv('../output/promed_updates.csv', sep=',', dtype={"archiveNumber":str})
+    for _, row in df.iterrows():
+        outbreak_id = row["ID"]
+        if not outbreak_id.isdigit():
+            continue
+        outbreak_name = row["outbreakName"]
+        alert_id = row["archiveNumber"].replace("\"","")
+        if outbreak_id not in added_outbreak_nodes_index:
+            added_outbreak_nodes_index.add(outbreak_id)
+            nodes.add((f"outbreak:{outbreak_id}",outbreak_name, 'outbreak'))
+        edges.add((f'promed:{alert_id}', 'has_outbreak', f"outbreak:{outbreak_id}"))
+    node_header = ['id:ID', 'name:string', ':LABEL']
+    edge_header = [':START_ID', ':TYPE', ':END_ID']
+    with open('../kg/promed_outbreak_nodes.tsv', 'w') as fh:
+        writer = csv.writer(fh, delimiter='\t')
+        writer.writerows([node_header] + list(nodes))
+    with open('../kg/promed_alert_outbreak_edges.tsv', 'w') as fh:
+        writer = csv.writer(fh, delimiter='\t')
+        writer.writerows([edge_header] + list(edges))
 
 def assemble_alert_relations():
     with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
@@ -187,7 +210,8 @@ def assemble_disease_symptom_relations():
 
 
 if __name__ == '__main__':
+    # assemble_outbreak_nodes()
     assemble_alert_relations()
-    assemble_mesh_hierarchy()
-    assemble_pathogen_disease_relations()
-    assemble_disease_symptom_relations()
+    # assemble_mesh_hierarchy()
+    # assemble_pathogen_disease_relations()
+    # assemble_disease_symptom_relations()
