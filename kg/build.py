@@ -134,7 +134,7 @@ def assemble_outbreak_nodes():
             added_outbreak_nodes_index.add(outbreak_id)
             nodes.add((f"outbreak:{outbreak_id}",outbreak_name, 'outbreak'))
         edges.add((f'promed:{alert_id}', 'has_outbreak', f"outbreak:{outbreak_id}"))
-    node_header = ['id:ID', 'name:string', ':LABEL']
+    node_header = ['curie:ID', 'name:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
     with open('../kg/promed_outbreak_nodes.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
@@ -210,8 +210,8 @@ def assemble_disease_symptom_relations():
 
 
 if __name__ == '__main__':
-    # assemble_outbreak_nodes()
-    assemble_alert_relations()
+    assemble_outbreak_nodes()
+    # assemble_alert_relations()
     # assemble_mesh_hierarchy()
     # assemble_pathogen_disease_relations()
     # assemble_disease_symptom_relations()
