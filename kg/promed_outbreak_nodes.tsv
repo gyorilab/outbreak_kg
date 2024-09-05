@@ -1,1646 +1,1646 @@
 curie:ID	name:string	:LABEL
-outbreak:816	Creutzfeldt-Jakob Disease	outbreak
-outbreak:199	Influenza A(H3N2)v	outbreak
-outbreak:263	Ebola virus disease	outbreak
-outbreak:1039	Botulism, wound	outbreak
-outbreak:692	Influenza pandemic (H1N1)	outbreak
-outbreak:425	Hepatitis B & C	outbreak
-outbreak:375	Ebola hemorrhagic fever	outbreak
-outbreak:139	Creutzfeldt-Jakob disease	outbreak
-outbreak:1513	Classical Swine Fever	outbreak
-outbreak:23	Ebola Virus Disease	outbreak
-outbreak:700	Undiagnosed encephalitis, Nipah virus	outbreak
-outbreak:924	West Nile Virus	outbreak
-outbreak:988	Avian influenza	outbreak
-outbreak:1009	Hepatitis, undefined	outbreak
-outbreak:24	Ebola	outbreak
-outbreak:618	Poliomyelitis, global VDPV	outbreak
-outbreak:937	White nose syndrome	outbreak
-outbreak:1501	Avian influenza	outbreak
-outbreak:1116	Ebola virus disease	outbreak
-outbreak:1350	Avian Influenza	outbreak
-outbreak:1484	Ebola virus disease	outbreak
-outbreak:317	Anthrax	outbreak
-outbreak:101	Ebola virus disease	outbreak
-outbreak:1084	Avian influenza	outbreak
-outbreak:1150	Leishmaniasis	outbreak
-outbreak:1534	Leishmaniasis, Tuberculosis	outbreak
-outbreak:542	Ebola Virus Disease	outbreak
-outbreak:113	West Nile Virus	outbreak
-outbreak:67	Ebola virus disease	outbreak
-outbreak:769	Ebola virus disease	outbreak
-outbreak:863	Ebola hemorrhagic fever	outbreak
-outbreak:1570	Ebola virus disease	outbreak
-outbreak:1419	Monkeypox	outbreak
-outbreak:890	Eastern equine encephalitis, West Nile virus	outbreak
-outbreak:1059	Bovine spongiform encephalopathy (BSE)	outbreak
-outbreak:114	West Nile virus	outbreak
-outbreak:345	Community-acquired pneumonia	outbreak
-outbreak:873	Avian influenza	outbreak
-outbreak:91	Japanese encephalitis	outbreak
-outbreak:184	E. coli O157	outbreak
-outbreak:1444	Amebic meningoencephalitis, primary	outbreak
-outbreak:140	Hantavirus infection	outbreak
-outbreak:1546	Ebola virus disease	outbreak
-outbreak:502	Foot & mouth disease	outbreak
-outbreak:686	Avian influenza	outbreak
-outbreak:1081	West Nile virus	outbreak
-outbreak:446	Avian influenza	outbreak
-outbreak:1068	St. Louis encephalitis, West Nile viruses	outbreak
-outbreak:857	Foot and mouth disease	outbreak
-outbreak:269	Ebola Virus Disease	outbreak
-outbreak:344	Staphylococcus aureus MRSA	outbreak
-outbreak:306	Novel coronavirus	outbreak
-outbreak:510	Trypanosomiasis, African	outbreak
-outbreak:1096	BSE, bovine	outbreak
-outbreak:72	Ebola virus disease	outbreak
-outbreak:949	Hantavirus infection	outbreak
-outbreak:1314	BSE, bovine	outbreak
-outbreak:1205	Vesicular stomatitis	outbreak
-outbreak:678	Japanese encephalitis & other	outbreak
-outbreak:1310	Influenza H3N2v	outbreak
-outbreak:418	Ebola virus disease	outbreak
-outbreak:617	Avian influenza	outbreak
-outbreak:519	Ross River virus, Barmah Forest virus	outbreak
-outbreak:636	Leishmaniasis, visceral	outbreak
-outbreak:1130	Avian influenza, H5N2	outbreak
-outbreak:1457	Yellow fever	outbreak
-outbreak:1070	Avian influenza, human	outbreak
-outbreak:391	Hantavirus infection	outbreak
-outbreak:338	Avian influenza, H7N9	outbreak
-outbreak:1599	Leishmaniasis	outbreak
-outbreak:231	Avian influenza, H5N1	outbreak
-outbreak:840	Q fever	outbreak
-outbreak:1106	Ebola hemorrhagic fever	outbreak
-outbreak:1485	COVID-19	outbreak
-outbreak:1132	White nose syndrome	outbreak
-outbreak:646	Hepatitis B & C	outbreak
-outbreak:256	Japanese encephalitis	outbreak
-outbreak:1229	Campylobacteriosis, E. coli O157	outbreak
-outbreak:1148	Ebola hemorrhagic fever	outbreak
-outbreak:733	Ebola hemorrhagic fever	outbreak
-outbreak:1135	Amebic meningoencephalitis	outbreak
-outbreak:470	Ebola virus disease	outbreak
-outbreak:31	Avian influenza	outbreak
-outbreak:777	Leishmaniasis, visceral	outbreak
-outbreak:1109	Lumpy skin disease	outbreak
-outbreak:1163	Avian influenza	outbreak
-outbreak:584	Ebola virus disease	outbreak
-outbreak:735	Hantavirus infection	outbreak
-outbreak:746	Tick-borne encephalitis virus	outbreak
-outbreak:965	Soybean rust	outbreak
-outbreak:967	Avian influenza	outbreak
-outbreak:127	Leishmaniasis	outbreak
-outbreak:1267	Creutzfeldt-Jakob disease	outbreak
-outbreak:743	Influenza A	outbreak
-outbreak:371	Influenza A(H3N2)v	outbreak
-outbreak:684	Avian influenza	outbreak
-outbreak:728	Avian influenza	outbreak
-outbreak:1530	Hemorrhagic fever with renal syndrome	outbreak
-outbreak:1467	Creutzfeldt-Jakob disease (new variant)	outbreak
-outbreak:1214	Sheep pox, Goat pox	outbreak
-outbreak:714	Ebola virus disease	outbreak
-outbreak:661	Swine fever, classical	outbreak
-outbreak:668	Avian influenza	outbreak
-outbreak:1090	Influenza pandemic (H1N1)	outbreak
-outbreak:300	Creutzfeldt-Jakob disease (new variant)	outbreak
-outbreak:602	Swine fever	outbreak
-outbreak:1598	Bovine spongiform encephalopathy (BSE)	outbreak
-outbreak:715	Avian influenza	outbreak
-outbreak:1357	Influenza A H3N2	outbreak
-outbreak:912	Anthrax	outbreak
-outbreak:761	Creutzfeldt-Jakob disease	outbreak
-outbreak:277	Ebola virus disease	outbreak
-outbreak:374	Avian influenza	outbreak
-outbreak:1155	Ebola virus disease	outbreak
-outbreak:398	CJD (new variant)	outbreak
-outbreak:1015	E. coli VTEC	outbreak
-outbreak:459	Bovine Spongiform Encephalopathy (BSE)	outbreak
-outbreak:1320	E. coli	outbreak
-outbreak:545	Hantavirus infection	outbreak
-outbreak:1642	Avian influenza	outbreak
-outbreak:465	Leishmaniasis	outbreak
-outbreak:16	Botulism	outbreak
-outbreak:943	Diphtheria	outbreak
-outbreak:928	Avian influenza, HPAI H5N5	outbreak
-outbreak:255	Avian Influenza	outbreak
-outbreak:1124	Swine fever, classical	outbreak
-outbreak:1474	BSE	outbreak
-outbreak:786	Amebic meningoencephalitis, primary	outbreak
-outbreak:753	Ebola hemorrhagic fever	outbreak
-outbreak:1074	Avian influenza	outbreak
-outbreak:143	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:1037	Avian influenza	outbreak
-outbreak:866	BSE	outbreak
-outbreak:655	Influenza A (H1N1)	outbreak
-outbreak:434	Avian influenza	outbreak
-outbreak:553	Group A Streptococcus, Scarlet fever	outbreak
-outbreak:1166	Rift Valley fever	outbreak
-outbreak:1100	Avian influenza	outbreak
-outbreak:1067	Ebola virus disease	outbreak
-outbreak:377	Coronavirus	outbreak
-outbreak:1203	Leishmaniasis	outbreak
-outbreak:1424	Salmonellosis	outbreak
-outbreak:1032	Plague, bubonic	outbreak
-outbreak:1328	Ebola virus disease	outbreak
-outbreak:1416	Foot & mouth disease	outbreak
-outbreak:1503	Anthrax	outbreak
-outbreak:264	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:326	Tick-borne encephalitis, Lyme disease	outbreak
-outbreak:1151	Influenza pandemic (H1N1)	outbreak
-outbreak:702	COVID-19	outbreak
-outbreak:141	Avian Influenza	outbreak
-outbreak:1057	Plague	outbreak
-outbreak:1630	Avian influenza, HPAI H5	outbreak
-outbreak:676	West Nile virus	outbreak
-outbreak:739	Meningococcal vaccine need	outbreak
-outbreak:1134	Avian influenza, H5N2, turkeys	outbreak
-outbreak:752	Bovine Spongiform Encephalopathy (BSE)	outbreak
-outbreak:526	Ebola virus disease	outbreak
-outbreak:228	West Nile Virus	outbreak
-outbreak:1576	Coxsackie B4 & Diabetes	outbreak
-outbreak:959	Avian influenza	outbreak
-outbreak:985	Ebola virus disease	outbreak
-outbreak:1454	Ebola virus disease	outbreak
-outbreak:440	Avian influenza	outbreak
-outbreak:1183	Leishmaniasis, visceral	outbreak
-outbreak:1625	Hepatitis	outbreak
-outbreak:106	Meningococcal meningitis	outbreak
-outbreak:1063	Avian influenza	outbreak
-outbreak:250	West Nile Virus	outbreak
-outbreak:404	Undiagnosed deaths, Streptococcus suis	outbreak
-outbreak:383	Avian influenza	outbreak
-outbreak:530	E. coli, Hemolytic uremic syndrome	outbreak
-outbreak:360	BSE	outbreak
-outbreak:367	Novel coronavirus	outbreak
-outbreak:921	MERS-CoV	outbreak
-outbreak:1287	Avian influenza	outbreak
-outbreak:363	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:1372	BSE	outbreak
-outbreak:1349	E. coli O157	outbreak
-outbreak:147	Ebola virus disease	outbreak
-outbreak:32	Ebola virus disease	outbreak
-outbreak:781	E. coli O111	outbreak
-outbreak:302	Avian influenza	outbreak
-outbreak:1551	Salmonellosis	outbreak
-outbreak:831	Influenza A (H1N1)	outbreak
-outbreak:379	Hepatitis D virus, hepatitis B	outbreak
-outbreak:1290	Avian influenza	outbreak
-outbreak:5	Avian influenza, H7N9	outbreak
-outbreak:1093	Avian influenza	outbreak
-outbreak:350	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:132	Coronavirus	outbreak
-outbreak:1071	Malaria, P. vivax	outbreak
-outbreak:534	Avian influenza, HPAI H5N1	outbreak
-outbreak:1060	Creutzfeldt-Jakob Disease	outbreak
-outbreak:698	Avian influenza	outbreak
-outbreak:582	Ebola hemorrhagic fever	outbreak
-outbreak:1222	Ebola hemorrhagic fever	outbreak
-outbreak:982	Avian influenza, human	outbreak
-outbreak:996	COVID-19	outbreak
-outbreak:551	Bovine Spongiform Encephalopathy	outbreak
-outbreak:421	CJD	outbreak
-outbreak:707	Diphtheria	outbreak
-outbreak:369	Ebola hemorrhagic fever	outbreak
-outbreak:1596	Hantavirus	outbreak
-outbreak:118	Leishmaniasis	outbreak
-outbreak:1215	Measles	outbreak
-outbreak:514	Influenza A (H1N1)	outbreak
-outbreak:529	Ebola virus disease	outbreak
-outbreak:780	Encephalitis, West Nile Virus (WNV)	outbreak
-outbreak:247	Kunjin virus, Barmah Forest virus, Ross River virus, Murray Valley encephalitis virus	outbreak
-outbreak:1387	Plague	outbreak
-outbreak:1490	Avian influenza	outbreak
-outbreak:1047	COVID-19	outbreak
-outbreak:951	Leishmaniasis	outbreak
-outbreak:1055	Ebola virus disease	outbreak
-outbreak:1178	Hemorrhagic fever w/renal syndrome	outbreak
-outbreak:1176	Avian influenza, H7, LPAI	outbreak
-outbreak:1395	Avian influenza, human H7N9	outbreak
-outbreak:665	Foot and mouth disease	outbreak
-outbreak:830	BSE (Bovine Spongiform Encephalopathy), CJD (new variant)	outbreak
-outbreak:33	Meningitis, meningococcal	outbreak
-outbreak:771	Ebola hemorrhagic fever	outbreak
-outbreak:1495	Gastroenteritis	outbreak
-outbreak:209	Avian influenza	outbreak
-outbreak:171	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:111	MERS-CoV	outbreak
-outbreak:876	BSE Update	outbreak
-outbreak:999	Influenza H5N1	outbreak
-outbreak:1259	Ebola hemorrhagic fever	outbreak
-outbreak:1439	Avian influenza	outbreak
-outbreak:1394	West Nile Virus	outbreak
-outbreak:378	Ebola virus disease	outbreak
-outbreak:541	Middle East respiratory syndrome-related coronavirus	outbreak
-outbreak:349	Avian Influenza	outbreak
-outbreak:47	Creutzfeldt-Jakob Disease (CJD), cyclic tetrapyrroles	outbreak
-outbreak:469	Lumpy skin disease	outbreak
-outbreak:554	Hemorrhagic fever, Ebola	outbreak
-outbreak:1322	BSE/CJD	outbreak
-outbreak:1515	Ebola virus disease	outbreak
-outbreak:995	Influenza pandemic (H1N1)	outbreak
-outbreak:1256	Avian influenza	outbreak
-outbreak:129	Avian Influenza	outbreak
-outbreak:1077	Q fever	outbreak
-outbreak:1152	BSE	outbreak
-outbreak:80	Middle East respiratory syndrome-related coronavirus	outbreak
-outbreak:561	Avian influenza	outbreak
-outbreak:664	Avian influenza	outbreak
-outbreak:552	Influenza pandemic (H1N1)	outbreak
-outbreak:907	Ebola virus disease	outbreak
-outbreak:1393	Ebola virus disease	outbreak
-outbreak:1317	Equine herpesvirus	outbreak
-outbreak:1415	Ebola virus disease	outbreak
-outbreak:1337	Ross River/Barmah Forest viruses	outbreak
-outbreak:346	Avian influenza	outbreak
-outbreak:337	Syphilis, Gonorrhea	outbreak
-outbreak:596	Ebola virus disease	outbreak
-outbreak:280	Foot & mouth disease	outbreak
-outbreak:246	St. Louis Encephalitis	outbreak
-outbreak:429	Avian influenza	outbreak
-outbreak:1562	Avian influenza (HPAI H5N2)	outbreak
-outbreak:729	Avian influenza	outbreak
-outbreak:1329	Leptospirosis	outbreak
-outbreak:1473	COVID-19, Respiratory viruses	outbreak
-outbreak:253	Leishmaniasis	outbreak
-outbreak:325	Influenza A	outbreak
-outbreak:427	Botulism, avian	outbreak
-outbreak:1226	Hantavirus infection	outbreak
-outbreak:8	Ebola hemorrhagic fever	outbreak
-outbreak:1019	BSE	outbreak
-outbreak:587	Creutzfeldt-Jakob disease	outbreak
-outbreak:1507	Echinococcus Multilocularis	outbreak
-outbreak:1105	Leishmaniasis	outbreak
-outbreak:709	Malaria	outbreak
-outbreak:1417	BSE	outbreak
-outbreak:1012	Angiostrongylus meningitis	outbreak
-outbreak:328	Ebola virus disease	outbreak
-outbreak:909	Ebola hemorrhagic fever	outbreak
-outbreak:583	Middle East respiratory syndrome coronavirus (MERS-CoV)	outbreak
-outbreak:933	Rift Valley fever	outbreak
-outbreak:310	Ebola hemorrhagic fever	outbreak
-outbreak:76	Avian influenza	outbreak
-outbreak:773	Avian influenza	outbreak
-outbreak:1224	West Nile Virus	outbreak
-outbreak:1003	Avian influenza	outbreak
-outbreak:135	Encephalitis, tickborne	outbreak
-outbreak:954	Botulism, wound, drug-related	outbreak
-outbreak:7	Avian influenza, H7 serotype, poultry	outbreak
-outbreak:920	Avian influenza, human	outbreak
-outbreak:1269	CJD	outbreak
-outbreak:1194	Ebola virus disease	outbreak
-outbreak:597	Avian influenza	outbreak
-outbreak:1113	Middle East Respiratory Syndrome Coronavirus (MERS-CoV)	outbreak
-outbreak:1493	BSE/CJD	outbreak
-outbreak:741	Undiagnosed illness,measles	outbreak
-outbreak:192	BSE Update	outbreak
-outbreak:843	Botulism, avian	outbreak
-outbreak:1278	Anthrax	outbreak
-outbreak:747	BSE	outbreak
-outbreak:1360	Leishmaniasis, dogs	outbreak
-outbreak:1171	West Nile virus	outbreak
-outbreak:40	Yellow fever	outbreak
-outbreak:1280	Ebola hemorrhagic fever	outbreak
-outbreak:984	Influenza pandemic (H1N1)	outbreak
-outbreak:1046	St. Louis encephalitis virus	outbreak
-outbreak:168	Avian influenza, HPAI H5N1	outbreak
-outbreak:307	Rabbit viral hemorrhagic diseases	outbreak
-outbreak:926	Avian influenza H7N2, human	outbreak
-outbreak:691	Hepatitis A & B	outbreak
-outbreak:1411	Foot & mouth disease	outbreak
-outbreak:1456	Avian influenza	outbreak
-outbreak:1308	Avian influenza	outbreak
-outbreak:899	Avian influenza	outbreak
-outbreak:855	Anthrax letters	outbreak
-outbreak:650	Influenza pandemic (H1N1)	outbreak
-outbreak:839	Avian influenza	outbreak
-outbreak:522	Ebola virus disease	outbreak
-outbreak:1131	BSE policy	outbreak
-outbreak:358	Yellow fever	outbreak
-outbreak:1588	Hepatitis C	outbreak
-outbreak:1021	Ebola virus disease	outbreak
-outbreak:458	Avian influenza	outbreak
-outbreak:653	Creutzfeldt-Jakob Disease	outbreak
-outbreak:1592	Avian Influenza	outbreak
-outbreak:1210	Botulism, avian	outbreak
-outbreak:1482	Yellow fever	outbreak
-outbreak:688	Leishmaniasis	outbreak
-outbreak:1258	Novel coronavirus	outbreak
-outbreak:51	Hantavirus infection	outbreak
-outbreak:12	Avian Influenza	outbreak
-outbreak:1143	Ebola hemorrhagic fever	outbreak
-outbreak:1182	Sheep pox, Goat pox	outbreak
-outbreak:156	White spot disease, shrimp	outbreak
-outbreak:9	Influenza H5N1, avian	outbreak
-outbreak:406	Leishmaniasis	outbreak
-outbreak:394	Ross River virus, Barmah Forest virus	outbreak
-outbreak:524	Lumpy skin disease, bovine	outbreak
-outbreak:1257	BSE, Cattle	outbreak
-outbreak:1441	Avian influenza	outbreak
-outbreak:75	Ebola virus disease	outbreak
-outbreak:758	Avian influenza	outbreak
-outbreak:1052	Influenzavirus A	outbreak
-outbreak:1569	CJD	outbreak
-outbreak:1196	Leishmaniasis	outbreak
-outbreak:938	Ebola virus disease	outbreak
-outbreak:609	Plum pox potyvirus	outbreak
-outbreak:41	Infant botulism	outbreak
-outbreak:723	Ebola virus disease	outbreak
-outbreak:1209	Avian influenza	outbreak
-outbreak:802	Avian influenza	outbreak
-outbreak:546	Ebola virus disease	outbreak
-outbreak:807	Ebola hemorrhagic fever	outbreak
-outbreak:1219	Undiagnosed pneumonia, novel coronavirus	outbreak
-outbreak:355	Ebola virus disease	outbreak
-outbreak:566	Hemorrhagic fever w/renal syndrome	outbreak
-outbreak:902	E. coli O157	outbreak
-outbreak:1041	Pale cyst nematode	outbreak
-outbreak:1401	Salmonellosis, st Potsdam	outbreak
-outbreak:352	Creutzfeldt-Jakob disease	outbreak
-outbreak:697	Ebolavirus	outbreak
-outbreak:1589	Avian influenza	outbreak
-outbreak:304	Hantavirus infection	outbreak
-outbreak:496	Ebola virus disease	outbreak
-outbreak:915	Human enterovirus D68	outbreak
-outbreak:1040	E. coli, VTEC	outbreak
-outbreak:914	Avian influenza	outbreak
-outbreak:1013	Malaria, quinine resistance	outbreak
-outbreak:987	Equine influenza	outbreak
-outbreak:384	Middle East Respiratory Syndrome	outbreak
-outbreak:598	Japanese encephalitis	outbreak
-outbreak:150	MERS-CoV	outbreak
-outbreak:1208	Ebola Virus Disease	outbreak
-outbreak:939	Scrapie	outbreak
-outbreak:814	Ebola Virus Disease	outbreak
-outbreak:1345	BSE & CJD	outbreak
-outbreak:875	Avian influenza	outbreak
-outbreak:1602	Dengue, DHF	outbreak
-outbreak:321	Influenzaviruses	outbreak
-outbreak:178	Avian influenza	outbreak
-outbreak:224	Ebola hemorrhagic fever	outbreak
-outbreak:1202	Avian influenza	outbreak
-outbreak:804	Ebola virus disease	outbreak
-outbreak:204	Leishmaniasis	outbreak
-outbreak:1200	Influenza pandemic (H1N1)	outbreak
-outbreak:1044	West Nile virus	outbreak
-outbreak:154	West Nile Virus	outbreak
-outbreak:108	CJD-BSE connection	outbreak
-outbreak:1005	Influenza pandemic (H1N1)	outbreak
-outbreak:977	BSE, bovine	outbreak
-outbreak:1390	Avian influenza	outbreak
-outbreak:1635	Avian influenza	outbreak
-outbreak:626	Foot & mouth disease, porcine	outbreak
-outbreak:1271	Creutzfeldt-Jakob disease	outbreak
-outbreak:177	Ebola virus disease	outbreak
-outbreak:195	Hand, foot & mouth disease	outbreak
-outbreak:2	Ebola hemorrhagic fever	outbreak
-outbreak:1597	Infant botulism	outbreak
-outbreak:1023	Leishmaniasis	outbreak
-outbreak:308	Amebic meningoencephalitis, primary	outbreak
-outbreak:785	Equine herpesvirus, equine	outbreak
-outbreak:1615	Plague	outbreak
-outbreak:540	Goat pox	outbreak
-outbreak:1543	Avian influenza	outbreak
-outbreak:694	Ebola haemorrhagic fever	outbreak
-outbreak:797	Malaria, P. vivax	outbreak
-outbreak:1438	Avian influenza	outbreak
-outbreak:980	Tick-borne encephalitis virus, Powassan virus	outbreak
-outbreak:1603	Avian influenza	outbreak
-outbreak:1146	Lyme disease	outbreak
-outbreak:936	Salmonellosis, st. Heidelberg	outbreak
-outbreak:891	Ebola hemorrhagic fever	outbreak
-outbreak:1263	Avian Influenza	outbreak
-outbreak:54	Avian influenza	outbreak
-outbreak:1453	Avian influenza	outbreak
-outbreak:986	Avian influenza	outbreak
 outbreak:356	CJD-BSE	outbreak
-outbreak:1359	Hantavirus pulmonary syndrome	outbreak
-outbreak:1535	Swine influenza	outbreak
-outbreak:1611	Influenza pandemic (H1N1), Guillain-Barre syndrome	outbreak
-outbreak:252	Avian influenza	outbreak
-outbreak:1450	Nipah virus	outbreak
-outbreak:243	BSE	outbreak
-outbreak:1385	Ebola hemorrhagic fever	outbreak
-outbreak:1036	Avian influenza	outbreak
-outbreak:218	West Nile virus	outbreak
-outbreak:672	West Nile Virus	outbreak
-outbreak:500	Avian influenza	outbreak
-outbreak:462	Ebola virus disease	outbreak
-outbreak:1260	BSE, bovine spongiform encephalopathy	outbreak
-outbreak:348	Foot & mouth disease, ovine	outbreak
-outbreak:1523	West Nile virus	outbreak
-outbreak:1600	EV-71, Hand, Foot and Mouth Disease (HFMD)	outbreak
-outbreak:960	BSE	outbreak
-outbreak:1478	Influenza A (H1N1)	outbreak
-outbreak:696	West Nile Virus	outbreak
-outbreak:1192	Leishmaniasis, visceral	outbreak
-outbreak:1250	Avian influenza, poultry	outbreak
-outbreak:1119	Hepatitis B and C	outbreak
-outbreak:1375	avian influenza	outbreak
-outbreak:1547	Avian influenza	outbreak
-outbreak:266	CJD	outbreak
-outbreak:637	Bovine Spongiform Encephalopathy (BSE)	outbreak
-outbreak:904	Avian influenza	outbreak
-outbreak:1118	Influenza A	outbreak
-outbreak:1511	Avian influenza	outbreak
-outbreak:1348	Multisystemic wasting syndrome	outbreak
-outbreak:1522	Dengue/DHF update	outbreak
-outbreak:611	MERS-CoV	outbreak
-outbreak:30	Avian Influenza	outbreak
-outbreak:1494	Influenza pandemic (H1N1)	outbreak
-outbreak:560	Meningitis, meningococcal	outbreak
-outbreak:220	Avian influenza, poultry vs migratory birds	outbreak
-outbreak:97	Influenza A (H1N1), coincident H3N2 variation	outbreak
-outbreak:489	Plague	outbreak
-outbreak:1069	Rift Valley fever	outbreak
-outbreak:1488	Avian influenza	outbreak
-outbreak:525	Hepatitis, undefined	outbreak
-outbreak:783	Avian influenza	outbreak
-outbreak:900	Ebola virus disease	outbreak
-outbreak:1366	Avian Influenza	outbreak
-outbreak:202	Japanese encephalitis vaccine	outbreak
-outbreak:588	Leishmaniasis	outbreak
-outbreak:964	Ebola virus disease	outbreak
-outbreak:1273	Botulism	outbreak
-outbreak:1433	Citrus tristeza closterovirus	outbreak
-outbreak:711	Influenza Pandemic (H1N1) 2009	outbreak
-outbreak:120	Rift Valley fever	outbreak
-outbreak:1028	Pfiesteria piscicida	outbreak
-outbreak:487	Lumpy skin disease	outbreak
-outbreak:102	Botulism	outbreak
-outbreak:1030	Influenza	outbreak
-outbreak:104	Ebola virus disease	outbreak
-outbreak:1324	Ebola virus disease	outbreak
-outbreak:555	Influenza	outbreak
-outbreak:1549	Swine fever	outbreak
-outbreak:1506	Rabies	outbreak
-outbreak:145	BSE	outbreak
-outbreak:727	Avian influenza	outbreak
-outbreak:320	Influenza	outbreak
-outbreak:35	Meningitis, bacterial	outbreak
-outbreak:173	Bovine Spongiform Encephalopathy (BSE)	outbreak
-outbreak:568	Epidemic typhus, Scrub typhus	outbreak
-outbreak:667	Avian influenza	outbreak
-outbreak:927	Salmonellosis	outbreak
-outbreak:607	CJD (new variant)	outbreak
-outbreak:1575	Yellow fever	outbreak
-outbreak:1333	Hantavirus infection	outbreak
-outbreak:1346	Rabies	outbreak
-outbreak:490	Rhodococcus equi, fowl	outbreak
-outbreak:1298	Hepatitis B	outbreak
-outbreak:810	BSE	outbreak
-outbreak:288	Ebola virus disease	outbreak
-outbreak:407	Ebola virus disease	outbreak
-outbreak:1089	COVID-19	outbreak
-outbreak:961	Newcastle disease	outbreak
-outbreak:520	Novel coronavirus	outbreak
-outbreak:763	Hepatitis B, Hepatitis C, HIV	outbreak
-outbreak:1414	Anthrax vaccine safety & efficacy	outbreak
-outbreak:1446	Avian Influenza	outbreak
-outbreak:654	Avian influenza	outbreak
-outbreak:183	Hemorrhagic fever, Ebola	outbreak
-outbreak:1335	Avian influenza	outbreak
-outbreak:762	BSE	outbreak
-outbreak:1304	Streptococcus, group A, scarlet fever	outbreak
-outbreak:6	Tick-borne relapsing fever	outbreak
-outbreak:450	Avian influenza	outbreak
-outbreak:1422	Crimean-Congo hemorrhagic fever	outbreak
-outbreak:721	Coronavirus	outbreak
-outbreak:485	Influenza A	outbreak
-outbreak:1545	Avian influenza	outbreak
-outbreak:787	Infant botulism	outbreak
-outbreak:1442	West Nile Virus	outbreak
-outbreak:105	Ebola virus disease	outbreak
-outbreak:575	Leishmaniasis	outbreak
-outbreak:498	Avian influenza	outbreak
-outbreak:677	Avian influenza	outbreak
-outbreak:820	Leishmaniasis	outbreak
-outbreak:1531	Ebola virus disease	outbreak
-outbreak:549	West Nile virus	outbreak
-outbreak:643	Influenza A virus	outbreak
-outbreak:631	Plague, bubonic	outbreak
-outbreak:233	Leishmaniasis	outbreak
-outbreak:17	Severe acute respiratory syndrome	outbreak
-outbreak:941	Ebola virus disease	outbreak
-outbreak:93	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:616	Leptospirosis, canine	outbreak
-outbreak:207	COVID-19, mucormycosis	outbreak
-outbreak:15	Ebola virus disease	outbreak
-outbreak:669	Ebola virus disease	outbreak
-outbreak:109	BSE surveillance	outbreak
-outbreak:480	Eastern & Venezuelan equine encephalitis	outbreak
-outbreak:389	Meningitis, meningococcal	outbreak
-outbreak:397	Hepatitis C, HIV	outbreak
-outbreak:133	Meningococcal meningitis	outbreak
-outbreak:508	Ebola virus disease	outbreak
-outbreak:1011	Murray Valley encephalitis	outbreak
-outbreak:1378	Influenza A virus	outbreak
-outbreak:267	Middle East Respiratory Syndrome coronavirus	outbreak
-outbreak:533	Leishmaniasis	outbreak
-outbreak:332	Influenza pandemic (H1N1)	outbreak
-outbreak:1557	West Nile virus	outbreak
-outbreak:717	Ebola virus disease	outbreak
-outbreak:557	Meningococcal meningitis	outbreak
-outbreak:1231	Tuberculosis	outbreak
-outbreak:138	BSE prevention	outbreak
-outbreak:1168	Ebola	outbreak
-outbreak:1594	Ebola virus disease	outbreak
-outbreak:1466	Creutzfeldt-Jakob Disease	outbreak
-outbreak:77	BSE	outbreak
-outbreak:1607	Yellow fever	outbreak
-outbreak:975	Infant botulism	outbreak
-outbreak:1190	Hendra virus	outbreak
-outbreak:477	Swine fever	outbreak
-outbreak:1082	Streptococcus group A, invasive	outbreak
-outbreak:1076	Equine influenza	outbreak
-outbreak:278	Leishmaniasis	outbreak
-outbreak:1505	Botulism	outbreak
-outbreak:37	Middle East respiratory syndrome coronavirus (MERS-CoV)	outbreak
-outbreak:974	Ebola virus disease	outbreak
-outbreak:206	Nipah virus	outbreak
-outbreak:1138	Avian influenza	outbreak
-outbreak:1232	Foot and mouth disease, cattle	outbreak
-outbreak:1343	BSE, bovine	outbreak
-outbreak:1048	Foot & mouth disease, porcine	outbreak
-outbreak:1281	Ebola virus disease	outbreak
-outbreak:1072	Ebola virus disease	outbreak
-outbreak:424	Amebic meningoencephalitis	outbreak
-outbreak:1637	Avian influenza	outbreak
-outbreak:1486	Gonococcal disease	outbreak
-outbreak:1644	Avian influenza	outbreak
-outbreak:63	MERS-CoV (Middle East Respiratory Syndrome Coronavirus)	outbreak
-outbreak:896	Botulism	outbreak
-outbreak:107	Avian influenza, H7N9	outbreak
-outbreak:1102	Lumpy Skin Disease	outbreak
-outbreak:883	BSE	outbreak
-outbreak:1582	Avian influenza	outbreak
-outbreak:1409	Scrapie	outbreak
-outbreak:130	Severe acute respiratory syndrome	outbreak
-outbreak:443	Angiostrongylus meningitis	outbreak
-outbreak:295	Avian Influenza	outbreak
-outbreak:467	Avian influenza	outbreak
-outbreak:656	Ebola virus disease	outbreak
-outbreak:892	Avian influenza	outbreak
-outbreak:681	Avian influenza	outbreak
-outbreak:593	Streptococcus, Scarlet fever	outbreak
-outbreak:517	Leishmaniasis	outbreak
-outbreak:559	COVID-19	outbreak
-outbreak:1640	Avian influenza	outbreak
-outbreak:1580	BSE	outbreak
-outbreak:836	Creutzfeldt-Jakob disease (new variant)	outbreak
-outbreak:1447	Avian influenza	outbreak
-outbreak:833	Bovine Spongiform Encephalopathy	outbreak
-outbreak:1307	Leishmaniasis	outbreak
-outbreak:1184	Avian influenza	outbreak
-outbreak:754	Botulism,avian	outbreak
-outbreak:240	Ebola hemorrhagic fever	outbreak
-outbreak:380	Leishmaniasis	outbreak
-outbreak:88	Ebola	outbreak
-outbreak:815	Ebola hemorrhagic fever	outbreak
-outbreak:52	Middle East Respiratory Syndrome	outbreak
-outbreak:1408	Creutzfeldt-Jakob Disease	outbreak
-outbreak:1344	Botulism	outbreak
-outbreak:1252	E. coli O157	outbreak
-outbreak:286	MERS-CoV (Middle East respiratory syndrome-related coronavirus)	outbreak
-outbreak:1553	Foot & mouth disease	outbreak
-outbreak:115	Rabies, canine, human	outbreak
-outbreak:163	Ebola virus disease	outbreak
-outbreak:1291	Avian influenza	outbreak
-outbreak:1354	Banana bunchy top virus	outbreak
-outbreak:1586	Avian influenza	outbreak
-outbreak:290	Potato spindle tuber viroid	outbreak
-outbreak:877	Ebola virus disease	outbreak
-outbreak:782	Influenza pandemic (H1N1)	outbreak
-outbreak:935	Salmonellosis	outbreak
-outbreak:539	Leishmaniasis, visceral	outbreak
-outbreak:918	Botulism	outbreak
-outbreak:1388	Herpes simplex type 1	outbreak
-outbreak:879	Trypanosomiasis, African	outbreak
-outbreak:968	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:466	Foot & mouth disease	outbreak
-outbreak:768	Ebola virus disease	outbreak
-outbreak:998	Plague, bubonic	outbreak
-outbreak:870	Bordetella holmesii	outbreak
-outbreak:1386	Novel coronavirus	outbreak
-outbreak:1275	Japanese encephalitis	outbreak
-outbreak:547	Severe acute respiratory syndrome	outbreak
-outbreak:1583	Avian influenza H7N3	outbreak
-outbreak:898	Ebola hemorrhagic fever	outbreak
-outbreak:365	Leishmaniasis	outbreak
-outbreak:472	Ebola virus disease	outbreak
-outbreak:905	Avian influenza, human	outbreak
-outbreak:124	Leishmaniasis	outbreak
-outbreak:1327	CJD	outbreak
-outbreak:342	TSE	outbreak
-outbreak:452	Murray Valley encephalitis	outbreak
-outbreak:38	Avian influenza, HPAI H5N6	outbreak
-outbreak:744	Avian influenza	outbreak
-outbreak:934	Rift Valley fever	outbreak
-outbreak:979	Avian Influenza	outbreak
-outbreak:294	Dysentery, amebic	outbreak
-outbreak:731	Hepatitis D virus	outbreak
-outbreak:117	Ebola virus disease	outbreak
-outbreak:1332	Influenza A (H1N1)	outbreak
-outbreak:71	Ebola virus disease	outbreak
-outbreak:706	COVID-19	outbreak
-outbreak:351	E. coli EHEC	outbreak
-outbreak:1601	BSE, bovine	outbreak
-outbreak:222	Avian influenza	outbreak
-outbreak:299	Hepatitis, undefined	outbreak
-outbreak:1246	Meningitis, meningococcal	outbreak
-outbreak:474	BSE	outbreak
-outbreak:888	N. meningitidis	outbreak
-outbreak:128	Avian influenza	outbreak
-outbreak:272	BSE: The Brain Eater	outbreak
-outbreak:906	Avian influenza	outbreak
-outbreak:1373	BSE/CJD	outbreak
-outbreak:550	Ebola virus disease	outbreak
-outbreak:166	Ebola virus disease	outbreak
-outbreak:537	Influenza	outbreak
-outbreak:1234	Malaria, artemisinin resistance	outbreak
-outbreak:854	Plague, bubonic	outbreak
-outbreak:396	Hemorrhagic fever with renal syndrome	outbreak
-outbreak:262	Creutzfeldt-Jakob Disease (CJD)	outbreak
-outbreak:917	Yellow fever	outbreak
-outbreak:856	Rabies	outbreak
-outbreak:792	Avian Influenza	outbreak
-outbreak:1006	Avian influenza	outbreak
-outbreak:189	Ebola virus disease	outbreak
-outbreak:673	Ebola virus disease	outbreak
-outbreak:19	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:800	Bacterial canker, kiwifruit	outbreak
-outbreak:1355	Ebola Virus Disease	outbreak
-outbreak:48	Coronavirus	outbreak
-outbreak:1175	African swine fever	outbreak
-outbreak:43	Avian influenza, H7N9	outbreak
-outbreak:259	Ebola virus disease	outbreak
-outbreak:449	Ebola	outbreak
-outbreak:1236	Ephemeral fever	outbreak
-outbreak:412	Creutzfeldt-Jakob Disease	outbreak
-outbreak:478	Ebola virus disease	outbreak
-outbreak:160	Ebola virus disease	outbreak
-outbreak:59	Bovine tuberculosis	outbreak
-outbreak:1230	Foot & mouth disease	outbreak
-outbreak:1112	Vibrio vulnificus	outbreak
-outbreak:527	Avian influenza	outbreak
-outbreak:657	COVID-19	outbreak
-outbreak:632	Leishmaniasis	outbreak
-outbreak:314	Botulism, avian	outbreak
-outbreak:282	Hepatitis B, Hepatitis C	outbreak
-outbreak:760	Hepatitis B, Hepatitis C	outbreak
-outbreak:229	Influenza A(H3N2)v	outbreak
-outbreak:1431	BSE	outbreak
-outbreak:835	BSE & CJD	outbreak
-outbreak:531	Ebola virus disease	outbreak
-outbreak:1463	Creutzfeldt-Jakob disease	outbreak
-outbreak:187	Avian influenza	outbreak
-outbreak:689	Amebic meningoencephalitis	outbreak
-outbreak:1098	Avian influenza	outbreak
-outbreak:1123	Avian influenza	outbreak
-outbreak:910	Swine fever, classical	outbreak
-outbreak:767	Creutzfeldt-Jakob disease	outbreak
-outbreak:623	BSE, bovine spongiform encephalopathy	outbreak
-outbreak:818	BSE	outbreak
-outbreak:368	Plague	outbreak
-outbreak:658	Middle East respiratory syndrome coronavirus (MERS-CoV)	outbreak
-outbreak:801	MERS-CoV	outbreak
-outbreak:819	Ebola virus disease	outbreak
-outbreak:1591	Hepatitis C	outbreak
-outbreak:834	Avian influenza	outbreak
-outbreak:357	Leishmaniasis	outbreak
-outbreak:203	Avian influenza	outbreak
-outbreak:973	Ebola virus disease	outbreak
-outbreak:1042	Clostridium chauvoei	outbreak
-outbreak:966	Bovine spongiform encephalopathy	outbreak
-outbreak:812	Avian influenza	outbreak
-outbreak:1407	Avian influenza	outbreak
-outbreak:1542	Severe acute respiratory syndrome	outbreak
-outbreak:969	Ross River virus	outbreak
-outbreak:273	African Swine Fever	outbreak
-outbreak:333	Ebola virus disease	outbreak
-outbreak:1558	Avian influenza	outbreak
-outbreak:1618	Ebola virus disease	outbreak
-outbreak:512	Swine fever, classical	outbreak
-outbreak:1481	Avian influenza	outbreak
-outbreak:1043	Malaria, P. vivax	outbreak
-outbreak:1162	West Nile virus	outbreak
-outbreak:1421	Avian influenza	outbreak
-outbreak:1026	Ebola virus disease	outbreak
-outbreak:453	Hepatitis, undefined	outbreak
-outbreak:1095	Viral meningitis	outbreak
-outbreak:242	Avian Influenza	outbreak
-outbreak:940	Influenzavirus	outbreak
-outbreak:821	Ebola virus disease	outbreak
-outbreak:131	Avian influenza	outbreak
-outbreak:595	Anthrax	outbreak
-outbreak:1294	Soybean rust	outbreak
-outbreak:479	Leishmaniasis	outbreak
-outbreak:1227	Avian influenza - Eurasia	outbreak
-outbreak:1465	Melioidosis, leptospirosis	outbreak
-outbreak:448	Botulism	outbreak
-outbreak:82	West Nile Virus	outbreak
-outbreak:169	Yellow fever	outbreak
-outbreak:1079	Avian influenza	outbreak
-outbreak:493	Avian influenza	outbreak
-outbreak:897	Avian influenza	outbreak
-outbreak:1173	Avian influenza	outbreak
-outbreak:1579	Epizootic hemorrhagic disease, bovine	outbreak
-outbreak:1147	Meningococcal meningitis	outbreak
-outbreak:1145	CJD	outbreak
-outbreak:430	Hepatitis B & C, HIV	outbreak
-outbreak:860	Leishmaniasis	outbreak
-outbreak:1365	Porcine reproductive & respiratory syndrome	outbreak
-outbreak:362	Ebola virus disease	outbreak
-outbreak:1412	Bovine Spongiform Encephalopathy (BSE)	outbreak
-outbreak:1452	Plague, bubonic	outbreak
-outbreak:913	Hantavirus infection	outbreak
-outbreak:1170	Screwworm myiasis	outbreak
-outbreak:66	Avian influenza	outbreak
-outbreak:416	Foot-and-mouth disease, bovine	outbreak
-outbreak:1624	Middle East respiratory syndrome	outbreak
-outbreak:296	Rabbit calicivirus	outbreak
-outbreak:882	Avian influenza	outbreak
-outbreak:373	Creutzfeldt-Jakob disease	outbreak
-outbreak:784	West Nile virus	outbreak
-outbreak:645	Vibrio species gastroenteritis	outbreak
-outbreak:1051	St. Louis Encephalitis	outbreak
-outbreak:1382	Undiagnosed illness, chikungunya	outbreak
-outbreak:506	Chlamydia pneumoniae	outbreak
-outbreak:1423	Salmonellosis	outbreak
-outbreak:868	BSE, bovine	outbreak
-outbreak:116	Infant botulism	outbreak
-outbreak:586	Ebola virus disease	outbreak
-outbreak:663	Botulism	outbreak
-outbreak:1157	Influenza pandemic (H1N1)	outbreak
-outbreak:46	Ebola virus disease	outbreak
-outbreak:847	St Louis encephalitis virus	outbreak
-outbreak:589	Malaria	outbreak
-outbreak:1078	Rift Valley fever	outbreak
-outbreak:1432	BSE	outbreak
-outbreak:1574	Anthrax vaccine	outbreak
-outbreak:433	Scrapie	outbreak
-outbreak:972	Meningitis, meningococcal	outbreak
-outbreak:1179	African Swine Fever	outbreak
-outbreak:198	Creutzfeldt-Jakob disease	outbreak
-outbreak:188	Ephemeral fever, bovine	outbreak
-outbreak:241	Ebola virus disease	outbreak
-outbreak:14	Middle East Respiratory Syndrome-Coronavirus	outbreak
-outbreak:1508	Avian influenza	outbreak
-outbreak:316	Ebola virus disease	outbreak
-outbreak:1405	Cryptococcus gattii, human, animal	outbreak
-outbreak:1000	Ebola virus disease	outbreak
-outbreak:196	Influenza	outbreak
-outbreak:444	Eastern equine encephalitis, Venezuelan equine encephalitis	outbreak
-outbreak:1536	Botulism	outbreak
-outbreak:94	Avian influenza, H7N9	outbreak
-outbreak:1248	Ebola virus	outbreak
-outbreak:74	Trypanosomiasis (Chagas disease)	outbreak
-outbreak:99	Avian influenza	outbreak
-outbreak:87	Swine fever, classical	outbreak
-outbreak:740	Ebola hemorrhagic fever	outbreak
-outbreak:983	West Nile virus	outbreak
-outbreak:1073	CJD (new var.)	outbreak
-outbreak:1376	Ebola virus disease	outbreak
-outbreak:223	Hepatitis B	outbreak
-outbreak:217	Botulism	outbreak
-outbreak:159	Shigella sonnei	outbreak
-outbreak:137	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:476	Meningococcal meningitis	outbreak
-outbreak:1133	Legionellosis	outbreak
-outbreak:1	Influenza A (H1N1), Swine flu	outbreak
-outbreak:1532	Yellow fever	outbreak
-outbreak:69	Salmonellosis	outbreak
-outbreak:497	Dengue, DHF	outbreak
-outbreak:690	Equine influenza	outbreak
-outbreak:708	West Nile virus	outbreak
-outbreak:1104	Trypanosomiasis, Chagas disease	outbreak
-outbreak:827	Botulism, avian	outbreak
-outbreak:908	Avian influenza	outbreak
-outbreak:1101	Avian influenza	outbreak
-outbreak:235	Influenza A (H1N1)	outbreak
-outbreak:341	Ebola hemorrhagic fever	outbreak
-outbreak:411	Avian Influenza	outbreak
-outbreak:1520	Parainfluenza virus type 3	outbreak
-outbreak:911	St. Louis encephalitis virus	outbreak
-outbreak:1017	Middle East respiratory syndrome	outbreak
-outbreak:1121	Novel coronavirus	outbreak
-outbreak:1341	Equine influenza	outbreak
-outbreak:1633	Tick paralysis	outbreak
-outbreak:592	Bovine Spongiform Encephalopathy (BSE)	outbreak
-outbreak:1356	Gonococcal disease, genital chlamydia infection	outbreak
-outbreak:1141	Potato wart disease	outbreak
-outbreak:1108	Leishmaniasis	outbreak
-outbreak:413	Ebola virus disease	outbreak
-outbreak:420	Avian influenza	outbreak
-outbreak:1277	Ebola virus disease	outbreak
-outbreak:884	Staphylococcus aureus MRSA	outbreak
-outbreak:1312	Tick-borne relapsing fever	outbreak
-outbreak:1064	Avian influenza	outbreak
-outbreak:1403	Hepatitis B, Hepatitis C, HIV	outbreak
-outbreak:1614	Ebola hemorrhagic fever	outbreak
-outbreak:853	Monkeypox virus	outbreak
-outbreak:1479	CJD (new variant.), tissue survey	outbreak
-outbreak:1240	Avian influenza	outbreak
-outbreak:1199	Anthrax	outbreak
-outbreak:1605	E. coli EHEC	outbreak
-outbreak:1107	Plague, bubonic	outbreak
-outbreak:1016	St. Louis encephalitis virus	outbreak
-outbreak:1369	Plague	outbreak
-outbreak:1437	Avian influenza	outbreak
-outbreak:1619	Avian influenza	outbreak
-outbreak:79	Ebola virus disease	outbreak
-outbreak:1066	Novel coronavirus	outbreak
-outbreak:402	Newcastle disease	outbreak
-outbreak:1632	Avian influenza	outbreak
-outbreak:146	Avian influenza	outbreak
-outbreak:581	Ross River virus, Murray Valley encephalitis virus	outbreak
-outbreak:1172	Avian influenza	outbreak
-outbreak:125	 Ebola virus disease	outbreak
-outbreak:793	Avian influenza	outbreak
-outbreak:851	Leishmaniasis, cutaneous	outbreak
-outbreak:712	West Nile Virus	outbreak
-outbreak:1065	COVID-19, mucormycosis	outbreak
-outbreak:84	Foot and mouth disease	outbreak
-outbreak:1283	Ebola virus disease	outbreak
-outbreak:1201	Botulism	outbreak
-outbreak:1537	Swine influenza	outbreak
-outbreak:811	Bacillus cereus endophthalmitis	outbreak
-outbreak:916	Hepatitis, viral	outbreak
-outbreak:1436	Malaria, Plasmodium vivax	outbreak
-outbreak:1418	Hantavirus infection	outbreak
-outbreak:725	Viral meningitis	outbreak
-outbreak:408	Avian Influenza	outbreak
-outbreak:179	Avian influenza	outbreak
-outbreak:850	Ebola hemorrhagic fever	outbreak
-outbreak:1213	CJD	outbreak
-outbreak:1559	Avian influenza	outbreak
-outbreak:1153	BSE	outbreak
-outbreak:435	Influenza A (H1N1), swine trial inf.	outbreak
-outbreak:482	Salmonellosis, st Typhimurium	outbreak
-outbreak:1094	Avian influenza	outbreak
-outbreak:340	Leishmaniasis	outbreak
-outbreak:287	Influenza A	outbreak
-outbreak:73	Avian influenza, human	outbreak
-outbreak:1085	Babesiosis, Lyme disease	outbreak
-outbreak:339	Ebola virus disease	outbreak
-outbreak:946	Botulism	outbreak
-outbreak:1476	Ebola hemorrhagic fever	outbreak
-outbreak:745	Banana bunchy top nanovirus	outbreak
-outbreak:155	CJD (new variant)	outbreak
-outbreak:3	Rift Valley Fever	outbreak
-outbreak:1565	Influenza	outbreak
-outbreak:1339	Foot & mouth disease	outbreak
-outbreak:615	BSE, bovine	outbreak
-outbreak:989	Ebola virus disease	outbreak
-outbreak:1540	Ebola virus disease	outbreak
-outbreak:1499	Avian influenza	outbreak
-outbreak:803	White nose syndrome	outbreak
-outbreak:1487	Yellow fever	outbreak
-outbreak:417	Avian influenza	outbreak
-outbreak:186	Influenza A(H1N1)pdm09	outbreak
-outbreak:579	Lumpy skin disease	outbreak
-outbreak:22	West Nile Virus	outbreak
-outbreak:464	Ebola hemorrhagic fever	outbreak
-outbreak:1284	Pandemic influenza H1N1	outbreak
-outbreak:842	Ebola hemorrhagic fever	outbreak
-outbreak:504	Avian influenza, human	outbreak
-outbreak:578	Middle East Respiratory Syndrome (MERS-CoV)	outbreak
-outbreak:1352	Avian influenza	outbreak
-outbreak:1164	Avian influenza	outbreak
-outbreak:1126	Pneumonia, Coronavirus	outbreak
-outbreak:486	E. coli	outbreak
-outbreak:208	Ebola virus disease	outbreak
-outbreak:83	BSE	outbreak
-outbreak:1207	Vesicular stomatitis	outbreak
-outbreak:1058	Late blight	outbreak
-outbreak:1218	West Nile Virus	outbreak
-outbreak:630	Ebola virus disease	outbreak
-outbreak:507	Lumpy skin disease, bovine	outbreak
-outbreak:775	Angiostrongylus cantonensis	outbreak
-outbreak:1117	Severe acute respiratory syndrome	outbreak
-outbreak:1295	Ebola virus disease	outbreak
-outbreak:981	Salmonellosis	outbreak
-outbreak:432	Ebola virus disease	outbreak
-outbreak:468	Bluetongue, ovine	outbreak
-outbreak:1080	St. Louis encephalitis	outbreak
-outbreak:90	Ebola virus disease	outbreak
-outbreak:867	Anthrax vaccine	outbreak
-outbreak:887	Avian Influenza	outbreak
-outbreak:872	Avian influenza	outbreak
-outbreak:503	Lyme disease, anaplasmosis	outbreak
-outbreak:1517	Angiostrongylus cantonensis	outbreak
-outbreak:136	Hepatitis B, Hepatitis C	outbreak
-outbreak:1544	Ebola	outbreak
-outbreak:347	Leishmaniasis, visceral	outbreak
-outbreak:226	Creutzfeldt-Jakob disease	outbreak
-outbreak:1056	Botulism, avian	outbreak
-outbreak:878	Influenzavirus A	outbreak
-outbreak:947	Swine fever, classical	outbreak
-outbreak:1399	Hendra virus, human, equine	outbreak
-outbreak:225	BSE, bovine	outbreak
-outbreak:766	Yellow fever	outbreak
-outbreak:119	Middle East respiratory syndrome	outbreak
-outbreak:1262	Creutzfeldt-Jakob Disease	outbreak
-outbreak:705	Ebola virus disease	outbreak
-outbreak:291	Hantavirus infection	outbreak
-outbreak:1245	Botulism	outbreak
-outbreak:238	Leishmaniasis	outbreak
-outbreak:628	Ebola virus disease	outbreak
-outbreak:594	West Nile virus, equines	outbreak
-outbreak:1247	West Nile virus	outbreak
-outbreak:244	Ebola virus disease	outbreak
-outbreak:642	Ebola virus disease	outbreak
-outbreak:149	MERS-CoV	outbreak
-outbreak:1420	Avian influenza	outbreak
-outbreak:322	Undiagnosed illness, Zika virus	outbreak
-outbreak:1500	Ebola virus disease	outbreak
-outbreak:27	Creutzfeldt-Jakob Disease, Bovine Spongiform Encephalopathy	outbreak
-outbreak:1448	Avian influenza	outbreak
-outbreak:303	Amebic meningoencephalitis, primary	outbreak
-outbreak:799	Vibriosis	outbreak
-outbreak:1380	Canine influenza	outbreak
-outbreak:1621	Avian influenza	outbreak
-outbreak:366	Avian influenza, H7N3	outbreak
-outbreak:1142	Nipah virus encephalitis	outbreak
-outbreak:962	Ebola virus disease	outbreak
-outbreak:239	Canine influenza	outbreak
-outbreak:538	Creutzfeldt-Jakob disease	outbreak
-outbreak:261	Swine fever, classical	outbreak
-outbreak:441	Anthrax	outbreak
-outbreak:271	Avian influenza	outbreak
-outbreak:1361	Avian influenza	outbreak
-outbreak:194	Bovine Spongiform Encephalopathy	outbreak
-outbreak:1604	CJD (new var.)	outbreak
-outbreak:1270	Botulism	outbreak
-outbreak:29	Ebola virus disease	outbreak
-outbreak:600	Rabies, coyote	outbreak
-outbreak:625	Trypanosomiasis (Chagas disease)	outbreak
-outbreak:1347	West Nile virus	outbreak
-outbreak:18	Streptococcus,scarlet fever	outbreak
-outbreak:275	Salmonella	outbreak
-outbreak:455	Ebola virus disease	outbreak
-outbreak:1571	Leishmaniasis	outbreak
-outbreak:123	Ebola hemorrhagic fever	outbreak
-outbreak:161	Avian influenza, H7N9	outbreak
-outbreak:923	MERS-CoV	outbreak
-outbreak:749	Ebola virus disease	outbreak
-outbreak:805	Avian influenza	outbreak
-outbreak:385	MERS-CoV	outbreak
-outbreak:81	Eastern equine encephalitis	outbreak
-outbreak:648	Swine fever, classical	outbreak
-outbreak:1120	Botulism	outbreak
-outbreak:293	Leishmaniasis	outbreak
-outbreak:971	Influenza A (H1N1)	outbreak
-outbreak:1154	Ebola virus disease	outbreak
-outbreak:1223	Ebola virus disease	outbreak
-outbreak:1091	Ebola virus disease	outbreak
-outbreak:1160	Coronavirus	outbreak
-outbreak:176	Avian Influenza	outbreak
-outbreak:874	Avian influenza	outbreak
-outbreak:1581	E. coli infections	outbreak
-outbreak:438	Avian influenza	outbreak
-outbreak:1554	Undiagnosed cerebral disease, nodding disease	outbreak
-outbreak:605	Paramyxovirus infection	outbreak
-outbreak:944	Leishmaniasis	outbreak
-outbreak:1587	Avian influenza	outbreak
-outbreak:445	BSE	outbreak
-outbreak:197	Avian influenza, H7	outbreak
-outbreak:112	Hepatitis B, Hepatitis C	outbreak
-outbreak:1573	Avian influenza	outbreak
-outbreak:393	Angiostrongylus meningitis	outbreak
-outbreak:1265	Avian influenza	outbreak
-outbreak:513	Meningitis, meningococcal	outbreak
-outbreak:624	Avian influenza	outbreak
-outbreak:817	West Nile virus	outbreak
-outbreak:401	Ebola virus disease	outbreak
-outbreak:1445	Lumpy skin disease, bovine	outbreak
-outbreak:1144	Bluetongue	outbreak
-outbreak:640	Avian influenza, H7N9	outbreak
-outbreak:1235	Botulism	outbreak
-outbreak:950	Botulism	outbreak
-outbreak:570	Influenza pandemic (H1N1), animal	outbreak
-outbreak:475	Hepatitis B, Hepatitis C, HIV	outbreak
-outbreak:1296	Avian influenza H7	outbreak
-outbreak:571	Avian influenza, human	outbreak
-outbreak:790	Avian influenza	outbreak
-outbreak:92	Swine fever, classical	outbreak
-outbreak:491	Encephalitis,West Nile Virus	outbreak
-outbreak:649	Viral myocarditis, Hand foot and mouth disease	outbreak
-outbreak:423	Severe acute respiratory syndrome	outbreak
-outbreak:1538	Influenza A (H1N1), swine flu	outbreak
-outbreak:1198	Salmonellosis	outbreak
-outbreak:1137	BSE, bovine	outbreak
-outbreak:679	Bovine Spongiform Encephalopathy (BSE), bovine	outbreak
-outbreak:1620	Avian influenza	outbreak
-outbreak:585	Leishmaniasis	outbreak
-outbreak:1528	Hemorrhagic fever with renal syndrome	outbreak
-outbreak:410	Ebola virus disease	outbreak
-outbreak:399	Ebola virus disease	outbreak
-outbreak:536	Influenza A (H1N1) virus	outbreak
-outbreak:1608	E. coli	outbreak
-outbreak:719	Salmonellosis, st Typhimurium	outbreak
-outbreak:1353	Foot & mouth disease	outbreak
-outbreak:1315	Ebola virus disease	outbreak
-outbreak:1103	Hepatitis C	outbreak
-outbreak:608	BSE	outbreak
-outbreak:1004	BSE, bovine	outbreak
-outbreak:60	Rift Valley fever	outbreak
-outbreak:1406	Hepatitis A	outbreak
-outbreak:1311	Influenza H5N1, avian	outbreak
-outbreak:1428	West Nile virus	outbreak
-outbreak:1400	Japanese encephalitis	outbreak
-outbreak:283	Infant botulism	outbreak
-outbreak:662	Plague	outbreak
-outbreak:1158	Ross River virus	outbreak
-outbreak:1622	Sarcoptic mange	outbreak
-outbreak:627	Ebola hemorrhagic fever	outbreak
-outbreak:232	Middle East Respiratory Syndrome Coronavirus (MERS-CoV)	outbreak
-outbreak:1024	West Nile virus	outbreak
-outbreak:748	Influenza pandemic (H1N1)	outbreak
-outbreak:1509	Leishmaniasis	outbreak
-outbreak:1188	Avian influenza	outbreak
-outbreak:215	Leishmaniasis	outbreak
-outbreak:61	Avian influenza	outbreak
-outbreak:1167	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:386	Middle East respiratory syndrome coronavirus (MERS-CoV)	outbreak
-outbreak:454	Avian influenza	outbreak
-outbreak:268	Hepatitis B, Hepatitis C, HIV	outbreak
-outbreak:518	Ebola virus disease	outbreak
-outbreak:1455	Avian influenza	outbreak
-outbreak:1383	Ebola hemorrhagic fever	outbreak
-outbreak:1191	Ebola virus disease	outbreak
-outbreak:1374	Plague	outbreak
-outbreak:1526	Avian influenza	outbreak
-outbreak:1302	Bovine Spongiform Encephalopathy (BSE)	outbreak
-outbreak:1518	Malaria	outbreak
-outbreak:1572	Plague, bubonic	outbreak
-outbreak:134	Ebola virus disease	outbreak
-outbreak:1358	Vesicular stomatitis	outbreak
-outbreak:738	Avian influenza, H7N9	outbreak
-outbreak:1502	Undiagnosed deaths, Ebola	outbreak
-outbreak:701	Rotavirus gastroenteritis	outbreak
-outbreak:39	Severe acute respiratory syndrome	outbreak
-outbreak:1628	Avian influenza, human	outbreak
-outbreak:556	Influenza A (H1N1)	outbreak
-outbreak:895	Avian influenza	outbreak
-outbreak:613	Ebola virus disease	outbreak
-outbreak:359	Avian influenza	outbreak
-outbreak:319	Ebola hemorrhagic fever	outbreak
-outbreak:237	Foot and mouth disease	outbreak
-outbreak:205	Escherichia coli O157	outbreak
-outbreak:1299	Creutzfeldt-Jakob disease (CJD)	outbreak
-outbreak:755	Botulism	outbreak
-outbreak:1363	Hepatitis B	outbreak
-outbreak:1204	Avian influenza	outbreak
-outbreak:436	Influenza viruses, drug resistance	outbreak
-outbreak:1430	Ebola hemorrhagic fever	outbreak
-outbreak:26	Severe acute respiratory syndrome	outbreak
-outbreak:603	West Nile virus	outbreak
-outbreak:695	Malaria, P. vivax	outbreak
-outbreak:1033	Trypanosomiasis	outbreak
-outbreak:212	Avian influenza	outbreak
-outbreak:1533	Avian influenza	outbreak
-outbreak:387	Ebola hemorrhagic fever	outbreak
-outbreak:577	Varicella	outbreak
-outbreak:21	Avian Influenza	outbreak
-outbreak:945	Ebola virus disease	outbreak
-outbreak:1316	Ebola virus disease	outbreak
-outbreak:392	Meningococcal meningitis	outbreak
-outbreak:1087	Meningitis, meningococcal	outbreak
-outbreak:1623	CJD	outbreak
-outbreak:98	Ebola hemorrhagic fever	outbreak
-outbreak:488	Distemper	outbreak
-outbreak:1075	Avian influenza	outbreak
-outbreak:828	Avian influenza	outbreak
-outbreak:563	Ebola hemorrhagic fever	outbreak
-outbreak:1577	Avian Influenza	outbreak
-outbreak:1309	Botulism,avian	outbreak
-outbreak:85	Ebola virus disease	outbreak
-outbreak:1367	Leishmaniasis, cutaneous	outbreak
-outbreak:576	BSE	outbreak
-outbreak:1639	Epizootic hemorrhagic disease, cervids	outbreak
-outbreak:1331	Dengue, DHF	outbreak
-outbreak:1241	Bovine Spongiform Encephalopathy (BSE)	outbreak
-outbreak:1272	BSE	outbreak
-outbreak:528	E. coli	outbreak
-outbreak:509	Rift Valley Fever	outbreak
-outbreak:45	Avian Influenza	outbreak
-outbreak:1398	West Nile Virus	outbreak
-outbreak:1062	Avian influenza, H5N1	outbreak
-outbreak:1279	Influenza pandemic (H1N1)	outbreak
-outbreak:501	Avian influenza	outbreak
-outbreak:492	Cowpox, Monkeypox	outbreak
-outbreak:284	CJD	outbreak
-outbreak:335	Avian influenza	outbreak
-outbreak:1475	Meningitis, meningococcal	outbreak
-outbreak:270	Avian influenza	outbreak
-outbreak:736	Amebic meningoencephalitis	outbreak
-outbreak:1054	Ebola virus disease	outbreak
-outbreak:922	Newcastle disease virus	outbreak
-outbreak:1097	Yellow fever	outbreak
-outbreak:1443	Trypanosomiasis, African	outbreak
-outbreak:1286	Avian influenza	outbreak
-outbreak:219	Creutzfeldt-Jakob Disease	outbreak
-outbreak:958	Influenza A virus	outbreak
-outbreak:1413	Hepatitis A & E	outbreak
-outbreak:776	Influenza A	outbreak
-outbreak:415	Equine herpesvirus	outbreak
-outbreak:44	Aeromonas hydrophila	outbreak
-outbreak:1045	Yellow fever	outbreak
-outbreak:1111	White nose syndrome, bats	outbreak
-outbreak:457	Influenza A	outbreak
-outbreak:703	Avian influenza, H5N1	outbreak
-outbreak:862	Influenza pandemic (H1N1 2009)	outbreak
-outbreak:638	Ebola virus disease	outbreak
-outbreak:484	Ebola virus disease	outbreak
-outbreak:55	Vibrio parahaemolyticus	outbreak
-outbreak:919	CJD (new var.)	outbreak
-outbreak:1402	Influenza	outbreak
-outbreak:281	Ebola hemorrhagic fever	outbreak
-outbreak:774	Avian influenza	outbreak
-outbreak:1568	Anthrax	outbreak
-outbreak:422	Meningitis, meningococcal	outbreak
-outbreak:970	Ebola virus disease	outbreak
-outbreak:1268	E. coli	outbreak
-outbreak:10	Poxvirus	outbreak
-outbreak:659	West Nile virus	outbreak
-outbreak:1264	Ebola virus disease	outbreak
-outbreak:1323	Ebola virus disease	outbreak
-outbreak:1139	Amebic meningoencephalitis	outbreak
-outbreak:1336	Ebola hemorrhagic fever	outbreak
-outbreak:1243	Ebola	outbreak
-outbreak:174	Ebola virus	outbreak
-outbreak:158	St. Louis encephalitis	outbreak
-outbreak:1185	Hepatitis B	outbreak
-outbreak:822	Influenza A(H1N2)v	outbreak
-outbreak:704	Cronobacteriosis, salmonellosis	outbreak
-outbreak:620	Canine influenza	outbreak
-outbreak:65	Influenza pandemic (H1N1), animal health	outbreak
-outbreak:327	Swine influenza	outbreak
-outbreak:1114	Leptospirosis	outbreak
-outbreak:564	Paramyxovirus infection	outbreak
-outbreak:78	Ebola virus disease	outbreak
-outbreak:671	Ebola hemorrhagic fever	outbreak
-outbreak:1169	Avian influenza	outbreak
-outbreak:1584	Influenza, avian H7 serotype	outbreak
-outbreak:1326	Avian influenza, H5N2	outbreak
-outbreak:1426	Influenza A (H1N1)	outbreak
-outbreak:718	Anthrax vaccine safety & efficacy	outbreak
-outbreak:144	Foot & mouth disease, porcine	outbreak
-outbreak:1221	Ebola virus disease	outbreak
-outbreak:1626	Murray Valley encephalitis, Ross River	outbreak
-outbreak:590	Swine influenza	outbreak
-outbreak:992	Creutzfeldt-Jakob disease	outbreak
-outbreak:170	BSE/CJD (new variant)	outbreak
-outbreak:249	Equine influenza	outbreak
-outbreak:1159	Influenza	outbreak
-outbreak:942	Ebola virus disease	outbreak
-outbreak:254	Ebola hemorrhagic fever	outbreak
-outbreak:1483	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:121	Infant botulism	outbreak
-outbreak:756	Plague	outbreak
-outbreak:1018	Ebola virus disease	outbreak
-outbreak:1211	Botulism	outbreak
-outbreak:880	E. coli VTEC	outbreak
-outbreak:1496	Ebola hemorrhagic fever	outbreak
-outbreak:574	Ebola hemorrhagic fever	outbreak
-outbreak:993	Avian influenza	outbreak
-outbreak:685	Hepatitis C	outbreak
-outbreak:1156	Avian influenza	outbreak
-outbreak:442	Botulism, avian	outbreak
-outbreak:1427	Avian influenza	outbreak
-outbreak:562	Leishmaniasis, cutaneous	outbreak
-outbreak:871	BSE	outbreak
-outbreak:405	Hard tick-borne relapsing fever	outbreak
-outbreak:666	Avian influenza	outbreak
-outbreak:1276	Japanese encephalitis	outbreak
-outbreak:1149	Leptospirosis	outbreak
-outbreak:633	Ebola virus disease	outbreak
-outbreak:167	Bovine Spongiform Encephalopathy (BSE)	outbreak
-outbreak:1585	Ebola virus disease	outbreak
-outbreak:952	Ebola virus disease	outbreak
-outbreak:660	Avian Influenza	outbreak
-outbreak:1389	MERS-CoV	outbreak
-outbreak:543	E. coli, hemolytic uremic syndrome	outbreak
-outbreak:1561	Avian influenza	outbreak
-outbreak:1404	Ebola virus disease	outbreak
-outbreak:148	Avian influenza	outbreak
-outbreak:236	Ebola hemorrhagic fever?	outbreak
-outbreak:841	Cereal rusts	outbreak
-outbreak:494	Chlamydia pneumoniae	outbreak
-outbreak:58	Avian influenza	outbreak
-outbreak:675	West Nile-like virus	outbreak
-outbreak:95	Avian influenza	outbreak
-outbreak:301	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:191	Avian Influenza	outbreak
-outbreak:925	Blast disease	outbreak
-outbreak:285	Leishmaniasis	outbreak
-outbreak:142	Influenza A (H1N1)	outbreak
-outbreak:824	African Trypanosomiasis	outbreak
-outbreak:730	Avian influenza	outbreak
-outbreak:289	Ebola hemorrhagic fever	outbreak
-outbreak:619	Avian influenza, HPAI H5N8	outbreak
-outbreak:214	Influenza pandemic (H1N1)	outbreak
-outbreak:978	Plague	outbreak
-outbreak:710	Plague, bubonic	outbreak
-outbreak:1516	Melioidosis	outbreak
-outbreak:759	Influenza pandemic (H1N1)	outbreak
-outbreak:1539	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:757	Salmonellosis	outbreak
-outbreak:227	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:1556	Ebola hemorrhagic fever	outbreak
-outbreak:499	Streptococcus, group A, scarlet fever	outbreak
-outbreak:1525	Ebola hemorrhagic fever	outbreak
-outbreak:185	Malaria, P. vivax	outbreak
-outbreak:1521	Swine influenza	outbreak
-outbreak:1460	Avian influenza	outbreak
-outbreak:864	Influenza	outbreak
-outbreak:1161	Salmonellosis	outbreak
-outbreak:901	Botulism	outbreak
-outbreak:403	Avian influenza	outbreak
-outbreak:788	Meningitis, meningococcal	outbreak
-outbreak:1002	Avian influenza	outbreak
-outbreak:1364	Ebola virus disease	outbreak
-outbreak:1566	Lumpy skin disease, bovine	outbreak
-outbreak:1636	Avian influenza	outbreak
-outbreak:274	Avian influenza	outbreak
-outbreak:523	Sheep pox & goat pox	outbreak
-outbreak:687	Anthrax	outbreak
-outbreak:437	Salmonellosis	outbreak
-outbreak:1368	Avian influenza	outbreak
-outbreak:1125	Unexplained deaths, Nipah virus	outbreak
-outbreak:89	Ebola virus disease	outbreak
-outbreak:779	Stripe rust	outbreak
-outbreak:635	St. Louis encephalitis virus	outbreak
-outbreak:190	St. Louis encephalitis	outbreak
-outbreak:211	Hepatitis B & C	outbreak
 outbreak:1351	Avian influenza	outbreak
-outbreak:447	Yellow fever	outbreak
-outbreak:1180	CJD	outbreak
-outbreak:336	Avian influenza	outbreak
-outbreak:297	MERS-CoV (Middle East respiratory syndrome-related coronavirus)	outbreak
-outbreak:682	Norwalk-like virus	outbreak
-outbreak:845	Avian influenza	outbreak
-outbreak:1313	Ebola virus disease	outbreak
-outbreak:858	West Nile virus	outbreak
-outbreak:750	MRSA, VRSA	outbreak
-outbreak:126	Aspergillus meningitis	outbreak
-outbreak:1027	West Nile virus	outbreak
-outbreak:610	Avian influenza	outbreak
-outbreak:1025	West Nile virus	outbreak
-outbreak:353	Ebola virus disease	outbreak
-outbreak:439	Influenza pandemic (H1N1), avian	outbreak
-outbreak:460	Foot & mouth disease	outbreak
-outbreak:1527	Creutzfeldt-Jakob disease	outbreak
-outbreak:903	Avian influenza	outbreak
-outbreak:573	Avian Influenza	outbreak
-outbreak:1514	Monkeypox	outbreak
-outbreak:1001	Leishmaniasis	outbreak
-outbreak:826	Leishmaniasis	outbreak
-outbreak:431	Ebola hemorrhagic fever	outbreak
-outbreak:1110	Botulism	outbreak
-outbreak:409	Influenza virus	outbreak
-outbreak:258	Japanese encephalitis	outbreak
-outbreak:400	IBR	outbreak
-outbreak:634	Coronavirus	outbreak
-outbreak:1292	Swine fever, classical	outbreak
-outbreak:1552	American foul brood	outbreak
-outbreak:1595	Avian influenza	outbreak
-outbreak:1181	Influenza A(H1N1)pdm09	outbreak
-outbreak:426	Influenza A	outbreak
-outbreak:1379	MERS-CoV	outbreak
-outbreak:1086	Ebola virus disease	outbreak
-outbreak:726	Leishmaniasis	outbreak
-outbreak:532	Leishmaniasis	outbreak
-outbreak:889	Avian influenza	outbreak
-outbreak:311	Avian influenza A/H5	outbreak
-outbreak:1469	Creutzfeldt-Jakob disease	outbreak
-outbreak:1377	Avian influenza, Human influenza	outbreak
-outbreak:1643	Yellow fever	outbreak
-outbreak:1451	Rabies	outbreak
-outbreak:1471	West Nile virus	outbreak
-outbreak:764	Influenza A (H1N1)	outbreak
-outbreak:1189	Avian influenza	outbreak
-outbreak:419	Ebola virus disease	outbreak
-outbreak:382	Leishmaniasis	outbreak
-outbreak:1318	Ebola hemorrhagic fever	outbreak
-outbreak:1140	Leishmaniasis	outbreak
-outbreak:1629	Botulism	outbreak
-outbreak:483	Creutzfeldt-Jakob Disease	outbreak
-outbreak:1195	Ebola virus disease	outbreak
-outbreak:265	Ebola virus disease	outbreak
-outbreak:1053	Ebola virus disease	outbreak
-outbreak:1035	Foot & mouth disease	outbreak
-outbreak:1288	Avian influenza	outbreak
-outbreak:1127	Soybean rust	outbreak
-outbreak:1567	Influenza	outbreak
-outbreak:334	E. coli	outbreak
-outbreak:1255	Rift Valley fever	outbreak
-outbreak:622	Ebola virus disease	outbreak
-outbreak:651	Avian influenza	outbreak
-outbreak:1512	Salmonellosis	outbreak
-outbreak:1616	West Nile virus	outbreak
-outbreak:1524	Avian influenza	outbreak
-outbreak:1429	West Nile virus	outbreak
-outbreak:25	E. coli VTEC	outbreak
-outbreak:1174	Ebola hemorrhagic fever	outbreak
-outbreak:1362	Avian influenza	outbreak
-outbreak:414	Bovine Spongiform Encephalopathy (BSE), cattle	outbreak
-outbreak:1370	Avian influenza H5N8 clade 2.3.4.4	outbreak
-outbreak:1397	Streptococcus, group A, scarlet fever	outbreak
-outbreak:1010	Ebola virus disease	outbreak
-outbreak:742	Tularemia	outbreak
-outbreak:823	Malaria, falciparum	outbreak
-outbreak:1165	Avian influenza	outbreak
-outbreak:381	Avian influenza	outbreak
-outbreak:309	St Louis encephalitis virus	outbreak
-outbreak:456	St. Louis encephalitis virus	outbreak
-outbreak:693	Leishmaniasis, visceral	outbreak
-outbreak:813	Ebola hemorrhagic fever	outbreak
-outbreak:1038	Japanese encephalitis	outbreak
-outbreak:604	Avian influenza	outbreak
-outbreak:1480	Ebola virus	outbreak
+outbreak:802	Avian influenza	outbreak
+outbreak:512	Swine fever, classical	outbreak
+outbreak:244	Ebola virus disease	outbreak
+outbreak:1444	Amebic meningoencephalitis, primary	outbreak
+outbreak:996	COVID-19	outbreak
 outbreak:991	Avian influenza	outbreak
-outbreak:1529	Echinococcus multilocularis	outbreak
-outbreak:451	Lumpy skin disease, bovine	outbreak
-outbreak:1613	Influenza pandemic (H1N1)	outbreak
-outbreak:36	"Influenza A (H1N1) ""swine flu"""	outbreak
-outbreak:521	Ebola hemorrhagic fever	outbreak
-outbreak:151	Creutzfeldt-Jakob Disease (CJD), familial	outbreak
-outbreak:428	BSE (Bovine Spongiform Encephalopathy)	outbreak
-outbreak:1049	Tomato yellow leaf curl virus and citrus canker	outbreak
-outbreak:722	Influenza A	outbreak
-outbreak:216	Bovine Spongiform Encephalopathy	outbreak
-outbreak:388	Nipah/Hendra-like virus	outbreak
+outbreak:1045	Yellow fever	outbreak
+outbreak:1110	Botulism	outbreak
+outbreak:690	Equine influenza	outbreak
+outbreak:1052	Influenzavirus A	outbreak
+outbreak:692	Influenza pandemic (H1N1)	outbreak
+outbreak:1278	Anthrax	outbreak
+outbreak:189	Ebola virus disease	outbreak
 outbreak:1029	Ebola virus disease	outbreak
-outbreak:251	Potato wart disease	outbreak
-outbreak:395	E. coli O157	outbreak
-outbreak:1115	Ebola virus disease	outbreak
-outbreak:881	Ebola hemorrhagic fever	outbreak
-outbreak:1301	Avian influenza	outbreak
-outbreak:837	Salmonellosis	outbreak
-outbreak:110	Foot & mouth disease	outbreak
-outbreak:1266	Ebola virus disease	outbreak
-outbreak:1338	Influenza A (H1N1)	outbreak
-outbreak:544	EV-71, HFMD	outbreak
-outbreak:471	Leishmaniasis, cutaneous	outbreak
-outbreak:1440	Streptococcus, group A	outbreak
-outbreak:808	Avian influenza	outbreak
-outbreak:1606	Rabies	outbreak
-outbreak:976	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:1631	Bluetongue	outbreak
-outbreak:1334	Ebola virus disease	outbreak
-outbreak:1022	Parvovirus B19	outbreak
-outbreak:165	Ebola hemorrhagic fever	outbreak
-outbreak:832	Viral gastroenteritis, rotavirus	outbreak
-outbreak:1541	Brucellosis	outbreak
-outbreak:1617	Avian influenza	outbreak
-outbreak:354	Influenza pandemic (H1N1)	outbreak
-outbreak:473	BSE, animal experimentation	outbreak
-outbreak:1293	Typhus	outbreak
-outbreak:370	Avian influenza	outbreak
-outbreak:1244	Ross River virus	outbreak
-outbreak:1634	Avian influenza	outbreak
-outbreak:511	Japanese encephalitis	outbreak
-outbreak:1228	Avian influenza	outbreak
-outbreak:1497	COVID-19	outbreak
-outbreak:848	Avian Influenza	outbreak
-outbreak:1498	Severe acute respiratory syndrome	outbreak
-outbreak:1492	Rabies	outbreak
-outbreak:558	BSE	outbreak
-outbreak:886	Hepatitis, undefined	outbreak
-outbreak:990	Creutzfeldt-Jakob disease	outbreak
-outbreak:56	Ebola virus disease	outbreak
-outbreak:313	Ebola virus disease	outbreak
-outbreak:49	Ebola hemorrhagic fever	outbreak
-outbreak:1014	St. Louis encephalitis	outbreak
-outbreak:716	Creutzfeldt-Jakob disease	outbreak
-outbreak:331	Avian influenza	outbreak
-outbreak:1560	Ebola hemorrhagic fever	outbreak
-outbreak:62	Middle East respiratory syndrome coronavirus	outbreak
-outbreak:670	Ebola hemorrhagic fever	outbreak
-outbreak:1371	Streptococcus, group A, scarlet fever	outbreak
-outbreak:1434	Avian influenza	outbreak
-outbreak:994	Creutzfeldt-Jakob disease	outbreak
-outbreak:1034	Influenza pandemic (H1N1)	outbreak
-outbreak:96	Rabbit hemorrhagic disease	outbreak
-outbreak:1083	Salmonellosis	outbreak
-outbreak:279	Viral Gastroenteritis	outbreak
-outbreak:312	Ebola virus disease	outbreak
-outbreak:234	Ebola virus disease	outbreak
-outbreak:1197	Ebola virus disease	outbreak
-outbreak:1238	Ebola virus disease	outbreak
-outbreak:629	Avian influenza A (H5N1)	outbreak
-outbreak:1220	Botulism	outbreak
-outbreak:1638	Avian influenza	outbreak
-outbreak:0	Avian influenza	outbreak
-outbreak:200	West Nile virus	outbreak
-outbreak:569	Ebola virus disease	outbreak
-outbreak:852	Middle East Respiratory Syndrome, MERS-CoV	outbreak
-outbreak:1050	Avian influenza	outbreak
-outbreak:182	Anthrax vaccine safety & efficacy	outbreak
-outbreak:86	Avian Influenza	outbreak
-outbreak:318	Angiostrongylus cantonensis	outbreak
-outbreak:1254	West Nile virus	outbreak
-outbreak:1305	Infectious bronchitis	outbreak
-outbreak:1330	Tick-borne diseases, Lyme disease, Anaplasmosis	outbreak
-outbreak:20	Hantavirus infection	outbreak
-outbreak:795	Lumpy skin disease, bovine	outbreak
-outbreak:181	Avian influenza, H7N9	outbreak
-outbreak:213	Swine fever	outbreak
-outbreak:1129	St. Louis encephalitis virus	outbreak
-outbreak:1237	Ebola virus disease	outbreak
-outbreak:955	Ebola virus disease	outbreak
-outbreak:330	Middle East Respiratory Syndrome Coronavirus (MERS-CoV)	outbreak
-outbreak:157	Ebola virus disease	outbreak
-outbreak:1319	Streptococcus suis	outbreak
-outbreak:798	Ebola hemorrhagic fever	outbreak
-outbreak:778	Angiostrongylus cantonensis	outbreak
-outbreak:1564	Creutzfeldt-Jakob disease, BSE	outbreak
-outbreak:1233	Avian influenza	outbreak
-outbreak:372	Ebola hemorrhagic fever	outbreak
-outbreak:1325	 Ebola virus disease	outbreak
-outbreak:599	Ebola hemorrhagic fever	outbreak
-outbreak:516	Swine fever	outbreak
-outbreak:567	Avian influenza	outbreak
-outbreak:1459	Avian Influenza, H5N1	outbreak
-outbreak:70	Plague, bubonic	outbreak
-outbreak:963	MERS-CoV	outbreak
-outbreak:1550	Avian influenza, H5N6	outbreak
-outbreak:606	Avian influenza, poultry vs migratory birds	outbreak
-outbreak:724	Creutzfeldt-Jakob disease	outbreak
-outbreak:221	Influenza pandemic (H1N1)	outbreak
-outbreak:1177	Stripe rust, downy mildew	outbreak
-outbreak:53	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:162	Koi herpesvirus disease	outbreak
-outbreak:210	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:1186	Avian influenza	outbreak
-outbreak:1462	Novel coronavirus	outbreak
-outbreak:1297	Ebola virus disease	outbreak
-outbreak:1392	Influenza pandemic (H1N1)	outbreak
-outbreak:180	Leishmaniasis	outbreak
-outbreak:1449	Ebola virus disease	outbreak
-outbreak:1468	Bud rot, oil palm & lethal yellows	outbreak
-outbreak:838	Avian influenza	outbreak
-outbreak:893	Hepatitis B, Hepatitis C	outbreak
-outbreak:580	Influenza A	outbreak
-outbreak:732	White-nose syndrome	outbreak
-outbreak:1212	Ebola virus disease	outbreak
-outbreak:463	St. Louis encephalitis	outbreak
-outbreak:796	Japanese encephalitis	outbreak
-outbreak:298	E. coli infections	outbreak
-outbreak:1217	Ebola virus disease	outbreak
-outbreak:1193	BSE, sheep	outbreak
-outbreak:364	Ebola Virus Disease	outbreak
-outbreak:1099	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:245	Leishmaniasis	outbreak
-outbreak:1563	COVID-19	outbreak
-outbreak:193	Avian Influenza	outbreak
-outbreak:647	Typhus, epidemic	outbreak
-outbreak:57	Avian influenza	outbreak
-outbreak:1321	Leishmaniasis	outbreak
-outbreak:1342	Avian influenza	outbreak
-outbreak:1092	BSE/CJD	outbreak
-outbreak:1122	BSE?	outbreak
-outbreak:248	Avian influenza	outbreak
-outbreak:390	Angiostrongylus cantonensis	outbreak
-outbreak:324	Novel coronavirus	outbreak
-outbreak:772	Avian influenza	outbreak
-outbreak:50	Influenza	outbreak
-outbreak:572	Anthrax vaccine production	outbreak
-outbreak:1472	West Nile virus	outbreak
 outbreak:849	Ebola virus disease	outbreak
-outbreak:103	Avian influenza	outbreak
-outbreak:1381	Soybean rust	outbreak
-outbreak:175	E. coli infections	outbreak
-outbreak:1061	Bovine tuberculosis	outbreak
-outbreak:1425	Equine herpesvirus	outbreak
-outbreak:612	Influenza pandemic (H1N1) 2009	outbreak
-outbreak:844	Rabies	outbreak
-outbreak:894	Newcastle disease virus	outbreak
-outbreak:865	Avian influenza	outbreak
-outbreak:614	BSE	outbreak
-outbreak:1289	Rift Valley fever	outbreak
-outbreak:765	Leishmaniasis	outbreak
-outbreak:932	Sheep pox and goat pox	outbreak
-outbreak:1031	Plague, bubonic	outbreak
+outbreak:955	Ebola virus disease	outbreak
+outbreak:845	Avian influenza	outbreak
+outbreak:290	Potato spindle tuber viroid	outbreak
+outbreak:164	Avian influenza, H7N9	outbreak
+outbreak:414	Bovine Spongiform Encephalopathy (BSE), cattle	outbreak
+outbreak:621	Ebola virus disease	outbreak
+outbreak:1526	Avian influenza	outbreak
+outbreak:367	Novel coronavirus	outbreak
+outbreak:993	Avian influenza	outbreak
+outbreak:516	Swine fever	outbreak
+outbreak:1609	Ebola virus disease	outbreak
+outbreak:312	Ebola virus disease	outbreak
+outbreak:863	Ebola hemorrhagic fever	outbreak
+outbreak:707	Diphtheria	outbreak
+outbreak:1471	West Nile virus	outbreak
+outbreak:351	E. coli EHEC	outbreak
+outbreak:1217	Ebola virus disease	outbreak
+outbreak:1528	Hemorrhagic fever with renal syndrome	outbreak
+outbreak:75	Ebola virus disease	outbreak
+outbreak:1503	Anthrax	outbreak
+outbreak:987	Equine influenza	outbreak
+outbreak:533	Leishmaniasis	outbreak
+outbreak:642	Ebola virus disease	outbreak
+outbreak:47	Creutzfeldt-Jakob Disease (CJD), cyclic tetrapyrroles	outbreak
+outbreak:1524	Avian influenza	outbreak
+outbreak:676	West Nile virus	outbreak
+outbreak:1183	Leishmaniasis, visceral	outbreak
+outbreak:261	Swine fever, classical	outbreak
+outbreak:1271	Creutzfeldt-Jakob disease	outbreak
+outbreak:561	Avian influenza	outbreak
+outbreak:1163	Avian influenza	outbreak
+outbreak:530	E. coli, Hemolytic uremic syndrome	outbreak
+outbreak:527	Avian influenza	outbreak
+outbreak:517	Leishmaniasis	outbreak
+outbreak:742	Tularemia	outbreak
+outbreak:232	Middle East Respiratory Syndrome Coronavirus (MERS-CoV)	outbreak
+outbreak:957	Crimean-Congo hemorrhagic fever	outbreak
+outbreak:694	Ebola haemorrhagic fever	outbreak
+outbreak:1041	Pale cyst nematode	outbreak
+outbreak:266	CJD	outbreak
+outbreak:388	Nipah/Hendra-like virus	outbreak
+outbreak:1493	BSE/CJD	outbreak
+outbreak:157	Ebola virus disease	outbreak
+outbreak:1408	Creutzfeldt-Jakob Disease	outbreak
+outbreak:1392	Influenza pandemic (H1N1)	outbreak
+outbreak:1613	Influenza pandemic (H1N1)	outbreak
+outbreak:682	Norwalk-like virus	outbreak
+outbreak:1170	Screwworm myiasis	outbreak
+outbreak:1563	COVID-19	outbreak
+outbreak:241	Ebola virus disease	outbreak
+outbreak:803	White nose syndrome	outbreak
+outbreak:387	Ebola hemorrhagic fever	outbreak
+outbreak:1416	Foot & mouth disease	outbreak
+outbreak:494	Chlamydia pneumoniae	outbreak
+outbreak:1135	Amebic meningoencephalitis	outbreak
+outbreak:667	Avian influenza	outbreak
+outbreak:554	Hemorrhagic fever, Ebola	outbreak
+outbreak:1037	Avian influenza	outbreak
+outbreak:309	St Louis encephalitis virus	outbreak
+outbreak:776	Influenza A	outbreak
+outbreak:830	BSE (Bovine Spongiform Encephalopathy), CJD (new variant)	outbreak
+outbreak:1072	Ebola virus disease	outbreak
+outbreak:1620	Avian influenza	outbreak
+outbreak:1446	Avian Influenza	outbreak
+outbreak:224	Ebola hemorrhagic fever	outbreak
+outbreak:1243	Ebola	outbreak
+outbreak:956	Hepatitis B, Hepatitis C, HIV	outbreak
+outbreak:1281	Ebola virus disease	outbreak
+outbreak:942	Ebola virus disease	outbreak
+outbreak:1136	Middle East respiratory syndrome coronavirus, MERS-CoV	outbreak
+outbreak:440	Avian influenza	outbreak
+outbreak:29	Ebola virus disease	outbreak
+outbreak:1389	MERS-CoV	outbreak
+outbreak:42	Bovine Spongiform Encephalopathy, Creutzfeldt-Jakob Disease	outbreak
+outbreak:377	Coronavirus	outbreak
+outbreak:390	Angiostrongylus cantonensis	outbreak
+outbreak:900	Ebola virus disease	outbreak
+outbreak:1004	BSE, bovine	outbreak
+outbreak:954	Botulism, wound, drug-related	outbreak
+outbreak:161	Avian influenza, H7N9	outbreak
+outbreak:137	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:1559	Avian influenza	outbreak
+outbreak:89	Ebola virus disease	outbreak
+outbreak:798	Ebola hemorrhagic fever	outbreak
+outbreak:1172	Avian influenza	outbreak
+outbreak:719	Salmonellosis, st Typhimurium	outbreak
+outbreak:462	Ebola virus disease	outbreak
+outbreak:456	St. Louis encephalitis virus	outbreak
+outbreak:447	Yellow fever	outbreak
+outbreak:226	Creutzfeldt-Jakob disease	outbreak
+outbreak:1421	Avian influenza	outbreak
+outbreak:669	Ebola virus disease	outbreak
+outbreak:1292	Swine fever, classical	outbreak
+outbreak:972	Meningitis, meningococcal	outbreak
+outbreak:1542	Severe acute respiratory syndrome	outbreak
+outbreak:18	Streptococcus,scarlet fever	outbreak
+outbreak:714	Ebola virus disease	outbreak
+outbreak:298	E. coli infections	outbreak
+outbreak:958	Influenza A virus	outbreak
+outbreak:112	Hepatitis B, Hepatitis C	outbreak
+outbreak:712	West Nile Virus	outbreak
+outbreak:1154	Ebola virus disease	outbreak
+outbreak:587	Creutzfeldt-Jakob disease	outbreak
+outbreak:257	Influenza pandemic (H1N1)	outbreak
+outbreak:1422	Crimean-Congo hemorrhagic fever	outbreak
+outbreak:1080	St. Louis encephalitis	outbreak
+outbreak:1295	Ebola virus disease	outbreak
+outbreak:1159	Influenza	outbreak
+outbreak:531	Ebola virus disease	outbreak
+outbreak:1028	Pfiesteria piscicida	outbreak
+outbreak:1437	Avian influenza	outbreak
+outbreak:1431	BSE	outbreak
+outbreak:1485	COVID-19	outbreak
+outbreak:1638	Avian influenza	outbreak
+outbreak:1467	Creutzfeldt-Jakob disease (new variant)	outbreak
+outbreak:754	Botulism,avian	outbreak
+outbreak:1372	BSE	outbreak
+outbreak:1469	Creutzfeldt-Jakob disease	outbreak
+outbreak:1264	Ebola virus disease	outbreak
+outbreak:420	Avian influenza	outbreak
+outbreak:926	Avian influenza H7N2, human	outbreak
+outbreak:398	CJD (new variant)	outbreak
+outbreak:1020	Avian influenza	outbreak
+outbreak:867	Anthrax vaccine	outbreak
+outbreak:767	Creutzfeldt-Jakob disease	outbreak
+outbreak:487	Lumpy skin disease	outbreak
+outbreak:51	Hantavirus infection	outbreak
+outbreak:310	Ebola hemorrhagic fever	outbreak
+outbreak:964	Ebola virus disease	outbreak
+outbreak:1355	Ebola Virus Disease	outbreak
+outbreak:450	Avian influenza	outbreak
+outbreak:237	Foot and mouth disease	outbreak
+outbreak:1175	African swine fever	outbreak
+outbreak:838	Avian influenza	outbreak
+outbreak:1434	Avian influenza	outbreak
+outbreak:929	Campylobacteriosis, E. coli EHEC	outbreak
+outbreak:1585	Ebola virus disease	outbreak
+outbreak:1263	Avian Influenza	outbreak
+outbreak:304	Hantavirus infection	outbreak
+outbreak:1564	Creutzfeldt-Jakob disease, BSE	outbreak
+outbreak:132	Coronavirus	outbreak
+outbreak:809	Avian influenza	outbreak
+outbreak:379	Hepatitis D virus, hepatitis B	outbreak
+outbreak:1509	Leishmaniasis	outbreak
+outbreak:735	Hantavirus infection	outbreak
+outbreak:1486	Gonococcal disease	outbreak
+outbreak:240	Ebola hemorrhagic fever	outbreak
+outbreak:1591	Hepatitis C	outbreak
+outbreak:1034	Influenza pandemic (H1N1)	outbreak
+outbreak:1466	Creutzfeldt-Jakob Disease	outbreak
+outbreak:25	E. coli VTEC	outbreak
+outbreak:675	West Nile-like virus	outbreak
+outbreak:419	Ebola virus disease	outbreak
+outbreak:1266	Ebola virus disease	outbreak
+outbreak:920	Avian influenza, human	outbreak
+outbreak:986	Avian influenza	outbreak
+outbreak:23	Ebola Virus Disease	outbreak
+outbreak:90	Ebola virus disease	outbreak
+outbreak:573	Avian Influenza	outbreak
+outbreak:782	Influenza pandemic (H1N1)	outbreak
+outbreak:774	Avian influenza	outbreak
+outbreak:125	 Ebola virus disease	outbreak
+outbreak:236	Ebola hemorrhagic fever?	outbreak
+outbreak:1058	Late blight	outbreak
+outbreak:277	Ebola virus disease	outbreak
+outbreak:664	Avian influenza	outbreak
+outbreak:783	Avian influenza	outbreak
+outbreak:1190	Hendra virus	outbreak
+outbreak:1478	Influenza A (H1N1)	outbreak
+outbreak:1018	Ebola virus disease	outbreak
+outbreak:490	Rhodococcus equi, fowl	outbreak
+outbreak:1238	Ebola virus disease	outbreak
+outbreak:427	Botulism, avian	outbreak
+outbreak:829	Influenza A H1N1	outbreak
+outbreak:1049	Tomato yellow leaf curl virus and citrus canker	outbreak
+outbreak:1636	Avian influenza	outbreak
+outbreak:1345	BSE & CJD	outbreak
+outbreak:101	Ebola virus disease	outbreak
+outbreak:565	Creutzfeldt-Jakob disease (new variant)	outbreak
+outbreak:605	Paramyxovirus infection	outbreak
+outbreak:925	Blast disease	outbreak
+outbreak:472	Ebola virus disease	outbreak
+outbreak:1535	Swine influenza	outbreak
+outbreak:514	Influenza A (H1N1)	outbreak
+outbreak:759	Influenza pandemic (H1N1)	outbreak
+outbreak:1257	BSE, Cattle	outbreak
+outbreak:1576	Coxsackie B4 & Diabetes	outbreak
+outbreak:816	Creutzfeldt-Jakob Disease	outbreak
+outbreak:365	Leishmaniasis	outbreak
+outbreak:1459	Avian Influenza, H5N1	outbreak
+outbreak:468	Bluetongue, ovine	outbreak
+outbreak:1470	Dengue, DHF	outbreak
+outbreak:203	Avian influenza	outbreak
+outbreak:80	Middle East respiratory syndrome-related coronavirus	outbreak
+outbreak:607	CJD (new variant)	outbreak
+outbreak:896	Botulism	outbreak
+outbreak:1475	Meningitis, meningococcal	outbreak
+outbreak:1322	BSE/CJD	outbreak
+outbreak:120	Rift Valley fever	outbreak
+outbreak:549	West Nile virus	outbreak
+outbreak:1207	Vesicular stomatitis	outbreak
+outbreak:1554	Undiagnosed cerebral disease, nodding disease	outbreak
+outbreak:922	Newcastle disease virus	outbreak
+outbreak:992	Creutzfeldt-Jakob disease	outbreak
+outbreak:912	Anthrax	outbreak
+outbreak:98	Ebola hemorrhagic fever	outbreak
+outbreak:1114	Leptospirosis	outbreak
+outbreak:411	Avian Influenza	outbreak
+outbreak:819	Ebola virus disease	outbreak
+outbreak:1088	COVID-19	outbreak
+outbreak:521	Ebola hemorrhagic fever	outbreak
+outbreak:1308	Avian influenza	outbreak
+outbreak:1199	Anthrax	outbreak
+outbreak:1374	Plague	outbreak
+outbreak:1508	Avian influenza	outbreak
+outbreak:898	Ebola hemorrhagic fever	outbreak
+outbreak:711	Influenza Pandemic (H1N1) 2009	outbreak
+outbreak:220	Avian influenza, poultry vs migratory birds	outbreak
+outbreak:381	Avian influenza	outbreak
+outbreak:405	Hard tick-borne relapsing fever	outbreak
+outbreak:1016	St. Louis encephalitis virus	outbreak
+outbreak:1547	Avian influenza	outbreak
+outbreak:1178	Hemorrhagic fever w/renal syndrome	outbreak
+outbreak:851	Leishmaniasis, cutaneous	outbreak
+outbreak:320	Influenza	outbreak
+outbreak:482	Salmonellosis, st Typhimurium	outbreak
+outbreak:475	Hepatitis B, Hepatitis C, HIV	outbreak
+outbreak:1035	Foot & mouth disease	outbreak
+outbreak:185	Malaria, P. vivax	outbreak
+outbreak:611	MERS-CoV	outbreak
+outbreak:695	Malaria, P. vivax	outbreak
+outbreak:734	Hantavirus infection	outbreak
+outbreak:940	Influenzavirus	outbreak
+outbreak:562	Leishmaniasis, cutaneous	outbreak
+outbreak:633	Ebola virus disease	outbreak
+outbreak:1607	Yellow fever	outbreak
+outbreak:485	Influenza A	outbreak
+outbreak:1185	Hepatitis B	outbreak
+outbreak:1497	COVID-19	outbreak
+outbreak:496	Ebola virus disease	outbreak
+outbreak:643	Influenza A virus	outbreak
+outbreak:1344	Botulism	outbreak
+outbreak:1581	E. coli infections	outbreak
+outbreak:1074	Avian influenza	outbreak
+outbreak:1513	Classical Swine Fever	outbreak
+outbreak:624	Avian influenza	outbreak
+outbreak:250	West Nile Virus	outbreak
+outbreak:1602	Dengue, DHF	outbreak
+outbreak:1220	Botulism	outbreak
+outbreak:1384	Porcine reproductive & respiratory syndrome	outbreak
+outbreak:639	Ebola virus disease	outbreak
+outbreak:775	Angiostrongylus cantonensis	outbreak
+outbreak:1012	Angiostrongylus meningitis	outbreak
+outbreak:1484	Ebola virus disease	outbreak
+outbreak:156	White spot disease, shrimp	outbreak
+outbreak:486	E. coli	outbreak
+outbreak:687	Anthrax	outbreak
+outbreak:946	Botulism	outbreak
+outbreak:971	Influenza A (H1N1)	outbreak
+outbreak:1643	Yellow fever	outbreak
+outbreak:413	Ebola virus disease	outbreak
+outbreak:522	Ebola virus disease	outbreak
+outbreak:827	Botulism, avian	outbreak
+outbreak:569	Ebola virus disease	outbreak
+outbreak:1055	Ebola virus disease	outbreak
+outbreak:842	Ebola hemorrhagic fever	outbreak
+outbreak:96	Rabbit hemorrhagic disease	outbreak
+outbreak:1287	Avian influenza	outbreak
+outbreak:1382	Undiagnosed illness, chikungunya	outbreak
+outbreak:881	Ebola hemorrhagic fever	outbreak
+outbreak:313	Ebola virus disease	outbreak
+outbreak:386	Middle East respiratory syndrome coronavirus (MERS-CoV)	outbreak
+outbreak:182	Anthrax vaccine safety & efficacy	outbreak
+outbreak:1245	Botulism	outbreak
+outbreak:1307	Leishmaniasis	outbreak
+outbreak:216	Bovine Spongiform Encephalopathy	outbreak
+outbreak:786	Amebic meningoencephalitis, primary	outbreak
+outbreak:454	Avian influenza	outbreak
+outbreak:696	West Nile Virus	outbreak
+outbreak:627	Ebola hemorrhagic fever	outbreak
+outbreak:179	Avian influenza	outbreak
+outbreak:81	Eastern equine encephalitis	outbreak
+outbreak:144	Foot & mouth disease, porcine	outbreak
+outbreak:615	BSE, bovine	outbreak
+outbreak:16	Botulism	outbreak
+outbreak:282	Hepatitis B, Hepatitis C	outbreak
+outbreak:1189	Avian influenza	outbreak
+outbreak:327	Swine influenza	outbreak
+outbreak:355	Ebola virus disease	outbreak
+outbreak:116	Infant botulism	outbreak
+outbreak:1073	CJD (new var.)	outbreak
+outbreak:263	Ebola virus disease	outbreak
+outbreak:619	Avian influenza, HPAI H5N8	outbreak
+outbreak:94	Avian influenza, H7N9	outbreak
+outbreak:566	Hemorrhagic fever w/renal syndrome	outbreak
+outbreak:813	Ebola hemorrhagic fever	outbreak
+outbreak:580	Influenza A	outbreak
+outbreak:1144	Bluetongue	outbreak
+outbreak:558	BSE	outbreak
+outbreak:859	Avian influenza	outbreak
+outbreak:345	Community-acquired pneumonia	outbreak
+outbreak:981	Salmonellosis	outbreak
+outbreak:147	Ebola virus disease	outbreak
+outbreak:278	Leishmaniasis	outbreak
+outbreak:166	Ebola virus disease	outbreak
+outbreak:1219	Undiagnosed pneumonia, novel coronavirus	outbreak
+outbreak:1569	CJD	outbreak
+outbreak:720	 West Nile Fever virus	outbreak
+outbreak:1573	Avian influenza	outbreak
+outbreak:760	Hepatitis B, Hepatitis C	outbreak
+outbreak:872	Avian influenza	outbreak
+outbreak:1611	Influenza pandemic (H1N1), Guillain-Barre syndrome	outbreak
+outbreak:1098	Avian influenza	outbreak
+outbreak:937	White nose syndrome	outbreak
+outbreak:970	Ebola virus disease	outbreak
+outbreak:435	Influenza A (H1N1), swine trial inf.	outbreak
+outbreak:160	Ebola virus disease	outbreak
+outbreak:107	Avian influenza, H7N9	outbreak
+outbreak:139	Creutzfeldt-Jakob disease	outbreak
+outbreak:839	Avian influenza	outbreak
+outbreak:1274	Stripe rust, wheat streak mosaic	outbreak
+outbreak:1065	COVID-19, mucormycosis	outbreak
+outbreak:1556	Ebola hemorrhagic fever	outbreak
+outbreak:288	Ebola virus disease	outbreak
+outbreak:59	Bovine tuberculosis	outbreak
+outbreak:882	Avian influenza	outbreak
 outbreak:1489	Yellow fever	outbreak
-outbreak:515	Ebola virus disease	outbreak
-outbreak:1641	African swine fever	outbreak
-outbreak:1578	Anthrax	outbreak
-outbreak:153	Middle East respiratory syndrome coronavirus (MERS-CoV)	outbreak
-outbreak:1519	CJD (new variant)	outbreak
-outbreak:1128	Avian influenza, HPAI H5N8	outbreak
-outbreak:260	Leishmaniasis	outbreak
-outbreak:869	Tick-borne relapsing fever	outbreak
-outbreak:1464	Avian influenza	outbreak
-outbreak:172	Leishmaniasis	outbreak
+outbreak:574	Ebola hemorrhagic fever	outbreak
 outbreak:230	Avian Influenza	outbreak
+outbreak:729	Avian influenza	outbreak
+outbreak:1087	Meningitis, meningococcal	outbreak
+outbreak:338	Avian influenza, H7N9	outbreak
+outbreak:850	Ebola hemorrhagic fever	outbreak
+outbreak:1587	Avian influenza	outbreak
+outbreak:871	BSE	outbreak
+outbreak:1418	Hantavirus infection	outbreak
+outbreak:464	Ebola hemorrhagic fever	outbreak
+outbreak:966	Bovine spongiform encephalopathy	outbreak
+outbreak:452	Murray Valley encephalitis	outbreak
+outbreak:706	COVID-19	outbreak
+outbreak:1040	E. coli, VTEC	outbreak
+outbreak:781	E. coli O111	outbreak
+outbreak:1100	Avian influenza	outbreak
+outbreak:965	Soybean rust	outbreak
+outbreak:371	Influenza A(H3N2)v	outbreak
+outbreak:24	Ebola	outbreak
+outbreak:551	Bovine Spongiform Encephalopathy	outbreak
+outbreak:451	Lumpy skin disease, bovine	outbreak
+outbreak:1226	Hantavirus infection	outbreak
+outbreak:48	Coronavirus	outbreak
+outbreak:697	Ebolavirus	outbreak
+outbreak:1599	Leishmaniasis	outbreak
+outbreak:223	Hepatitis B	outbreak
+outbreak:688	Leishmaniasis	outbreak
+outbreak:975	Infant botulism	outbreak
+outbreak:1181	Influenza A(H1N1)pdm09	outbreak
+outbreak:1194	Ebola virus disease	outbreak
+outbreak:1022	Parvovirus B19	outbreak
+outbreak:1247	West Nile virus	outbreak
+outbreak:840	Q fever	outbreak
+outbreak:600	Rabies, coyote	outbreak
+outbreak:858	West Nile virus	outbreak
+outbreak:227	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:289	Ebola hemorrhagic fever	outbreak
+outbreak:806	Avian influenza	outbreak
+outbreak:556	Influenza A (H1N1)	outbreak
+outbreak:106	Meningococcal meningitis	outbreak
+outbreak:111	MERS-CoV	outbreak
+outbreak:395	E. coli O157	outbreak
+outbreak:1460	Avian influenza	outbreak
+outbreak:1316	Ebola virus disease	outbreak
+outbreak:628	Ebola virus disease	outbreak
+outbreak:1094	Avian influenza	outbreak
+outbreak:581	Ross River virus, Murray Valley encephalitis virus	outbreak
+outbreak:281	Ebola hemorrhagic fever	outbreak
+outbreak:1496	Ebola hemorrhagic fever	outbreak
+outbreak:1302	Bovine Spongiform Encephalopathy (BSE)	outbreak
+outbreak:1640	Avian influenza	outbreak
+outbreak:492	Cowpox, Monkeypox	outbreak
+outbreak:307	Rabbit viral hemorrhagic diseases	outbreak
+outbreak:506	Chlamydia pneumoniae	outbreak
+outbreak:528	E. coli	outbreak
+outbreak:1298	Hepatitis B	outbreak
+outbreak:1060	Creutzfeldt-Jakob Disease	outbreak
+outbreak:1604	CJD (new var.)	outbreak
+outbreak:585	Leishmaniasis	outbreak
+outbreak:541	Middle East respiratory syndrome-related coronavirus	outbreak
+outbreak:187	Avian influenza	outbreak
+outbreak:8	Ebola hemorrhagic fever	outbreak
+outbreak:1284	Pandemic influenza H1N1	outbreak
+outbreak:895	Avian influenza	outbreak
+outbreak:434	Avian influenza	outbreak
+outbreak:155	CJD (new variant)	outbreak
+outbreak:489	Plague	outbreak
+outbreak:1141	Potato wart disease	outbreak
+outbreak:1490	Avian influenza	outbreak
+outbreak:331	Avian influenza	outbreak
+outbreak:404	Undiagnosed deaths, Streptococcus suis	outbreak
+outbreak:1111	White nose syndrome, bats	outbreak
+outbreak:1523	West Nile virus	outbreak
+outbreak:195	Hand, foot & mouth disease	outbreak
+outbreak:787	Infant botulism	outbreak
+outbreak:1039	Botulism, wound	outbreak
+outbreak:469	Lumpy skin disease	outbreak
+outbreak:1212	Ebola virus disease	outbreak
+outbreak:1148	Ebola hemorrhagic fever	outbreak
+outbreak:424	Amebic meningoencephalitis	outbreak
+outbreak:1548	Myxomatosis	outbreak
+outbreak:328	Ebola virus disease	outbreak
+outbreak:1447	Avian influenza	outbreak
+outbreak:1627	Ebola virus disease	outbreak
+outbreak:1482	Yellow fever	outbreak
+outbreak:330	Middle East Respiratory Syndrome Coronavirus (MERS-CoV)	outbreak
+outbreak:1369	Plague	outbreak
+outbreak:1525	Ebola hemorrhagic fever	outbreak
 outbreak:1461	Avian influenza	outbreak
 outbreak:1300	Ebola virus disease	outbreak
-outbreak:770	Influenza vaccine	outbreak
-outbreak:1303	Creutzfeldt-Jakob Disease	outbreak
-outbreak:152	CJD (new variant)	outbreak
-outbreak:861	Avian influenza	outbreak
-outbreak:948	Foot & mouth disease	outbreak
-outbreak:1136	Middle East respiratory syndrome coronavirus, MERS-CoV	outbreak
-outbreak:1548	Myxomatosis	outbreak
-outbreak:1609	Ebola virus disease	outbreak
-outbreak:68	Avian influenza	outbreak
+outbreak:1544	Ebola	outbreak
+outbreak:256	Japanese encephalitis	outbreak
+outbreak:56	Ebola virus disease	outbreak
+outbreak:217	Botulism	outbreak
+outbreak:264	Influenza pandemic (H1N1) 2009	outbreak
 outbreak:713	Ebola virus disease	outbreak
-outbreak:164	Avian influenza, H7N9	outbreak
-outbreak:680	Leishmaniasis	outbreak
-outbreak:201	Avian Influenza	outbreak
-outbreak:28	Anthrax, bison	outbreak
-outbreak:42	Bovine Spongiform Encephalopathy, Creutzfeldt-Jakob Disease	outbreak
-outbreak:1504	Banana bunchy top	outbreak
-outbreak:929	Campylobacteriosis, E. coli EHEC	outbreak
-outbreak:846	Gastroenteritis	outbreak
-outbreak:957	Crimean-Congo hemorrhagic fever	outbreak
-outbreak:329	Ebola hemorrhagic fever	outbreak
-outbreak:641	Ebola virus disease	outbreak
-outbreak:652	Hantavirus infection	outbreak
-outbreak:1470	Dengue, DHF	outbreak
-outbreak:257	Influenza pandemic (H1N1)	outbreak
-outbreak:1225	CJD (new variant)	outbreak
-outbreak:953	Cyclospora, Cryptosporidium	outbreak
-outbreak:1593	Chronic wasting disease	outbreak
-outbreak:791	Hemorrhagic fever with renal syndrome	outbreak
-outbreak:601	West Nile virus	outbreak
-outbreak:1612	Ebola virus disease	outbreak
-outbreak:1477	Ebola hemorrhagic fever	outbreak
-outbreak:1282	Ebola virus disease	outbreak
-outbreak:931	Equine influenza	outbreak
-outbreak:376	Avian influenza	outbreak
-outbreak:1007	Avian influenza	outbreak
-outbreak:956	Hepatitis B, Hepatitis C, HIV	outbreak
-outbreak:361	Rabies, canine	outbreak
-outbreak:829	Influenza A H1N1	outbreak
-outbreak:481	Foot and mouth disease	outbreak
-outbreak:734	Hantavirus infection	outbreak
-outbreak:64	BSE	outbreak
-outbreak:13	Ebola hemorrhagic fever	outbreak
-outbreak:4	Ebola virus disease	outbreak
-outbreak:639	Ebola virus disease	outbreak
-outbreak:34	Avian influenza, H7N9	outbreak
-outbreak:343	BSE report online	outbreak
-outbreak:292	Avian influenza	outbreak
-outbreak:1187	Avian influenza	outbreak
-outbreak:323	Ebola virus disease	outbreak
-outbreak:1627	Ebola virus disease	outbreak
-outbreak:1242	Screwworm myiasis	outbreak
-outbreak:1274	Stripe rust, wheat streak mosaic	outbreak
-outbreak:591	Ebola virus disease	outbreak
-outbreak:1391	Botulism	outbreak
-outbreak:1435	Ebola virus disease	outbreak
-outbreak:100	Avian influenza, H7N9	outbreak
-outbreak:825	Enterovirus 71	outbreak
-outbreak:535	Ebola virus disease	outbreak
-outbreak:1396	Rabbit viral hemorrhagic disease	outbreak
-outbreak:315	COVID-19, Mucormycosis	outbreak
-outbreak:1384	Porcine reproductive & respiratory syndrome	outbreak
-outbreak:1590	Eastern equine encephalitis	outbreak
-outbreak:751	Bluetongue, ovine	outbreak
-outbreak:997	Newcastle disease, game birds	outbreak
-outbreak:737	Newcastle disease	outbreak
-outbreak:1088	COVID-19	outbreak
-outbreak:644	Ralstonia Pickettii Sepsis	outbreak
-outbreak:1216	Middle East Respiratory Syndrome Coronavirus (MERS-CoV)	outbreak
-outbreak:11	Vibrio vulnificus	outbreak
-outbreak:1340	Ebola hemorrhagic fever	outbreak
-outbreak:1610	BSE	outbreak
+outbreak:821	Ebola virus disease	outbreak
+outbreak:938	Ebola virus disease	outbreak
+outbreak:76	Avian influenza	outbreak
+outbreak:1515	Ebola virus disease	outbreak
+outbreak:663	Botulism	outbreak
+outbreak:337	Syphilis, Gonorrhea	outbreak
+outbreak:616	Leptospirosis, canine	outbreak
+outbreak:1436	Malaria, Plasmodium vivax	outbreak
+outbreak:43	Avian influenza, H7N9	outbreak
+outbreak:815	Ebola hemorrhagic fever	outbreak
+outbreak:1105	Leishmaniasis	outbreak
+outbreak:145	BSE	outbreak
+outbreak:93	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:1229	Campylobacteriosis, E. coli O157	outbreak
+outbreak:540	Goat pox	outbreak
+outbreak:91	Japanese encephalitis	outbreak
+outbreak:1356	Gonococcal disease, genital chlamydia infection	outbreak
+outbreak:69	Salmonellosis	outbreak
+outbreak:761	Creutzfeldt-Jakob disease	outbreak
+outbreak:1227	Avian influenza - Eurasia	outbreak
+outbreak:1495	Gastroenteritis	outbreak
+outbreak:1574	Anthrax vaccine	outbreak
+outbreak:887	Avian Influenza	outbreak
+outbreak:1628	Avian influenza, human	outbreak
+outbreak:1414	Anthrax vaccine safety & efficacy	outbreak
+outbreak:167	Bovine Spongiform Encephalopathy (BSE)	outbreak
 outbreak:1261	CJD	outbreak
-outbreak:809	Avian influenza	outbreak
-outbreak:122	Avian influenza	outbreak
+outbreak:1511	Avian influenza	outbreak
+outbreak:436	Influenza viruses, drug resistance	outbreak
+outbreak:1401	Salmonellosis, st Potsdam	outbreak
+outbreak:1283	Ebola virus disease	outbreak
+outbreak:594	West Nile virus, equines	outbreak
+outbreak:641	Ebola virus disease	outbreak
+outbreak:604	Avian influenza	outbreak
+outbreak:350	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:357	Leishmaniasis	outbreak
+outbreak:140	Hantavirus infection	outbreak
+outbreak:1412	Bovine Spongiform Encephalopathy (BSE)	outbreak
+outbreak:170	BSE/CJD (new variant)	outbreak
+outbreak:315	COVID-19, Mucormycosis	outbreak
+outbreak:791	Hemorrhagic fever with renal syndrome	outbreak
+outbreak:978	Plague	outbreak
+outbreak:1140	Leishmaniasis	outbreak
+outbreak:1296	Avian influenza H7	outbreak
+outbreak:359	Avian influenza	outbreak
+outbreak:1371	Streptococcus, group A, scarlet fever	outbreak
+outbreak:1644	Avian influenza	outbreak
+outbreak:1477	Ebola hemorrhagic fever	outbreak
+outbreak:1417	BSE	outbreak
+outbreak:1001	Leishmaniasis	outbreak
+outbreak:483	Creutzfeldt-Jakob Disease	outbreak
+outbreak:1242	Screwworm myiasis	outbreak
+outbreak:73	Avian influenza, human	outbreak
+outbreak:808	Avian influenza	outbreak
+outbreak:1522	Dengue/DHF update	outbreak
 outbreak:930	Botulism	outbreak
+outbreak:1621	Avian influenza	outbreak
+outbreak:630	Ebola virus disease	outbreak
+outbreak:536	Influenza A (H1N1) virus	outbreak
+outbreak:650	Influenza pandemic (H1N1)	outbreak
+outbreak:745	Banana bunchy top nanovirus	outbreak
+outbreak:1341	Equine influenza	outbreak
+outbreak:1044	West Nile virus	outbreak
+outbreak:568	Epidemic typhus, Scrub typhus	outbreak
+outbreak:890	Eastern equine encephalitis, West Nile virus	outbreak
+outbreak:1530	Hemorrhagic fever with renal syndrome	outbreak
+outbreak:200	West Nile virus	outbreak
+outbreak:334	E. coli	outbreak
+outbreak:625	Trypanosomiasis (Chagas disease)	outbreak
+outbreak:1504	Banana bunchy top	outbreak
 outbreak:1306	Foot & mouth disease,bovine	outbreak
-outbreak:1510	Ebola virus disease	outbreak
-outbreak:720	 West Nile Fever virus	outbreak
-outbreak:1458	Anthrax vaccine	outbreak
-outbreak:885	Avian influenza H5N1	outbreak
-outbreak:621	Ebola virus disease	outbreak
-outbreak:1206	Ebola virus disease	outbreak
-outbreak:1410	Influenza (H1N1)	outbreak
-outbreak:1253	Hemorrhagic fever, Marburg virus	outbreak
-outbreak:1008	Avian influenza	outbreak
-outbreak:1251	Yellow fever	outbreak
-outbreak:806	Avian influenza	outbreak
-outbreak:461	Koi herpesvirus disease	outbreak
-outbreak:565	Creutzfeldt-Jakob disease (new variant)	outbreak
-outbreak:1555	Influenzavirus A (H5N1)	outbreak
-outbreak:699	Lumpy skin disease, bovine	outbreak
-outbreak:1239	Hand, foot & mouth disease	outbreak
-outbreak:1249	Leishmaniasis, canine	outbreak
-outbreak:1285	Avian influenza	outbreak
-outbreak:859	Avian influenza	outbreak
-outbreak:548	Rift Valley Fever	outbreak
+outbreak:1326	Avian influenza, H5N2	outbreak
+outbreak:647	Typhus, epidemic	outbreak
+outbreak:1076	Equine influenza	outbreak
+outbreak:1597	Infant botulism	outbreak
+outbreak:544	EV-71, HFMD	outbreak
+outbreak:520	Novel coronavirus	outbreak
+outbreak:1119	Hepatitis B and C	outbreak
+outbreak:149	MERS-CoV	outbreak
+outbreak:196	Influenza	outbreak
+outbreak:608	BSE	outbreak
+outbreak:1342	Avian influenza	outbreak
+outbreak:254	Ebola hemorrhagic fever	outbreak
+outbreak:831	Influenza A (H1N1)	outbreak
+outbreak:138	BSE prevention	outbreak
+outbreak:620	Canine influenza	outbreak
+outbreak:873	Avian influenza	outbreak
+outbreak:432	Ebola virus disease	outbreak
+outbreak:560	Meningitis, meningococcal	outbreak
+outbreak:369	Ebola hemorrhagic fever	outbreak
+outbreak:1521	Swine influenza	outbreak
+outbreak:1303	Creutzfeldt-Jakob Disease	outbreak
+outbreak:342	TSE	outbreak
+outbreak:662	Plague	outbreak
+outbreak:1043	Malaria, P. vivax	outbreak
+outbreak:857	Foot and mouth disease	outbreak
+outbreak:206	Nipah virus	outbreak
+outbreak:207	COVID-19, mucormycosis	outbreak
+outbreak:493	Avian influenza	outbreak
+outbreak:1273	Botulism	outbreak
+outbreak:1096	BSE, bovine	outbreak
+outbreak:1580	BSE	outbreak
+outbreak:347	Leishmaniasis, visceral	outbreak
+outbreak:1539	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:143	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:1465	Melioidosis, leptospirosis	outbreak
+outbreak:584	Ebola virus disease	outbreak
+outbreak:340	Leishmaniasis	outbreak
+outbreak:46	Ebola virus disease	outbreak
+outbreak:853	Monkeypox virus	outbreak
+outbreak:801	MERS-CoV	outbreak
+outbreak:909	Ebola hemorrhagic fever	outbreak
+outbreak:258	Japanese encephalitis	outbreak
+outbreak:702	COVID-19	outbreak
+outbreak:817	West Nile virus	outbreak
+outbreak:1228	Avian influenza	outbreak
+outbreak:86	Avian Influenza	outbreak
+outbreak:818	BSE	outbreak
+outbreak:32	Ebola virus disease	outbreak
+outbreak:1520	Parainfluenza virus type 3	outbreak
+outbreak:1112	Vibrio vulnificus	outbreak
+outbreak:1126	Pneumonia, Coronavirus	outbreak
+outbreak:1142	Nipah virus encephalitis	outbreak
+outbreak:828	Avian influenza	outbreak
+outbreak:1594	Ebola virus disease	outbreak
+outbreak:577	Varicella	outbreak
+outbreak:654	Avian influenza	outbreak
+outbreak:1122	BSE?	outbreak
+outbreak:1009	Hepatitis, undefined	outbreak
+outbreak:1067	Ebola virus disease	outbreak
+outbreak:194	Bovine Spongiform Encephalopathy	outbreak
+outbreak:1639	Epizootic hemorrhagic disease, cervids	outbreak
+outbreak:1396	Rabbit viral hemorrhagic disease	outbreak
+outbreak:1309	Botulism,avian	outbreak
+outbreak:15	Ebola virus disease	outbreak
+outbreak:302	Avian influenza	outbreak
+outbreak:287	Influenza A	outbreak
+outbreak:1106	Ebola hemorrhagic fever	outbreak
+outbreak:213	Swine fever	outbreak
+outbreak:732	White-nose syndrome	outbreak
+outbreak:1527	Creutzfeldt-Jakob disease	outbreak
+outbreak:323	Ebola virus disease	outbreak
+outbreak:756	Plague	outbreak
+outbreak:1407	Avian influenza	outbreak
+outbreak:231	Avian influenza, H5N1	outbreak
+outbreak:1354	Banana bunchy top virus	outbreak
+outbreak:1079	Avian influenza	outbreak
+outbreak:497	Dengue, DHF	outbreak
+outbreak:407	Ebola virus disease	outbreak
+outbreak:1124	Swine fever, classical	outbreak
+outbreak:1570	Ebola virus disease	outbreak
+outbreak:726	Leishmaniasis	outbreak
+outbreak:1403	Hepatitis B, Hepatitis C, HIV	outbreak
+outbreak:1155	Ebola virus disease	outbreak
+outbreak:1545	Avian influenza	outbreak
+outbreak:1325	 Ebola virus disease	outbreak
+outbreak:870	Bordetella holmesii	outbreak
+outbreak:165	Ebola hemorrhagic fever	outbreak
+outbreak:291	Hantavirus infection	outbreak
+outbreak:1560	Ebola hemorrhagic fever	outbreak
+outbreak:400	IBR	outbreak
+outbreak:1606	Rabies	outbreak
+outbreak:58	Avian influenza	outbreak
+outbreak:364	Ebola Virus Disease	outbreak
+outbreak:317	Anthrax	outbreak
+outbreak:1501	Avian influenza	outbreak
+outbreak:1214	Sheep pox, Goat pox	outbreak
+outbreak:1240	Avian influenza	outbreak
+outbreak:442	Botulism, avian	outbreak
+outbreak:1557	West Nile virus	outbreak
+outbreak:484	Ebola virus disease	outbreak
+outbreak:537	Influenza	outbreak
+outbreak:1455	Avian influenza	outbreak
+outbreak:21	Avian Influenza	outbreak
+outbreak:171	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:1120	Botulism	outbreak
+outbreak:1237	Ebola virus disease	outbreak
+outbreak:1419	Monkeypox	outbreak
+outbreak:78	Ebola virus disease	outbreak
+outbreak:894	Newcastle disease virus	outbreak
+outbreak:286	MERS-CoV (Middle East respiratory syndrome-related coronavirus)	outbreak
+outbreak:617	Avian influenza	outbreak
+outbreak:178	Avian influenza	outbreak
+outbreak:1203	Leishmaniasis	outbreak
+outbreak:1177	Stripe rust, downy mildew	outbreak
+outbreak:168	Avian influenza, HPAI H5N1	outbreak
+outbreak:1182	Sheep pox, Goat pox	outbreak
+outbreak:332	Influenza pandemic (H1N1)	outbreak
+outbreak:1381	Soybean rust	outbreak
+outbreak:1593	Chronic wasting disease	outbreak
+outbreak:1476	Ebola hemorrhagic fever	outbreak
 outbreak:674	Leishmaniasis	outbreak
-outbreak:789	Coronavirus	outbreak
-outbreak:276	Yellow fever	outbreak
-outbreak:794	MERS-CoV	outbreak
-outbreak:1020	Avian influenza	outbreak
-outbreak:683	Ross River virus	outbreak
-outbreak:495	Bovine Spongiform Encephalopathy (BSE)	outbreak
-outbreak:505	Take-all disease, wheat	outbreak
+outbreak:589	Malaria	outbreak
+outbreak:919	CJD (new var.)	outbreak
+outbreak:731	Hepatitis D virus	outbreak
+outbreak:1013	Malaria, quinine resistance	outbreak
+outbreak:439	Influenza pandemic (H1N1), avian	outbreak
+outbreak:960	BSE	outbreak
+outbreak:1211	Botulism	outbreak
+outbreak:1629	Botulism	outbreak
+outbreak:1089	COVID-19	outbreak
+outbreak:212	Avian influenza	outbreak
+outbreak:507	Lumpy skin disease, bovine	outbreak
+outbreak:1230	Foot & mouth disease	outbreak
+outbreak:1225	CJD (new variant)	outbreak
+outbreak:438	Avian influenza	outbreak
+outbreak:700	Undiagnosed encephalitis, Nipah virus	outbreak
+outbreak:1115	Ebola virus disease	outbreak
+outbreak:74	Trypanosomiasis (Chagas disease)	outbreak
+outbreak:1305	Infectious bronchitis	outbreak
+outbreak:634	Coronavirus	outbreak
+outbreak:344	Staphylococcus aureus MRSA	outbreak
+outbreak:777	Leishmaniasis, visceral	outbreak
+outbreak:1179	African Swine Fever	outbreak
+outbreak:843	Botulism, avian	outbreak
+outbreak:1291	Avian influenza	outbreak
+outbreak:994	Creutzfeldt-Jakob disease	outbreak
+outbreak:1196	Leishmaniasis	outbreak
+outbreak:1506	Rabies	outbreak
+outbreak:1616	West Nile virus	outbreak
+outbreak:49	Ebola hemorrhagic fever	outbreak
+outbreak:563	Ebola hemorrhagic fever	outbreak
+outbreak:186	Influenza A(H1N1)pdm09	outbreak
+outbreak:198	Creutzfeldt-Jakob disease	outbreak
+outbreak:1405	Cryptococcus gattii, human, animal	outbreak
+outbreak:128	Avian influenza	outbreak
+outbreak:488	Distemper	outbreak
+outbreak:1352	Avian influenza	outbreak
+outbreak:1031	Plague, bubonic	outbreak
+outbreak:376	Avian influenza	outbreak
+outbreak:612	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:474	BSE	outbreak
+outbreak:234	Ebola virus disease	outbreak
+outbreak:9	Influenza H5N1, avian	outbreak
+outbreak:1330	Tick-borne diseases, Lyme disease, Anaplasmosis	outbreak
+outbreak:1209	Avian influenza	outbreak
+outbreak:927	Salmonellosis	outbreak
+outbreak:901	Botulism	outbreak
+outbreak:943	Diphtheria	outbreak
+outbreak:1334	Ebola virus disease	outbreak
+outbreak:1430	Ebola hemorrhagic fever	outbreak
+outbreak:1549	Swine fever	outbreak
+outbreak:509	Rift Valley Fever	outbreak
+outbreak:1246	Meningitis, meningococcal	outbreak
+outbreak:5	Avian influenza, H7N9	outbreak
+outbreak:601	West Nile virus	outbreak
+outbreak:686	Avian influenza	outbreak
+outbreak:1164	Avian influenza	outbreak
+outbreak:1406	Hepatitis A	outbreak
+outbreak:1572	Plague, bubonic	outbreak
+outbreak:1299	Creutzfeldt-Jakob disease (CJD)	outbreak
+outbreak:1624	Middle East respiratory syndrome	outbreak
+outbreak:825	Enterovirus 71	outbreak
+outbreak:294	Dysentery, amebic	outbreak
+outbreak:211	Hepatitis B & C	outbreak
+outbreak:335	Avian influenza	outbreak
+outbreak:416	Foot-and-mouth disease, bovine	outbreak
+outbreak:877	Ebola virus disease	outbreak
+outbreak:703	Avian influenza, H5N1	outbreak
+outbreak:123	Ebola hemorrhagic fever	outbreak
+outbreak:1562	Avian influenza (HPAI H5N2)	outbreak
+outbreak:1579	Epizootic hemorrhagic disease, bovine	outbreak
+outbreak:1555	Influenzavirus A (H5N1)	outbreak
+outbreak:763	Hepatitis B, Hepatitis C, HIV	outbreak
+outbreak:796	Japanese encephalitis	outbreak
+outbreak:1005	Influenza pandemic (H1N1)	outbreak
+outbreak:1320	E. coli	outbreak
+outbreak:44	Aeromonas hydrophila	outbreak
+outbreak:921	MERS-CoV	outbreak
+outbreak:1269	CJD	outbreak
+outbreak:547	Severe acute respiratory syndrome	outbreak
+outbreak:218	West Nile virus	outbreak
+outbreak:1152	BSE	outbreak
+outbreak:935	Salmonellosis	outbreak
+outbreak:260	Leishmaniasis	outbreak
+outbreak:1631	Bluetongue	outbreak
+outbreak:235	Influenza A (H1N1)	outbreak
+outbreak:1339	Foot & mouth disease	outbreak
+outbreak:26	Severe acute respiratory syndrome	outbreak
+outbreak:934	Rift Valley fever	outbreak
+outbreak:1347	West Nile virus	outbreak
+outbreak:1388	Herpes simplex type 1	outbreak
+outbreak:39	Severe acute respiratory syndrome	outbreak
+outbreak:869	Tick-borne relapsing fever	outbreak
+outbreak:1561	Avian influenza	outbreak
+outbreak:1187	Avian influenza	outbreak
+outbreak:1617	Avian influenza	outbreak
+outbreak:153	Middle East respiratory syndrome coronavirus (MERS-CoV)	outbreak
+outbreak:1385	Ebola hemorrhagic fever	outbreak
+outbreak:698	Avian influenza	outbreak
+outbreak:1358	Vesicular stomatitis	outbreak
+outbreak:1551	Salmonellosis	outbreak
+outbreak:63	MERS-CoV (Middle East Respiratory Syndrome Coronavirus)	outbreak
+outbreak:1537	Swine influenza	outbreak
+outbreak:415	Equine herpesvirus	outbreak
+outbreak:1531	Ebola virus disease	outbreak
+outbreak:908	Avian influenza	outbreak
+outbreak:1451	Rabies	outbreak
+outbreak:1062	Avian influenza, H5N1	outbreak
+outbreak:148	Avian influenza	outbreak
+outbreak:963	MERS-CoV	outbreak
+outbreak:768	Ebola virus disease	outbreak
+outbreak:1050	Avian influenza	outbreak
+outbreak:1558	Avian influenza	outbreak
+outbreak:242	Avian Influenza	outbreak
+outbreak:459	Bovine Spongiform Encephalopathy (BSE)	outbreak
+outbreak:1487	Yellow fever	outbreak
+outbreak:864	Influenza	outbreak
+outbreak:118	Leishmaniasis	outbreak
+outbreak:265	Ebola virus disease	outbreak
+outbreak:11	Vibrio vulnificus	outbreak
+outbreak:564	Paramyxovirus infection	outbreak
+outbreak:1510	Ebola virus disease	outbreak
+outbreak:949	Hantavirus infection	outbreak
+outbreak:907	Ebola virus disease	outbreak
+outbreak:1085	Babesiosis, Lyme disease	outbreak
+outbreak:141	Avian Influenza	outbreak
+outbreak:962	Ebola virus disease	outbreak
+outbreak:889	Avian influenza	outbreak
+outbreak:1208	Ebola Virus Disease	outbreak
+outbreak:1019	BSE	outbreak
+outbreak:977	BSE, bovine	outbreak
+outbreak:657	COVID-19	outbreak
+outbreak:64	BSE	outbreak
+outbreak:1157	Influenza pandemic (H1N1)	outbreak
+outbreak:339	Ebola virus disease	outbreak
+outbreak:985	Ebola virus disease	outbreak
+outbreak:68	Avian influenza	outbreak
+outbreak:885	Avian influenza H5N1	outbreak
+outbreak:590	Swine influenza	outbreak
+outbreak:1454	Ebola virus disease	outbreak
+outbreak:1364	Ebola virus disease	outbreak
+outbreak:20	Hantavirus infection	outbreak
+outbreak:832	Viral gastroenteritis, rotavirus	outbreak
+outbreak:1241	Bovine Spongiform Encephalopathy (BSE)	outbreak
+outbreak:249	Equine influenza	outbreak
+outbreak:672	West Nile Virus	outbreak
+outbreak:245	Leishmaniasis	outbreak
+outbreak:1248	Ebola virus	outbreak
+outbreak:666	Avian influenza	outbreak
+outbreak:1158	Ross River virus	outbreak
+outbreak:826	Leishmaniasis	outbreak
+outbreak:1256	Avian influenza	outbreak
+outbreak:532	Leishmaniasis	outbreak
+outbreak:1321	Leishmaniasis	outbreak
+outbreak:259	Ebola virus disease	outbreak
+outbreak:614	BSE	outbreak
+outbreak:1053	Ebola virus disease	outbreak
+outbreak:1193	BSE, sheep	outbreak
+outbreak:418	Ebola virus disease	outbreak
+outbreak:792	Avian Influenza	outbreak
+outbreak:1632	Avian influenza	outbreak
+outbreak:613	Ebola virus disease	outbreak
+outbreak:295	Avian Influenza	outbreak
+outbreak:598	Japanese encephalitis	outbreak
+outbreak:72	Ebola virus disease	outbreak
+outbreak:525	Hepatitis, undefined	outbreak
+outbreak:1224	West Nile Virus	outbreak
+outbreak:880	E. coli VTEC	outbreak
+outbreak:283	Infant botulism	outbreak
+outbreak:727	Avian influenza	outbreak
+outbreak:127	Leishmaniasis	outbreak
+outbreak:1153	BSE	outbreak
+outbreak:1107	Plague, bubonic	outbreak
+outbreak:936	Salmonellosis, st. Heidelberg	outbreak
+outbreak:1335	Avian influenza	outbreak
+outbreak:841	Cereal rusts	outbreak
+outbreak:1265	Avian influenza	outbreak
+outbreak:902	E. coli O157	outbreak
+outbreak:6	Tick-borne relapsing fever	outbreak
+outbreak:13	Ebola hemorrhagic fever	outbreak
+outbreak:431	Ebola hemorrhagic fever	outbreak
+outbreak:950	Botulism	outbreak
+outbreak:651	Avian influenza	outbreak
+outbreak:352	Creutzfeldt-Jakob disease	outbreak
+outbreak:779	Stripe rust	outbreak
+outbreak:428	BSE (Bovine Spongiform Encephalopathy)	outbreak
+outbreak:184	E. coli O157	outbreak
+outbreak:888	N. meningitidis	outbreak
+outbreak:159	Shigella sonnei	outbreak
+outbreak:1481	Avian influenza	outbreak
+outbreak:1590	Eastern equine encephalitis	outbreak
+outbreak:443	Angiostrongylus meningitis	outbreak
+outbreak:990	Creutzfeldt-Jakob disease	outbreak
+outbreak:591	Ebola virus disease	outbreak
+outbreak:1276	Japanese encephalitis	outbreak
+outbreak:1090	Influenza pandemic (H1N1)	outbreak
+outbreak:1566	Lumpy skin disease, bovine	outbreak
+outbreak:637	Bovine Spongiform Encephalopathy (BSE)	outbreak
+outbreak:1301	Avian influenza	outbreak
+outbreak:903	Avian influenza	outbreak
+outbreak:1024	West Nile virus	outbreak
+outbreak:10	Poxvirus	outbreak
+outbreak:1285	Avian influenza	outbreak
+outbreak:1400	Japanese encephalitis	outbreak
+outbreak:518	Ebola virus disease	outbreak
+outbreak:243	BSE	outbreak
+outbreak:1202	Avian influenza	outbreak
+outbreak:1336	Ebola hemorrhagic fever	outbreak
+outbreak:99	Avian influenza	outbreak
+outbreak:1505	Botulism	outbreak
+outbreak:1317	Equine herpesvirus	outbreak
+outbreak:95	Avian influenza	outbreak
+outbreak:3	Rift Valley Fever	outbreak
+outbreak:279	Viral Gastroenteritis	outbreak
+outbreak:723	Ebola virus disease	outbreak
+outbreak:933	Rift Valley fever	outbreak
+outbreak:457	Influenza A	outbreak
+outbreak:460	Foot & mouth disease	outbreak
+outbreak:679	Bovine Spongiform Encephalopathy (BSE), bovine	outbreak
+outbreak:609	Plum pox potyvirus	outbreak
+outbreak:1543	Avian influenza	outbreak
+outbreak:1634	Avian influenza	outbreak
+outbreak:1518	Malaria	outbreak
+outbreak:1033	Trypanosomiasis	outbreak
+outbreak:1006	Avian influenza	outbreak
+outbreak:12	Avian Influenza	outbreak
+outbreak:1331	Dengue, DHF	outbreak
+outbreak:247	Kunjin virus, Barmah Forest virus, Ross River virus, Murray Valley encephalitis virus	outbreak
+outbreak:883	BSE	outbreak
+outbreak:1294	Soybean rust	outbreak
+outbreak:1323	Ebola virus disease	outbreak
+outbreak:751	Bluetongue, ovine	outbreak
+outbreak:2	Ebola hemorrhagic fever	outbreak
+outbreak:204	Leishmaniasis	outbreak
+outbreak:737	Newcastle disease	outbreak
+outbreak:1160	Coronavirus	outbreak
+outbreak:1239	Hand, foot & mouth disease	outbreak
+outbreak:215	Leishmaniasis	outbreak
+outbreak:311	Avian influenza A/H5	outbreak
+outbreak:296	Rabbit calicivirus	outbreak
+outbreak:1605	E. coli EHEC	outbreak
+outbreak:543	E. coli, hemolytic uremic syndrome	outbreak
+outbreak:582	Ebola hemorrhagic fever	outbreak
+outbreak:394	Ross River virus, Barmah Forest virus	outbreak
+outbreak:967	Avian influenza	outbreak
+outbreak:408	Avian Influenza	outbreak
+outbreak:449	Ebola	outbreak
+outbreak:1066	Novel coronavirus	outbreak
 outbreak:1491	BSE, bovine	outbreak
+outbreak:910	Swine fever, classical	outbreak
+outbreak:57	Avian influenza	outbreak
+outbreak:1168	Ebola	outbreak
+outbreak:1439	Avian influenza	outbreak
+outbreak:1311	Influenza H5N1, avian	outbreak
+outbreak:636	Leishmaniasis, visceral	outbreak
+outbreak:458	Avian influenza	outbreak
+outbreak:238	Leishmaniasis	outbreak
+outbreak:916	Hepatitis, viral	outbreak
+outbreak:1483	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:660	Avian Influenza	outbreak
+outbreak:1086	Ebola virus disease	outbreak
+outbreak:79	Ebola virus disease	outbreak
+outbreak:1015	E. coli VTEC	outbreak
+outbreak:1583	Avian influenza H7N3	outbreak
+outbreak:795	Lumpy skin disease, bovine	outbreak
+outbreak:1630	Avian influenza, HPAI H5	outbreak
+outbreak:645	Vibrio species gastroenteritis	outbreak
+outbreak:542	Ebola Virus Disease	outbreak
+outbreak:968	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:765	Leishmaniasis	outbreak
+outbreak:1215	Measles	outbreak
+outbreak:1338	Influenza A (H1N1)	outbreak
+outbreak:180	Leishmaniasis	outbreak
+outbreak:515	Ebola virus disease	outbreak
+outbreak:1128	Avian influenza, HPAI H5N8	outbreak
+outbreak:1378	Influenza A virus	outbreak
+outbreak:1383	Ebola hemorrhagic fever	outbreak
+outbreak:874	Avian influenza	outbreak
+outbreak:1133	Legionellosis	outbreak
+outbreak:716	Creutzfeldt-Jakob disease	outbreak
+outbreak:640	Avian influenza, H7N9	outbreak
+outbreak:1394	West Nile Virus	outbreak
+outbreak:953	Cyclospora, Cryptosporidium	outbreak
+outbreak:314	Botulism, avian	outbreak
+outbreak:892	Avian influenza	outbreak
+outbreak:1423	Salmonellosis	outbreak
+outbreak:270	Avian influenza	outbreak
+outbreak:1546	Ebola virus disease	outbreak
+outbreak:1169	Avian influenza	outbreak
+outbreak:1494	Influenza pandemic (H1N1)	outbreak
+outbreak:812	Avian influenza	outbreak
+outbreak:794	MERS-CoV	outbreak
+outbreak:292	Avian influenza	outbreak
+outbreak:1390	Avian influenza	outbreak
+outbreak:998	Plague, bubonic	outbreak
+outbreak:1313	Ebola virus disease	outbreak
+outbreak:446	Avian influenza	outbreak
+outbreak:1370	Avian influenza H5N8 clade 2.3.4.4	outbreak
+outbreak:1532	Yellow fever	outbreak
+outbreak:629	Avian influenza A (H5N1)	outbreak
+outbreak:1449	Ebola virus disease	outbreak
+outbreak:823	Malaria, falciparum	outbreak
+outbreak:579	Lumpy skin disease	outbreak
+outbreak:1109	Lumpy skin disease	outbreak
+outbreak:1328	Ebola virus disease	outbreak
+outbreak:1453	Avian influenza	outbreak
+outbreak:592	Bovine Spongiform Encephalopathy (BSE)	outbreak
+outbreak:1145	CJD	outbreak
+outbreak:1327	CJD	outbreak
+outbreak:548	Rift Valley Fever	outbreak
+outbreak:1188	Avian influenza	outbreak
+outbreak:886	Hepatitis, undefined	outbreak
+outbreak:618	Poliomyelitis, global VDPV	outbreak
+outbreak:158	St. Louis encephalitis	outbreak
+outbreak:477	Swine fever	outbreak
+outbreak:1411	Foot & mouth disease	outbreak
+outbreak:77	BSE	outbreak
+outbreak:82	West Nile Virus	outbreak
+outbreak:393	Angiostrongylus meningitis	outbreak
+outbreak:876	BSE Update	outbreak
+outbreak:668	Avian influenza	outbreak
+outbreak:389	Meningitis, meningococcal	outbreak
+outbreak:1134	Avian influenza, H5N2, turkeys	outbreak
+outbreak:1514	Monkeypox	outbreak
+outbreak:1231	Tuberculosis	outbreak
+outbreak:150	MERS-CoV	outbreak
+outbreak:1641	African swine fever	outbreak
+outbreak:705	Ebola virus disease	outbreak
+outbreak:1173	Avian influenza	outbreak
+outbreak:1410	Influenza (H1N1)	outbreak
+outbreak:1622	Sarcoptic mange	outbreak
+outbreak:169	Yellow fever	outbreak
+outbreak:1165	Avian influenza	outbreak
+outbreak:644	Ralstonia Pickettii Sepsis	outbreak
+outbreak:635	St. Louis encephalitis virus	outbreak
+outbreak:508	Ebola virus disease	outbreak
+outbreak:429	Avian influenza	outbreak
+outbreak:1279	Influenza pandemic (H1N1)	outbreak
+outbreak:1277	Ebola virus disease	outbreak
+outbreak:575	Leishmaniasis	outbreak
+outbreak:280	Foot & mouth disease	outbreak
+outbreak:308	Amebic meningoencephalitis, primary	outbreak
+outbreak:807	Ebola hemorrhagic fever	outbreak
+outbreak:1046	St. Louis encephalitis virus	outbreak
+outbreak:1502	Undiagnosed deaths, Ebola	outbreak
+outbreak:154	West Nile Virus	outbreak
+outbreak:162	Koi herpesvirus disease	outbreak
+outbreak:661	Swine fever, classical	outbreak
+outbreak:1507	Echinococcus Multilocularis	outbreak
+outbreak:879	Trypanosomiasis, African	outbreak
+outbreak:913	Hantavirus infection	outbreak
+outbreak:66	Avian influenza	outbreak
+outbreak:1595	Avian influenza	outbreak
+outbreak:837	Salmonellosis	outbreak
+outbreak:860	Leishmaniasis	outbreak
+outbreak:1429	West Nile virus	outbreak
+outbreak:1440	Streptococcus, group A	outbreak
+outbreak:274	Avian influenza	outbreak
+outbreak:374	Avian influenza	outbreak
+outbreak:284	CJD	outbreak
+outbreak:1192	Leishmaniasis, visceral	outbreak
+outbreak:1623	CJD	outbreak
+outbreak:1452	Plague, bubonic	outbreak
+outbreak:784	West Nile virus	outbreak
+outbreak:1445	Lumpy skin disease, bovine	outbreak
+outbreak:343	BSE report online	outbreak
+outbreak:30	Avian Influenza	outbreak
+outbreak:999	Influenza H5N1	outbreak
+outbreak:1116	Ebola virus disease	outbreak
+outbreak:1428	West Nile virus	outbreak
+outbreak:181	Avian influenza, H7N9	outbreak
+outbreak:610	Avian influenza	outbreak
+outbreak:1000	Ebola virus disease	outbreak
+outbreak:50	Influenza	outbreak
+outbreak:593	Streptococcus, Scarlet fever	outbreak
+outbreak:246	St. Louis Encephalitis	outbreak
+outbreak:1584	Influenza, avian H7 serotype	outbreak
+outbreak:1036	Avian influenza	outbreak
+outbreak:301	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:1391	Botulism	outbreak
+outbreak:834	Avian influenza	outbreak
+outbreak:1048	Foot & mouth disease, porcine	outbreak
+outbreak:228	West Nile Virus	outbreak
+outbreak:1367	Leishmaniasis, cutaneous	outbreak
+outbreak:481	Foot and mouth disease	outbreak
+outbreak:983	West Nile virus	outbreak
+outbreak:632	Leishmaniasis	outbreak
+outbreak:402	Newcastle disease	outbreak
+outbreak:597	Avian influenza	outbreak
+outbreak:378	Ebola virus disease	outbreak
+outbreak:976	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:1463	Creutzfeldt-Jakob disease	outbreak
+outbreak:844	Rabies	outbreak
+outbreak:1442	West Nile Virus	outbreak
+outbreak:1433	Citrus tristeza closterovirus	outbreak
+outbreak:1553	Foot & mouth disease	outbreak
+outbreak:1010	Ebola virus disease	outbreak
+outbreak:322	Undiagnosed illness, Zika virus	outbreak
+outbreak:1180	CJD	outbreak
+outbreak:399	Ebola virus disease	outbreak
+outbreak:684	Avian influenza	outbreak
+outbreak:1538	Influenza A (H1N1), swine flu	outbreak
+outbreak:445	BSE	outbreak
+outbreak:306	Novel coronavirus	outbreak
+outbreak:833	Bovine Spongiform Encephalopathy	outbreak
+outbreak:945	Ebola virus disease	outbreak
+outbreak:410	Ebola virus disease	outbreak
+outbreak:1361	Avian influenza	outbreak
+outbreak:988	Avian influenza	outbreak
+outbreak:108	CJD-BSE connection	outbreak
+outbreak:1399	Hendra virus, human, equine	outbreak
+outbreak:1233	Avian influenza	outbreak
+outbreak:1586	Avian influenza	outbreak
+outbreak:61	Avian influenza	outbreak
+outbreak:109	BSE surveillance	outbreak
+outbreak:1297	Ebola virus disease	outbreak
+outbreak:1589	Avian influenza	outbreak
+outbreak:321	Influenzaviruses	outbreak
+outbreak:725	Viral meningitis	outbreak
+outbreak:739	Meningococcal vaccine need	outbreak
+outbreak:41	Infant botulism	outbreak
+outbreak:177	Ebola virus disease	outbreak
+outbreak:100	Avian influenza, H7N9	outbreak
+outbreak:595	Anthrax	outbreak
+outbreak:1216	Middle East Respiratory Syndrome Coronavirus (MERS-CoV)	outbreak
+outbreak:653	Creutzfeldt-Jakob Disease	outbreak
+outbreak:769	Ebola virus disease	outbreak
+outbreak:1533	Avian influenza	outbreak
+outbreak:572	Anthrax vaccine production	outbreak
+outbreak:221	Influenza pandemic (H1N1)	outbreak
+outbreak:884	Staphylococcus aureus MRSA	outbreak
+outbreak:693	Leishmaniasis, visceral	outbreak
+outbreak:1517	Angiostrongylus cantonensis	outbreak
+outbreak:1458	Anthrax vaccine	outbreak
+outbreak:1343	BSE, bovine	outbreak
+outbreak:1270	Botulism	outbreak
+outbreak:738	Avian influenza, H7N9	outbreak
+outbreak:1565	Influenza	outbreak
+outbreak:1402	Influenza	outbreak
+outbreak:752	Bovine Spongiform Encephalopathy (BSE)	outbreak
+outbreak:1221	Ebola virus disease	outbreak
+outbreak:923	MERS-CoV	outbreak
+outbreak:1097	Yellow fever	outbreak
+outbreak:1540	Ebola virus disease	outbreak
+outbreak:88	Ebola	outbreak
+outbreak:974	Ebola virus disease	outbreak
+outbreak:1195	Ebola virus disease	outbreak
+outbreak:136	Hepatitis B, Hepatitis C	outbreak
+outbreak:1026	Ebola virus disease	outbreak
+outbreak:1102	Lumpy Skin Disease	outbreak
+outbreak:1200	Influenza pandemic (H1N1)	outbreak
+outbreak:928	Avian influenza, HPAI H5N5	outbreak
+outbreak:1610	BSE	outbreak
+outbreak:129	Avian Influenza	outbreak
+outbreak:33	Meningitis, meningococcal	outbreak
+outbreak:229	Influenza A(H3N2)v	outbreak
+outbreak:709	Malaria	outbreak
+outbreak:523	Sheep pox & goat pox	outbreak
+outbreak:1288	Avian influenza	outbreak
+outbreak:1600	EV-71, Hand, Foot and Mouth Disease (HFMD)	outbreak
+outbreak:1568	Anthrax	outbreak
+outbreak:117	Ebola virus disease	outbreak
+outbreak:55	Vibrio parahaemolyticus	outbreak
+outbreak:318	Angiostrongylus cantonensis	outbreak
+outbreak:861	Avian influenza	outbreak
+outbreak:146	Avian influenza	outbreak
+outbreak:529	Ebola virus disease	outbreak
+outbreak:1529	Echinococcus multilocularis	outbreak
+outbreak:959	Avian influenza	outbreak
+outbreak:114	West Nile virus	outbreak
+outbreak:1127	Soybean rust	outbreak
+outbreak:790	Avian influenza	outbreak
+outbreak:736	Amebic meningoencephalitis	outbreak
+outbreak:391	Hantavirus infection	outbreak
+outbreak:1008	Avian influenza	outbreak
+outbreak:1441	Avian influenza	outbreak
+outbreak:409	Influenza virus	outbreak
+outbreak:952	Ebola virus disease	outbreak
+outbreak:1156	Avian influenza	outbreak
+outbreak:1280	Ebola hemorrhagic fever	outbreak
+outbreak:1289	Rift Valley fever	outbreak
+outbreak:906	Avian influenza	outbreak
+outbreak:1376	Ebola virus disease	outbreak
+outbreak:1512	Salmonellosis	outbreak
+outbreak:552	Influenza pandemic (H1N1)	outbreak
+outbreak:1249	Leishmaniasis, canine	outbreak
+outbreak:743	Influenza A	outbreak
+outbreak:1480	Ebola virus	outbreak
+outbreak:1272	BSE	outbreak
+outbreak:1121	Novel coronavirus	outbreak
+outbreak:269	Ebola Virus Disease	outbreak
+outbreak:383	Avian influenza	outbreak
+outbreak:550	Ebola virus disease	outbreak
+outbreak:222	Avian influenza	outbreak
+outbreak:1056	Botulism, avian	outbreak
+outbreak:1552	American foul brood	outbreak
+outbreak:538	Creutzfeldt-Jakob disease	outbreak
+outbreak:110	Foot & mouth disease	outbreak
+outbreak:623	BSE, bovine spongiform encephalopathy	outbreak
+outbreak:805	Avian influenza	outbreak
+outbreak:1282	Ebola virus disease	outbreak
+outbreak:1059	Bovine spongiform encephalopathy (BSE)	outbreak
+outbreak:1101	Avian influenza	outbreak
+outbreak:384	Middle East Respiratory Syndrome	outbreak
+outbreak:865	Avian influenza	outbreak
+outbreak:353	Ebola virus disease	outbreak
+outbreak:34	Avian influenza, H7N9	outbreak
+outbreak:1132	White nose syndrome	outbreak
+outbreak:174	Ebola virus	outbreak
+outbreak:491	Encephalitis,West Nile Virus	outbreak
+outbreak:1312	Tick-borne relapsing fever	outbreak
+outbreak:804	Ebola virus disease	outbreak
+outbreak:324	Novel coronavirus	outbreak
 outbreak:305	West Nile Virus	outbreak
+outbreak:333	Ebola virus disease	outbreak
+outbreak:188	Ephemeral fever, bovine	outbreak
+outbreak:1337	Ross River/Barmah Forest viruses	outbreak
+outbreak:202	Japanese encephalitis vaccine	outbreak
+outbreak:1167	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:131	Avian influenza	outbreak
+outbreak:856	Rabies	outbreak
+outbreak:83	BSE	outbreak
+outbreak:1443	Trypanosomiasis, African	outbreak
+outbreak:1637	Avian influenza	outbreak
+outbreak:1333	Hantavirus infection	outbreak
+outbreak:248	Avian influenza	outbreak
+outbreak:766	Yellow fever	outbreak
+outbreak:1601	BSE, bovine	outbreak
+outbreak:275	Salmonella	outbreak
+outbreak:1426	Influenza A (H1N1)	outbreak
+outbreak:476	Meningococcal meningitis	outbreak
+outbreak:513	Meningitis, meningococcal	outbreak
+outbreak:1235	Botulism	outbreak
+outbreak:1011	Murray Valley encephalitis	outbreak
+outbreak:303	Amebic meningoencephalitis, primary	outbreak
+outbreak:717	Ebola virus disease	outbreak
+outbreak:1099	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:846	Gastroenteritis	outbreak
+outbreak:252	Avian influenza	outbreak
+outbreak:151	Creutzfeldt-Jakob Disease (CJD), familial	outbreak
+outbreak:430	Hepatitis B & C, HIV	outbreak
+outbreak:1232	Foot and mouth disease, cattle	outbreak
+outbreak:680	Leishmaniasis	outbreak
+outbreak:1353	Foot & mouth disease	outbreak
+outbreak:1420	Avian influenza	outbreak
+outbreak:1070	Avian influenza, human	outbreak
+outbreak:1541	Brucellosis	outbreak
+outbreak:1068	St. Louis encephalitis, West Nile viruses	outbreak
+outbreak:559	COVID-19	outbreak
+outbreak:1473	COVID-19, Respiratory viruses	outbreak
+outbreak:689	Amebic meningoencephalitis	outbreak
+outbreak:733	Ebola hemorrhagic fever	outbreak
+outbreak:1092	BSE/CJD	outbreak
+outbreak:1404	Ebola virus disease	outbreak
+outbreak:105	Ebola virus disease	outbreak
+outbreak:1534	Leishmaniasis, Tuberculosis	outbreak
+outbreak:646	Hepatitis B & C	outbreak
+outbreak:773	Avian influenza	outbreak
+outbreak:1251	Yellow fever	outbreak
+outbreak:778	Angiostrongylus cantonensis	outbreak
+outbreak:273	African Swine Fever	outbreak
+outbreak:1150	Leishmaniasis	outbreak
+outbreak:67	Ebola virus disease	outbreak
+outbreak:498	Avian influenza	outbreak
+outbreak:336	Avian influenza	outbreak
+outbreak:1082	Streptococcus group A, invasive	outbreak
+outbreak:341	Ebola hemorrhagic fever	outbreak
+outbreak:471	Leishmaniasis, cutaneous	outbreak
+outbreak:649	Viral myocarditis, Hand foot and mouth disease	outbreak
+outbreak:1131	BSE policy	outbreak
+outbreak:1360	Leishmaniasis, dogs	outbreak
+outbreak:1462	Novel coronavirus	outbreak
+outbreak:285	Leishmaniasis	outbreak
+outbreak:1456	Avian influenza	outbreak
+outbreak:1095	Viral meningitis	outbreak
+outbreak:1425	Equine herpesvirus	outbreak
+outbreak:329	Ebola hemorrhagic fever	outbreak
+outbreak:1047	COVID-19	outbreak
+outbreak:1350	Avian Influenza	outbreak
+outbreak:980	Tick-borne encephalitis virus, Powassan virus	outbreak
+outbreak:1143	Ebola hemorrhagic fever	outbreak
+outbreak:366	Avian influenza, H7N3	outbreak
+outbreak:163	Ebola virus disease	outbreak
+outbreak:746	Tick-borne encephalitis virus	outbreak
+outbreak:1146	Lyme disease	outbreak
+outbreak:1488	Avian influenza	outbreak
+outbreak:710	Plague, bubonic	outbreak
+outbreak:465	Leishmaniasis	outbreak
+outbreak:1293	Typhus	outbreak
+outbreak:417	Avian influenza	outbreak
+outbreak:35	Meningitis, bacterial	outbreak
+outbreak:1130	Avian influenza, H5N2	outbreak
+outbreak:370	Avian influenza	outbreak
+outbreak:52	Middle East Respiratory Syndrome	outbreak
+outbreak:403	Avian influenza	outbreak
+outbreak:97	Influenza A (H1N1), coincident H3N2 variation	outbreak
+outbreak:362	Ebola virus disease	outbreak
+outbreak:1348	Multisystemic wasting syndrome	outbreak
+outbreak:814	Ebola Virus Disease	outbreak
+outbreak:1516	Melioidosis	outbreak
+outbreak:810	BSE	outbreak
+outbreak:406	Leishmaniasis	outbreak
+outbreak:948	Foot & mouth disease	outbreak
+outbreak:142	Influenza A (H1N1)	outbreak
+outbreak:847	St Louis encephalitis virus	outbreak
+outbreak:1578	Anthrax	outbreak
+outbreak:1588	Hepatitis C	outbreak
+outbreak:995	Influenza pandemic (H1N1)	outbreak
+outbreak:899	Avian influenza	outbreak
+outbreak:764	Influenza A (H1N1)	outbreak
+outbreak:1615	Plague	outbreak
+outbreak:1104	Trypanosomiasis, Chagas disease	outbreak
+outbreak:670	Ebola hemorrhagic fever	outbreak
+outbreak:1349	E. coli O157	outbreak
+outbreak:1642	Avian influenza	outbreak
+outbreak:673	Ebola virus disease	outbreak
+outbreak:210	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:622	Ebola virus disease	outbreak
+outbreak:1304	Streptococcus, group A, scarlet fever	outbreak
+outbreak:1363	Hepatitis B	outbreak
+outbreak:293	Leishmaniasis	outbreak
+outbreak:193	Avian Influenza	outbreak
+outbreak:1536	Botulism	outbreak
+outbreak:576	BSE	outbreak
+outbreak:793	Avian influenza	outbreak
+outbreak:961	Newcastle disease	outbreak
+outbreak:718	Anthrax vaccine safety & efficacy	outbreak
+outbreak:984	Influenza pandemic (H1N1)	outbreak
+outbreak:1438	Avian influenza	outbreak
+outbreak:1474	BSE	outbreak
+outbreak:891	Ebola hemorrhagic fever	outbreak
+outbreak:504	Avian influenza, human	outbreak
+outbreak:862	Influenza pandemic (H1N1 2009)	outbreak
+outbreak:772	Avian influenza	outbreak
+outbreak:1359	Hantavirus pulmonary syndrome	outbreak
+outbreak:534	Avian influenza, HPAI H5N1	outbreak
+outbreak:699	Lumpy skin disease, bovine	outbreak
+outbreak:239	Canine influenza	outbreak
+outbreak:665	Foot and mouth disease	outbreak
+outbreak:747	BSE	outbreak
+outbreak:1051	St. Louis Encephalitis	outbreak
+outbreak:1218	West Nile Virus	outbreak
+outbreak:947	Swine fever, classical	outbreak
+outbreak:939	Scrapie	outbreak
+outbreak:685	Hepatitis C	outbreak
+outbreak:757	Salmonellosis	outbreak
+outbreak:799	Vibriosis	outbreak
+outbreak:1234	Malaria, artemisinin resistance	outbreak
+outbreak:346	Avian influenza	outbreak
+outbreak:113	West Nile Virus	outbreak
+outbreak:183	Hemorrhagic fever, Ebola	outbreak
+outbreak:1379	MERS-CoV	outbreak
+outbreak:500	Avian influenza	outbreak
+outbreak:1626	Murray Valley encephalitis, Ross River	outbreak
+outbreak:655	Influenza A (H1N1)	outbreak
+outbreak:425	Hepatitis B & C	outbreak
+outbreak:1318	Ebola hemorrhagic fever	outbreak
+outbreak:744	Avian influenza	outbreak
+outbreak:979	Avian Influenza	outbreak
+outbreak:133	Meningococcal meningitis	outbreak
+outbreak:208	Ebola virus disease	outbreak
+outbreak:119	Middle East respiratory syndrome	outbreak
+outbreak:1204	Avian influenza	outbreak
+outbreak:1197	Ebola virus disease	outbreak
+outbreak:214	Influenza pandemic (H1N1)	outbreak
+outbreak:1398	West Nile Virus	outbreak
+outbreak:176	Avian Influenza	outbreak
+outbreak:253	Leishmaniasis	outbreak
+outbreak:276	Yellow fever	outbreak
+outbreak:499	Streptococcus, group A, scarlet fever	outbreak
+outbreak:1387	Plague	outbreak
+outbreak:602	Swine fever	outbreak
+outbreak:1395	Avian influenza, human H7N9	outbreak
+outbreak:36	"Influenza A (H1N1) ""swine flu"""	outbreak
+outbreak:897	Avian influenza	outbreak
+outbreak:480	Eastern & Venezuelan equine encephalitis	outbreak
+outbreak:1205	Vesicular stomatitis	outbreak
+outbreak:1014	St. Louis encephalitis	outbreak
+outbreak:1138	Avian influenza	outbreak
+outbreak:251	Potato wart disease	outbreak
+outbreak:905	Avian influenza, human	outbreak
+outbreak:1093	Avian influenza	outbreak
+outbreak:1427	Avian influenza	outbreak
+outbreak:1614	Ebola hemorrhagic fever	outbreak
+outbreak:924	West Nile Virus	outbreak
+outbreak:1123	Avian influenza	outbreak
+outbreak:1147	Meningococcal meningitis	outbreak
+outbreak:1078	Rift Valley fever	outbreak
+outbreak:130	Severe acute respiratory syndrome	outbreak
+outbreak:997	Newcastle disease, game birds	outbreak
+outbreak:1103	Hepatitis C	outbreak
+outbreak:255	Avian Influenza	outbreak
+outbreak:1468	Bud rot, oil palm & lethal yellows	outbreak
+outbreak:192	BSE Update	outbreak
+outbreak:4	Ebola virus disease	outbreak
+outbreak:1254	West Nile virus	outbreak
+outbreak:1003	Avian influenza	outbreak
+outbreak:1598	Bovine spongiform encephalopathy (BSE)	outbreak
+outbreak:368	Plague	outbreak
+outbreak:1393	Ebola virus disease	outbreak
+outbreak:989	Ebola virus disease	outbreak
+outbreak:103	Avian influenza	outbreak
+outbreak:691	Hepatitis A & B	outbreak
+outbreak:115	Rabies, canine, human	outbreak
+outbreak:1368	Avian influenza	outbreak
+outbreak:1380	Canine influenza	outbreak
+outbreak:1258	Novel coronavirus	outbreak
+outbreak:1054	Ebola virus disease	outbreak
+outbreak:1259	Ebola hemorrhagic fever	outbreak
+outbreak:1252	E. coli O157	outbreak
+outbreak:511	Japanese encephalitis	outbreak
+outbreak:770	Influenza vaccine	outbreak
+outbreak:412	Creutzfeldt-Jakob Disease	outbreak
+outbreak:299	Hepatitis, undefined	outbreak
+outbreak:441	Anthrax	outbreak
+outbreak:1362	Avian influenza	outbreak
+outbreak:297	MERS-CoV (Middle East respiratory syndrome-related coronavirus)	outbreak
+outbreak:1171	West Nile virus	outbreak
+outbreak:753	Ebola hemorrhagic fever	outbreak
+outbreak:40	Yellow fever	outbreak
+outbreak:65	Influenza pandemic (H1N1), animal health	outbreak
+outbreak:271	Avian influenza	outbreak
+outbreak:1612	Ebola virus disease	outbreak
+outbreak:463	St. Louis encephalitis	outbreak
+outbreak:659	West Nile virus	outbreak
+outbreak:750	MRSA, VRSA	outbreak
+outbreak:631	Plague, bubonic	outbreak
+outbreak:1268	E. coli	outbreak
+outbreak:1435	Ebola virus disease	outbreak
+outbreak:70	Plague, bubonic	outbreak
+outbreak:1275	Japanese encephalitis	outbreak
+outbreak:478	Ebola virus disease	outbreak
+outbreak:448	Botulism	outbreak
+outbreak:1038	Japanese encephalitis	outbreak
+outbreak:1162	West Nile virus	outbreak
+outbreak:1464	Avian influenza	outbreak
+outbreak:1596	Hantavirus	outbreak
+outbreak:17	Severe acute respiratory syndrome	outbreak
+outbreak:800	Bacterial canker, kiwifruit	outbreak
+outbreak:1113	Middle East Respiratory Syndrome Coronavirus (MERS-CoV)	outbreak
+outbreak:1267	Creutzfeldt-Jakob disease	outbreak
+outbreak:852	Middle East Respiratory Syndrome, MERS-CoV	outbreak
+outbreak:380	Leishmaniasis	outbreak
+outbreak:678	Japanese encephalitis & other	outbreak
+outbreak:1118	Influenza A	outbreak
+outbreak:1346	Rabies	outbreak
+outbreak:1625	Hepatitis	outbreak
+outbreak:848	Avian Influenza	outbreak
+outbreak:53	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:932	Sheep pox and goat pox	outbreak
+outbreak:1550	Avian influenza, H5N6	outbreak
+outbreak:1027	West Nile virus	outbreak
+outbreak:771	Ebola hemorrhagic fever	outbreak
+outbreak:722	Influenza A	outbreak
+outbreak:325	Influenza A	outbreak
+outbreak:1063	Avian influenza	outbreak
+outbreak:1002	Avian influenza	outbreak
+outbreak:348	Foot & mouth disease, ovine	outbreak
+outbreak:951	Leishmaniasis	outbreak
+outbreak:519	Ross River virus, Barmah Forest virus	outbreak
+outbreak:1357	Influenza A H3N2	outbreak
+outbreak:1151	Influenza pandemic (H1N1)	outbreak
+outbreak:1635	Avian influenza	outbreak
+outbreak:300	Creutzfeldt-Jakob disease (new variant)	outbreak
+outbreak:473	BSE, animal experimentation	outbreak
+outbreak:1108	Leishmaniasis	outbreak
+outbreak:382	Leishmaniasis	outbreak
+outbreak:467	Avian influenza	outbreak
+outbreak:121	Infant botulism	outbreak
+outbreak:811	Bacillus cereus endophthalmitis	outbreak
+outbreak:917	Yellow fever	outbreak
+outbreak:606	Avian influenza, poultry vs migratory birds	outbreak
+outbreak:1057	Plague	outbreak
+outbreak:1375	avian influenza	outbreak
+outbreak:555	Influenza	outbreak
+outbreak:385	MERS-CoV	outbreak
+outbreak:1340	Ebola hemorrhagic fever	outbreak
+outbreak:7	Avian influenza, H7 serotype, poultry	outbreak
+outbreak:755	Botulism	outbreak
+outbreak:911	St. Louis encephalitis virus	outbreak
+outbreak:681	Avian influenza	outbreak
+outbreak:444	Eastern equine encephalitis, Venezuelan equine encephalitis	outbreak
+outbreak:1319	Streptococcus suis	outbreak
+outbreak:1213	CJD	outbreak
+outbreak:1492	Rabies	outbreak
+outbreak:135	Encephalitis, tickborne	outbreak
+outbreak:1210	Botulism, avian	outbreak
+outbreak:495	Bovine Spongiform Encephalopathy (BSE)	outbreak
+outbreak:423	Severe acute respiratory syndrome	outbreak
+outbreak:973	Ebola virus disease	outbreak
+outbreak:1365	Porcine reproductive & respiratory syndrome	outbreak
+outbreak:1	Influenza A (H1N1), Swine flu	outbreak
+outbreak:1023	Leishmaniasis	outbreak
+outbreak:1577	Avian Influenza	outbreak
+outbreak:721	Coronavirus	outbreak
+outbreak:1457	Yellow fever	outbreak
+outbreak:461	Koi herpesvirus disease	outbreak
+outbreak:197	Avian influenza, H7	outbreak
+outbreak:175	E. coli infections	outbreak
+outbreak:1117	Severe acute respiratory syndrome	outbreak
+outbreak:638	Ebola virus disease	outbreak
+outbreak:60	Rift Valley fever	outbreak
+outbreak:1083	Salmonellosis	outbreak
+outbreak:1030	Influenza	outbreak
+outbreak:505	Take-all disease, wheat	outbreak
+outbreak:724	Creutzfeldt-Jakob disease	outbreak
+outbreak:262	Creutzfeldt-Jakob Disease (CJD)	outbreak
+outbreak:85	Ebola virus disease	outbreak
+outbreak:1250	Avian influenza, poultry	outbreak
+outbreak:190	St. Louis encephalitis	outbreak
+outbreak:392	Meningococcal meningitis	outbreak
+outbreak:797	Malaria, P. vivax	outbreak
+outbreak:225	BSE, bovine	outbreak
+outbreak:741	Undiagnosed illness,measles	outbreak
+outbreak:914	Avian influenza	outbreak
+outbreak:1286	Avian influenza	outbreak
+outbreak:1592	Avian Influenza	outbreak
+outbreak:1255	Rift Valley fever	outbreak
+outbreak:1017	Middle East respiratory syndrome	outbreak
+outbreak:780	Encephalitis, West Nile Virus (WNV)	outbreak
+outbreak:1424	Salmonellosis	outbreak
+outbreak:453	Hepatitis, undefined	outbreak
+outbreak:28	Anthrax, bison	outbreak
+outbreak:571	Avian influenza, human	outbreak
+outbreak:426	Influenza A	outbreak
+outbreak:1603	Avian influenza	outbreak
+outbreak:326	Tick-borne encephalitis, Lyme disease	outbreak
+outbreak:701	Rotavirus gastroenteritis	outbreak
+outbreak:372	Ebola hemorrhagic fever	outbreak
+outbreak:1386	Novel coronavirus	outbreak
+outbreak:134	Ebola virus disease	outbreak
+outbreak:749	Ebola virus disease	outbreak
+outbreak:1042	Clostridium chauvoei	outbreak
+outbreak:104	Ebola virus disease	outbreak
+outbreak:422	Meningitis, meningococcal	outbreak
+outbreak:683	Ross River virus	outbreak
+outbreak:1137	BSE, bovine	outbreak
+outbreak:1186	Avian influenza	outbreak
+outbreak:19	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:599	Ebola hemorrhagic fever	outbreak
+outbreak:54	Avian influenza	outbreak
+outbreak:71	Ebola virus disease	outbreak
+outbreak:437	Salmonellosis	outbreak
+outbreak:1619	Avian influenza	outbreak
+outbreak:354	Influenza pandemic (H1N1)	outbreak
+outbreak:1075	Avian influenza	outbreak
+outbreak:570	Influenza pandemic (H1N1), animal	outbreak
+outbreak:822	Influenza A(H1N2)v	outbreak
+outbreak:1450	Nipah virus	outbreak
+outbreak:546	Ebola virus disease	outbreak
+outbreak:219	Creutzfeldt-Jakob Disease	outbreak
+outbreak:1448	Avian influenza	outbreak
+outbreak:1184	Avian influenza	outbreak
+outbreak:539	Leishmaniasis, visceral	outbreak
+outbreak:1567	Influenza	outbreak
+outbreak:209	Avian influenza	outbreak
+outbreak:1201	Botulism	outbreak
+outbreak:785	Equine herpesvirus, equine	outbreak
+outbreak:1310	Influenza H3N2v	outbreak
+outbreak:878	Influenzavirus A	outbreak
+outbreak:1149	Leptospirosis	outbreak
+outbreak:578	Middle East Respiratory Syndrome (MERS-CoV)	outbreak
+outbreak:1139	Amebic meningoencephalitis	outbreak
+outbreak:557	Meningococcal meningitis	outbreak
+outbreak:1415	Ebola virus disease	outbreak
+outbreak:1198	Salmonellosis	outbreak
+outbreak:915	Human enterovirus D68	outbreak
+outbreak:603	West Nile virus	outbreak
+outbreak:1176	Avian influenza, H7, LPAI	outbreak
+outbreak:1314	BSE, bovine	outbreak
+outbreak:1262	Creutzfeldt-Jakob Disease	outbreak
+outbreak:656	Ebola virus disease	outbreak
+outbreak:762	BSE	outbreak
+outbreak:191	Avian Influenza	outbreak
+outbreak:944	Leishmaniasis	outbreak
+outbreak:31	Avian influenza	outbreak
+outbreak:820	Leishmaniasis	outbreak
+outbreak:1332	Influenza A (H1N1)	outbreak
+outbreak:1129	St. Louis encephalitis virus	outbreak
+outbreak:626	Foot & mouth disease, porcine	outbreak
+outbreak:455	Ebola virus disease	outbreak
+outbreak:1223	Ebola virus disease	outbreak
+outbreak:1091	Ebola virus disease	outbreak
+outbreak:1007	Avian influenza	outbreak
+outbreak:126	Aspergillus meningitis	outbreak
+outbreak:268	Hepatitis B, Hepatitis C, HIV	outbreak
+outbreak:503	Lyme disease, anaplasmosis	outbreak
+outbreak:84	Foot and mouth disease	outbreak
+outbreak:122	Avian influenza	outbreak
+outbreak:1166	Rift Valley fever	outbreak
+outbreak:671	Ebola hemorrhagic fever	outbreak
+outbreak:596	Ebola virus disease	outbreak
+outbreak:652	Hantavirus infection	outbreak
+outbreak:708	West Nile virus	outbreak
+outbreak:789	Coronavirus	outbreak
+outbreak:1174	Ebola hemorrhagic fever	outbreak
+outbreak:824	African Trypanosomiasis	outbreak
+outbreak:173	Bovine Spongiform Encephalopathy (BSE)	outbreak
+outbreak:1061	Bovine tuberculosis	outbreak
+outbreak:1032	Plague, bubonic	outbreak
+outbreak:466	Foot & mouth disease	outbreak
+outbreak:1069	Rift Valley fever	outbreak
+outbreak:704	Cronobacteriosis, salmonellosis	outbreak
+outbreak:1222	Ebola hemorrhagic fever	outbreak
+outbreak:502	Foot & mouth disease	outbreak
+outbreak:1608	E. coli	outbreak
+outbreak:1191	Ebola virus disease	outbreak
+outbreak:102	Botulism	outbreak
+outbreak:22	West Nile Virus	outbreak
+outbreak:835	BSE & CJD	outbreak
+outbreak:941	Ebola virus disease	outbreak
+outbreak:1253	Hemorrhagic fever, Marburg virus	outbreak
+outbreak:1366	Avian Influenza	outbreak
+outbreak:0	Avian influenza	outbreak
+outbreak:758	Avian influenza	outbreak
+outbreak:1324	Ebola virus disease	outbreak
+outbreak:836	Creutzfeldt-Jakob disease (new variant)	outbreak
+outbreak:586	Ebola virus disease	outbreak
+outbreak:510	Trypanosomiasis, African	outbreak
+outbreak:748	Influenza pandemic (H1N1)	outbreak
+outbreak:866	BSE	outbreak
+outbreak:397	Hepatitis C, HIV	outbreak
+outbreak:1071	Malaria, P. vivax	outbreak
+outbreak:1479	CJD (new variant.), tissue survey	outbreak
+outbreak:45	Avian Influenza	outbreak
+outbreak:730	Avian influenza	outbreak
+outbreak:982	Avian influenza, human	outbreak
+outbreak:1498	Severe acute respiratory syndrome	outbreak
+outbreak:1236	Ephemeral fever	outbreak
+outbreak:715	Avian influenza	outbreak
+outbreak:1244	Ross River virus	outbreak
+outbreak:152	CJD (new variant)	outbreak
+outbreak:545	Hantavirus infection	outbreak
+outbreak:658	Middle East respiratory syndrome coronavirus (MERS-CoV)	outbreak
+outbreak:583	Middle East respiratory syndrome coronavirus (MERS-CoV)	outbreak
+outbreak:677	Avian influenza	outbreak
+outbreak:904	Avian influenza	outbreak
+outbreak:854	Plague, bubonic	outbreak
+outbreak:1077	Q fever	outbreak
+outbreak:1021	Ebola virus disease	outbreak
+outbreak:201	Avian Influenza	outbreak
+outbreak:272	BSE: The Brain Eater	outbreak
+outbreak:401	Ebola virus disease	outbreak
+outbreak:740	Ebola hemorrhagic fever	outbreak
+outbreak:1373	BSE/CJD	outbreak
+outbreak:918	Botulism	outbreak
+outbreak:567	Avian influenza	outbreak
+outbreak:1500	Ebola virus disease	outbreak
+outbreak:1260	BSE, bovine spongiform encephalopathy	outbreak
+outbreak:893	Hepatitis B, Hepatitis C	outbreak
+outbreak:421	CJD	outbreak
+outbreak:1064	Avian influenza	outbreak
+outbreak:1377	Avian influenza, Human influenza	outbreak
+outbreak:1125	Unexplained deaths, Nipah virus	outbreak
+outbreak:172	Leishmaniasis	outbreak
+outbreak:1633	Tick paralysis	outbreak
+outbreak:396	Hemorrhagic fever with renal syndrome	outbreak
+outbreak:1315	Ebola virus disease	outbreak
+outbreak:855	Anthrax letters	outbreak
+outbreak:1161	Salmonellosis	outbreak
+outbreak:1582	Avian influenza	outbreak
+outbreak:1084	Avian influenza	outbreak
+outbreak:233	Leishmaniasis	outbreak
+outbreak:1472	West Nile virus	outbreak
+outbreak:1499	Avian influenza	outbreak
+outbreak:1618	Ebola virus disease	outbreak
+outbreak:199	Influenza A(H3N2)v	outbreak
+outbreak:433	Scrapie	outbreak
+outbreak:535	Ebola virus disease	outbreak
+outbreak:1409	Scrapie	outbreak
+outbreak:969	Ross River virus	outbreak
+outbreak:553	Group A Streptococcus, Scarlet fever	outbreak
+outbreak:1290	Avian influenza	outbreak
+outbreak:27	Creutzfeldt-Jakob Disease, Bovine Spongiform Encephalopathy	outbreak
+outbreak:375	Ebola hemorrhagic fever	outbreak
+outbreak:360	BSE	outbreak
+outbreak:92	Swine fever, classical	outbreak
+outbreak:361	Rabies, canine	outbreak
+outbreak:526	Ebola virus disease	outbreak
+outbreak:524	Lumpy skin disease, bovine	outbreak
+outbreak:267	Middle East Respiratory Syndrome coronavirus	outbreak
+outbreak:1397	Streptococcus, group A, scarlet fever	outbreak
+outbreak:788	Meningitis, meningococcal	outbreak
+outbreak:1206	Ebola virus disease	outbreak
+outbreak:363	Influenza pandemic (H1N1) 2009	outbreak
+outbreak:868	BSE, bovine	outbreak
+outbreak:931	Equine influenza	outbreak
+outbreak:1519	CJD (new variant)	outbreak
+outbreak:1329	Leptospirosis	outbreak
+outbreak:62	Middle East respiratory syndrome coronavirus	outbreak
+outbreak:205	Escherichia coli O157	outbreak
+outbreak:37	Middle East respiratory syndrome coronavirus (MERS-CoV)	outbreak
+outbreak:87	Swine fever, classical	outbreak
+outbreak:319	Ebola hemorrhagic fever	outbreak
+outbreak:349	Avian Influenza	outbreak
+outbreak:1413	Hepatitis A & E	outbreak
+outbreak:470	Ebola virus disease	outbreak
+outbreak:1571	Leishmaniasis	outbreak
+outbreak:1575	Yellow fever	outbreak
+outbreak:38	Avian influenza, HPAI H5N6	outbreak
+outbreak:358	Yellow fever	outbreak
+outbreak:648	Swine fever, classical	outbreak
+outbreak:373	Creutzfeldt-Jakob disease	outbreak
+outbreak:1025	West Nile virus	outbreak
+outbreak:875	Avian influenza	outbreak
+outbreak:1432	BSE	outbreak
+outbreak:14	Middle East Respiratory Syndrome-Coronavirus	outbreak
+outbreak:124	Leishmaniasis	outbreak
+outbreak:728	Avian influenza	outbreak
+outbreak:501	Avian influenza	outbreak
+outbreak:1081	West Nile virus	outbreak
+outbreak:588	Leishmaniasis	outbreak
+outbreak:479	Leishmaniasis	outbreak
+outbreak:316	Ebola virus disease	outbreak
