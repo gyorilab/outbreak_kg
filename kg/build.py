@@ -34,6 +34,10 @@ exclude_list = {'Disease', 'Health', 'Affected', 'control', 'Animals',
                 'Epidemiology', 'Names', 'submitted', 'Laboratories',
                 'Disease Outbreaks', 'Central', 'strain'}
 
+outbreak_df = pd.read_csv('../output/promed_updates.csv',
+                              dtype={"archiveNumber":str})
+outbreak_df["archiveNumber"] = outbreak_df["archiveNumber"].apply(
+    lambda archive_number: archive_number.replace("\"", ""))
 
 def assemble_coocurrence():
     with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
@@ -49,8 +53,8 @@ def assemble_coocurrence():
                 continue
             for a_, b_ in ((a, b), (b, a)):
                 if (is_geoloc(a_[0], a_[1]) and is_pathogen(b_[0], b_[1])) \
-                        or (is_disease(a_[0], a_[1]) and is_pathogen(b_[0], b_[1])) \
-                        or (is_geoloc(a_[0], a_[1]) and is_disease(b_[0], b_[1])):
+                    or (is_disease(a_[0], a_[1]) and is_pathogen(b_[0], b_[1])) \
+                    or (is_geoloc(a_[0], a_[1]) and is_disease(b_[0], b_[1])):
                     interesting_pairs.append((tuple(a), tuple(b)))
             pairs.append((tuple(a), tuple(b)))
 
@@ -119,6 +123,27 @@ def assemble_mesh_hierarchy():
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([node_header] + list(nodes))
 
+def assemble_outbreak_nodes():
+    nodes = set()
+    edges = set()
+    added_outbreak_nodes_index = set()
+    for _, row in outbreak_df.iterrows():
+        outbreak_id = row["ID"]
+        outbreak_name = row["outbreakName"]
+        if outbreak_id not in added_outbreak_nodes_index:
+            added_outbreak_nodes_index.add(outbreak_id)
+            nodes.add((f"outbreak:{outbreak_id}", outbreak_name, 'outbreak'))
+        archive_number = row["archiveNumber"]
+        edges.add((f'promed:{archive_number}', 'has_outbreak',
+                   f"outbreak:{outbreak_id}"))
+    node_header = ['curie:ID', 'name:string', ':LABEL']
+    edge_header = [':START_ID', ':TYPE', ':END_ID']
+    with open('../kg/promed_outbreak_nodes.tsv', 'w') as fh:
+        writer = csv.writer(fh, delimiter='\t')
+        writer.writerows([node_header] + list(nodes))
+    with open('../kg/promed_alert_outbreak_edges.tsv', 'w') as fh:
+        writer = csv.writer(fh, delimiter='\t')
+        writer.writerows([edge_header] + list(edges))
 
 def assemble_alert_relations():
     with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
@@ -126,14 +151,21 @@ def assemble_alert_relations():
     nodes = set()
     edges = set()
     for archive_number, extractions in terms_by_alert.items():
-        nodes.add((f'promed:{archive_number}', archive_number, 'alert'))
+        matching_alerts_df = outbreak_df[outbreak_df["archiveNumber"] ==
+                                         archive_number]
+        if matching_alerts_df.shape[0] > 0:
+            time_stamp = str(matching_alerts_df.iloc[0]["datePublished"])
+        else:
+            time_stamp = ""
+        nodes.add((f'promed:{archive_number}', archive_number, time_stamp,
+                   'alert'))
         for ns, id, entry_name in extractions:
             if entry_name in exclude_list:
                 continue
             if ns == 'MESH':
                 if is_disease(ns, id) or is_pathogen(ns, id) or is_geoloc(ns, id):
                     edges.add((f'promed:{archive_number}', 'mentions', f'MESH:{id}'))
-    node_header = ['curie:ID', 'name:string', ':LABEL']
+    node_header = ['curie:ID', 'name:string', 'timestamp:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
     with open('../kg/promed_alert_nodes.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
@@ -141,7 +173,6 @@ def assemble_alert_relations():
     with open('../kg/promed_alert_edges.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([edge_header] + list(edges))
-
 
 def assemble_pathogen_disease_relations():
     import pyobo
@@ -187,6 +218,7 @@ def assemble_disease_symptom_relations():
 
 
 if __name__ == '__main__':
+    assemble_outbreak_nodes()
     assemble_alert_relations()
     assemble_mesh_hierarchy()
     assemble_pathogen_disease_relations()

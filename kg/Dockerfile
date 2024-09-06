@@ -71,6 +71,8 @@ COPY promed_alert_nodes.tsv /sw/promed_alert_nodes.tsv
 COPY promed_alert_edges.tsv /sw/promed_alert_edges.tsv
 COPY disease_phenotype_edges.tsv /sw/disease_phenotype_edges.tsv
 COPY pathogen_disease_edges.tsv /sw/pathogen_disease_edges.tsv
+COPY promed_alert_outbreak_edges.tsv /sw/promed_alert_outbreak_edges.tsv
+COPY promed_outbreak_nodes.tsv /sw/promed_outbreak_nodes.tsv
 
 # Ingest graph content into neo4j
 RUN sed -i 's/#dbms.default_listen_address/dbms.default_listen_address/' /etc/neo4j/neo4j.conf
@@ -81,7 +83,11 @@ RUN neo4j-admin import --delimiter='TAB' --skip-duplicate-nodes=true --skip-bad-
     --relationships /sw/promed_alert_edges.tsv \
     --nodes /sw/promed_alert_nodes.tsv \
     --relationships /sw/disease_phenotype_edges.tsv \
-    --relationships /sw/pathogen_disease_edges.tsv
+    --relationships /sw/pathogen_disease_edges.tsv \
+    --nodes /sw/promed_outbreak_nodes.tsv \
+    --relationships /sw/promed_alert_outbreak_edges.tsv
+
+
 
 
 ENV DOCKERIZED="TRUE"
