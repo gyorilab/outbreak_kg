@@ -163,10 +163,8 @@ def assemble_alert_relations():
             if entry_name in exclude_list:
                 continue
             if ns == 'MESH':
-                if is_disease(ns, id) or is_pathogen(ns, id) or is_geoloc(ns,
-                                                                          id):
-                    edges.add(
-                        (f'promed:{archive_number}', 'mentions', f'MESH:{id}'))
+                if is_disease(ns, id) or is_pathogen(ns, id) or is_geoloc(ns, id):
+                    edges.add((f'promed:{archive_number}', 'mentions', f'MESH:{id}'))
     node_header = ['curie:ID', 'name:string', 'timestamp:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
     with open('../kg/promed_alert_nodes.tsv', 'w') as fh:
