@@ -34,14 +34,10 @@ exclude_list = {'Disease', 'Health', 'Affected', 'control', 'Animals',
                 'Epidemiology', 'Names', 'submitted', 'Laboratories',
                 'Disease Outbreaks', 'Central', 'strain'}
 
-outbreak_df = pd.read_excel('../output/promed_updates.xlsx',
-                            dtype={"archiveNumber": str})
-
-# Pre-process alert archive numbers and remove invalid outbreak entries
+outbreak_df = pd.read_csv('../output/promed_updates.csv',
+                              dtype={"archiveNumber":str})
 outbreak_df["archiveNumber"] = outbreak_df["archiveNumber"].apply(
     lambda archive_number: archive_number.replace("\"", ""))
-outbreak_df = outbreak_df[outbreak_df['ID'].apply(lambda x: isinstance(x, int))]
-
 
 def assemble_coocurrence():
     with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
@@ -160,7 +156,7 @@ def assemble_alert_relations():
         if matching_alerts_df.shape[0] > 0:
             time_stamp = str(matching_alerts_df.iloc[0]["datePublished"])
         else:
-            time_stamp = "N/A"
+            time_stamp = ""
         nodes.add((f'promed:{archive_number}', archive_number, time_stamp,
                    'alert'))
         for ns, id, entry_name in extractions:
@@ -179,7 +175,6 @@ def assemble_alert_relations():
     with open('../kg/promed_alert_edges.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([edge_header] + list(edges))
-
 
 def assemble_pathogen_disease_relations():
     import pyobo
