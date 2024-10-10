@@ -1,9 +1,10 @@
 from flask import Flask, request, jsonify
-from client import client
+from client import Neo4jClient
 
 import neo4j
 
 app = Flask(__name__)
+client = Neo4jClient()
 
 
 @app.route("/search", methods=["POST"])
@@ -15,7 +16,7 @@ def search():
     symptom = request.json.get("symptom")
 
     search_results = client.query_graph(disease, geolocation, pathogen,
-                                      timestamp, symptom)
+                                        timestamp, symptom)
     return_value = {}
     for path_index, path in enumerate(search_results):
         return_value[path_index] = []
