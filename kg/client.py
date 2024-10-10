@@ -52,35 +52,34 @@ class Neo4jClient:
         timestamp: str = None,
         symptom: str = None,
     ):
-        included_labels = []
-        included_names = []
         where_clauses = []
-        search_query = "MATCH (n)-[r_m:mentions]->(m)"
+        search_query = "MATCH (n)-[:mentions]->(m)"
         query_parameters = {}
-        if timestamp is not None:
-            query_parameters["timestamp"] = timestamp
-            where_clauses.append("n.timestamp = $timestamp")
+        return_value = ' RETURN n, '
+        # TODO: add isa* relationships for all filters
+        # TODO: symptoms: it's either mentioned just like a disease or a symptom of a disease which is mentioned
+        # TODO: allow for a limit option
         if disease is not None:
-            included_labels.append("disease")
-            included_names.append(disease)
+            search_query += " MATCH (n)-[r_d:mentions]->(disease:disease {name: $disease})"
+            query_parameters["disease"] = disease
+            return_value += 'r_d, disease, '
         if geolocation is not None:
-            included_labels.append("geoloc")
-            included_names.append(geolocation)
+            search_query += " MATCH (n)-[r_g:mentions]->(geolocation:geolocation {name: $geolocation})"
+            query_parameters["geolocation"] = geolocation
+            return_value += 'r_g, geolocation, '
         if pathogen is not None:
-            included_labels.append("pathogen")
-            included_names.append(pathogen)
-        if included_labels and included_names:
-            query_parameters["labels"] = included_labels
-            query_parameters["names"] = included_names
-            where_clauses.append(
-                "m.name IN $names AND ANY(label IN labels(m) WHERE label IN $labels)")
+            search_query += " MATCH (n)-[r_p:mentions]->(pathogen:pathogen {name: $pathogen})"
+            query_parameters["pathogen"] = pathogen
+            return_value += 'r_p, pathogen, '
+        if timestamp is not None:
+            where_clauses.append("n.timestamp = $timestamp")
+            query_parameters["timestamp"] = timestamp
         if where_clauses:
             search_query += " WHERE " + " AND ".join(where_clauses)
         if symptom is not None:
+            search_query += " OPTIONAL MATCH (disease:disease)-[r_ph:has_phenotype]->({symptom:disease {name: $symptom}})"
             query_parameters["symptom"] = symptom
-            search_query += " OPTIONAL MATCH (m)-[r_ph:has_phenotype]->(ph)"
-            search_query += " WHERE ph.name = $symptom"
-        search_query += " RETURN n, r_m, m, r_ph, ph"
+        search_query += return_value
 
         return self.query_tx(search_query, **query_parameters)
 
@@ -89,6 +88,3 @@ class Neo4jClient:
 def do_cypher_tx(tx: Transaction, query: str, **query_params) -> List[List]:
     result = tx.run(query, parameters=query_params)
     return [record.values() for record in result]
-
-
-client = Neo4jClient()
