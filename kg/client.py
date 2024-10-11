@@ -53,7 +53,7 @@ class Neo4jClient:
         symptom: str = None,
         limit: int = None
     ):
-        search_query = "MATCH (n)-[:mentions]->(m)"
+        search_query = "MATCH (n:alert)-[:mentions]->(m)"
         query_parameters = {}
         return_value = " RETURN n"
         if timestamp is not None:
