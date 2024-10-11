@@ -7,16 +7,18 @@ app = Flask(__name__)
 client = Neo4jClient()
 
 
-@app.route("/search", methods=["POST"])
+@app.route("/search", methods=["GET"])
 def search():
     disease = request.json.get("disease")
     geolocation = request.json.get("geolocation")
     pathogen = request.json.get("pathogen")
     timestamp = request.json.get("timestamp")
     symptom = request.json.get("symptom")
+    limit = request.json.get("limit")
 
-    search_results = client.query_graph(disease, geolocation, pathogen,
-                                        timestamp, symptom)
+    search_results = client.query_graph(
+        disease, geolocation, pathogen, timestamp, symptom, limit
+    )
     return_value = {}
     for path_index, path in enumerate(search_results):
         return_value[path_index] = []
