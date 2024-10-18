@@ -199,7 +199,6 @@ def assemble_pathogen_disease_relations():
     with open('../kg/pathogen_disease_edges.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([[':START_ID', ':TYPE', ':END_ID']] + list(edges))
-    pass
 
 
 def assemble_disease_symptom_relations():
