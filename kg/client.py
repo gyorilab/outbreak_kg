@@ -60,47 +60,29 @@ class Neo4jClient:
             search_query += " WHERE n.timestamp = $timestamp"
             query_parameters["timestamp"] = timestamp
         if disease is not None:
-            search_query += (
-                " MATCH (n)-[r_d:mentions]->(disease:disease {name:$disease})<-[:isa*0..]-(disease_isa:disease)"
-            )
+            search_query += " MATCH (n:alert)-[r_d:mentions]->(disease:disease)-[:isa*0..]->(disease_isa:disease {name: $disease})"
             query_parameters["disease"] = disease
             return_value += ", r_d, disease, disease_isa"
         if geolocation is not None:
             search_query += (
-                " MATCH (n)-[r_g:mentions]->(geolocation:geoloc {name:$geolocation})<-[:isa*0..]-(geolocation_isa:geoloc)"
+                " MATCH (n:alert)-[r_g:mentions]->(geolocation:geoloc)-[:isa*0..]->(geolocation_isa:geoloc {name: $geolocation})"
             )
             query_parameters["geolocation"] = geolocation
             return_value += ", r_g, geolocation, geolocation_isa"
         if pathogen is not None:
             search_query += (
-                " MATCH (n)-[r_p:mentions]->(pathogen:pathogen {name:$pathogen})<-[:isa*0..]-(pathogen_isa:pathogen)"
+                " MATCH (n:alert)-[r_p:mentions]->(pathogen:pathogen)-[:isa*0..]->(pathogen_isa:pathogen {name: $pathogen})"
             )
             query_parameters["pathogen"] = pathogen
             return_value += ", r_p, pathogen, pathogen_isa"
         if symptom is not None:
-            return_value += ", r_s, symptom, symptom_isa"
-            first_search_query, second_search_query = search_query, search_query
-            first_search_query += (" OPTIONAL MATCH (disease:disease)-["
-                             "r_s:has_phenotype]->(symptom:disease {name: "
-                             "$symptom})<-[:isa*0..]-(symptom_isa:disease)"
-                             )
-            first_search_query += return_value
-            second_search_query += (" OPTIONAL MATCH (n)-[r_s:mentions]->("
-                             "symptom:disease {name:$symptom})<-[:isa*0..]-("
-                             "symptom_isa:disease) "
-                             )
-            second_search_query += return_value
-            if limit:
-                first_search_query += f" LIMIT {limit}"
-                second_search_query += f" LIMIT {limit}"
-                search_query = first_search_query + " UNION " + second_search_query
-            else:
-                search_query = first_search_query + " UNION " + second_search_query
+            search_query += " MATCH (n)-[r_s:mentions]->(symptom:disease)-[:has_phenotype|isa*0..]->(symptom_isa:disease {name:$symptom})"
             query_parameters["symptom"] = symptom
-        else:
-            search_query += return_value
-            if limit:
-                search_query += f" LIMIT {limit}"
+            return_value += ", r_s, symptom, symptom_isa"
+        search_query += return_value
+        if limit :
+            search_query += f" LIMIT {limit}"
+        breakpoint()
         return self.query_tx(search_query, **query_parameters)
 
 
