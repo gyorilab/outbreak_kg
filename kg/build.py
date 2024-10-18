@@ -7,6 +7,8 @@ import pandas as pd
 from indra.databases import mesh_client
 from indra.ontology.bio import bio_ontology
 
+from constants import WORLD_BANK_MESH_COUNTRY_MAPPING
+
 
 def is_geoloc(x_db, x_id):
     if x_db == 'MESH':
@@ -222,10 +224,14 @@ def assemble_world_dev_indicator_data():
     country_dev_indicator_df = pd.read_csv(
         "../kg/world_dev_indicator_data.tsv", sep="\t"
     )
+
+    #Ground World Bank country/region terms using Mesh terms
+    country_dev_indicator_df["Country Name"] = country_dev_indicator_df["Country Name"].map(
+        WORLD_BANK_MESH_COUNTRY_MAPPING).fillna(country_dev_indicator_df['Country Name'])
     node_header = ["curie:ID", "name:string", ":LABEL"]
     edge_header = [":START_ID", "years_data:string", ":TYPE", ":END_ID"]
 
-    # Filter out countries that can't be grounded to Mesh nodes
+    # Filter out countries that can't be grounded to Mesh terms
     country_dev_indicator_df = pd.merge(
         country_dev_indicator_df,
         mesh_node_df[mesh_node_df[":LABEL"] == "geoloc"],
