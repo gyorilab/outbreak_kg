@@ -82,7 +82,6 @@ class Neo4jClient:
         search_query += return_value
         if limit :
             search_query += f" LIMIT {limit}"
-        breakpoint()
         return self.query_tx(search_query, **query_parameters)
 
 
