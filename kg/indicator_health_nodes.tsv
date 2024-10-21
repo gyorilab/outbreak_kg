@@ -1,0 +1,177 @@
+curie:ID	name:string	:LABEL
+whi:SP.POP.AG08.MA.IN	Age population, age 08, male	indicator
+whi:SP.POP.AG25.MA.IN	Age population, age 25, male	indicator
+whi:SH.MLR.IPTP.ZS	Intermittent preventive treatment (IPT) of malaria in pregnancy (% of pregnant women)	indicator
+whi:SH.DTH.MORT.MA	Number of under-five deaths, male	indicator
+whi:SP.POP.AG23.FE.IN	Age population, age 23, female	indicator
+whi:SP.POP.6569.FE	Population ages 65-69, female	indicator
+whi:SP.POP.AG11.MA.IN	Age population, age 11, male	indicator
+whi:SP.POP.AG22.MA.IN	Age population, age 22, male	indicator
+whi:SP.POP.AG05.MA.IN	Age population, age 05, male	indicator
+whi:SH.UHC.OOPC.10.TO	Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure	indicator
+whi:SH.HTN.PREV.MA.ZS	Prevalence of hypertension, male (% of male adults ages 30-79)	indicator
+whi:SP.POP.AG17.FE.IN	Age population, age 17, female	indicator
+whi:SP.POP.AG20.MA.IN	Age population, age 20, male	indicator
+whi:SH.DTH.1019.FE	Number of deaths ages 10-19 years, female	indicator
+whi:SH.STA.TRAF.FE.P5	Mortality caused by road traffic injury, female (per 100,000 female population)	indicator
+whi:SI.POV.URHC	Urban poverty headcount ratio at national poverty lines (% of urban population)	indicator
+whi:SH.UHC.NOP1.TO	Number of people pushed below the $2.15 ($ 2017 PPP) poverty line by out-of-pocket health care expenditure	indicator
+whi:SH.CON.AIDS.FE.ZS	Condom use at last high-risk sex, adult female (% ages 15-49)	indicator
+whi:SH.UHC.FBP2.TO	Number of people pushed further below the $3.65 ($ 2017 PPP) poverty line by out-of-pocket health care expenditure	indicator
+whi:SN.ITK.DEFC	Number of people who are undernourished	indicator
+whi:SH.DTH.0509.FE	Number of deaths ages 5-9 years, female	indicator
+whi:SP.POP.AG21.FE.IN	Age population, age 21, female	indicator
+whi:SP.POP.AG24.FE.IN	Age population, age 24, female	indicator
+whi:SP.POP.80UP.MA	Population ages 80 and above, male	indicator
+whi:SH.STA.ANV4.ZS	Pregnant women receiving prenatal care of at least four visits (% of pregnant women)	indicator
+whi:SH.DYN.1519.MA	Probability of dying among adolescents ages 15-19 years, male (per 1,000)	indicator
+whi:SH.XPD.EHEX.EH.ZS	External health expenditure channeled through government (% of external health expenditure)	indicator
+whi:SP.POP.AG01.MA.IN	Age population, age 01, male	indicator
+whi:SH.DYN.1014.MA	Probability of dying among adolescents ages 10-14 years, male (per 1,000)	indicator
+whi:SH.DTH.IMRT.FE	Number of infant deaths, female	indicator
+whi:SH.STA.MALR	Malaria cases reported	indicator
+whi:SP.POP.6064.MA	Population ages 60-64, male	indicator
+whi:SP.POP.AG17.MA.IN	Age population, age 17, male	indicator
+whi:SI.POV.RUHC	Rural poverty headcount ratio at national poverty lines (% of rural population)	indicator
+whi:SP.POP.AG12.MA.IN	Age population, age 12, male	indicator
+whi:SP.POP.AG13.MA.IN	Age population, age 13, male	indicator
+whi:SP.POP.AG14.MA.IN	Age population, age 14, male	indicator
+whi:SP.POP.AG15.FE.IN	Age population, age 15, female	indicator
+whi:SP.POP.3539.MA	Population ages 35-39, male	indicator
+whi:SH.STA.PNVC.ZS	Postnatal care coverage (% mothers)	indicator
+whi:SH.HTN.TRET.MA.ZS	Treatment for hypertension, male (% of male adults ages 30-79 with hypertension)	indicator
+whi:SP.POP.0004.MA	Population ages 00-04, male	indicator
+whi:SP.POP.4044.MA	Population ages 40-44, male	indicator
+whi:SH.HIV.ORPH	Children orphaned by HIV/AIDS	indicator
+whi:SP.POP.AG19.FE.IN	Age population, age 19, female	indicator
+whi:SH.UHC.TOTR.TO	Number of people pushed or further pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure	indicator
+whi:SP.POP.0509.MA	Population ages 05-09, male	indicator
+whi:SH.HTN.PREV.ZS	Prevalence of hypertension (% of adults ages 30-79)	indicator
+whi:SP.POP.AG02.MA.IN	Age population, age 02, male	indicator
+whi:SP.DYN.CONM.SA.ZS	Contraceptive prevalence, any modern method (% of sexually active unmarried women ages 15-49)	indicator
+whi:SP.POP.AG01.FE.IN	Age population, age 01, female	indicator
+whi:SH.STA.IYCF.ZS	Infant and young child feeding practices, all 3 IYCF (% children ages 6-23 months)	indicator
+whi:SP.DYN.SMAM.MA	Age at first marriage, male	indicator
+whi:SP.POP.2024.MA	Population ages 20-24, male	indicator
+whi:SH.DTH.1519.FE	Number of deaths ages 15-19 years, female	indicator
+whi:SH.DTH.2024.MA	Number of deaths ages 20-24 years, male	indicator
+whi:SP.POP.AG04.FE.IN	Age population, age 04, female	indicator
+whi:SP.POP.AG09.MA.IN	Age population, age 09, male	indicator
+whi:SP.POP.AG18.MA.IN	Age population, age 18, male	indicator
+whi:SH.HTN.TRET.ZS	Treatment for hypertension (% of adults ages 30-79 with hypertension)	indicator
+whi:SP.POP.AG02.FE.IN	Age population, age 02, female	indicator
+whi:SH.DYN.STLB	Stillbirth rate (per 1,000 total births)	indicator
+whi:SP.POP.5559.FE	Population ages 55-59, female	indicator
+whi:SH.DYN.2024.FE	Probability of dying among youth ages 20-24 years, female (per 1,000)	indicator
+whi:SH.UHC.TOT2.TO	Number of people pushed or further pushed below the $3.65 ($ 2017 PPP) poverty line by out-of-pocket health care expenditure	indicator
+whi:SH.DTH.STLB	Number of stillbirths	indicator
+whi:SP.POP.5054.FE	Population ages 50-54, female	indicator
+whi:SH.DYN.1014.FE	Probability of dying among adolescents ages 10-14 years, female (per 1,000)	indicator
+whi:SH.DYN.0509.FE	Probability of dying among children ages 5-9 years, female (per 1,000)	indicator
+whi:SH.HTN.TRET.FE.ZS	Treatment for hypertension, female (% of female adults ages 30-79 with hypertension)	indicator
+whi:SH.TBS.MORT	Tuberculosis death rate (per 100,000 people)	indicator
+whi:SP.POP.AG06.MA.IN	Age population, age 06, male	indicator
+whi:SP.POP.0509.FE	Population ages 05-09, female	indicator
+whi:SP.POP.AG13.FE.IN	Age population, age 13, female	indicator
+whi:SH.UHC.NOPR.TO	Number of people pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure	indicator
+whi:SP.DYN.CONU.AL.ZS	Contraceptive prevalence, any method (% of all women ages 15-49)	indicator
+whi:SP.POP.AG22.FE.IN	Age population, age 22, female	indicator
+whi:SP.DYN.SMAM.FE	Age at first marriage, female	indicator
+whi:SP.POP.AG03.MA.IN	Age population, age 03, male	indicator
+whi:SP.DYN.CONM.AL.ZS	Contraceptive prevalence, any modern method (% of all women ages 15-49)	indicator
+whi:SP.POP.1014.FE	Population ages 10-14, female	indicator
+whi:SP.POP.0004.FE	Population ages 00-04, female	indicator
+whi:SH.IMM.IBCG	Immunization, BCG (% of one-year-old children)	indicator
+whi:SH.DYN.2024.MA	Probability of dying among youth ages 20-24 years, male (per 1,000)	indicator
+whi:SP.POP.1519.FE	Population ages 15-19, female	indicator
+whi:SP.POP.6569.MA	Population ages 65-69, male	indicator
+whi:SH.DYN.AIDS.DH	AIDS estimated deaths (UNAIDS estimates)	indicator
+whi:SP.POP.AG20.FE.IN	Age population, age 20, female	indicator
+whi:SH.DTH.IMRT.MA	Number of infant deaths, male	indicator
+whi:SH.DYN.1019.FE	Probability of dying among adolescents ages 10-19 years, female (per 1,000)	indicator
+whi:SH.DTH.0509.MA	Number of deaths ages 5-9 years, male	indicator
+whi:SH.UHC.NOP2.TO	Number of people pushed below the $3.65 ($ 2017 PPP) poverty line by out-of-pocket health care expenditure	indicator
+whi:SH.STA.WASH.FE.P5	Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene, female (per 100,000 female population)	indicator
+whi:SH.IMM.MEA2	Immunization, measles second dose (% of children by the nationally recommended age)	indicator
+whi:SH.MMR.WAGE.ZS	Maternal leave benefits (% of wages paid in covered period)	indicator
+whi:SH.STA.OWAD.ZS	Prevalence of overweight (% of adults)	indicator
+whi:SH.UHC.FBP1.TO	Number of people pushed further below the $2.15 ($ 2017 PPP) poverty line by out-of-pocket health care expenditure	indicator
+whi:SH.STA.OWAD.MA.ZS	Prevalence of overweight, male (% of male adults)	indicator
+whi:SP.POP.AG07.MA.IN	Age population, age 07, male	indicator
+whi:SH.UHC.FBPR.TO	Number of people pushed further below the 60% median consumption poverty line by out-of-pocket health care expenditure	indicator
+whi:SP.POP.AG23.MA.IN	Age population, age 23, male	indicator
+whi:SH.HIV.KNOW.MA.ZS	Comprehensive correct knowledge of HIV/AIDS, ages 15-49, male (2 prevent ways and reject 3 misconceptions)	indicator
+whi:SP.POP.5054.MA	Population ages 50-54, male	indicator
+whi:SH.DYN.0509.MA	Probability of dying among children ages 5-9 years, male (per 1,000)	indicator
+whi:SP.POP.7074.FE	Population ages 70-74, female	indicator
+whi:SP.POP.80UP.FE	Population ages 80 and above, female	indicator
+whi:SL.EMP.INSV.FE.ZS	Share of women employed in the nonagricultural sector (% of total nonagricultural employment)	indicator
+whi:SH.IMM.POL3	Immunization, Pol3 (% of one-year-old children)	indicator
+whi:SP.POP.AG07.FE.IN	Age population, age 07, female	indicator
+whi:SP.POP.AG14.FE.IN	Age population, age 14, female	indicator
+whi:SH.DYN.1519.FE	Probability of dying among adolescents ages 15-19 years, female (per 1,000)	indicator
+whi:SP.POP.AG05.FE.IN	Age population, age 05, female	indicator
+whi:SH.DTH.1019.MA	Number of deaths ages 10-19 years, male	indicator
+whi:SP.POP.AG24.MA.IN	Age population, age 24, male	indicator
+whi:SP.DYN.CONU.SA.ZS	Contraceptive prevalence, any method (% of sexually active unmarried women ages 15-49)	indicator
+whi:SH.UHC.OOPC.25.TO	Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure	indicator
+whi:SP.POP.AG04.MA.IN	Age population, age 04, male	indicator
+whi:SP.POP.AG16.FE.IN	Age population, age 16, female	indicator
+whi:SP.POP.1519.MA	Population ages 15-19, male	indicator
+whi:SP.POP.4549.MA	Population ages 45-49, male	indicator
+whi:SP.POP.2529.MA	Population ages 25-29, male	indicator
+whi:SH.HIV.TOTL	Adults (ages 15+) and children (0-14 years) living with HIV	indicator
+whi:SP.POP.AG21.MA.IN	Age population, age 21, male	indicator
+whi:SH.DTH.1519.MA	Number of deaths ages 15-19 years, male	indicator
+whi:SP.POP.3034.MA	Population ages 30-34, male	indicator
+whi:SP.POP.7579.MA	Population ages 75-79, male	indicator
+whi:SP.POP.AG09.FE.IN	Age population, age 09, female	indicator
+whi:SH.STA.TRAF.MA.P5	Mortality caused by road traffic injury, male (per 100,000 male population)	indicator
+whi:SH.DYN.1019.MA	Probability of dying among adolescents ages 10-19 years, male (per 1,000)	indicator
+whi:SP.POP.AG15.MA.IN	Age population, age 15, male	indicator
+whi:SP.POP.AG19.MA.IN	Age population, age 19, male	indicator
+whi:SH.DTH.2024.FE	Number of deaths ages 20-24 years, female	indicator
+whi:SP.POP.3034.FE	Population ages 30-34, female	indicator
+whi:SP.POP.AG00.MA.IN	Age population, age 00, male	indicator
+whi:SP.POP.2024.FE	Population ages 20-24, female	indicator
+whi:SP.POP.AG03.FE.IN	Age population, age 03, female	indicator
+whi:SH.STA.WASH.MA.P5	Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene, male (per 100,000 male population)	indicator
+whi:SP.POP.6064.FE	Population ages 60-64, female	indicator
+whi:SH.MMR.LEVE	Number of weeks of maternity leave	indicator
+whi:SH.DTH.MORT.FE	Number of under-five deaths, female	indicator
+whi:SP.POP.AG11.FE.IN	Age population, age 11, female	indicator
+whi:SH.DTH.1014.MA	Number of deaths ages 10-14 years, male	indicator
+whi:SH.STA.OWAD.FE.ZS	Prevalence of overweight, female (% of female adults)	indicator
+whi:SP.POP.2529.FE	Population ages 25-29, female	indicator
+whi:SE.ENR.ORPH	Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14	indicator
+whi:SP.POP.AG10.FE.IN	Age population, age 10, female	indicator
+whi:SP.POP.AG12.FE.IN	Age population, age 12, female	indicator
+whi:SH.PRG.SYPH.ZS	Prevalence of syphilis (% of women attending antenatal care)	indicator
+whi:SP.POP.7074.MA	Population ages 70-74, male	indicator
+whi:SP.POP.7579.FE	Population ages 75-79, female	indicator
+whi:SH.XPD.KHEX.GD.ZS	Capital health expenditure (% of GDP)	indicator
+whi:SP.POP.1014.MA	Population ages 10-14, male	indicator
+whi:SH.FPL.SATI.ZS	Demand for family planning satisfied by any methods (% of married women with demand for family planning)	indicator
+whi:SP.POP.AG18.FE.IN	Age population, age 18, female	indicator
+whi:SH.DTH.1014.FE	Number of deaths ages 10-14 years, female	indicator
+whi:SH.HIV.KNOW.FE.ZS	Comprehensive correct knowledge of HIV/AIDS, ages 15-49, female (2 prevent ways and reject 3 misconceptions)	indicator
+whi:SP.POP.AG16.MA.IN	Age population, age 16, male	indicator
+whi:SP.POP.3539.FE	Population ages 35-39, female	indicator
+whi:SH.HTN.PREV.FE.ZS	Prevalence of hypertension, female (% of female adults ages 30-79)	indicator
+whi:SH.HIV.1524.KW.MA.ZS	Comprehensive correct knowledge of HIV/AIDS, ages 15-24, male (2 prevent ways and reject 3 misconceptions)	indicator
+whi:SH.IMM.HIB3	Immunization, Hib3 (% of children ages 12-23 months)	indicator
+whi:SH.HIV.INCD.50.P3	Incidence of HIV, ages 50+ (per 1,000 uninfected population ages 50+)	indicator
+whi:SP.POP.AG10.MA.IN	Age population, age 10, male	indicator
+whi:SP.POP.4044.FE	Population ages 40-44, female	indicator
+whi:SP.POP.AG06.FE.IN	Age population, age 06, female	indicator
+whi:SP.POP.AG00.FE.IN	Age population, age 00, female	indicator
+whi:SP.POP.AG08.FE.IN	Age population, age 08, female	indicator
+whi:SP.POP.AG25.FE.IN	Age population, age 25, female	indicator
+whi:SH.CON.AIDS.MA.ZS	Condom use at last high-risk sex, adult male (% ages 15-49)	indicator
+whi:SH.HIV.1524.KW.FE.ZS	Comprehensive correct knowledge of HIV/AIDS, ages 15-24, female (2 prevent ways and reject 3 misconceptions)	indicator
+whi:SH.DYN.AIDS	Adults (ages 15+) living with HIV	indicator
+whi:SH.UHC.TOT1.TO	Number of people pushed or further pushed below the $2.15 ($ 2017 PPP) poverty line by out-of-pocket health care expenditure	indicator
+whi:SH.DTH.1019	Number of deaths ages 10-19 years	indicator
+whi:SP.POP.5559.MA	Population ages 55-59, male	indicator
+whi:SH.DYN.1019	Probability of dying among adolescents ages 10-19 years (per 1,000)	indicator
+whi:SP.POP.4549.FE	Population ages 45-49, female	indicator
