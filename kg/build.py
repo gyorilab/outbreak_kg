@@ -286,7 +286,7 @@ def assemble_world_indicator_data():
             indicator_year_data_dict[col[:4]] = round(float(val), 3)
         indicator_year_data_string = json.dumps(indicator_year_data_dict)
         country_curie = country_mesh_info.values[0][0]
-        indicator_curie = f"whi:{series_code}"
+        indicator_curie = f"wdi:{series_code}"
         health_nodes.add((indicator_curie, series_name, "indicator"))
         health_edges.add(
             (
