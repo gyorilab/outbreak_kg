@@ -7,6 +7,8 @@ import pandas as pd
 from indra.databases import mesh_client
 from indra.ontology.bio import bio_ontology
 
+from constants import WORLD_BANK_MESH_COUNTRY_MAPPING
+
 
 def is_geoloc(x_db, x_id):
     if x_db == 'MESH':
@@ -199,7 +201,6 @@ def assemble_pathogen_disease_relations():
     with open('../kg/pathogen_disease_edges.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([[':START_ID', ':TYPE', ':END_ID']] + list(edges))
-    pass
 
 
 def assemble_disease_symptom_relations():
@@ -217,9 +218,130 @@ def assemble_disease_symptom_relations():
         writer.writerows([edge_header] + list(edges))
 
 
-if __name__ == '__main__':
+def assemble_world_indicator_data():
+    dev_nodes, dev_edges, health_nodes, health_edges = set(), set(), set(), set()
+    mesh_node_df = pd.read_csv("../kg/mesh_hierarchy_nodes.tsv", sep="\t")
+    country_dev_indicator_df = pd.read_csv(
+        "../kg/world_dev_indicator_data.tsv", sep="\t"
+    )
+    country_health_indicator_df = pd.read_csv(
+        "../kg/world_health_indicator_data.tsv", sep="\t"
+    )
+
+    # Removed shared series codes between dev and health indicator data from the
+    # health indicator dataframe
+    dev_series_codes = set(country_dev_indicator_df["Series Code"])
+    health_series_code = set(country_health_indicator_df["Series Code"])
+    health_series_code_diff = health_series_code - dev_series_codes
+    country_health_indicator_df = country_health_indicator_df[
+        country_health_indicator_df["Series Code"].isin(health_series_code_diff)
+    ]
+
+    # Ground World Bank country/region terms using Mesh terms
+    country_dev_indicator_df["Country Name"] = (
+        country_dev_indicator_df["Country Name"]
+        .map(WORLD_BANK_MESH_COUNTRY_MAPPING)
+        .fillna(country_dev_indicator_df["Country Name"])
+    )
+    country_health_indicator_df["Country Name"] = (
+        country_health_indicator_df["Country Name"]
+        .map(WORLD_BANK_MESH_COUNTRY_MAPPING)
+        .fillna(country_health_indicator_df["Country Name"])
+    )
+
+    node_header = ["curie:ID", "name:string", ":LABEL"]
+    edge_header = [":START_ID", "years_data:string", ":TYPE", ":END_ID"]
+
+    # Filter out countries that can't be grounded to Mesh terms
+    country_dev_indicator_df = pd.merge(
+        country_dev_indicator_df,
+        mesh_node_df[mesh_node_df[":LABEL"] == "geoloc"],
+        left_on="Country Name",
+        right_on="name:string",
+        how="inner",
+    )[country_dev_indicator_df.columns]
+
+    country_health_indicator_df = pd.merge(
+        country_health_indicator_df,
+        mesh_node_df[mesh_node_df[":LABEL"] == "geoloc"],
+        left_on="Country Name",
+        right_on="name:string",
+        how="inner",
+    )[country_health_indicator_df.columns]
+
+    # Process health indicator data
+    for _, row in country_health_indicator_df.iterrows():
+        country_name = row["Country Name"]
+        series_code = row["Series Code"]
+        series_name = row["Series Name"]
+        country_mesh_info = mesh_node_df[mesh_node_df["name:string"] == country_name]
+        indicator_year_data_dict = {}
+
+        # Process indicator year-data only for each row
+        for col, val in row[1:].items():
+            try:
+                float(val)
+            except ValueError:
+                continue
+            indicator_year_data_dict[col[:4]] = round(float(val), 3)
+        indicator_year_data_string = json.dumps(indicator_year_data_dict)
+        country_curie = country_mesh_info.values[0][0]
+        indicator_curie = f"wdi:{series_code}"
+        health_nodes.add((indicator_curie, series_name, "indicator"))
+        health_edges.add(
+            (
+                country_curie,
+                indicator_year_data_string,
+                "has_indicator",
+                indicator_curie,
+            )
+        )
+    with open("../kg/indicator_health_nodes.tsv", "w") as fh:
+        writer = csv.writer(fh, delimiter="\t")
+        writer.writerows([node_header] + list(health_nodes))
+    with open("../kg/indicator_health_edges.tsv", "w") as fh:
+        writer = csv.writer(fh, delimiter="\t")
+        writer.writerows([edge_header] + list(health_edges))
+
+    # Process dev indicator data
+    for _, row in country_dev_indicator_df.iterrows():
+        country_name = row["Country Name"]
+        series_code = row["Series Code"]
+        series_name = row["Series Name"]
+        country_mesh_info = mesh_node_df[mesh_node_df["name:string"] == country_name]
+        indicator_year_data_dict = {}
+
+        for col, val in row[1:].items():
+            try:
+                float(val)
+            except ValueError:
+                continue
+            indicator_year_data_dict[col[:4]] = round(float(val), 3)
+
+        indicator_year_data_string = json.dumps(indicator_year_data_dict)
+        country_curie = country_mesh_info.values[0][0]
+        indicator_curie = f"wdi:{series_code}"
+        dev_nodes.add((indicator_curie, series_name, "indicator"))
+        dev_edges.add(
+            (
+                country_curie,
+                indicator_year_data_string,
+                "has_indicator",
+                indicator_curie,
+            )
+        )
+    with open("../kg/indicator_dev_nodes.tsv", "w") as fh:
+        writer = csv.writer(fh, delimiter="\t")
+        writer.writerows([node_header] + list(dev_nodes))
+    with open("../kg/indicator_dev_edges.tsv", "w") as fh:
+        writer = csv.writer(fh, delimiter="\t")
+        writer.writerows([edge_header] + list(dev_edges))
+
+
+if __name__ == "__main__":
     assemble_outbreak_nodes()
     assemble_alert_relations()
     assemble_mesh_hierarchy()
     assemble_pathogen_disease_relations()
     assemble_disease_symptom_relations()
+    assemble_world_indicator_data()
