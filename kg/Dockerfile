@@ -62,7 +62,7 @@ RUN python3.11 -m pip install fastapi \
     networkx \
     gunicorn
 
-RUN git clone -b add_web_service https://github.com/nanglo123/outbreak_kg.git /sw/outbreak_kg
+RUN git clone https://github.com/gyorilab/outbreak_kg.git /sw/outbreak_kg
 
 # This is for coocurrence
 #COPY nodes.tsv /sw/nodes.tsv
