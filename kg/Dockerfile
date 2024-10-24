@@ -59,7 +59,10 @@ RUN python3.11 -m pip install fastapi \
     bootstrap_flask \
     cython \
     pandas \
-    networkx
+    networkx \
+    gunicorn
+
+RUN git clone https://github.com/gyorilab/outbreak_kg.git /sw/outbreak_kg
 
 # This is for coocurrence
 #COPY nodes.tsv /sw/nodes.tsv
