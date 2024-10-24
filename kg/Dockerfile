@@ -59,7 +59,8 @@ RUN python3.11 -m pip install fastapi \
     bootstrap_flask \
     cython \
     pandas \
-    networkx
+    networkx \
+    gunicorn \
 
 # This is for coocurrence
 #COPY nodes.tsv /sw/nodes.tsv
