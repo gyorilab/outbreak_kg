@@ -15,5 +15,5 @@ done
 
 neo4j status
 
-echo "Keeping the container running by monitoring docker neo4j logs"
-tail -f /var/log/neo4j/neo4j.log
+# start the service
+gunicorn --bind 0.0.0.0:8771 kg.api:app
