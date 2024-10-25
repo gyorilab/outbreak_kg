@@ -16,4 +16,4 @@ done
 neo4j status
 
 echo "Running REST API"
-python3.11 api.py
+gunicorn --bind 0.0.0.0:8771 api:app

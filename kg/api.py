@@ -32,5 +32,6 @@ def search():
     return jsonify(return_value)
 
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8771, debug=True)
+@app.route("/v1/healthcheck", methods=["GET"])
+def healthcheck():
+    return "OK", 200
