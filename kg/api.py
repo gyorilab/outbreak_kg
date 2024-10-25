@@ -7,7 +7,7 @@ app = Flask(__name__)
 client = Neo4jClient()
 
 
-@app.route("/v1/node", methods=["GET"])
+@app.route("/v1/alerts", methods=["GET"])
 def search():
     disease = request.args.get("disease")
     geolocation = request.args.get("geolocation")
