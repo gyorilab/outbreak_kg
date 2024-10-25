@@ -7,14 +7,14 @@ app = Flask(__name__)
 client = Neo4jClient()
 
 
-@app.route("/search", methods=["GET"])
+@app.route("/v1/node", methods=["GET"])
 def search():
-    disease = request.json.get("disease")
-    geolocation = request.json.get("geolocation")
-    pathogen = request.json.get("pathogen")
-    timestamp = request.json.get("timestamp")
-    symptom = request.json.get("symptom")
-    limit = request.json.get("limit")
+    disease = request.args.get("disease")
+    geolocation = request.args.get("geolocation")
+    pathogen = request.args.get("pathogen")
+    timestamp = request.args.get("timestamp")
+    symptom = request.args.get("symptom")
+    limit = request.args.get("limit")
 
     search_results = client.query_graph(
         disease, geolocation, pathogen, timestamp, symptom, limit
@@ -30,3 +30,7 @@ def search():
                 return_value[path_index].append(path_compartment.type)
 
     return jsonify(return_value)
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8771, debug=True)

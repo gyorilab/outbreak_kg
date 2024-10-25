@@ -98,11 +98,10 @@ RUN neo4j-admin import --delimiter='TAB' --skip-duplicate-nodes=true --skip-bad-
     --nodes /sw/indicator_health_nodes.tsv \
     --relationships /sw/indicator_health_edges.tsv
 
-
-
-
 ENV DOCKERIZED="TRUE"
 ENV NEO4J_URL="bolt://localhost:7687"
 
+COPY api.py api.py
+COPY client.py client.py
 COPY startup.sh startup.sh
 ENTRYPOINT ["/bin/bash", "/sw/startup.sh"]
