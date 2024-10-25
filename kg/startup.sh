@@ -15,6 +15,5 @@ done
 
 neo4j status
 
-cd /sw/outbreak_kg/kg
-# start the service
+echo "Running REST API"
 gunicorn --bind 0.0.0.0:8771 api:app
