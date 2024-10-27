@@ -56,6 +56,7 @@ RUN python3.11 -m pip install fastapi \
     "neo4j<5" \
     tqdm \
     flask \
+    flask_cors \
     bootstrap_flask \
     cython \
     pandas \

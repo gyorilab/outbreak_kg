@@ -1,10 +1,15 @@
 import os
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from client import Neo4jClient
 
 import neo4j
 
 app = Flask(__name__)
+
+CORS(app, resources={r"/*": {"origins": "*"}})
+
+
 client = Neo4jClient()
 
 
