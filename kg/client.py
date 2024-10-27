@@ -1,6 +1,8 @@
+import json
 from typing import Any, List, Optional
 from typing_extensions import TypeAlias
 
+import gilda
 import neo4j
 from neo4j import GraphDatabase, Transaction, unit_of_work
 
@@ -44,6 +46,34 @@ class Neo4jClient:
             values = session.read_transaction(do_cypher_tx, query, **query_params)
         return values
 
+    def query_indicators(
+        self,
+        geolocation: str,
+        indicator_filter: str,
+    ):
+        query = \
+            """
+            MATCH (i:indicator)<-[r:has_indicator]-(geolocation:geoloc)-
+            [:isa*0..]->(geolocation_isa:geoloc {name: $geolocation})
+            WHERE i.name CONTAINS $indicator_filter
+            RETURN i, r, geolocation, geolocation_isa
+            """
+        query_parameters = {
+            "geolocation": geolocation,
+            "indicator_filter": indicator_filter
+        }
+        res = self.query_tx(query, **query_parameters)
+        data = [
+            {
+                'indicator': dict(row[0]),
+                'data': json.loads(dict(row[1])['years_data']),
+                'geolocation': dict(row[2]),
+                'geolocation_isa': dict(row[3]),
+            }
+            for row in res
+        ]
+        return data
+
     def query_graph(
         self,
         disease: str = None,
@@ -55,34 +85,54 @@ class Neo4jClient:
     ):
         search_query = "MATCH (n:alert)-[:mentions]->(m)"
         query_parameters = {}
-        return_value = " RETURN n"
+        return_value = " RETURN DISTINCT n, n.timestamp"
         if timestamp is not None:
             search_query += " WHERE n.timestamp = $timestamp"
             query_parameters["timestamp"] = timestamp
         if disease is not None:
             search_query += " MATCH (n:alert)-[r_d:mentions]->(disease:disease)-[:isa*0..]->(disease_isa:disease {name: $disease})"
             query_parameters["disease"] = disease
-            return_value += ", r_d, disease, disease_isa"
+            return_value += ", disease, disease_isa"
+            result_elements = ['disease']
         if geolocation is not None:
             search_query += (
                 " MATCH (n:alert)-[r_g:mentions]->(geolocation:geoloc)-[:isa*0..]->(geolocation_isa:geoloc {name: $geolocation})"
             )
             query_parameters["geolocation"] = geolocation
-            return_value += ", r_g, geolocation, geolocation_isa"
+            return_value += ", geolocation, geolocation_isa"
+            result_elements.append('geoloc')
         if pathogen is not None:
             search_query += (
                 " MATCH (n:alert)-[r_p:mentions]->(pathogen:pathogen)-[:isa*0..]->(pathogen_isa:pathogen {name: $pathogen})"
             )
             query_parameters["pathogen"] = pathogen
-            return_value += ", r_p, pathogen, pathogen_isa"
+            return_value += ", pathogen, pathogen_isa"
+            result_elements.append('pathogen')
         if symptom is not None:
             search_query += " MATCH (n)-[r_s:mentions]->(symptom:disease)-[:has_phenotype|isa*0..]->(symptom_isa:disease {name:$symptom})"
             query_parameters["symptom"] = symptom
-            return_value += ", r_s, symptom, symptom_isa"
+            return_value += ", symptom, symptom_isa"
+            result_elements.append('symptom')
         search_query += return_value
-        if limit :
+        if limit:
             search_query += f" LIMIT {limit}"
-        return self.query_tx(search_query, **query_parameters)
+        res = self.query_tx(search_query, **query_parameters)
+        all_data = []
+        for row in res:
+            alert = dict(row[0])
+            alert['timestamp'] = row[1]
+            data = {'alert': alert}
+            for idx, element in enumerate(result_elements):
+                # First element is the given entity, the next is any isa entity
+                i = idx * 2 + 2
+                data[element] = dict(row[i])
+                data[element + '_isa'] = dict(row[i + 1])
+            all_data.append(data)
+        return all_data
+
+    def annotate_text_query(self, text: str):
+        annotations = gilda.annotate(text, namespaces=['MESH'])
+        return self.query_tx(query, text=text)
 
 
 @unit_of_work()
