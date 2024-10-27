@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 from client import Neo4jClient
 
@@ -19,19 +20,42 @@ def search():
     search_results = client.query_graph(
         disease, geolocation, pathogen, timestamp, symptom, limit
     )
-    return_value = {}
-    for path_index, path in enumerate(search_results):
-        return_value[path_index] = []
-        for path_compartment in path:
-            if isinstance(path_compartment, neo4j.graph.Node):
-                dict_path_compartment = dict(path_compartment)
-                return_value[path_index].append(dict_path_compartment)
-            elif path_compartment is not None:
-                return_value[path_index].append(path_compartment.type)
+    return jsonify(search_results)
 
-    return jsonify(return_value)
+
+# Endpoint to load alert from the alerts folder and then return
+# the content of the txt file
+@app.route("/v1/alerts/<alert_id>", methods=["GET"])
+def get_alert(alert_id):
+    fname = f"alerts/{alert_id}.txt"
+    if not os.path.isfile(fname):
+        return "Alert not found", 404
+    with open(fname, "r") as f:
+        return f.read()
+
+
+# Endpoint to return indicator data for a given
+# country based on a simple string-based filter
+@app.route("/v1/indicators", methods=["GET"])
+def get_indicators():
+    geolocation = request.args.get("geolocation")
+    indicator_filter = request.args.get("indicator_filter")
+    if geolocation is None:
+        return "Country not specified", 400
+    return jsonify(client.query_indicators(geolocation, indicator_filter))
+
+
+@app.route("/v1/text_relations", methods=["GET"])
+def get_text_relations():
+    text = request.args.get("text")
+    return jsonify(client.annotate_text_query(text))
 
 
 @app.route("/v1/healthcheck", methods=["GET"])
 def healthcheck():
     return "OK", 200
+
+
+# For local debugging
+if __name__ == '__main__':
+    app.run()
