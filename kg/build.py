@@ -125,6 +125,7 @@ def assemble_mesh_hierarchy():
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([node_header] + list(nodes))
 
+
 def assemble_outbreak_nodes():
     nodes = set()
     edges = set()
@@ -146,6 +147,7 @@ def assemble_outbreak_nodes():
     with open('../kg/promed_alert_outbreak_edges.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([edge_header] + list(edges))
+
 
 def assemble_alert_relations():
     with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
@@ -175,6 +177,7 @@ def assemble_alert_relations():
     with open('../kg/promed_alert_edges.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([edge_header] + list(edges))
+
 
 def assemble_pathogen_disease_relations():
     import pyobo
