@@ -45,6 +45,12 @@ def get_indicators():
     return jsonify(client.query_indicators(geolocation, indicator_filter))
 
 
+@app.route("/v1/text_relations", methods=["GET"])
+def get_text_relations():
+    text = request.args.get("text")
+    return jsonify(client.annotate_text_query(text))
+
+
 @app.route("/v1/healthcheck", methods=["GET"])
 def healthcheck():
     return "OK", 200

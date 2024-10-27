@@ -60,6 +60,7 @@ RUN python3.11 -m pip install fastapi \
     cython \
     pandas \
     networkx \
+    gilda \
     gunicorn
 
 RUN git clone https://github.com/gyorilab/outbreak_kg.git /sw/outbreak_kg

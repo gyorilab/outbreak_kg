@@ -132,7 +132,41 @@ class Neo4jClient:
 
     def annotate_text_query(self, text: str):
         annotations = gilda.annotate(text, namespaces=['MESH'])
-        return self.query_tx(query, text=text)
+        curies = [
+            f'{a.matches[0].term.db}:{a.matches[0].term.id}'
+            for a in annotations
+        ]
+        print('Looking up CURIEs:', ', '.join(sorted(curies)))
+        # Query for direct relationships between the terms
+        query = """
+            MATCH (a:entity)-[r]->(b:entity)
+            WHERE a.name IN $entities AND b.name IN $entities
+            RETURN a, r, b
+        """
+        res_direct = self.query_tx(query, entities=curies)
+        data = {'direct': []}
+        for res in res_direct:
+            a, r, b = res
+            entry = {}
+            entry['a'] = dict(a)
+            entry['b'] = dict(b)
+            entry['r'] = dict(r)
+            data['direct'].append(entry)
+        # Query for alerts in which these co-occur in any pairs
+        query = """
+            MATCH (n:alert)-[:mentions]->(a)
+            MATCH (n)-[:mentions]->(b)
+            WHERE a.curie IN $curies AND b.curie IN $curies
+            AND a <> b
+            RETURN n, a, b
+        """
+        res_alerts = self.query_tx(query, curies=curies)
+        data['alerts'] = []
+        for res in res_alerts:
+            alert = dict(res[0])
+            entities = [dict(res[1]), dict(res[2])]
+            data['alerts'].append({'alert': alert, 'entities': entities})
+        return data
 
 
 @unit_of_work()
