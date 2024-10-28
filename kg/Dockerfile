@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:20.04
 
 # Needed to forego timezone configuration
 ENV DEBIAN_FRONTEND=noninteractive
@@ -32,10 +32,13 @@ RUN apt-get update -y \
         liblapack-dev \
         libblas-dev \
         gfortran \
-        pkg-config \
-        python3.11 \
-    && apt-get purge -y imagemagick imagemagick-6-common \
-    && curl -sS https://bootstrap.pypa.io/get-pip.py | python3.11
+        pkg-config
+
+RUN add-apt-repository ppa:deadsnakes/ppa
+RUN apt update -y
+RUN apt -y install python3.10 python3.10-dev
+RUN apt-get purge -y imagemagick imagemagick-6-common
+RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
 
 RUN curl -fsSL https://debian.neo4j.com/neotechnology.gpg.key | apt-key add -
 RUN add-apt-repository "deb https://debian.neo4j.com stable 4.4"
@@ -49,9 +52,9 @@ RUN echo "dbms.security.procedures.unrestricted=apoc.*" >> /etc/neo4j/neo4j.conf
 
 # Fixes ERROR: Cannot uninstall 'blinker'. It is a distutils installed project
 # and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
-RUN python3.11 -m pip install --ignore-installed blinker
+RUN python3.10 -m pip install --ignore-installed blinker
 
-RUN python3.11 -m pip install fastapi \
+RUN python3.10 -m pip install fastapi \
     uvicorn \
     "neo4j<5" \
     tqdm \
@@ -61,14 +64,16 @@ RUN python3.11 -m pip install fastapi \
     cython \
     pandas \
     networkx \
-    gilda \
     gunicorn
 
-RUN git clone https://github.com/gyorilab/outbreak_kg.git /sw/outbreak_kg
 
 # This is for coocurrence
 #COPY nodes.tsv /sw/nodes.tsv
 #COPY edges.tsv /sw/edges.tsv
+COPY alerts.zip /sw/alerts.zip
+RUN cd /sw/ && \
+    unzip /sw/alerts.zip
+RUN mv /sw/eidos_input /sw/alerts
 
 COPY mesh_hierarchy_edges.tsv /sw/mesh_hierarchy_edges.tsv
 COPY mesh_hierarchy_nodes.tsv /sw/mesh_hierarchy_nodes.tsv
@@ -102,6 +107,10 @@ RUN neo4j-admin import --delimiter='TAB' --skip-duplicate-nodes=true --skip-bad-
 
 ENV DOCKERIZED="TRUE"
 ENV NEO4J_URL="bolt://localhost:7687"
+
+RUN python3.10 -c "import nltk;nltk.download('stopwords');nltk.download('punkt_tab')"
+RUN python3.10 -m pip install git+https://github.com/gyorilab/gilda.git
+RUN python3.10 -m gilda.resources
 
 COPY api.py api.py
 COPY client.py client.py

@@ -16,4 +16,4 @@ done
 neo4j status
 
 echo "Running REST API"
-gunicorn --bind 0.0.0.0:8771 api:app
+gunicorn -t 600 --bind 0.0.0.0:8771 api:app
