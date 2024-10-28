@@ -86,6 +86,7 @@ class Neo4jClient:
         search_query = "MATCH (n:alert)-[:mentions]->(m)"
         query_parameters = {}
         return_value = " RETURN DISTINCT n, n.timestamp"
+        result_elements = []
         if timestamp is not None:
             search_query += " WHERE n.timestamp = $timestamp"
             query_parameters["timestamp"] = timestamp
@@ -93,7 +94,7 @@ class Neo4jClient:
             search_query += " MATCH (n:alert)-[r_d:mentions]->(disease:disease)-[:isa*0..]->(disease_isa:disease {name: $disease})"
             query_parameters["disease"] = disease
             return_value += ", disease, disease_isa"
-            result_elements = ['disease']
+            result_elements.append('disease')
         if geolocation is not None:
             search_query += (
                 " MATCH (n:alert)-[r_g:mentions]->(geolocation:geoloc)-[:isa*0..]->(geolocation_isa:geoloc {name: $geolocation})"

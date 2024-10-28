@@ -34,6 +34,7 @@ RUN apt-get update -y \
         gfortran \
         pkg-config \
         python3.11 \
+        python3.11-dev \
     && apt-get purge -y imagemagick imagemagick-6-common \
     && curl -sS https://bootstrap.pypa.io/get-pip.py | python3.11
 
