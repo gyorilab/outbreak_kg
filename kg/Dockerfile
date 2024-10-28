@@ -66,7 +66,6 @@ RUN python3.10 -m pip install fastapi \
     networkx \
     gunicorn
 
-RUN git clone https://github.com/gyorilab/outbreak_kg.git /sw/outbreak_kg
 
 # This is for coocurrence
 #COPY nodes.tsv /sw/nodes.tsv
