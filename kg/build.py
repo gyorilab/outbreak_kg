@@ -7,7 +7,7 @@ import pandas as pd
 from indra.databases import mesh_client
 from indra.ontology.bio import bio_ontology
 
-from constants import WORLD_BANK_MESH_COUNTRY_MAPPING
+from constants import LOCATION_MESH_MAPPING
 
 
 def is_geoloc(x_db, x_id):
@@ -243,12 +243,12 @@ def assemble_world_indicator_data():
     # Ground World Bank country/region terms using Mesh terms
     country_dev_indicator_df["Country Name"] = (
         country_dev_indicator_df["Country Name"]
-        .map(WORLD_BANK_MESH_COUNTRY_MAPPING)
+        .map(LOCATION_MESH_MAPPING)
         .fillna(country_dev_indicator_df["Country Name"])
     )
     country_health_indicator_df["Country Name"] = (
         country_health_indicator_df["Country Name"]
-        .map(WORLD_BANK_MESH_COUNTRY_MAPPING)
+        .map(LOCATION_MESH_MAPPING)
         .fillna(country_health_indicator_df["Country Name"])
     )
 
@@ -352,8 +352,8 @@ def add_geoname_nodes_edges():
     for term in geoname_terms:
         # See if the name could be mapped a MESH term
         name = term.name
-        if name in WORLD_BANK_MESH_COUNTRY_MAPPING:
-            name = WORLD_BANK_MESH_COUNTRY_MAPPING[name]
+        if name in LOCATION_MESH_MAPPING:
+            name = LOCATION_MESH_MAPPING[name]
         # Don't add geoloc terms represented by geonames that are already
         # present as MESH terms
         mesh_term_info = mesh_node_df[(mesh_node_df[":LABEL"] == "geoloc") & (mesh_node_df["name:string"]==name)]
@@ -362,8 +362,8 @@ def add_geoname_nodes_edges():
         nodes.add((term.curie, term.name, "geoloc"))
         for parent in term.get_relationships(part_of):
             parent_name = parent.name
-            if parent_name in WORLD_BANK_MESH_COUNTRY_MAPPING:
-                parent_name = WORLD_BANK_MESH_COUNTRY_MAPPING[parent_name]
+            if parent_name in LOCATION_MESH_MAPPING:
+                parent_name = LOCATION_MESH_MAPPING[parent_name]
             # We only add a geoname node as a target if the geolocation it
             # represents isn't present as a MESH term
             mesh_parent_info = mesh_node_df[(mesh_node_df["name:string"] == parent_name) & (mesh_node_df[":LABEL"] == "geoloc")]

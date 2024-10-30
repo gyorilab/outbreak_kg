@@ -1,6 +1,6 @@
 # Mapping from World Bank country/region names to MESH equivalents
 
-WORLD_BANK_MESH_COUNTRY_MAPPING = {
+LOCATION_MESH_MAPPING = {
     "Czechia": "Czech Republic",
     "St. Lucia": "Saint Lucia",
     "Macao SAR, China": "Macau",
