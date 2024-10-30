@@ -1,3 +1,4 @@
+import os
 import csv
 import json
 import tqdm
@@ -8,6 +9,9 @@ from indra.databases import mesh_client
 from indra.ontology.bio import bio_ontology
 
 from constants import WORLD_BANK_MESH_COUNTRY_MAPPING
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+NER_OUTPUT = os.path.join(HERE, os.pardir, 'output')
 
 
 def is_geoloc(x_db, x_id):
@@ -36,14 +40,15 @@ exclude_list = {'Disease', 'Health', 'Affected', 'control', 'Animals',
                 'Epidemiology', 'Names', 'submitted', 'Laboratories',
                 'Disease Outbreaks', 'Central', 'strain'}
 
-outbreak_df = pd.read_csv('../output/promed_updates.csv',
-                              dtype={"archiveNumber":str})
+outbreak_df = pd.read_csv(os.path.join(NER_OUTPUT, 'promed_outbreaks.csv'),
+                          dtype={"archiveNumber": str})
+
 outbreak_df["archiveNumber"] = outbreak_df["archiveNumber"].apply(
     lambda archive_number: archive_number.replace("\"", ""))
 
 
 def assemble_coocurrence():
-    with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
+    with open(os.path.join(NER_OUTPUT, 'promed_ner_terms_by_alert.json'), 'r') as f:
         jj = json.load(f)
 
     pairs = []
@@ -79,10 +84,10 @@ def assemble_coocurrence():
     edges = set()
     for (a, b), count in cnt.items():
         edges.add((a[0] + ':' + a[1], 'occurs_with', b[0] + ':' + b[1], count))
-    with open('../kg/cooccurrence_edges.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'cooccurrence_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([edge_header] + list(edges))
-    with open('../kg/cooccurrence_nodes.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'cooccurrence_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([node_header] + list(nodes))
 
@@ -119,10 +124,10 @@ def assemble_mesh_hierarchy():
     # TODO: add relations to root nodes
     node_header = ['curie:ID', 'name:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
-    with open('../kg/mesh_hierarchy_edges.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'mesh_hierarchy_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([edge_header] + list(edges))
-    with open('../kg/mesh_hierarchy_nodes.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'mesh_hierarchy_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([node_header] + list(nodes))
 
@@ -142,16 +147,16 @@ def assemble_outbreak_nodes():
                    f"outbreak:{outbreak_id}"))
     node_header = ['curie:ID', 'name:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
-    with open('../kg/promed_outbreak_nodes.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'promed_outbreak_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([node_header] + list(nodes))
-    with open('../kg/promed_alert_outbreak_edges.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'promed_alert_outbreak_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([edge_header] + list(edges))
 
 
 def assemble_alert_relations():
-    with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
+    with open(os.path.join(NER_OUTPUT, 'promed_ner_terms_by_alert.json'), 'r') as f:
         terms_by_alert = json.load(f)
     nodes = set()
     edges = set()
@@ -172,17 +177,17 @@ def assemble_alert_relations():
                     edges.add((f'promed:{archive_number}', 'mentions', f'MESH:{id}'))
     node_header = ['curie:ID', 'name:string', 'timestamp:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
-    with open('../kg/promed_alert_nodes.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'promed_alert_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([node_header] + list(nodes))
-    with open('../kg/promed_alert_edges.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'promed_alert_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([edge_header] + list(edges))
 
 
 def assemble_pathogen_disease_relations():
     import pyobo
-    df = pd.read_csv('pathogen_disease_rels.tsv', sep='\t')
+    df = pd.read_csv(os.path.join(HERE, 'pathogen_disease_rels.tsv'), sep='\t')
     df = df[~df[':START_ID'].str.startswith('umls')]
     df = df[~df[':END_ID'].str.startswith('umls')]
     edges = set()
@@ -202,7 +207,7 @@ def assemble_pathogen_disease_relations():
         if not mapped_id:
             continue
         edges.add((f'MESH:{source_id}', 'has_pathogen', f'MESH:{target_id}'))
-    with open('../kg/pathogen_disease_edges.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'pathogen_disease_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([[':START_ID', ':TYPE', ':END_ID']] + list(edges))
 
@@ -217,19 +222,19 @@ def assemble_disease_symptom_relations():
         mesh_disease = row[':START_ID'].upper()
         mesh_pheno = row[':END_ID'].upper()
         edges.add((mesh_disease, 'has_phenotype', mesh_pheno))
-    with open('../kg/disease_phenotype_edges.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'disease_phenotype_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([edge_header] + list(edges))
 
 
 def assemble_world_indicator_data():
     dev_nodes, dev_edges, health_nodes, health_edges = set(), set(), set(), set()
-    mesh_node_df = pd.read_csv("../kg/mesh_hierarchy_nodes.tsv", sep="\t")
+    mesh_node_df = pd.read_csv(os.path.join(HERE, "mesh_hierarchy_nodes.tsv"), sep="\t")
     country_dev_indicator_df = pd.read_csv(
-        "../kg/world_dev_indicator_data.tsv", sep="\t"
+        os.path.join(HERE, "world_dev_indicator_data.tsv"), sep="\t"
     )
     country_health_indicator_df = pd.read_csv(
-        "../kg/world_health_indicator_data.tsv", sep="\t"
+        os.path.join(HERE, "world_health_indicator_data.tsv"), sep="\t"
     )
 
     # Removed shared series codes between dev and health indicator data from the
@@ -300,10 +305,10 @@ def assemble_world_indicator_data():
                 indicator_curie,
             )
         )
-    with open("../kg/indicator_health_nodes.tsv", "w") as fh:
+    with open(os.path.join(HERE, "indicator_health_nodes.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
         writer.writerows([node_header] + list(health_nodes))
-    with open("../kg/indicator_health_edges.tsv", "w") as fh:
+    with open(os.path.join(HERE, "indicator_health_edges.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
         writer.writerows([edge_header] + list(health_edges))
 
@@ -334,10 +339,10 @@ def assemble_world_indicator_data():
                 indicator_curie,
             )
         )
-    with open("../kg/indicator_dev_nodes.tsv", "w") as fh:
+    with open(os.path.join(HERE, "indicator_dev_nodes.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
         writer.writerows([node_header] + list(dev_nodes))
-    with open("../kg/indicator_dev_edges.tsv", "w") as fh:
+    with open(os.path.join(HERE, "indicator_dev_edges.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
         writer.writerows([edge_header] + list(dev_edges))
 
