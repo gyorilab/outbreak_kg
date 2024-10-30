@@ -41,6 +41,7 @@ outbreak_df = pd.read_csv('../output/promed_updates.csv',
 outbreak_df["archiveNumber"] = outbreak_df["archiveNumber"].apply(
     lambda archive_number: archive_number.replace("\"", ""))
 
+
 def assemble_coocurrence():
     with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
         jj = json.load(f)
@@ -60,7 +61,7 @@ def assemble_coocurrence():
                     interesting_pairs.append((tuple(a), tuple(b)))
             pairs.append((tuple(a), tuple(b)))
 
-    node_header = ['curie:ID', 'name:string', ':TYPE']
+    node_header = ['curie:ID', 'name:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID', 'count:int']
 
     nodes = set()
@@ -72,16 +73,16 @@ def assemble_coocurrence():
                 ntype = 'geoloc'
             else:
                 ntype = 'disease'
-            nodes.add((x[0] + ':' + x[1], x[2], ntype))
+            nodes.add((x[0] + ':' + x[1], x[2], ntype + ':entity'))
 
     cnt = Counter(interesting_pairs)
     edges = set()
     for (a, b), count in cnt.items():
         edges.add((a[0] + ':' + a[1], 'occurs_with', b[0] + ':' + b[1], count))
-    with open('../kg/edges.tsv', 'w') as fh:
+    with open('../kg/cooccurrence_edges.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([edge_header] + list(edges))
-    with open('../kg/nodes.tsv', 'w') as fh:
+    with open('../kg/cooccurrence_nodes.tsv', 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([node_header] + list(nodes))
 
@@ -102,7 +103,7 @@ def assemble_mesh_hierarchy():
             node_type = 'pathogen'
         else:
             node_type = 'geoloc'
-        nodes.add((f'MESH:{mesh_id}', mesh_name, node_type))
+        nodes.add((f'MESH:{mesh_id}', mesh_name, node_type + ':entity'))
         parents_ids = list(bio_ontology.child_rel('MESH', mesh_id, {'isa'}))
         parent_mesh_terms = [':'.join(parent) for parent in parents_ids]
         new_edges = set()
@@ -258,7 +259,7 @@ def assemble_world_indicator_data():
     # Filter out countries that can't be grounded to Mesh terms
     country_dev_indicator_df = pd.merge(
         country_dev_indicator_df,
-        mesh_node_df[mesh_node_df[":LABEL"] == "geoloc"],
+        mesh_node_df[mesh_node_df[":LABEL"].str.contains("geoloc")],
         left_on="Country Name",
         right_on="name:string",
         how="inner",
@@ -266,7 +267,7 @@ def assemble_world_indicator_data():
 
     country_health_indicator_df = pd.merge(
         country_health_indicator_df,
-        mesh_node_df[mesh_node_df[":LABEL"] == "geoloc"],
+        mesh_node_df[mesh_node_df[":LABEL"].str.contains("geoloc")],
         left_on="Country Name",
         right_on="name:string",
         how="inner",
