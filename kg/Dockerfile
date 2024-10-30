@@ -32,7 +32,8 @@ RUN apt-get update -y \
         liblapack-dev \
         libblas-dev \
         gfortran \
-        pkg-config
+        pkg-config \
+        unzip
 
 RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt update -y
@@ -111,8 +112,8 @@ RUN neo4j-admin import --delimiter='TAB' --skip-duplicate-nodes=true --skip-bad-
 ENV DOCKERIZED="TRUE"
 ENV NEO4J_URL="bolt://localhost:7687"
 
-RUN python3.10 -c "import nltk;nltk.download('stopwords');nltk.download('punkt_tab')"
 RUN python3.10 -m pip install git+https://github.com/gyorilab/gilda.git
+RUN python3.10 -c "import nltk;nltk.download('stopwords');nltk.download('punkt_tab')"
 RUN python3.10 -m gilda.resources
 
 COPY api.py api.py
