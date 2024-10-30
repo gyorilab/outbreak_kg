@@ -51,15 +51,16 @@ class Neo4jClient:
         geolocation: str,
         indicator_filter: str,
     ):
+        geolocation_curie = get_curie(geolocation)
         query = \
             """
             MATCH (i:indicator)<-[r:has_indicator]-(geolocation:geoloc)-
-            [:isa*0..]->(geolocation_isa:geoloc {name: $geolocation})
+            [:isa*0..]->(geolocation_isa:geoloc {curie: $geolocation_curie})
             WHERE i.name CONTAINS $indicator_filter
             RETURN i, r, geolocation, geolocation_isa
             """
         query_parameters = {
-            "geolocation": geolocation,
+            "geolocation_curie": geolocation_curie,
             "indicator_filter": indicator_filter
         }
         res = self.query_tx(query, **query_parameters)
@@ -91,26 +92,46 @@ class Neo4jClient:
             search_query += " WHERE n.timestamp = $timestamp"
             query_parameters["timestamp"] = timestamp
         if disease is not None:
-            search_query += " MATCH (n:alert)-[r_d:mentions]->(disease:disease)-[:isa*0..]->(disease_isa:disease {name: $disease})"
+            disease_curie = get_curie(disease)
+            if disease_curie is None:
+                return []
+            search_query += (
+                " MATCH (n:alert)-[r_d:mentions]->(disease:disease)-"
+                "[:isa*0..]->(disease_isa:disease {curie: $disease_curie})"
+            )
             query_parameters["disease"] = disease
             return_value += ", disease, disease_isa"
             result_elements.append('disease')
         if geolocation is not None:
+            geolocation_curie = get_curie(geolocation)
+            if geolocation_curie is None:
+                return []
             search_query += (
-                " MATCH (n:alert)-[r_g:mentions]->(geolocation:geoloc)-[:isa*0..]->(geolocation_isa:geoloc {name: $geolocation})"
+                " MATCH (n:alert)-[r_g:mentions]->(geolocation:geoloc)-"
+                "[:isa*0..]->(geolocation_isa:geoloc {curie: $geolocation_curie})"
             )
             query_parameters["geolocation"] = geolocation
             return_value += ", geolocation, geolocation_isa"
             result_elements.append('geoloc')
         if pathogen is not None:
+            pathogen_curie = get_curie(pathogen)
+            if pathogen_curie is None:
+                return []
             search_query += (
-                " MATCH (n:alert)-[r_p:mentions]->(pathogen:pathogen)-[:isa*0..]->(pathogen_isa:pathogen {name: $pathogen})"
+                " MATCH (n:alert)-[r_p:mentions]->(pathogen:pathogen)-"
+                "[:isa*0..]->(pathogen_isa:pathogen {curie: $pathogen_curie})"
             )
             query_parameters["pathogen"] = pathogen
             return_value += ", pathogen, pathogen_isa"
             result_elements.append('pathogen')
         if symptom is not None:
-            search_query += " MATCH (n)-[r_s:mentions]->(symptom:disease)-[:has_phenotype|isa*0..]->(symptom_isa:disease {name:$symptom})"
+            symptom_curie = get_curie(symptom)
+            if symptom_curie is None:
+                return []
+            search_query += (
+                " MATCH (n)-[r_s:mentions]->(symptom:disease)-"
+                "[:has_phenotype|isa*0..]->(symptom_isa:disease {curie:$symptom_curie})"
+            )
             query_parameters["symptom"] = symptom
             return_value += ", symptom, symptom_isa"
             result_elements.append('symptom')
@@ -139,24 +160,27 @@ class Neo4jClient:
         ]
         print('Looking up CURIEs:', ', '.join(sorted(curies)))
         # Query for direct relationships between the terms
+        # TODO: we should add an entity tag to all of the
+        # domain-specific terms to make these queries scale
         query = """
             MATCH (a:entity)-[r]->(b:entity)
-            WHERE a.name IN $entities AND b.name IN $entities
+            WHERE a.curie IN $curies AND b.curie IN $curies
             RETURN a, r, b
         """
         res_direct = self.query_tx(query, entities=curies)
         data = {'direct': []}
         for res in res_direct:
             a, r, b = res
-            entry = {}
-            entry['a'] = dict(a)
-            entry['b'] = dict(b)
-            entry['r'] = dict(r)
+            entry = {
+                'a': dict(a),
+                'b': dict(b),
+                'r': dict(r)
+            }
             data['direct'].append(entry)
         # Query for alerts in which these co-occur in any pairs
         query = """
             MATCH (n:alert)-[:mentions]->(a)
-            MATCH (n)-[:mentions]->(b)
+            MATCH (n:alert)-[:mentions]->(b)
             WHERE a.curie IN $curies AND b.curie IN $curies
             AND a <> b
             RETURN n, a, b
@@ -174,3 +198,12 @@ class Neo4jClient:
 def do_cypher_tx(tx: Transaction, query: str, **query_params) -> List[List]:
     result = tx.run(query, parameters=query_params)
     return [record.values() for record in result]
+
+
+def get_curie(name):
+    """Return a MeSH CURIE based on a text name."""
+    matches = gilda.ground(name, namespaces=['MESH'])
+    if not matches:
+        return None
+    curie = f'MESH:{matches[0].term.id}'
+    return curie
