@@ -341,6 +341,44 @@ def assemble_world_indicator_data():
         writer.writerows([edge_header] + list(dev_edges))
 
 
+def add_geoname_nodes_edges():
+    nodes, edges = set(), set()
+    node_header = ['curie:ID', 'name:string', ':LABEL']
+    edge_header = [':START_ID', ':TYPE', ':END_ID']
+    from mira.dkg.resources.geonames import get_geonames_terms
+    from pyobo.struct import part_of
+    geoname_terms = get_geonames_terms()
+    mesh_node_df = pd.read_csv("../kg/mesh_hierarchy_nodes.tsv", sep="\t")
+    for term in geoname_terms:
+        # See if the name could be mapped a MESH term
+        name = term.name
+        if name in WORLD_BANK_MESH_COUNTRY_MAPPING:
+            name = WORLD_BANK_MESH_COUNTRY_MAPPING[name]
+        # Don't add geoloc terms represented by geonames that are already
+        # present as MESH terms
+        mesh_term_info = mesh_node_df[(mesh_node_df[":LABEL"] == "geoloc") & (mesh_node_df["name:string"]==name)]
+        if not mesh_term_info.empty:
+            continue
+        nodes.add((term.curie, term.name, "geoloc"))
+        for parent in term.get_relationships(part_of):
+            parent_name = parent.name
+            if parent_name in WORLD_BANK_MESH_COUNTRY_MAPPING:
+                parent_name = WORLD_BANK_MESH_COUNTRY_MAPPING[parent_name]
+            # We only add a geoname node as a target if the geolocation it
+            # represents isn't present as a MESH term
+            mesh_parent_info = mesh_node_df[(mesh_node_df["name:string"] == parent_name) & (mesh_node_df[":LABEL"] == "geoloc")]
+            if not mesh_parent_info.empty:
+                parent_curie = mesh_parent_info.values[0][0]
+                edges.add((term.curie,"isa",parent_curie))
+            else:
+                edges.add((term.curie, "isa", parent.curie))
+    with open("../kg/geoname_nodes.tsv", "w") as fh:
+        writer = csv.writer(fh, delimiter="\t")
+        writer.writerows([node_header] + list(nodes))
+    with open("../kg/geoname_edges.tsv", "w") as fh:
+        writer = csv.writer(fh, delimiter="\t")
+        writer.writerows([edge_header] + list(edges))
+
 if __name__ == "__main__":
     assemble_outbreak_nodes()
     assemble_alert_relations()
@@ -348,3 +386,4 @@ if __name__ == "__main__":
     assemble_pathogen_disease_relations()
     assemble_disease_symptom_relations()
     assemble_world_indicator_data()
+    add_geoname_nodes_edges()
