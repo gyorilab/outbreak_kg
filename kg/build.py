@@ -342,11 +342,11 @@ def assemble_world_indicator_data():
 
 
 def add_geoname_nodes_edges():
+    from mira.dkg.resources.geonames import get_geonames_terms
+    from pyobo.struct import part_of
     nodes, edges = set(), set()
     node_header = ['curie:ID', 'name:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
-    from mira.dkg.resources.geonames import get_geonames_terms
-    from pyobo.struct import part_of
     geoname_terms = get_geonames_terms()
     mesh_node_df = pd.read_csv("../kg/mesh_hierarchy_nodes.tsv", sep="\t")
     for term in geoname_terms:
