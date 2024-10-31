@@ -1,14 +1,17 @@
 # Mapping from World Bank country/region names to MESH equivalents
 
-WORLD_BANK_MESH_COUNTRY_MAPPING = {
+LOCATION_MESH_MAPPING = {
     "Czechia": "Czech Republic",
     "St. Lucia": "Saint Lucia",
     "Macao SAR, China": "Macau",
+    "Macao": "Macau",
     "North Macedonia": "Republic of North Macedonia",
     "Venezuela, RB": "Venezuela",
     "Iran, Islamic Rep.": "Iran",
     "Congo, Rep.": "Congo",
+    "Republic of the Congo": "Congo",
     "Korea, Rep.": "Republic of Korea",
+    "South Korea": "Republic of Korea",
     "South Asia": "Asia, Southern",
     "Hong Kong SAR, China": "Hong Kong",
     "Gambia, The": "Gambia",
@@ -20,6 +23,7 @@ WORLD_BANK_MESH_COUNTRY_MAPPING = {
     "Yemen, Rep.": "Yemen",
     "St. Vincent and the Grenadines": "Saint Vincent and the Grenadines",
     "Virgin Islands (U.S.)": "United States Virgin Islands",
+    "U.S. Virgin Islands": "United States Virgin Islands",
     "Congo, Dem. Rep.": "Democratic Republic of the Congo",
     "St. Kitts and Nevis": "Saint Kitts and Nevis",
     "Turkiye": "Turkey",
@@ -29,6 +33,12 @@ WORLD_BANK_MESH_COUNTRY_MAPPING = {
     "Lao PDR": "Laos",
     "Kyrgyz Republic": "Kyrgyzstan",
     "Korea, Dem. People's Rep.": "Democratic People's Republic of Korea",
+    "North Korea": "Democratic People's Republic of Korea",
     "Pacific island small states": "Pacific Islands",
-    "Bahamas, The": "Bahamas"
+    "Bahamas, The": "Bahamas",
+    "The Netherlands": "Netherlands",
+    "Vatican": "Vatican City",
+    "Pitcairn": "Pitcairn Island",
+    "Svalbard and Jan Mayen": "Svalbard",
+    "Timor Leste": "Timor-Leste"
 }
