@@ -4,11 +4,14 @@ import tqdm
 from itertools import combinations
 from collections import Counter
 import pandas as pd
+
+import gilda
 from indra.databases import mesh_client
 from indra.ontology.bio import bio_ontology
 
 from constants import LOCATION_MESH_MAPPING
 
+grounder = gilda.get_grounder()
 
 def is_geoloc(x_db, x_id):
     if x_db == 'MESH':
@@ -349,35 +352,50 @@ def add_geoname_nodes_edges():
     edge_header = [':START_ID', ':TYPE', ':END_ID']
     geoname_terms = get_geonames_terms()
     mesh_node_df = pd.read_csv("../kg/mesh_hierarchy_nodes.tsv", sep="\t")
-    for term in geoname_terms:
-        # See if the name could be mapped a MESH term
-        name = term.name
-        if name in LOCATION_MESH_MAPPING:
-            name = LOCATION_MESH_MAPPING[name]
-        # Don't add geoloc terms represented by geonames that are already
-        # present as MESH terms
-        mesh_term_info = mesh_node_df[(mesh_node_df[":LABEL"] == "geoloc") & (mesh_node_df["name:string"]==name)]
-        if not mesh_term_info.empty:
+    for geoname_term in geoname_terms:
+        # If the geoname term can be mapped to a MESH term, don't add it as a geoname node
+        if not convert_geoname_to_mesh(mesh_node_df, geoname_term).empty:
             continue
-        nodes.add((term.curie, term.name, "geoloc"))
-        for parent in term.get_relationships(part_of):
-            parent_name = parent.name
-            if parent_name in LOCATION_MESH_MAPPING:
-                parent_name = LOCATION_MESH_MAPPING[parent_name]
+        nodes.add((geoname_term.curie, geoname_term.name, "geoloc"))
+        for parent_geoname_term in geoname_term.get_relationships(part_of):
             # We only add a geoname node as a target if the geolocation it
             # represents isn't present as a MESH term
-            mesh_parent_info = mesh_node_df[(mesh_node_df["name:string"] == parent_name) & (mesh_node_df[":LABEL"] == "geoloc")]
+            mesh_parent_info = convert_geoname_to_mesh(mesh_node_df, parent_geoname_term)
             if not mesh_parent_info.empty:
                 parent_curie = mesh_parent_info.values[0][0]
-                edges.add((term.curie,"isa",parent_curie))
+                edges.add((geoname_term.curie,"isa",parent_curie))
             else:
-                edges.add((term.curie, "isa", parent.curie))
+                edges.add((geoname_term.curie, "isa", parent_geoname_term.curie))
     with open("../kg/geoname_nodes.tsv", "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
         writer.writerows([node_header] + list(nodes))
     with open("../kg/geoname_edges.tsv", "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
         writer.writerows([edge_header] + list(edges))
+
+def convert_geoname_to_mesh(mesh_node_df, geoname_term):
+    """
+    Helper method to ground a geoname term to its corresponding MESH term
+    equivalent and return the MESH term if applicable.
+    """
+    name = geoname_term.name
+    if name in LOCATION_MESH_MAPPING:
+        name = LOCATION_MESH_MAPPING[name]
+    gilda_match_list = grounder.ground(name, namespaces=["MESH"])
+    grounded_mesh_curie = None
+    if gilda_match_list:
+        gilda_term = gilda_match_list[0].term
+        if gilda_term.source == "mesh":
+            grounded_mesh_curie = f"{gilda_term.db}:{gilda_term.id}"
+    # If the geoname can't be grounded to a MESH term, try basic name-space
+    # filtering for MESH nodes
+    if grounded_mesh_curie:
+        mesh_term_info = mesh_node_df[
+            mesh_node_df["curie:ID"] == grounded_mesh_curie]
+    else:
+        mesh_term_info = mesh_node_df[(mesh_node_df["curie:ID"] == "geoloc") & (
+                mesh_node_df["name:string"] == name)]
+    return mesh_term_info
 
 if __name__ == "__main__":
     assemble_outbreak_nodes()
