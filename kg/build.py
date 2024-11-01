@@ -347,9 +347,10 @@ def assemble_world_indicator_data():
 def add_geoname_nodes_edges():
     from mira.dkg.resources.geonames import get_geonames_terms
     from pyobo.struct import part_of
+
     nodes, edges = set(), set()
-    node_header = ['curie:ID', 'name:string', ':LABEL']
-    edge_header = [':START_ID', ':TYPE', ':END_ID']
+    node_header = ["curie:ID", "name:string", ":LABEL"]
+    edge_header = [":START_ID", ":TYPE", ":END_ID"]
     geoname_terms = get_geonames_terms()
     mesh_node_df = pd.read_csv("../kg/mesh_hierarchy_nodes.tsv", sep="\t")
     for geoname_term in geoname_terms:
@@ -360,10 +361,12 @@ def add_geoname_nodes_edges():
         for parent_geoname_term in geoname_term.get_relationships(part_of):
             # We only add a geoname node as a target if the geolocation it
             # represents isn't present as a MESH term
-            mesh_parent_info = convert_geoname_to_mesh(mesh_node_df, parent_geoname_term)
+            mesh_parent_info = convert_geoname_to_mesh(
+                mesh_node_df, parent_geoname_term
+            )
             if not mesh_parent_info.empty:
                 parent_curie = mesh_parent_info.values[0][0]
-                edges.add((geoname_term.curie,"isa",parent_curie))
+                edges.add((geoname_term.curie, "isa", parent_curie))
             else:
                 edges.add((geoname_term.curie, "isa", parent_geoname_term.curie))
     with open("../kg/geoname_nodes.tsv", "w") as fh:
@@ -372,6 +375,7 @@ def add_geoname_nodes_edges():
     with open("../kg/geoname_edges.tsv", "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
         writer.writerows([edge_header] + list(edges))
+
 
 def convert_geoname_to_mesh(mesh_node_df, geoname_term):
     """
@@ -390,11 +394,12 @@ def convert_geoname_to_mesh(mesh_node_df, geoname_term):
     # If the geoname can't be grounded to a MESH term, try basic name-space
     # filtering for MESH nodes
     if grounded_mesh_curie:
-        mesh_term_info = mesh_node_df[
-            mesh_node_df["curie:ID"] == grounded_mesh_curie]
+        mesh_term_info = mesh_node_df[mesh_node_df["curie:ID"] == grounded_mesh_curie]
     else:
-        mesh_term_info = mesh_node_df[(mesh_node_df["curie:ID"] == "geoloc") & (
-                mesh_node_df["name:string"] == name)]
+        mesh_term_info = mesh_node_df[
+            (mesh_node_df["curie:ID"] == "geoloc")
+            & (mesh_node_df["name:string"] == name)
+        ]
     return mesh_term_info
 
 if __name__ == "__main__":
