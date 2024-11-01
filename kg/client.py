@@ -12,7 +12,8 @@ from kg.test import create_custom_grounder
 
 TxResult: TypeAlias = Optional[List[List[Any]]]
 
-customer_grounder = create_custom_grounder()
+custom_grounder = create_custom_grounder()
+
 
 class Neo4jClient:
     """A client to Neo4j."""
@@ -242,13 +243,12 @@ def create_custom_grounder():
         )
         geoname_gilda_terms.append(geoname_gilda_term)
     custom_grounder_terms = geoname_gilda_terms + mesh_gilda_terms
-    custom_grounder = gilda.grounder.Grounder(custom_grounder_terms)
-    return custom_grounder
+    return gilda.grounder.Grounder(custom_grounder_terms)
 
 
 def get_curie(name):
     """Return a MeSH CURIE based on a text name."""
-    matches = customer_grounder.ground(name, namespaces=['MESH'])
+    matches = custom_grounder.ground(name, namespaces=['MESH', 'geonames'])
     if not matches:
         return None
     curie = f'MESH:{matches[0].term.id}'
