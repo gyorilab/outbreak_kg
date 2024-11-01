@@ -8,8 +8,11 @@ from neo4j import GraphDatabase, Transaction, unit_of_work
 
 __all__ = ["Neo4jClient"]
 
+from kg.test import create_custom_grounder
+
 TxResult: TypeAlias = Optional[List[List[Any]]]
 
+customer_grounder = create_custom_grounder()
 
 class Neo4jClient:
     """A client to Neo4j."""
@@ -153,7 +156,7 @@ class Neo4jClient:
         return all_data
 
     def annotate_text_query(self, text: str):
-        annotations = gilda.annotate(text, namespaces=['MESH'])
+        annotations = gilda.annotate(text, namespaces=['MESH', 'geonames'])
         curies = [
             f'{a.matches[0].term.db}:{a.matches[0].term.id}'
             for a in annotations
@@ -200,9 +203,52 @@ def do_cypher_tx(tx: Transaction, query: str, **query_params) -> List[List]:
     return [record.values() for record in result]
 
 
+def create_custom_grounder():
+    """Returns a custom grounder for geonames and MeSH terms"""
+    from gilda.generate_terms import generate_mesh_terms
+    from gilda import Term
+    from gilda.process import (
+        normalize,
+        replace_dashes,
+        replace_greek_uni,
+        replace_greek_latin,
+        replace_greek_spelled_out,
+        replace_roman_arabic,
+    )
+    import pandas as pd
+
+    mesh_gilda_terms = generate_mesh_terms(ignore_mappings=True)
+    geoname_node_df = pd.read_csv("geoname_nodes.tsv", sep="\t")
+    geoname_gilda_terms = []
+    for _, geoname_info in geoname_node_df.iterrows():
+        name = geoname_info["name:string"]
+        curie_elements = geoname_info["curie:ID"].split(":")
+        db_name = curie_elements[0]
+        db_id = curie_elements[1]
+        norm_name = replace_dashes(name, " ")
+        norm_name = replace_greek_uni(norm_name)
+        norm_name = replace_greek_latin(norm_name)
+        norm_name = replace_greek_spelled_out(norm_name)
+        norm_name = replace_roman_arabic(norm_name)
+        norm_name = normalize(norm_name)
+        geoname_gilda_term = Term(
+            norm_text=norm_name,
+            text=name,
+            db=db_name,
+            id=db_id,
+            entry_name=name,
+            status="name",
+            source=db_name,
+        )
+        geoname_gilda_terms.append(geoname_gilda_term)
+    custom_grounder_terms = geoname_gilda_terms + mesh_gilda_terms
+    custom_grounder = gilda.grounder.Grounder(custom_grounder_terms)
+    return custom_grounder
+
+
 def get_curie(name):
     """Return a MeSH CURIE based on a text name."""
-    matches = gilda.ground(name, namespaces=['MESH'])
+    matches = customer_grounder.ground(name, namespaces=['MESH'])
     if not matches:
         return None
     curie = f'MESH:{matches[0].term.id}'
