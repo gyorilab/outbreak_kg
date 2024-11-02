@@ -8,11 +8,7 @@ from neo4j import GraphDatabase, Transaction, unit_of_work
 
 __all__ = ["Neo4jClient"]
 
-from kg.test import create_custom_grounder
-
 TxResult: TypeAlias = Optional[List[List[Any]]]
-
-custom_grounder = create_custom_grounder()
 
 
 class Neo4jClient:
@@ -57,12 +53,17 @@ class Neo4jClient:
     ):
         geolocation_curie = get_curie(geolocation)
         query = \
-            """
-            MATCH (i:indicator)<-[r:has_indicator]-(geolocation:geoloc)-
-            [:isa*0..]->(geolocation_isa:geoloc {curie: $geolocation_curie})
-            WHERE i.name CONTAINS $indicator_filter
-            RETURN i, r, geolocation, geolocation_isa
-            """
+        """
+        MATCH (i:indicator)<-[r:has_indicator]-(geolocation:geoloc)
+        MATCH path = (geolocation)-[r_t:isa*0..]->(geolocation_isa:geoloc {curie: $geolocation_curie})
+        WHERE i.name CONTAINS $indicator_filter
+        RETURN i, r, geolocation, nodes(path)[1..] AS geolocation_isa
+        UNION 
+        MATCH (i:indicator)<-[r:has_indicator]-(geolocation:geoloc)
+        MATCH path = (geolocation)<-[r_t:isa*1..]-(geolocation_isa:geoloc {curie: $geolocation_curie})
+        WHERE i.name CONTAINS $indicator_filter
+        RETURN i, r, geolocation, nodes(path)[1..] AS geolocation_isa
+        """
         query_parameters = {
             "geolocation_curie": geolocation_curie,
             "indicator_filter": indicator_filter
@@ -205,7 +206,7 @@ def do_cypher_tx(tx: Transaction, query: str, **query_params) -> List[List]:
 
 
 def create_custom_grounder():
-    """Returns a custom grounder for geonames and MeSH terms"""
+    """Returns a custom grounder for MeSH and geonames terms"""
     from gilda.generate_terms import generate_mesh_terms
     from gilda import Term
     from gilda.process import (
@@ -246,10 +247,13 @@ def create_custom_grounder():
     return gilda.grounder.Grounder(custom_grounder_terms)
 
 
+custom_grounder = create_custom_grounder()
+
+
 def get_curie(name):
-    """Return a MeSH CURIE based on a text name."""
-    matches = custom_grounder.ground(name, namespaces=['MESH', 'geonames'])
+    """Return a MeSH or geonames CURIE based on a text name."""
+    matches = custom_grounder.ground(name, namespaces=["MESH", "geonames"])
     if not matches:
         return None
-    curie = f'MESH:{matches[0].term.id}'
-    return curie
+    matched_term = matches[0].term
+    return f"{matched_term.db}:{matched_term.id}"
