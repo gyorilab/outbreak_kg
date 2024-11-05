@@ -88,10 +88,10 @@ def assemble_coocurrence():
         edges.add((a[0] + ':' + a[1], 'occurs_with', b[0] + ':' + b[1], count))
     with open(os.path.join(HERE, 'cooccurrence_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([edge_header] + list(edges))
+        writer.writerows([edge_header] + sorted(list(edges)))
     with open(os.path.join(HERE, 'cooccurrence_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([node_header] + list(nodes))
+        writer.writerows([node_header] + sorted(list(nodes)))
 
 
 def assemble_mesh_hierarchy():
@@ -128,10 +128,10 @@ def assemble_mesh_hierarchy():
     edge_header = [':START_ID', ':TYPE', ':END_ID']
     with open(os.path.join(HERE, 'mesh_hierarchy_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([edge_header] + list(edges))
+        writer.writerows([edge_header] + sorted(list(edges)))
     with open(os.path.join(HERE, 'mesh_hierarchy_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([node_header] + list(nodes))
+        writer.writerows([node_header] + sorted(list(nodes)))
 
 
 def assemble_outbreak_nodes():
@@ -151,10 +151,10 @@ def assemble_outbreak_nodes():
     edge_header = [':START_ID', ':TYPE', ':END_ID']
     with open(os.path.join(HERE, 'promed_outbreak_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([node_header] + list(nodes))
+        writer.writerows([node_header] + sorted(list(nodes)))
     with open(os.path.join(HERE, 'promed_alert_outbreak_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([edge_header] + list(edges))
+        writer.writerows([edge_header] + sorted(list(edges)))
 
 
 def assemble_alert_relations():
@@ -181,10 +181,10 @@ def assemble_alert_relations():
     edge_header = [':START_ID', ':TYPE', ':END_ID']
     with open(os.path.join(HERE, 'promed_alert_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([node_header] + list(nodes))
+        writer.writerows([node_header] + sorted(list(nodes)))
     with open(os.path.join(HERE, 'promed_alert_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([edge_header] + list(edges))
+        writer.writerows([edge_header] + sorted(list(edges)))
 
 
 def assemble_pathogen_disease_relations():
@@ -211,7 +211,7 @@ def assemble_pathogen_disease_relations():
         edges.add((f'MESH:{source_id}', 'has_pathogen', f'MESH:{target_id}'))
     with open(os.path.join(HERE, 'pathogen_disease_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([[':START_ID', ':TYPE', ':END_ID']] + list(edges))
+        writer.writerows([[':START_ID', ':TYPE', ':END_ID']] + sorted(list(edges)))
 
 
 def assemble_disease_symptom_relations():
@@ -226,7 +226,7 @@ def assemble_disease_symptom_relations():
         edges.add((mesh_disease, 'has_phenotype', mesh_pheno))
     with open(os.path.join(HERE, 'disease_phenotype_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([edge_header] + list(edges))
+        writer.writerows([edge_header] + sorted(list(edges)))
 
 
 def assemble_world_indicator_data():
@@ -309,10 +309,10 @@ def assemble_world_indicator_data():
         )
     with open(os.path.join(HERE, "indicator_health_nodes.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([node_header] + list(health_nodes))
+        writer.writerows([node_header] + sorted(list(health_nodes)))
     with open(os.path.join(HERE, "indicator_health_edges.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([edge_header] + list(health_edges))
+        writer.writerows([edge_header] + sorted(list(health_edges)))
 
     # Process dev indicator data
     for _, row in country_dev_indicator_df.iterrows():
@@ -343,10 +343,10 @@ def assemble_world_indicator_data():
         )
     with open(os.path.join(HERE, "indicator_dev_nodes.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([node_header] + list(dev_nodes))
+        writer.writerows([node_header] + sorted(list(dev_nodes)))
     with open(os.path.join(HERE, "indicator_dev_edges.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([edge_header] + list(dev_edges))
+        writer.writerows([edge_header] + sorted(list(dev_edges)))
 
 
 def add_geoname_nodes_edges():
@@ -374,12 +374,12 @@ def add_geoname_nodes_edges():
                 edges.add((geoname_term.curie, "isa", parent_curie))
             else:
                 edges.add((geoname_term.curie, "isa", parent_geoname_term.curie))
-    with open("../kg/geoname_nodes.tsv", "w") as fh:
+    with open(os.path.join(HERE, "geoname_nodes.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([node_header] + list(nodes))
-    with open("../kg/geoname_edges.tsv", "w") as fh:
+        writer.writerows([node_header] + sorted(list(nodes)))
+    with open(os.path.join(HERE, "geoname_edges.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([edge_header] + list(edges))
+        writer.writerows([edge_header] + sorted(list(edges)))
 
 
 def convert_geoname_to_mesh(mesh_node_df, geoname_term):
