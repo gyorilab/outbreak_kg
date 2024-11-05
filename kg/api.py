@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from client import Neo4jClient
 
@@ -11,6 +11,10 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 
 
 client = Neo4jClient()
+
+@app.route("/")
+def landing_page():
+    return render_template("landing_page.html")
 
 
 @app.route("/v1/alerts", methods=["GET"])

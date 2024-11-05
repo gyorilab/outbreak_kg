@@ -3,8 +3,8 @@ Knowledge graph and ontology for disease outbreak scenarios
 
 This project implements a knowledge graph framework for representing
 disease outbreak scenarios. The knowledge graph is built by
-processing disease outbreak alters from ProMED and other sources and
-combining this with ontological information to create a structured 
+processing disease outbreak alerts from ProMED and other sources and
+combines this with ontological information to create a structured 
 representation of outbreak events.
 
 Sources
@@ -34,7 +34,7 @@ represent entities such as diseases, pathogens, geolocations, and
 phenotypes. Edges represent relationships between these entities.
 The knowledge graph is deployed in a Neo4j database.
 
-![Outbreak KG schema](outbreak_kg_schema.png)
+![Outbreak KG schema](kg/static/outbreak_kg_schema.png)
 
 
 Interaction
