@@ -60,7 +60,7 @@ class Neo4jClient:
         RETURN i, r, geolocation, nodes(path)[1..] AS geolocation_isa
         UNION 
         MATCH (i:indicator)<-[r:has_indicator]-(geolocation:geoloc)
-        MATCH path = (geolocation)<-[r_t:isa*1..]-(geolocation_isa:geoloc {curie: $geolocation_curie})
+        MATCH path = (geolocation)<-[r_t:isa*0..]-(geolocation_isa:geoloc {curie: $geolocation_curie})
         WHERE i.name CONTAINS $indicator_filter
         RETURN i, r, geolocation, nodes(path)[1..] AS geolocation_isa
         """
