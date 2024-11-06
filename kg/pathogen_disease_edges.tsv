@@ -1,5 +1,5 @@
 :START_ID	:TYPE	:END_ID
-MESH:9965	has_pathogen	MESH:5811
 MESH:11330	has_pathogen	MESH:1648
-MESH:9065	has_pathogen	MESH:5659
 MESH:1883	has_pathogen	MESH:11103
+MESH:9065	has_pathogen	MESH:5659
+MESH:9965	has_pathogen	MESH:5811

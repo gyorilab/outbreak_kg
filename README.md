@@ -19,6 +19,10 @@ as a `has_outbreak` relationship.
 - Taxonomy of diseases: extracted from the Medical Subject Headings tree structure
 - Taxonomy of pathogens: extracted from the Medical Subject Headings tree structure
 - Taxonomy of geolocations: extracted from the Medical Subject Headings tree structure
+- Additional taxonomy of geolocations: extracted from the Geonames dataset with prefix `geonames`
+- Geolocation relations: geolocations are linked together to represent hierarchical inclusion 
+using the `isa` relationship where the subsumed region is the source of the relationship
+and the containing region is the target. 
 - Pathogen-disease relations: relationships representing the fact that a pathogen causes a disease
 are represented as `has_pathogen` relationships.
 - Disease-phenotype/symptom relations: relationships representing the fact that a disease

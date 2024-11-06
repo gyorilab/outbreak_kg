@@ -1,3 +1,4 @@
+import os
 import csv
 import json
 import tqdm
@@ -12,6 +13,8 @@ from indra.ontology.bio import bio_ontology
 from constants import LOCATION_MESH_MAPPING
 
 grounder = gilda.get_grounder()
+HERE = os.path.dirname(os.path.abspath(__file__))
+NER_OUTPUT = os.path.join(HERE, os.pardir, 'output')
 
 def is_geoloc(x_db, x_id):
     if x_db == 'MESH':
@@ -39,13 +42,15 @@ exclude_list = {'Disease', 'Health', 'Affected', 'control', 'Animals',
                 'Epidemiology', 'Names', 'submitted', 'Laboratories',
                 'Disease Outbreaks', 'Central', 'strain'}
 
-outbreak_df = pd.read_csv('../output/promed_updates.csv',
-                              dtype={"archiveNumber":str})
+outbreak_df = pd.read_csv(os.path.join(NER_OUTPUT, 'promed_outbreaks.csv'),
+                          dtype={"archiveNumber": str})
+
 outbreak_df["archiveNumber"] = outbreak_df["archiveNumber"].apply(
     lambda archive_number: archive_number.replace("\"", ""))
 
+
 def assemble_coocurrence():
-    with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
+    with open(os.path.join(NER_OUTPUT, 'promed_ner_terms_by_alert.json'), 'r') as f:
         jj = json.load(f)
 
     pairs = []
@@ -63,7 +68,7 @@ def assemble_coocurrence():
                     interesting_pairs.append((tuple(a), tuple(b)))
             pairs.append((tuple(a), tuple(b)))
 
-    node_header = ['curie:ID', 'name:string', ':TYPE']
+    node_header = ['curie:ID', 'name:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID', 'count:int']
 
     nodes = set()
@@ -75,18 +80,18 @@ def assemble_coocurrence():
                 ntype = 'geoloc'
             else:
                 ntype = 'disease'
-            nodes.add((x[0] + ':' + x[1], x[2], ntype))
+            nodes.add((x[0] + ':' + x[1], x[2], ntype + ':entity'))
 
     cnt = Counter(interesting_pairs)
     edges = set()
     for (a, b), count in cnt.items():
         edges.add((a[0] + ':' + a[1], 'occurs_with', b[0] + ':' + b[1], count))
-    with open('../kg/edges.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'cooccurrence_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([edge_header] + list(edges))
-    with open('../kg/nodes.tsv', 'w') as fh:
+        writer.writerows([edge_header] + sorted(list(edges)))
+    with open(os.path.join(HERE, 'cooccurrence_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([node_header] + list(nodes))
+        writer.writerows([node_header] + sorted(list(nodes)))
 
 
 def assemble_mesh_hierarchy():
@@ -105,7 +110,7 @@ def assemble_mesh_hierarchy():
             node_type = 'pathogen'
         else:
             node_type = 'geoloc'
-        nodes.add((f'MESH:{mesh_id}', mesh_name, node_type))
+        nodes.add((f'MESH:{mesh_id}', mesh_name, node_type + ':entity'))
         parents_ids = list(bio_ontology.child_rel('MESH', mesh_id, {'isa'}))
         parent_mesh_terms = [':'.join(parent) for parent in parents_ids]
         new_edges = set()
@@ -121,12 +126,12 @@ def assemble_mesh_hierarchy():
     # TODO: add relations to root nodes
     node_header = ['curie:ID', 'name:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
-    with open('../kg/mesh_hierarchy_edges.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'mesh_hierarchy_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([edge_header] + list(edges))
-    with open('../kg/mesh_hierarchy_nodes.tsv', 'w') as fh:
+        writer.writerows([edge_header] + sorted(list(edges)))
+    with open(os.path.join(HERE, 'mesh_hierarchy_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([node_header] + list(nodes))
+        writer.writerows([node_header] + sorted(list(nodes)))
 
 
 def assemble_outbreak_nodes():
@@ -144,16 +149,16 @@ def assemble_outbreak_nodes():
                    f"outbreak:{outbreak_id}"))
     node_header = ['curie:ID', 'name:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
-    with open('../kg/promed_outbreak_nodes.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'promed_outbreak_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([node_header] + list(nodes))
-    with open('../kg/promed_alert_outbreak_edges.tsv', 'w') as fh:
+        writer.writerows([node_header] + sorted(list(nodes)))
+    with open(os.path.join(HERE, 'promed_alert_outbreak_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([edge_header] + list(edges))
+        writer.writerows([edge_header] + sorted(list(edges)))
 
 
 def assemble_alert_relations():
-    with open('../output/promed_ner_terms_by_alert.json', 'r') as f:
+    with open(os.path.join(NER_OUTPUT, 'promed_ner_terms_by_alert.json'), 'r') as f:
         terms_by_alert = json.load(f)
     nodes = set()
     edges = set()
@@ -174,17 +179,17 @@ def assemble_alert_relations():
                     edges.add((f'promed:{archive_number}', 'mentions', f'MESH:{id}'))
     node_header = ['curie:ID', 'name:string', 'timestamp:string', ':LABEL']
     edge_header = [':START_ID', ':TYPE', ':END_ID']
-    with open('../kg/promed_alert_nodes.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'promed_alert_nodes.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([node_header] + list(nodes))
-    with open('../kg/promed_alert_edges.tsv', 'w') as fh:
+        writer.writerows([node_header] + sorted(list(nodes)))
+    with open(os.path.join(HERE, 'promed_alert_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([edge_header] + list(edges))
+        writer.writerows([edge_header] + sorted(list(edges)))
 
 
 def assemble_pathogen_disease_relations():
     import pyobo
-    df = pd.read_csv('pathogen_disease_rels.tsv', sep='\t')
+    df = pd.read_csv(os.path.join(HERE, 'pathogen_disease_rels.tsv'), sep='\t')
     df = df[~df[':START_ID'].str.startswith('umls')]
     df = df[~df[':END_ID'].str.startswith('umls')]
     edges = set()
@@ -204,9 +209,9 @@ def assemble_pathogen_disease_relations():
         if not mapped_id:
             continue
         edges.add((f'MESH:{source_id}', 'has_pathogen', f'MESH:{target_id}'))
-    with open('../kg/pathogen_disease_edges.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'pathogen_disease_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([[':START_ID', ':TYPE', ':END_ID']] + list(edges))
+        writer.writerows([[':START_ID', ':TYPE', ':END_ID']] + sorted(list(edges)))
 
 
 def assemble_disease_symptom_relations():
@@ -219,19 +224,19 @@ def assemble_disease_symptom_relations():
         mesh_disease = row[':START_ID'].upper()
         mesh_pheno = row[':END_ID'].upper()
         edges.add((mesh_disease, 'has_phenotype', mesh_pheno))
-    with open('../kg/disease_phenotype_edges.tsv', 'w') as fh:
+    with open(os.path.join(HERE, 'disease_phenotype_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
-        writer.writerows([edge_header] + list(edges))
+        writer.writerows([edge_header] + sorted(list(edges)))
 
 
 def assemble_world_indicator_data():
     dev_nodes, dev_edges, health_nodes, health_edges = set(), set(), set(), set()
-    mesh_node_df = pd.read_csv("../kg/mesh_hierarchy_nodes.tsv", sep="\t")
+    mesh_node_df = pd.read_csv(os.path.join(HERE, "mesh_hierarchy_nodes.tsv"), sep="\t")
     country_dev_indicator_df = pd.read_csv(
-        "../kg/world_dev_indicator_data.tsv", sep="\t"
+        os.path.join(HERE, "world_dev_indicator_data.tsv"), sep="\t"
     )
     country_health_indicator_df = pd.read_csv(
-        "../kg/world_health_indicator_data.tsv", sep="\t"
+        os.path.join(HERE, "world_health_indicator_data.tsv"), sep="\t"
     )
 
     # Removed shared series codes between dev and health indicator data from the
@@ -261,7 +266,7 @@ def assemble_world_indicator_data():
     # Filter out countries that can't be grounded to Mesh terms
     country_dev_indicator_df = pd.merge(
         country_dev_indicator_df,
-        mesh_node_df[mesh_node_df[":LABEL"] == "geoloc"],
+        mesh_node_df[mesh_node_df[":LABEL"].str.contains("geoloc")],
         left_on="Country Name",
         right_on="name:string",
         how="inner",
@@ -269,7 +274,7 @@ def assemble_world_indicator_data():
 
     country_health_indicator_df = pd.merge(
         country_health_indicator_df,
-        mesh_node_df[mesh_node_df[":LABEL"] == "geoloc"],
+        mesh_node_df[mesh_node_df[":LABEL"].str.contains("geoloc")],
         left_on="Country Name",
         right_on="name:string",
         how="inner",
@@ -302,12 +307,12 @@ def assemble_world_indicator_data():
                 indicator_curie,
             )
         )
-    with open("../kg/indicator_health_nodes.tsv", "w") as fh:
+    with open(os.path.join(HERE, "indicator_health_nodes.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([node_header] + list(health_nodes))
-    with open("../kg/indicator_health_edges.tsv", "w") as fh:
+        writer.writerows([node_header] + sorted(list(health_nodes)))
+    with open(os.path.join(HERE, "indicator_health_edges.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([edge_header] + list(health_edges))
+        writer.writerows([edge_header] + sorted(list(health_edges)))
 
     # Process dev indicator data
     for _, row in country_dev_indicator_df.iterrows():
@@ -336,20 +341,21 @@ def assemble_world_indicator_data():
                 indicator_curie,
             )
         )
-    with open("../kg/indicator_dev_nodes.tsv", "w") as fh:
+    with open(os.path.join(HERE, "indicator_dev_nodes.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([node_header] + list(dev_nodes))
-    with open("../kg/indicator_dev_edges.tsv", "w") as fh:
+        writer.writerows([node_header] + sorted(list(dev_nodes)))
+    with open(os.path.join(HERE, "indicator_dev_edges.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([edge_header] + list(dev_edges))
+        writer.writerows([edge_header] + sorted(list(dev_edges)))
 
 
 def add_geoname_nodes_edges():
     from mira.dkg.resources.geonames import get_geonames_terms
     from pyobo.struct import part_of
+
     nodes, edges = set(), set()
-    node_header = ['curie:ID', 'name:string', ':LABEL']
-    edge_header = [':START_ID', ':TYPE', ':END_ID']
+    node_header = ["curie:ID", "name:string", ":LABEL"]
+    edge_header = [":START_ID", ":TYPE", ":END_ID"]
     geoname_terms = get_geonames_terms()
     mesh_node_df = pd.read_csv("../kg/mesh_hierarchy_nodes.tsv", sep="\t")
     for geoname_term in geoname_terms:
@@ -360,18 +366,21 @@ def add_geoname_nodes_edges():
         for parent_geoname_term in geoname_term.get_relationships(part_of):
             # We only add a geoname node as a target if the geolocation it
             # represents isn't present as a MESH term
-            mesh_parent_info = convert_geoname_to_mesh(mesh_node_df, parent_geoname_term)
+            mesh_parent_info = convert_geoname_to_mesh(
+                mesh_node_df, parent_geoname_term
+            )
             if not mesh_parent_info.empty:
                 parent_curie = mesh_parent_info.values[0][0]
-                edges.add((geoname_term.curie,"isa",parent_curie))
+                edges.add((geoname_term.curie, "isa", parent_curie))
             else:
                 edges.add((geoname_term.curie, "isa", parent_geoname_term.curie))
-    with open("../kg/geoname_nodes.tsv", "w") as fh:
+    with open(os.path.join(HERE, "geoname_nodes.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([node_header] + list(nodes))
-    with open("../kg/geoname_edges.tsv", "w") as fh:
+        writer.writerows([node_header] + sorted(list(nodes)))
+    with open(os.path.join(HERE, "geoname_edges.tsv"), "w") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerows([edge_header] + list(edges))
+        writer.writerows([edge_header] + sorted(list(edges)))
+
 
 def convert_geoname_to_mesh(mesh_node_df, geoname_term):
     """
@@ -390,11 +399,12 @@ def convert_geoname_to_mesh(mesh_node_df, geoname_term):
     # If the geoname can't be grounded to a MESH term, try basic name-space
     # filtering for MESH nodes
     if grounded_mesh_curie:
-        mesh_term_info = mesh_node_df[
-            mesh_node_df["curie:ID"] == grounded_mesh_curie]
+        mesh_term_info = mesh_node_df[mesh_node_df["curie:ID"] == grounded_mesh_curie]
     else:
-        mesh_term_info = mesh_node_df[(mesh_node_df["curie:ID"] == "geoloc") & (
-                mesh_node_df["name:string"] == name)]
+        mesh_term_info = mesh_node_df[
+            (mesh_node_df["curie:ID"] == "geoloc")
+            & (mesh_node_df["name:string"] == name)
+        ]
     return mesh_term_info
 
 if __name__ == "__main__":
