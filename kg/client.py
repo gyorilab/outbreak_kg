@@ -69,15 +69,23 @@ class Neo4jClient:
             "indicator_filter": indicator_filter
         }
         res = self.query_tx(query, **query_parameters)
-        data = [
-            {
+        data = []
+        for row in res:
+            if not isinstance(row[3], list):
+                data.append({
                 'indicator': dict(row[0]),
                 'data': json.loads(dict(row[1])['years_data']),
                 'geolocation': dict(row[2]),
                 'geolocation_isa': dict(row[3]),
-            }
-            for row in res
-        ]
+            })
+            else:
+                geolocation_isa = [dict(row_ele) for row_ele in row[3]]
+                data.append({
+                    'indicator': dict(row[0]),
+                    'data': json.loads(dict(row[1])['years_data']),
+                    'geolocation': dict(row[2]),
+                    'geolocation_isa': geolocation_isa,
+                })
         return data
 
     def query_graph(

@@ -116,6 +116,8 @@ RUN python3.10 -m pip install git+https://github.com/gyorilab/gilda.git
 RUN python3.10 -c "import nltk;nltk.download('stopwords');nltk.download('punkt_tab')"
 RUN python3.10 -m gilda.resources
 
+COPY static static
+COPY templates templates
 COPY api.py api.py
 COPY client.py client.py
 COPY startup.sh startup.sh
