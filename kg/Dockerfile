@@ -54,7 +54,7 @@ RUN echo "dbms.security.procedures.unrestricted=apoc.*" >> /etc/neo4j/neo4j.conf
 # Fixes ERROR: Cannot uninstall 'blinker'. It is a distutils installed project
 # and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
 RUN python3.10 -m pip install --ignore-installed blinker
-
+RUN python3.10 -m pip install git+https://github.com/sorgerlab/indra.git
 RUN python3.10 -m pip install fastapi \
     uvicorn \
     "neo4j<5" \
