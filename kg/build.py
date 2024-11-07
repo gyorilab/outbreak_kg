@@ -80,7 +80,7 @@ def assemble_coocurrence():
                 ntype = 'geoloc'
             else:
                 ntype = 'disease'
-            nodes.add((x[0] + ':' + x[1], x[2], ntype + ':entity'))
+            nodes.add((x[0] + ':' + x[1], x[2], ntype + ';entity'))
 
     cnt = Counter(interesting_pairs)
     edges = set()
@@ -110,7 +110,7 @@ def assemble_mesh_hierarchy():
             node_type = 'pathogen'
         else:
             node_type = 'geoloc'
-        nodes.add((f'MESH:{mesh_id}', mesh_name, node_type + ':entity'))
+        nodes.add((f'MESH:{mesh_id}', mesh_name, node_type + ';entity'))
         parents_ids = list(bio_ontology.child_rel('MESH', mesh_id, {'isa'}))
         parent_mesh_terms = [':'.join(parent) for parent in parents_ids]
         new_edges = set()
