@@ -67,17 +67,18 @@
         <div class="card mb-4">
             <div class="card-body">
                 <h2 class="card-title">Alert by ID</h2>
-                <form action="https://outbreak-kg.indra.bio/v1/alerts/" method="get" target="_blank" class="row g-3">
+                <form onsubmit="this.action = 'https://outbreak-kg.indra.bio/v1/alerts/' + document.getElementById('alert_id').value;" action="https://outbreak-kg.indra.bio/v1/alerts" method="get" target="_blank" class="row g-3">
                     <div class="col-md-6">
                         <label for="alert_id" class="form-label">Alert ID</label>
                         <input type="text" id="alert_id" required class="form-control">
                     </div>
                     <div class="col-12">
-                        <button type="submit" onclick="this.form.action += document.getElementById('alert_id').value;" class="btn btn-primary">Get Alert by ID</button>
+                        <button type="submit" class="btn btn-primary">Get Alert by ID</button>
                     </div>
                 </form>
             </div>
         </div>
+
 
         <!-- Indicators Endpoint -->
         <div class="card mb-4">

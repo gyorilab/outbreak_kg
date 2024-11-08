@@ -50,6 +50,7 @@ RUN wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/downloa
 
 # Set custom configuration to enable apoc
 RUN echo "dbms.security.procedures.unrestricted=apoc.*" >> /etc/neo4j/neo4j.conf
+RUN echo "apoc.export.file.enabled=true" >> /etc/neo4j/neo4j.conf
 
 # Fixes ERROR: Cannot uninstall 'blinker'. It is a distutils installed project
 # and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
