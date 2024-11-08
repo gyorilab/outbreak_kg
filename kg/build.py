@@ -195,19 +195,19 @@ def assemble_pathogen_disease_relations():
     for _, row in df.iterrows():
         source_ns, source_id = row[':START_ID'].split(':')
         if source_ns == 'ncbitaxon':
-            mapped_id = mesh_client.ncbitaxon_to_mesh.get(source_id)
+            mapped_source_id = mesh_client.ncbitaxon_to_mesh.get(source_id)
         else:
-            mapped_id = pyobo.get_xref(source_ns, source_id, 'mesh')
-        if not mapped_id:
+            mapped_source_id = pyobo.get_xref(source_ns, source_id, 'mesh')
+        if not mapped_source_id:
             continue
         target_ns, target_id = row[':END_ID'].split(':')
         if target_ns == 'ncbitaxon':
-            mapped_id = mesh_client.ncbitaxon_to_mesh.get(target_id)
+            mapped_target_id = mesh_client.ncbitaxon_to_mesh.get(target_id)
         else:
-            mapped_id = pyobo.get_xref(target_ns, target_id, 'mesh')
-        if not mapped_id:
+            mapped_target_id = pyobo.get_xref(target_ns, target_id, 'mesh')
+        if not mapped_target_id:
             continue
-        edges.add((f'MESH:{source_id}', 'has_pathogen', f'MESH:{target_id}'))
+        edges.add((f'MESH:{mapped_source_id}', 'has_pathogen', f'MESH:{mapped_target_id}'))
     with open(os.path.join(HERE, 'pathogen_disease_edges.tsv'), 'w') as fh:
         writer = csv.writer(fh, delimiter='\t')
         writer.writerows([[':START_ID', ':TYPE', ':END_ID']] + sorted(list(edges)))
