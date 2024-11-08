@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Interface</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Outbreak KG API Interface</h1>
+
+        <!-- Alerts Endpoint -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title">Alerts</h2>
+                <form action="https://outbreak-kg.indra.bio/v1/alerts" method="get" target="_blank" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="disease" class="form-label">Disease</label>
+                        <input type="text" id="disease" name="disease" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="geolocation" class="form-label">Geolocation</label>
+                        <input type="text" id="geolocation" name="geolocation" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="pathogen" class="form-label">Pathogen</label>
+                        <input type="text" id="pathogen" name="pathogen" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="timestamp" class="form-label">Timestamp</label>
+                        <input type="text" id="timestamp" name="timestamp" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="symptom" class="form-label">Symptom</label>
+                        <input type="text" id="symptom" name="symptom" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="limit" class="form-label">Limit</label>
+                        <input type="number" id="limit" name="limit" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit Alerts Query</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Alerts by ID Endpoint -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title">Alert by ID</h2>
+                <form action="https://outbreak-kg.indra.bio/v1/alerts/" method="get" target="_blank" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="alert_id" class="form-label">Alert ID</label>
+                        <input type="text" id="alert_id" name="alert_id" required class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" onclick="this.form.action += document.getElementById('alert_id').value;" class="btn btn-primary">Get Alert by ID</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Indicators Endpoint -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title">Indicators</h2>
+                <form action="https://outbreak-kg.indra.bio/v1/indicators" method="get" target="_blank" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="geolocation" class="form-label">Geolocation</label>
+                        <input type="text" id="geolocation" name="geolocation" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="indicator_filter" class="form-label">Indicator Filter</label>
+                        <input type="text" id="indicator_filter" name="indicator_filter" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit Indicators Query</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Text Relations Endpoint -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title">Text Relations</h2>
+                <form action="https://outbreak-kg.indra.bio/v1/text_relations" method="get" target="_blank" class="row g-3">
+                    <div class="col-12">
+                        <label for="text" class="form-label">Text</label>
+                        <input type="text" id="text" name="text" required class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit Text Relations Query</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
