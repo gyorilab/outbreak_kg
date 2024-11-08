@@ -119,6 +119,6 @@ RUN python3.10 -m gilda.resources
 COPY static static
 COPY templates templates
 COPY api.py api.py
-COPY startup.sh startup.sh
 COPY client.py client.py
+COPY startup.sh startup.sh
 ENTRYPOINT ["/bin/bash", "/sw/startup.sh"]

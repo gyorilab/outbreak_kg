@@ -74,11 +74,11 @@ class Neo4jClient:
         for row in res:
             if not isinstance(row[3], list):
                 data.append({
-                'indicator': dict(row[0]),
-                'data': json.loads(dict(row[1])['years_data']),
-                'geolocation': dict(row[2]),
-                'geolocation_isa': dict(row[3]),
-            })
+                    'indicator': dict(row[0]),
+                    'data': json.loads(dict(row[1])['years_data']),
+                    'geolocation': dict(row[2]),
+                    'geolocation_isa': dict(row[3]),
+                })
             else:
                 geolocation_isa = [dict(row_ele) for row_ele in row[3]]
                 data.append({
@@ -203,15 +203,14 @@ class Neo4jClient:
             MATCH (n:alert)-[:mentions]->(b)
             WHERE a.curie IN $curies AND b.curie IN $curies
             AND a <> b
-            WITH n, a, b, COUNT(n) AS alert_count
             RETURN n, a, b
-            ORDER BY alert_count DESC
         """
         res_alerts = self.query_tx(query, curies=curies)
         # We reorganize alerts so that we can merge all entities
         # appearing in them into a single alert entry
         entities_by_curie = {}
         entities_by_alert = defaultdict(set)
+        alerts_by_name = {}
         for res in res_alerts:
             alert = dict(res[0])
             a = dict(res[1])
@@ -219,12 +218,14 @@ class Neo4jClient:
             entities_by_alert[alert['name']] |= {a['curie'], b['curie']}
             entities_by_curie[a['curie']] = a
             entities_by_curie[b['curie']] = b
+            alerts_by_name[alert['name']] = alert
+        sorted_alerts = sorted(alerts_by_name.items(), key=lambda x: len(entities_by_alert[x[0]]),
+                               reverse=True)
         # We now generate the actual alert entries
         data['alerts'] = []
-        for res in res_alerts:
-            alert = dict(res[0])
+        for alert_id, alert in sorted_alerts:
             entities = [entities_by_curie[entity]
-                        for entity in entities_by_alert[alert['name']]]
+                        for entity in entities_by_alert[alert_id]]
             data['alerts'].append({'alert': alert, 'entities': entities})
         return data
 
