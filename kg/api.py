@@ -12,9 +12,15 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 
 client = Neo4jClient()
 
+
 @app.route("/")
 def landing_page():
     return render_template("landing_page.html")
+
+
+@app.route("/ui")
+def ui_page():
+    return render_template("ui.html")
 
 
 @app.route("/v1/alerts", methods=["GET"])
