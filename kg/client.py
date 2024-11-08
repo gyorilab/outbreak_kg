@@ -1,4 +1,5 @@
 import json
+from collections import defaultdict
 from typing import Any, List, Optional
 from typing_extensions import TypeAlias
 
@@ -73,11 +74,11 @@ class Neo4jClient:
         for row in res:
             if not isinstance(row[3], list):
                 data.append({
-                'indicator': dict(row[0]),
-                'data': json.loads(dict(row[1])['years_data']),
-                'geolocation': dict(row[2]),
-                'geolocation_isa': dict(row[3]),
-            })
+                    'indicator': dict(row[0]),
+                    'data': json.loads(dict(row[1])['years_data']),
+                    'geolocation': dict(row[2]),
+                    'geolocation_isa': dict(row[3]),
+                })
             else:
                 geolocation_isa = [dict(row_ele) for row_ele in row[3]]
                 data.append({
@@ -166,12 +167,18 @@ class Neo4jClient:
         return all_data
 
     def annotate_text_query(self, text: str):
+        data = {}
         annotations = gilda.annotate(text, namespaces=['MESH', 'geonames'])
-        curies = [
-            f'{a.matches[0].term.db}:{a.matches[0].term.id}'
+        data['annotations'] = [
+            {
+                'text': a.text,
+                'name': a.matches[0].term.entry_name,
+                'curie': f'{a.matches[0].term.db}:{a.matches[0].term.id}'
+            }
             for a in annotations
         ]
-        print('Looking up CURIEs:', ', '.join(sorted(curies)))
+        curies = sorted({a['curie'] for a in data['annotations']})
+        print('Looking up CURIEs:', ', '.join(curies))
         # Query for direct relationships between the terms
         # TODO: we should add an entity tag to all of the
         # domain-specific terms to make these queries scale
@@ -180,8 +187,8 @@ class Neo4jClient:
             WHERE a.curie IN $curies AND b.curie IN $curies
             RETURN a, r, b
         """
-        res_direct = self.query_tx(query, entities=curies)
-        data = {'direct': []}
+        res_direct = self.query_tx(query, curies=curies)
+        data['direct'] = []
         for res in res_direct:
             a, r, b = res
             entry = {
@@ -199,10 +206,27 @@ class Neo4jClient:
             RETURN n, a, b
         """
         res_alerts = self.query_tx(query, curies=curies)
-        data['alerts'] = []
+        # We reorganize alerts so that we can merge all entities
+        # appearing in them into a single alert entry
+        entities_by_curie = {}
+        entities_by_alert = defaultdict(set)
+        alerts_by_name = {}
         for res in res_alerts:
             alert = dict(res[0])
-            entities = [dict(res[1]), dict(res[2])]
+            a = dict(res[1])
+            b = dict(res[2])
+            entities_by_alert[alert['name']] |= {a['curie'], b['curie']}
+            entities_by_curie[a['curie']] = a
+            entities_by_curie[b['curie']] = b
+            alerts_by_name[alert['name']] = alert
+        sorted_alerts = sorted(alerts_by_name.items(), key=lambda x: len(entities_by_alert[x[0]]),
+                               reverse=True)
+        top_alerts = sorted_alerts[:500]
+        # We now generate the actual alert entries
+        data['alerts'] = []
+        for alert_id, alert in top_alerts:
+            entities = [entities_by_curie[entity]
+                        for entity in entities_by_alert[alert_id]]
             data['alerts'].append({'alert': alert, 'entities': entities})
         return data
 
