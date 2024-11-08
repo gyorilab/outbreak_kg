@@ -221,9 +221,10 @@ class Neo4jClient:
             alerts_by_name[alert['name']] = alert
         sorted_alerts = sorted(alerts_by_name.items(), key=lambda x: len(entities_by_alert[x[0]]),
                                reverse=True)
+        top_alerts = sorted_alerts[:500]
         # We now generate the actual alert entries
         data['alerts'] = []
-        for alert_id, alert in sorted_alerts:
+        for alert_id, alert in top_alerts:
             entities = [entities_by_curie[entity]
                         for entity in entities_by_alert[alert_id]]
             data['alerts'].append({'alert': alert, 'entities': entities})
