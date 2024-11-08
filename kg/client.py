@@ -113,7 +113,7 @@ class Neo4jClient:
                 " MATCH (n:alert)-[r_d:mentions]->(disease:disease)-"
                 "[:isa*0..]->(disease_isa:disease {curie: $disease_curie})"
             )
-            query_parameters["disease_curie"] = disease
+            query_parameters["disease_curie"] = disease_curie
             return_value += ", disease, disease_isa"
             result_elements.append('disease')
         if geolocation is not None:
@@ -124,7 +124,7 @@ class Neo4jClient:
                 " MATCH (n:alert)-[r_g:mentions]->(geolocation:geoloc)-"
                 "[:isa*0..]->(geolocation_isa:geoloc {curie: $geolocation_curie})"
             )
-            query_parameters["geolocation_curie"] = geolocation
+            query_parameters["geolocation_curie"] = geolocation_curie
             return_value += ", geolocation, geolocation_isa"
             result_elements.append('geoloc')
         if pathogen is not None:
@@ -135,7 +135,7 @@ class Neo4jClient:
                 " MATCH (n:alert)-[r_p:mentions]->(pathogen:pathogen)-"
                 "[:isa*0..]->(pathogen_isa:pathogen {curie: $pathogen_curie})"
             )
-            query_parameters["pathogen_curie"] = pathogen
+            query_parameters["pathogen_curie"] = pathogen_curie
             return_value += ", pathogen, pathogen_isa"
             result_elements.append('pathogen')
         if symptom is not None:
@@ -146,7 +146,7 @@ class Neo4jClient:
                 " MATCH (n)-[r_s:mentions]->(symptom:disease)-"
                 "[:has_phenotype|isa*0..]->(symptom_isa:disease {curie:$symptom_curie})"
             )
-            query_parameters["symptom_curie"] = symptom
+            query_parameters["symptom_curie"] = symptom_curie
             return_value += ", symptom, symptom_isa"
             result_elements.append('symptom')
         search_query += return_value
