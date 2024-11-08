@@ -102,10 +102,10 @@ class Neo4jClient:
         query_parameters = {}
         return_value = " RETURN DISTINCT n, n.timestamp"
         result_elements = []
-        if timestamp is not None:
+        if timestamp:
             search_query += " WHERE n.timestamp = $timestamp"
             query_parameters["timestamp"] = timestamp
-        if disease is not None:
+        if disease:
             disease_curie = get_curie(disease)
             if disease_curie is None:
                 return []
@@ -116,7 +116,7 @@ class Neo4jClient:
             query_parameters["disease_curie"] = disease_curie
             return_value += ", disease, disease_isa"
             result_elements.append('disease')
-        if geolocation is not None:
+        if geolocation:
             geolocation_curie = get_curie(geolocation)
             if geolocation_curie is None:
                 return []
@@ -127,7 +127,7 @@ class Neo4jClient:
             query_parameters["geolocation_curie"] = geolocation_curie
             return_value += ", geolocation, geolocation_isa"
             result_elements.append('geoloc')
-        if pathogen is not None:
+        if pathogen:
             pathogen_curie = get_curie(pathogen)
             if pathogen_curie is None:
                 return []
@@ -138,7 +138,7 @@ class Neo4jClient:
             query_parameters["pathogen_curie"] = pathogen_curie
             return_value += ", pathogen, pathogen_isa"
             result_elements.append('pathogen')
-        if symptom is not None:
+        if symptom:
             symptom_curie = get_curie(symptom)
             if symptom_curie is None:
                 return []
