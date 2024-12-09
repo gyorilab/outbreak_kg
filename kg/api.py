@@ -2,11 +2,11 @@ import os
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from client import Neo4jClient, find_literature
+from autocomplete_blueprint import auto_blueprint
 
-import neo4j
 
 app = Flask(__name__)
-
+app.register_blueprint(auto_blueprint, url_prefix="/autocomplete")
 CORS(app, resources={r"/*": {"origins": "*"}})
 
 

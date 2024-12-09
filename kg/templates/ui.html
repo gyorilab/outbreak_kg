@@ -16,15 +16,18 @@
                 <form action="https://outbreak-kg.indra.bio/v1/alerts" method="get" target="_blank" class="row g-3">
                     <div class="col-md-6">
                         <label for="disease" class="form-label">Disease</label>
-                        <input type="text" id="disease" name="disease" class="form-control">
+                        <input type="text" id="disease" name="disease" class="form-control" list="disease_options">
+                        <datalist id="disease_options"></datalist>
                     </div>
                     <div class="col-md-6">
-                        <label for="geolocation" class="form-label">Geolocation</label>
-                        <input type="text" id="geolocation" name="geolocation" class="form-control">
+                        <label for="geolocationAlert" class="form-label">Geolocation</label>
+                        <input type="text" id="geolocationAlert" name="geolocationAlert" class="form-control" list="geolocationAlert_options">
+                        <datalist id="geolocationAlert_options"></datalist>
                     </div>
                     <div class="col-md-6">
                         <label for="pathogen" class="form-label">Pathogen</label>
-                        <input type="text" id="pathogen" name="pathogen" class="form-control">
+                        <input type="text" id="pathogen" name="pathogen" class="form-control" list="pathogen_options">
+                        <datalist id="pathogen_options"></datalist>
                     </div>
                     <div class="col-md-6">
                         <label for="timestamp" class="form-label">Timestamp</label>
@@ -63,14 +66,16 @@
     }
 </script>
 
+
         <!-- Alerts by ID Endpoint -->
         <div class="card mb-4">
             <div class="card-body">
                 <h2 class="card-title">Alert by ID</h2>
-                <form onsubmit="this.action = 'https://outbreak-kg.indra.bio/v1/alerts/' + document.getElementById('alert_id').value;" action="https://outbreak-kg.indra.bio/v1/alerts" method="get" target="_blank" class="row g-3">
+                <form onsubmit="this.action = 'https://outbreak-kg.indra.bio/v1/alerts/' + document.getElementById('alertID').value;" action="https://outbreak-kg.indra.bio/v1/alerts" method="get" target="_blank" class="row g-3">
                     <div class="col-md-6">
-                        <label for="alert_id" class="form-label">Alert ID</label>
-                        <input type="text" id="alert_id" required class="form-control">
+                        <label for="alertID" class="form-label">Alert ID</label>
+                        <input type="text" id="alertID" required class="form-control" list="alertID_options">
+                        <datalist id="alertID_options"></datalist>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary">Get Alert by ID</button>
@@ -86,12 +91,14 @@
                 <h2 class="card-title">Indicators</h2>
                 <form action="https://outbreak-kg.indra.bio/v1/indicators" method="get" target="_blank" class="row g-3">
                     <div class="col-md-6">
-                        <label for="geolocation" class="form-label">Geolocation</label>
-                        <input type="text" id="geolocation" name="geolocation" class="form-control">
+                        <label for="geolocationIndicator" class="form-label">Geolocation</label>
+                        <input type="text" id="geolocationIndicator" name="geolocationIndicator" class="form-control" list="geolocationIndicator_options">
+                        <datalist id="geolocationIndicator_options"></datalist>
                     </div>
                     <div class="col-md-6">
                         <label for="indicatorFilter" class="form-label">Indicator Filter</label>
-                        <input type="text" id="indicatorFilter" name="indicatorFilter" class="form-control">
+                        <input type="text" id="indicatorFilter" name="indicatorFilter" class="form-control" list="indicatorFilter_options">
+                        <datalist id="indicatorFilter_options"></datalist>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary">Submit Indicators Query</button>
@@ -117,25 +124,18 @@
         </div>
     </div>
 
+    <script src="{{ url_for('static', filename='util.js') }}"></script>
     <script>
-  // Load the function after the page has loaded
-  window.onload = function() {
-    // Use addEventListener to add the function to the button
-    document.getElementById('example-link').addEventListener('click', function() {
-      // Set the text field to the example text (use `backticks` to allow for multi-line strings)
-      document.getElementById('vaccine-annotation-input').value = `{{ example_text }}`;
-    });
-  }
-
   document.addEventListener('DOMContentLoaded', () => {
 
     // Fields with autocomplete (input field ID, endpoint)
     const fields = [
-      ['geolocation', 'geolocations'],
+      ['geolocationAlert', 'geolocations'],
+      ['geolocationIndicator', 'geolocations'],
       ['disease', 'diseases'],
       ['pathogen','pathogens'],
       ['indicatorFilter','indicators'],
-      ['alert_id','alerts']
+      ['alertID','alerts']
     ];
 
     // Set up autocomplete for each field

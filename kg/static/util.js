@@ -27,17 +27,14 @@ const setupAutocomplete = (fieldId, endpoint) => {
           let description = "";
           if (Array.isArray(suggestion) && suggestion.length === 4) {
             [matchText, gndName, curie, description] = suggestion;
-            if (gndName) {
-              gndName = ` (${gndName})`;
-            }
           } else if (typeof suggestion === 'string') {
             curie = suggestion;
             matchText = suggestion;
           }
           const option = document.createElement('option');
-          option.value = curie;
+          option.value = gndName;
           // Todo: Add a description to the option or scrap description altogether?
-          option.textContent = `${matchText}${gndName}`;
+          option.textContent = `${matchText} (${curie})`;
           dataList.appendChild(option);
         });
       } catch (error) {

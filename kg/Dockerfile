@@ -66,9 +66,14 @@ RUN python3.10 -m pip install fastapi \
     cython \
     pandas \
     networkx \
+<<<<<<< HEAD
     scipy \
     numpy \
     gunicorn
+=======
+    gunicorn \
+    pytrie
+>>>>>>> ffa15e6 (Finish initial implementation of autocomplete)
 
 # This is for coocurrence
 #COPY nodes.tsv /sw/nodes.tsv
@@ -121,7 +126,13 @@ RUN python3.10 -m gilda.resources
 
 COPY static static
 COPY templates templates
+<<<<<<< HEAD
 COPY util.py util.py
+=======
+COPY autocomplete_blueprint.py autocomplete_blueprint.py
+COPY get_lookups.py get_lookups.py
+COPY nodes_trie.py nodes_trie.py
+>>>>>>> ffa15e6 (Finish initial implementation of autocomplete)
 COPY api.py api.py
 COPY client.py client.py
 COPY startup.sh startup.sh

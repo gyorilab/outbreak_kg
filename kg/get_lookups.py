@@ -1,11 +1,4 @@
-import csv
-import gzip
-
-import pandas as pd
-from matplotlib.style.core import available
-
-from kg.autocomplete.nodes_trie import NodesTrie, NodeData, TrieIndex, CappedTrie
-from kg.api import client
+from nodes_trie import NodesTrie, NodeData, TrieIndex
 
 def init_nodes_name(node_mapping: NodeData) -> TrieIndex:
     """Generate a case-insensitive trie index for node names and synonyms
@@ -68,6 +61,10 @@ def init_nodes_name(node_mapping: NodeData) -> TrieIndex:
 
 
 def get_node_by_label_autocomplete(label:str) -> NodesTrie:
+    def get_client():
+        from api import client  # Import moved here to avoid circular dependency
+        return client
+    client = get_client()
     query = f"""\
             MATCH (n:{label})
             RETURN DISTINCT n.curie, n"""
@@ -76,6 +73,12 @@ def get_node_by_label_autocomplete(label:str) -> NodesTrie:
     node_mapping = init_nodes_name(node_data)
     return NodesTrie(**node_mapping)
 
+# Get the autocomplete tries for each node type
+geoloc_trie = get_node_by_label_autocomplete("geoloc")
+disease_trie = get_node_by_label_autocomplete("disease")
+pathogen_trie = get_node_by_label_autocomplete("pathogen")
+indicator_trie = get_node_by_label_autocomplete("indicator")
+alert_trie = get_node_by_label_autocomplete("alert")
 
 
 
