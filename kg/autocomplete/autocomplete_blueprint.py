@@ -6,8 +6,7 @@ from kg.autocomplete.get_lookups import (
 
 auto_blueprint = Blueprint("autocomplete", __name__, url_prefix="/autocomplete")
 
-
-# Get the autocomplete tries each endpoint
+# Get the autocomplete tries for each node type
 geoloc_trie = get_node_by_label_autocomplete("geoloc")
 disease_trie = get_node_by_label_autocomplete("disease")
 pathogen_trie = get_node_by_label_autocomplete("pathogen")
@@ -15,7 +14,7 @@ indicator_trie = get_node_by_label_autocomplete("indicator")
 alert_trie = get_node_by_label_autocomplete("alert")
 
 
-@auto_blueprint.route("/geonames", methods=["GET"])
+@auto_blueprint.route("/geolocations", methods=["GET"])
 def autocomplete_search():
     """Get the autocomplete suggestions for a given prefix."""
     prefix = request.args.get("prefix")
