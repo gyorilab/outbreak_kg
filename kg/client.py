@@ -374,6 +374,7 @@ def get_curie(name):
 
 
 def ground_if_not_curie(name):
+    """Detects if the input is a CURIE, if not invoke the custom grounder"""
     if ":" in name:
         return name
     else:

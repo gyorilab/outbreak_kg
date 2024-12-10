@@ -62,14 +62,23 @@ def init_nodes_name(node_mapping: NodeData) -> TrieIndex:
 
 
 def get_node_by_label_autocomplete(label: str) -> NodesTrie:
+    """
+    Queries for relevant nodes given the label and converts
+    them into a mapping to be passed into a NodeTrie object which is then
+    returned.
+    """
     from api import client
 
+    # If using autocomplete for geolocations when querying for an alert,
+    # only return MESH geolocation nodes.
     if label == "geoloc_alerts":
         query = f"""\
                     MATCH (n:geoloc)
                     WHERE n.curie STARTS WITH 'MESH'
                     RETURN DISTINCT n.curie, n
                 """
+    # If using autocomplete for geolocations when querying for indicators, only
+    # return geolocation nodes that have the 'has_indicator' edge.
     elif label == "geoloc_indicators":
         query = f"""\
                 MATCH (n:geoloc)-[:has_indicator]->()

@@ -1,3 +1,8 @@
+"""
+This module defines autocomplete endpoints for various fields in the UI.
+If the input in the field has a ":", we do not perform autocomplete.
+"""
+
 from flask import Blueprint, request, jsonify
 
 
@@ -6,7 +11,7 @@ auto_blueprint = Blueprint("autocomplete", __name__, url_prefix="/autocomplete")
 
 @auto_blueprint.route("/geolocation/alerts", methods=["GET"])
 def autocomplete_geolocations_alerts():
-    """Get the autocomplete suggestions for a given prefix."""
+    """Get the autocomplete suggestions for geolocations when querying for alerts"""
     prefix = request.args.get("prefix")
     if ":" in prefix:
         return jsonify([])
@@ -18,7 +23,7 @@ def autocomplete_geolocations_alerts():
 
 @auto_blueprint.route("/geolocation/indicators", methods=["GET"])
 def autocomplete_geolocations_indicators():
-    """Get the autocomplete suggestions for a given prefix."""
+    """Get the autocomplete suggestions for geolocations when querying for geolocation-indicator data."""
     prefix = request.args.get("prefix")
     if ":" in prefix:
         return jsonify([])
@@ -30,7 +35,7 @@ def autocomplete_geolocations_indicators():
 
 @auto_blueprint.route("/diseases", methods=["GET"])
 def autocomplete_diseases():
-    """Get the autocomplete suggestions for a given prefix."""
+    """Get the autocomplete suggestions for diseases."""
     prefix = request.args.get("prefix")
     if ":" in prefix:
         return jsonify([])
@@ -42,7 +47,7 @@ def autocomplete_diseases():
 
 @auto_blueprint.route("/pathogens", methods=["GET"])
 def autocomplete_pathogens():
-    """Get the autocomplete suggestions for a given prefix."""
+    """Get the autocomplete suggestions for pathogens."""
     prefix = request.args.get("prefix")
     if ":" in prefix:
         return jsonify([])
@@ -54,7 +59,7 @@ def autocomplete_pathogens():
 
 @auto_blueprint.route("/symptoms", methods=["GET"])
 def autocomplete_symptoms():
-    """Get the autocomplete suggestions for a given prefix."""
+    """Get the autocomplete suggestions for symptoms."""
     prefix = request.args.get("prefix")
     if ":" in prefix:
         return jsonify([])
@@ -66,7 +71,7 @@ def autocomplete_symptoms():
 
 @auto_blueprint.route("/indicators", methods=["GET"])
 def autocomplete_indicators():
-    """Get the autocomplete suggestions for a given prefix."""
+    """Get the autocomplete suggestions for indicators."""
     prefix = request.args.get("prefix")
     if ":" in prefix:
         return jsonify([])
@@ -78,7 +83,7 @@ def autocomplete_indicators():
 
 @auto_blueprint.route("/alerts", methods=["GET"])
 def autocomplete_alerts():
-    """Get the autocomplete suggestions for a given prefix."""
+    """Get the autocomplete suggestions for alerts."""
     prefix = request.args.get("prefix")
     if ":" in prefix:
         return jsonify([])
