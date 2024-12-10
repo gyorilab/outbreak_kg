@@ -81,7 +81,7 @@ def get_node_by_label_autocomplete(label: str) -> NodesTrie:
     # return geolocation nodes that have the 'has_indicator' edge.
     elif label == "geoloc_indicators":
         query = f"""\
-                MATCH (n:geoloc)-[:has_indicator]->()
+                MATCH (n:geoloc)
                 RETURN DISTINCT n.curie, n
                 """
     else:
