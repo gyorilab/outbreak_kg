@@ -35,7 +35,8 @@
                     </div>
                     <div class="col-md-6">
                         <label for="symptom" class="form-label">Symptom</label>
-                        <input type="text" id="symptom" name="symptom" class="form-control">
+                        <input type="text" id="symptom" name="symptom" class="form-control" list="symptom_options">
+                        <datalist id="symptom_options"></datalist>
                     </div>
                     <div class="col-md-6">
                         <label for="limit" class="form-label">Limit</label>
@@ -134,6 +135,7 @@
       ['geolocationIndicator', 'geolocation/indicators'],
       ['disease', 'diseases'],
       ['pathogen','pathogens'],
+      ['symptom', 'symptoms'],
       ['indicatorFilter','indicators'],
       ['alertID','alerts']
     ];

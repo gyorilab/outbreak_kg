@@ -78,7 +78,7 @@ class Neo4jClient:
         geolocation: str,
         indicator_filter: str,
     ):
-        geolocation_curie = get_curie(geolocation)
+        geolocation_curie = ground_if_not_curie(geolocation)
         query = \
         """
         MATCH (i:indicator)<-[r:has_indicator]-(geolocation:geoloc)
@@ -132,7 +132,7 @@ class Neo4jClient:
             search_query += " WHERE n.timestamp = $timestamp"
             query_parameters["timestamp"] = timestamp
         if disease:
-            disease_curie = get_curie(disease)
+            disease_curie = ground_if_not_curie(disease)
             if disease_curie is None:
                 return []
             search_query += (
@@ -143,7 +143,7 @@ class Neo4jClient:
             return_value += ", disease, disease_isa"
             result_elements.append('disease')
         if geolocation:
-            geolocation_curie = get_curie(geolocation)
+            geolocation_curie = ground_if_not_curie(geolocation)
             if geolocation_curie is None:
                 return []
             search_query += (
@@ -154,7 +154,7 @@ class Neo4jClient:
             return_value += ", geolocation, geolocation_isa"
             result_elements.append('geoloc')
         if pathogen:
-            pathogen_curie = get_curie(pathogen)
+            pathogen_curie = ground_if_not_curie(pathogen)
             if pathogen_curie is None:
                 return []
             search_query += (
@@ -165,7 +165,7 @@ class Neo4jClient:
             return_value += ", pathogen, pathogen_isa"
             result_elements.append('pathogen')
         if symptom:
-            symptom_curie = get_curie(symptom)
+            symptom_curie = ground_if_not_curie(symptom)
             if symptom_curie is None:
                 return []
             search_query += (
@@ -320,8 +320,6 @@ def do_cypher_tx(tx: Transaction, query: str, **query_params) -> List[List]:
     return [record.values() for record in result]
 
 
-from functools import lru_cache
-@lru_cache(maxsize=1)
 def create_custom_grounder():
     """Returns a custom grounder for MeSH and geonames terms"""
     from gilda.generate_terms import generate_mesh_terms
@@ -366,7 +364,6 @@ def create_custom_grounder():
 
 custom_grounder = create_custom_grounder()
 
-
 def get_curie(name):
     """Return a MeSH or geonames CURIE based on a text name."""
     matches = custom_grounder.ground(name, namespaces=["MESH", "geonames"])
@@ -374,3 +371,10 @@ def get_curie(name):
         return None
     matched_term = matches[0].term
     return f"{matched_term.db}:{matched_term.id}"
+
+
+def ground_if_not_curie(name):
+    if ":" in name:
+        return name
+    else:
+        return get_curie(name)

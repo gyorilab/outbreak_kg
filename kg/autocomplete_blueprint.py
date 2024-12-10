@@ -8,6 +8,8 @@ auto_blueprint = Blueprint("autocomplete", __name__, url_prefix="/autocomplete")
 def autocomplete_geolocations_alerts():
     """Get the autocomplete suggestions for a given prefix."""
     prefix = request.args.get("prefix")
+    if ":" in prefix:
+        return jsonify([])
     top_n = min(int(request.args.get("top_n", 100)), 100)
     from get_lookups import geoloc_alerts_trie
 
@@ -18,6 +20,8 @@ def autocomplete_geolocations_alerts():
 def autocomplete_geolocations_indicators():
     """Get the autocomplete suggestions for a given prefix."""
     prefix = request.args.get("prefix")
+    if ":" in prefix:
+        return jsonify([])
     top_n = min(int(request.args.get("top_n", 100)), 100)
     from get_lookups import geoloc_indicators_trie
 
@@ -28,6 +32,8 @@ def autocomplete_geolocations_indicators():
 def autocomplete_diseases():
     """Get the autocomplete suggestions for a given prefix."""
     prefix = request.args.get("prefix")
+    if ":" in prefix:
+        return jsonify([])
     top_n = min(int(request.args.get("top_n", 100)), 100)
     from get_lookups import disease_trie
 
@@ -38,16 +44,32 @@ def autocomplete_diseases():
 def autocomplete_pathogens():
     """Get the autocomplete suggestions for a given prefix."""
     prefix = request.args.get("prefix")
+    if ":" in prefix:
+        return jsonify([])
     top_n = min(int(request.args.get("top_n", 100)), 100)
     from get_lookups import pathogen_trie
 
     return jsonify(pathogen_trie.case_insensitive_search(prefix, top_n=top_n))
 
 
+@auto_blueprint.route("/symptoms", methods=["GET"])
+def autocomplete_symptoms():
+    """Get the autocomplete suggestions for a given prefix."""
+    prefix = request.args.get("prefix")
+    if ":" in prefix:
+        return jsonify([])
+    top_n = min(int(request.args.get("top_n", 100)), 100)
+    from get_lookups import disease_trie
+
+    return jsonify(disease_trie.case_insensitive_search(prefix, top_n=top_n))
+
+
 @auto_blueprint.route("/indicators", methods=["GET"])
 def autocomplete_indicators():
     """Get the autocomplete suggestions for a given prefix."""
     prefix = request.args.get("prefix")
+    if ":" in prefix:
+        return jsonify([])
     top_n = min(int(request.args.get("top_n", 100)), 100)
     from get_lookups import indicator_trie
 
@@ -58,6 +80,8 @@ def autocomplete_indicators():
 def autocomplete_alerts():
     """Get the autocomplete suggestions for a given prefix."""
     prefix = request.args.get("prefix")
+    if ":" in prefix:
+        return jsonify([])
     top_n = min(int(request.args.get("top_n", 100)), 100)
     from get_lookups import alert_trie
 
