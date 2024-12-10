@@ -6,10 +6,29 @@ from typing_extensions import TypeAlias
 import gilda
 import neo4j
 from neo4j import GraphDatabase, Transaction, unit_of_work
+from indra.databases import mesh_client
 
 __all__ = ["Neo4jClient"]
 
 TxResult: TypeAlias = Optional[List[List[Any]]]
+
+def is_geoloc(x_db, x_id):
+    if x_db == 'MESH':
+        return mesh_client.mesh_isa(x_id, 'D005842')
+    return False
+
+
+def is_pathogen(x_db, x_id):
+    if x_db == 'MESH':
+        return mesh_client.mesh_isa(x_id, 'D001419') or \
+            mesh_client.mesh_isa(x_id, 'D014780')
+    return False
+
+
+def is_disease(x_db, x_id):
+    if x_db == 'MESH':
+        return mesh_client.is_disease(x_id)
+    return False
 
 
 class Neo4jClient:
@@ -169,11 +188,22 @@ class Neo4jClient:
     def annotate_text_query(self, text: str):
         data = {}
         annotations = gilda.annotate(text, namespaces=['MESH', 'geonames'])
+        def get_type(db, id):
+            if is_disease(db, id):
+                return 'disease'
+            elif is_geoloc(db, id):
+                return 'geoloc'
+            elif is_pathogen(db, id):
+                return 'pathogen'
+            else:
+                return 'other'
+
         data['annotations'] = [
             {
                 'text': a.text,
                 'name': a.matches[0].term.entry_name,
-                'curie': f'{a.matches[0].term.db}:{a.matches[0].term.id}'
+                'curie': f'{a.matches[0].term.db}:{a.matches[0].term.id}',
+                'type': get_type(a.matches[0].term.db, a.matches[0].term.id),
             }
             for a in annotations
         ]
