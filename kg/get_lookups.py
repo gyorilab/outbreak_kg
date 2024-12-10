@@ -77,8 +77,9 @@ def get_node_by_label_autocomplete(label: str) -> NodesTrie:
                     WHERE n.curie STARTS WITH 'MESH'
                     RETURN DISTINCT n.curie, n
                 """
-    # If using autocomplete for geolocations when querying for indicators, only
-    # return geolocation nodes that have the 'has_indicator' edge.
+    # If using autocomplete for geolocations when querying for indicators
+    # return all geolocations. Geolocations are derived from MESH or geonames
+    # only
     elif label == "geoloc_indicators":
         query = f"""\
                 MATCH (n:geoloc)
