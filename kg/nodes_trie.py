@@ -1,6 +1,7 @@
 """
 An API wrapping SortedStringTrie from pytrie (see https://github.com/gsakkis/pytrie)
 """
+
 from itertools import islice
 
 from pytrie import SortedStringTrie, SortedTrie

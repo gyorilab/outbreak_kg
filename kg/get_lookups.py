@@ -1,5 +1,6 @@
 from nodes_trie import NodesTrie, NodeData, TrieIndex
 
+
 def init_nodes_name(node_mapping: NodeData) -> TrieIndex:
     """Generate a case-insensitive trie index for node names and synonyms
 
@@ -60,25 +61,35 @@ def init_nodes_name(node_mapping: NodeData) -> TrieIndex:
     return name_indexing
 
 
-def get_node_by_label_autocomplete(label:str) -> NodesTrie:
-    def get_client():
-        from api import client  # Import moved here to avoid circular dependency
-        return client
-    client = get_client()
-    query = f"""\
+def get_node_by_label_autocomplete(label: str) -> NodesTrie:
+    from api import client
+
+    if label == "geoloc_alerts":
+        query = f"""\
+                    MATCH (n:geoloc)
+                    WHERE n.curie STARTS WITH 'MESH'
+                    RETURN DISTINCT n.curie, n
+                """
+    elif label == "geoloc_indicators":
+        query = f"""\
+                MATCH (n:geoloc)-[:has_indicator]->()
+                RETURN DISTINCT n.curie, n
+                """
+    else:
+        query = f"""\
             MATCH (n:{label})
-            RETURN DISTINCT n.curie, n"""
+            RETURN DISTINCT n.curie, n
+        """
     nodes = client.read_dict(query)
     node_data = {curie: dict(node) for curie, node in nodes.items()}
     node_mapping = init_nodes_name(node_data)
     return NodesTrie(**node_mapping)
 
+
 # Get the autocomplete tries for each node type
-geoloc_trie = get_node_by_label_autocomplete("geoloc")
+geoloc_alerts_trie = get_node_by_label_autocomplete("geoloc_alerts")
+geoloc_indicators_trie = get_node_by_label_autocomplete("geoloc_indicators")
 disease_trie = get_node_by_label_autocomplete("disease")
 pathogen_trie = get_node_by_label_autocomplete("pathogen")
 indicator_trie = get_node_by_label_autocomplete("indicator")
 alert_trie = get_node_by_label_autocomplete("alert")
-
-
-
