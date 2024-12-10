@@ -26,7 +26,7 @@ def ui_page():
 @app.route("/v1/alerts", methods=["GET"])
 def search():
     disease = request.args.get("disease")
-    geolocation = request.args.get("geolocation")
+    geolocation = request.args.get("geolocation_alert")
     pathogen = request.args.get("pathogen")
     timestamp = request.args.get("timestamp")
     symptom = request.args.get("symptom")
@@ -53,7 +53,7 @@ def get_alert(alert_id):
 # country based on a simple string-based filter
 @app.route("/v1/indicators", methods=["GET"])
 def get_indicators():
-    geolocation = request.args.get("geolocation")
+    geolocation = request.args.get("geolocation_indicator")
     indicator_filter = request.args.get("indicator_filter")
     if geolocation is None:
         return "Country not specified", 400

@@ -20,9 +20,9 @@
                         <datalist id="disease_options"></datalist>
                     </div>
                     <div class="col-md-6">
-                        <label for="geolocationAlert" class="form-label">Geolocation</label>
-                        <input type="text" id="geolocationAlert" name="geolocationAlert" class="form-control" list="geolocationAlert_options">
-                        <datalist id="geolocationAlert_options"></datalist>
+                        <label for="geolocation_alert" class="form-label">Geolocation</label>
+                        <input type="text" id="geolocation_alert" name="geolocation_alert" class="form-control" list="geolocation_alert_options">
+                        <datalist id="geolocation_alert_options"></datalist>
                     </div>
                     <div class="col-md-6">
                         <label for="pathogen" class="form-label">Pathogen</label>
@@ -92,14 +92,14 @@
                 <h2 class="card-title">Indicators</h2>
                 <form action="https://outbreak-kg.indra.bio/v1/indicators" method="get" target="_blank" class="row g-3">
                     <div class="col-md-6">
-                        <label for="geolocationIndicator" class="form-label">Geolocation</label>
-                        <input type="text" id="geolocationIndicator" name="geolocationIndicator" class="form-control" list="geolocationIndicator_options">
-                        <datalist id="geolocationIndicator_options"></datalist>
+                        <label for="geolocation_indicator" class="form-label">Geolocation</label>
+                        <input type="text" id="geolocation_indicator" name="geolocation_indicator" class="form-control" list="geolocation_indicator_options">
+                        <datalist id="geolocation_indicator_options"></datalist>
                     </div>
                     <div class="col-md-6">
-                        <label for="indicatorFilter" class="form-label">Indicator Filter</label>
-                        <input type="text" id="indicatorFilter" name="indicatorFilter" class="form-control" list="indicatorFilter_options">
-                        <datalist id="indicatorFilter_options"></datalist>
+                        <label for="indicator_filter" class="form-label">Indicator Filter</label>
+                        <input type="text" id="indicator_filter" name="indicator_filter" class="form-control" list="indicator_filter_options">
+                        <datalist id="indicator_filter_options"></datalist>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary">Submit Indicators Query</button>
@@ -131,12 +131,12 @@
 
     // Fields with autocomplete (input field ID, endpoint)
     const fields = [
-      ['geolocationAlert', 'geolocation/alerts'],
-      ['geolocationIndicator', 'geolocation/indicators'],
+      ['geolocation_alert', 'geolocation/alerts'],
+      ['geolocation_indicator', 'geolocation/indicators'],
       ['disease', 'diseases'],
       ['pathogen','pathogens'],
       ['symptom', 'symptoms'],
-      ['indicatorFilter','indicators'],
+      ['indicator_filter','indicators'],
       ['alertID','alerts']
     ];
 
