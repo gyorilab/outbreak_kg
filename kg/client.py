@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 from collections import defaultdict
 from typing import Any, List, Optional
 from typing_extensions import TypeAlias
@@ -13,6 +14,7 @@ from realism_score import get_coocurrence_score
 __all__ = ["Neo4jClient"]
 
 TxResult: TypeAlias = Optional[List[List[Any]]]
+
 
 def is_geoloc(x_db, x_id):
     if x_db == 'MESH':
@@ -31,6 +33,9 @@ def is_disease(x_db, x_id):
     if x_db == 'MESH':
         return mesh_client.is_disease(x_id)
     return False
+
+
+PARENT_DIRECTORY = Path(__file__).parent.resolve()
 
 
 class Neo4jClient:
@@ -73,7 +78,7 @@ class Neo4jClient:
         geolocation: str,
         indicator_filter: str,
     ):
-        geolocation_curie = get_curie(geolocation)
+        geolocation_curie = ground_if_not_curie(geolocation)
         query = \
         """
         MATCH (i:indicator)<-[r:has_indicator]-(geolocation:geoloc)
@@ -127,7 +132,7 @@ class Neo4jClient:
             search_query += " WHERE n.timestamp = $timestamp"
             query_parameters["timestamp"] = timestamp
         if disease:
-            disease_curie = get_curie(disease)
+            disease_curie = ground_if_not_curie(disease)
             if disease_curie is None:
                 return []
             search_query += (
@@ -138,7 +143,7 @@ class Neo4jClient:
             return_value += ", disease, disease_isa"
             result_elements.append('disease')
         if geolocation:
-            geolocation_curie = get_curie(geolocation)
+            geolocation_curie = ground_if_not_curie(geolocation)
             if geolocation_curie is None:
                 return []
             search_query += (
@@ -149,7 +154,7 @@ class Neo4jClient:
             return_value += ", geolocation, geolocation_isa"
             result_elements.append('geoloc')
         if pathogen:
-            pathogen_curie = get_curie(pathogen)
+            pathogen_curie = ground_if_not_curie(pathogen)
             if pathogen_curie is None:
                 return []
             search_query += (
@@ -160,7 +165,7 @@ class Neo4jClient:
             return_value += ", pathogen, pathogen_isa"
             result_elements.append('pathogen')
         if symptom:
-            symptom_curie = get_curie(symptom)
+            symptom_curie = ground_if_not_curie(symptom)
             if symptom_curie is None:
                 return []
             search_query += (
@@ -277,6 +282,30 @@ class Neo4jClient:
 
         return data
 
+    def read_query(self, query: str, **query_params) -> List[List]:
+        """Run a read-only query
+
+        Parameters
+        ----------
+        query :
+            The cypher query to run
+        query_params :
+            The parameters to pass to the query
+
+        Returns
+        -------
+        :
+            The result of the query
+        """
+        with self.driver.session() as session:
+            values = session.read_transaction(do_cypher_tx, query, **query_params)
+
+        return values
+
+    def read_dict(self, query, **query_params):
+        """Run a read-only query that returns a 2-tuple and put it in a dict."""
+        return dict(self.read_query(query, **query_params))
+
 
 def find_literature(mesh_ids, limit=20):
     mesh_ids = [mesh_id.lstrip('MESH:') for mesh_id in mesh_ids]
@@ -306,7 +335,7 @@ def create_custom_grounder():
     import pandas as pd
 
     mesh_gilda_terms = generate_mesh_terms(ignore_mappings=True)
-    geoname_node_df = pd.read_csv("geoname_nodes.tsv", sep="\t")
+    geoname_node_df = pd.read_csv(PARENT_DIRECTORY/"geoname_nodes.tsv", sep="\t")
     geoname_gilda_terms = []
     for _, geoname_info in geoname_node_df.iterrows():
         name = geoname_info["name:string"]
@@ -335,7 +364,6 @@ def create_custom_grounder():
 
 custom_grounder = create_custom_grounder()
 
-
 def get_curie(name):
     """Return a MeSH or geonames CURIE based on a text name."""
     matches = custom_grounder.ground(name, namespaces=["MESH", "geonames"])
@@ -343,3 +371,11 @@ def get_curie(name):
         return None
     matched_term = matches[0].term
     return f"{matched_term.db}:{matched_term.id}"
+
+
+def ground_if_not_curie(name):
+    """Detects if the input is a CURIE, if not invoke the custom grounder"""
+    if ":" in name:
+        return name
+    else:
+        return get_curie(name)
