@@ -66,6 +66,8 @@ RUN python3.10 -m pip install fastapi \
     cython \
     pandas \
     networkx \
+    scipy \
+    numpy \
     gunicorn
 
 # This is for coocurrence
@@ -119,7 +121,14 @@ RUN python3.10 -m gilda.resources
 
 COPY static static
 COPY templates templates
+COPY util.py util.py
 COPY api.py api.py
 COPY client.py client.py
 COPY startup.sh startup.sh
+COPY mesh_csr.py mesh_csr.py
+COPY realism_score.py realism_score.py
+COPY mesh_mapping.json mesh_mapping.json
+COPY pmid_mapping.json pmid_mapping.json
+COPY mesh_types.json mesh_types.json
+COPY mesh_pmid_matrix.npz mesh_pmid_matrix.npz
 ENTRYPOINT ["/bin/bash", "/sw/startup.sh"]

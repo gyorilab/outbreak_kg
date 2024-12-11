@@ -7,6 +7,8 @@ import gilda
 import neo4j
 from neo4j import GraphDatabase, Transaction, unit_of_work
 from indra.databases import mesh_client
+from mesh_csr import get_pubmed_meta, get_pvalues
+from realism_score import get_coocurrence_score
 
 __all__ = ["Neo4jClient"]
 
@@ -258,7 +260,29 @@ class Neo4jClient:
             entities = [entities_by_curie[entity]
                         for entity in entities_by_alert[alert_id]]
             data['alerts'].append({'alert': alert, 'entities': entities})
+
+        mesh_ids = [c.lstrip('MESH:') for c in curies
+                    if c.startswith('MESH:')]
+        scores, score_sum = get_coocurrence_score(mesh_ids)
+        scores = [
+            [m1, m2, s] for (m1, m2), s in scores.items()
+        ]
+        classification = 'high' if score_sum > -4.5 else \
+            'medium' if score_sum > -7 else 'low'
+        data['realism_score'] = {
+            'scores': scores,
+            'score_sum': score_sum,
+            'classification': classification
+        }
+
         return data
+
+
+def find_literature(mesh_ids, limit=20):
+    mesh_ids = [mesh_id.lstrip('MESH:') for mesh_id in mesh_ids]
+    results = get_pvalues(mesh_ids)
+    pubmed_meta = get_pubmed_meta(results, limit=limit)
+    return pubmed_meta
 
 
 @unit_of_work()
