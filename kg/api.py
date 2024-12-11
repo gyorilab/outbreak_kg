@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-from client import Neo4jClient
+from client import Neo4jClient, find_literature
 
 import neo4j
 
@@ -64,6 +64,13 @@ def get_indicators():
 def get_text_relations():
     text = request.args.get("text")
     return jsonify(client.annotate_text_query(text))
+
+
+@app.route("/v1/find_literature", methods=["GET"])
+def find_literature_api():
+    mesh_ids = request.args.get("mesh_ids").split(",")
+    limit = int(request.args.get("limit", 20))
+    return jsonify(find_literature(mesh_ids, limit=limit))
 
 
 @app.route("/v1/healthcheck", methods=["GET"])

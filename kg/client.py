@@ -7,6 +7,7 @@ import gilda
 import neo4j
 from neo4j import GraphDatabase, Transaction, unit_of_work
 from indra.databases import mesh_client
+from mesh_csr import get_pubmed_meta, get_pvalues
 
 __all__ = ["Neo4jClient"]
 
@@ -259,6 +260,13 @@ class Neo4jClient:
                         for entity in entities_by_alert[alert_id]]
             data['alerts'].append({'alert': alert, 'entities': entities})
         return data
+
+
+def find_literature(mesh_ids, limit=20):
+    mesh_ids = [mesh_id.lstrip('MESH:') for mesh_id in mesh_ids]
+    results = get_pvalues(mesh_ids)
+    pubmed_meta = get_pubmed_meta(results, limit=limit)
+    return pubmed_meta
 
 
 @unit_of_work()
