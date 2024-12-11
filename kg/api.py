@@ -63,7 +63,9 @@ def get_indicators():
 @app.route("/v1/text_relations", methods=["GET"])
 def get_text_relations():
     text = request.args.get("text")
-    return jsonify(client.annotate_text_query(text))
+    res = client.annotate_text_query(text)
+    print(res)
+    return jsonify(res)
 
 
 @app.route("/v1/find_literature", methods=["GET"])
