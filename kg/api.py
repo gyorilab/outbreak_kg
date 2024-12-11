@@ -64,7 +64,6 @@ def get_indicators():
 def get_text_relations():
     text = request.args.get("text")
     res = client.annotate_text_query(text)
-    print(res)
     return jsonify(res)
 
 
