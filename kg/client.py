@@ -78,7 +78,7 @@ class Neo4jClient:
         geolocation: str,
         indicator_filter: str,
     ):
-        geolocation_curie = ground_if_not_curie(geolocation)
+        geolocation_curie = get_curie(geolocation)
         query = \
         """
         MATCH (i:indicator)<-[r:has_indicator]-(geolocation:geoloc)
@@ -132,7 +132,7 @@ class Neo4jClient:
             search_query += " WHERE n.timestamp = $timestamp"
             query_parameters["timestamp"] = timestamp
         if disease:
-            disease_curie = ground_if_not_curie(disease)
+            disease_curie = get_curie(disease)
             if disease_curie is None:
                 return []
             search_query += (
@@ -143,7 +143,7 @@ class Neo4jClient:
             return_value += ", disease, disease_isa"
             result_elements.append('disease')
         if geolocation:
-            geolocation_curie = ground_if_not_curie(geolocation)
+            geolocation_curie = get_curie(geolocation)
             if geolocation_curie is None:
                 return []
             search_query += (
@@ -154,7 +154,7 @@ class Neo4jClient:
             return_value += ", geolocation, geolocation_isa"
             result_elements.append('geoloc')
         if pathogen:
-            pathogen_curie = ground_if_not_curie(pathogen)
+            pathogen_curie = get_curie(pathogen)
             if pathogen_curie is None:
                 return []
             search_query += (
@@ -165,7 +165,7 @@ class Neo4jClient:
             return_value += ", pathogen, pathogen_isa"
             result_elements.append('pathogen')
         if symptom:
-            symptom_curie = ground_if_not_curie(symptom)
+            symptom_curie = get_curie(symptom)
             if symptom_curie is None:
                 return []
             search_query += (
@@ -365,7 +365,12 @@ def create_custom_grounder():
 custom_grounder = create_custom_grounder()
 
 def get_curie(name):
-    """Return a MeSH or geonames CURIE based on a text name."""
+    """
+    Return a MeSH or geonames CURIE based on a text name. Return as is
+    if it's a curie. 
+    """
+    if ":" in name:
+        return name
     matches = custom_grounder.ground(name, namespaces=["MESH", "geonames"])
     if not matches:
         return None
@@ -373,9 +378,3 @@ def get_curie(name):
     return f"{matched_term.db}:{matched_term.id}"
 
 
-def ground_if_not_curie(name):
-    """Detects if the input is a CURIE, if not invoke the custom grounder"""
-    if ":" in name:
-        return name
-    else:
-        return get_curie(name)
