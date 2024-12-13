@@ -68,7 +68,8 @@ RUN python3.10 -m pip install fastapi \
     networkx \
     scipy \
     numpy \
-    gunicorn
+    gunicorn \
+    pytrie
 
 # This is for coocurrence
 #COPY nodes.tsv /sw/nodes.tsv
@@ -122,6 +123,9 @@ RUN python3.10 -m gilda.resources
 COPY static static
 COPY templates templates
 COPY util.py util.py
+COPY autocomplete_blueprint.py autocomplete_blueprint.py
+COPY get_lookups.py get_lookups.py
+COPY nodes_trie.py nodes_trie.py
 COPY api.py api.py
 COPY client.py client.py
 COPY startup.sh startup.sh
